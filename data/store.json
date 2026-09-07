@@ -3772,7 +3772,7 @@
       "name": "SIGNATURE 6351 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 80,
+      "quantity": 85,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
@@ -7981,20 +7981,6 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-07T10:32:55.417Z",
       "created_at": "2026-09-07T10:32:55.417Z"
-    },
-    {
-      "id": "id-g4e4jpdxmtrl6ajf",
-      "product_id": "id-0zs54nbnmtl9kemq",
-      "product_code": "P001004993-003-001",
-      "product_name": "SIGNATURE 6351 LCU",
-      "type": "out",
-      "quantity": 5,
-      "target_location": "deneme",
-      "reason": "1",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "happened_at": "2026-09-07T18:40:50.139Z",
-      "created_at": "2026-09-07T18:40:50.139Z"
     }
   ],
   "settings": {

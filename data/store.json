@@ -944,7 +944,7 @@
       "name": "EXIT BUTON",
       "category_id": "id-qmgcf4qumtk34t8n",
       "unit": "adet",
-      "quantity": 3,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
@@ -7983,20 +7983,6 @@
       "created_at": "2026-09-07T10:32:55.417Z"
     },
     {
-      "id": "id-mjsbff48mtrocfp1",
-      "product_id": "id-z3x5tf7imtl9kemb",
-      "product_code": "YOK",
-      "product_name": "EXIT BUTON",
-      "type": "in",
-      "quantity": 3,
-      "target_location": null,
-      "reason": "Özet ekranından hızlı stok ekleme",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "happened_at": "2026-09-07T20:09:35.605Z",
-      "created_at": "2026-09-07T20:09:35.605Z"
-    },
-    {
       "id": "id-sjwxjix6mtrodty0",
       "product_id": "id-z3x5tf7imtl9kemb",
       "product_code": "YOK",
@@ -8257,6 +8243,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-07T20:15:15.825Z"
+    }
+  ],
+  "movement_audit": [
+    {
+      "id": "id-oyu96il2mtrolurj",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-z3x5tf7imtl9kemb",
+      "product_code": "YOK",
+      "product_name": "EXIT BUTON",
+      "type": "in",
+      "quantity": 3,
+      "target_location": null,
+      "reason": "Özet ekranından hızlı stok ekleme",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-07T20:16:55.039Z",
+      "extra": "Silme sonrası stok geri alındı"
     }
   ]
 }

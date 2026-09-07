@@ -7989,7 +7989,7 @@
     "widgets": {
       "total_products": false,
       "total_stock_value": false,
-      "low_stock_count": true,
+      "low_stock_count": false,
       "today_movements_count": false,
       "low_stock_list": true,
       "recent_additions": true,

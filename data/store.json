@@ -944,13 +944,13 @@
       "name": "EXIT BUTON",
       "category_id": "id-qmgcf4qumtk34t8n",
       "unit": "adet",
-      "quantity": -3,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-07T20:17:10.898Z"
+      "updated_at": "2026-09-07T20:17:29.903Z"
     },
     {
       "id": "id-txlavcqlmtl9kemb",
@@ -8229,6 +8229,44 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-07T20:15:15.825Z"
+    },
+    {
+      "id": "id-lxkj4w02mtromlnz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-z3x5tf7imtl9kemb",
+      "product_code": "YOK",
+      "product_name": "EXIT BUTON",
+      "before": {
+        "id": "id-z3x5tf7imtl9kemb",
+        "code": "YOK",
+        "name": "EXIT BUTON",
+        "category_id": "id-qmgcf4qumtk34t8n",
+        "unit": "adet",
+        "quantity": -3,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-07T20:17:10.898Z"
+      },
+      "after": {
+        "id": "id-z3x5tf7imtl9kemb",
+        "code": "YOK",
+        "name": "EXIT BUTON",
+        "category_id": "id-qmgcf4qumtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-07T20:17:29.903Z"
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-07T20:17:29.903Z"
     }
   ],
   "movement_audit": [

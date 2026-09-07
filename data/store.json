@@ -7984,8 +7984,8 @@
     }
   ],
   "settings": {
-    "app_title": "Vincard Stok Takip",
-    "primary_color": "#2563EB",
+    "app_title": "Vingcard Stok Takip",
+    "primary_color": "#2563eb",
     "widgets": {
       "total_products": true,
       "total_stock_value": false,

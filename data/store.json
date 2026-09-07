@@ -7990,7 +7990,7 @@
       "total_products": false,
       "total_stock_value": false,
       "low_stock_count": true,
-      "today_movements_count": true,
+      "today_movements_count": false,
       "low_stock_list": true,
       "recent_additions": true,
       "valuable_products": false,

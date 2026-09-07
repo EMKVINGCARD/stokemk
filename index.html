@@ -131,6 +131,7 @@
         <div class="w-9 h-9 rounded-full bg-blue-100 text-blue-700 font-semibold flex items-center justify-center text-xs" id="userAvatar">Y</div>
         <div class="min-w-0"><div class="text-sm font-medium truncate" id="userName"></div><div class="text-xs text-slate-500" id="userRole"></div></div>
       </div>
+      <button class="btn btn-outline w-full justify-center" onclick="changeOwnPassword()">Şifremi Değiştir</button>
       <button class="btn btn-outline w-full justify-center" onclick="logout()">Çıkış Yap</button>
     </div>
   </aside>
@@ -171,6 +172,7 @@ function mergeDefaults(s){
   s.cols.movements={...DEFAULT_COLS.movements,...(s.cols.movements||{})};
   s.cols.reports={...DEFAULT_COLS.reports,...(s.cols.reports||{})};
   s.audit_log=s.audit_log||[];
+  s.settings.ignoredLowStock=s.settings.ignoredLowStock||[];
   return s;
 }
 function uid(){return "id-"+Math.random().toString(36).slice(2,10)+Date.now().toString(36);}
@@ -186,7 +188,7 @@ function seed(){
     products:[],
     movements:[],
     audit_log:[],
-    settings:mergeDefaults({app_title:"EMK Stok Takip",primary_color:"#2563EB"})
+    settings:mergeDefaults({app_title:"EMK Stok Takip",primary_color:"#2563EB",ignoredLowStock:[]})
   };
 }
 function hashPw(pw){ try { return dcodeIO.bcrypt.hashSync(String(pw), 10); } catch(e){ return String(pw); } }
@@ -500,7 +502,7 @@ function logout(){
 }
 /* ============ ROUTER ============ */
 const ROUTES=[
-  {key:"dashboard",label:"Panel",icon:"■",render:renderDashboard},
+  {key:"dashboard",label:"Özet",icon:"■",render:renderDashboard},
   {key:"products",label:"Ürünler",icon:"▤",render:renderProducts},
   {key:"movements",label:"Stok Hareketleri",icon:"⇅",render:renderMovements},
   {key:"reports",label:"Raporlar",icon:"◱",render:renderReports},
@@ -574,12 +576,18 @@ async function boot(){
   renderApp();
   startRefresh();
 }
+function changeOwnPassword(){const u=currentUser();if(!u)return;openModal(`<h3 class="text-lg font-semibold mb-4">Şifremi Değiştir</h3><form onsubmit="saveOwnPassword(event)" class="space-y-3"><div><label class="text-sm">Mevcut Şifre</label><input required type="password" class="input mt-1" name="current" /></div><div><label class="text-sm">Yeni Şifre</label><input required minlength="6" type="password" class="input mt-1" name="next" /></div><div><label class="text-sm">Yeni Şifre Tekrar</label><input required minlength="6" type="password" class="input mt-1" name="again" /></div><div class="flex justify-end gap-2"><button type="button" class="btn btn-outline" onclick="closeModal()">İptal</button><button class="btn btn-primary">Kaydet</button></div></form>`);}
+function saveOwnPassword(e){e.preventDefault();const d=Object.fromEntries(new FormData(e.target));const u=currentUser();if(!verifyPw(d.current,u.password)){toast("Mevcut şifre yanlış","error");return;}if(d.next!==d.again){toast("Yeni şifreler eşleşmiyor","error");return;}u.password=hashPw(d.next);save();closeModal();toast("Şifreniz güncellendi");}
+function addStockForProduct(id){movementModal("in");setTimeout(()=>pickMvProduct(id),80);}
+function ignoreLowStock(id){const list=state.settings.ignoredLowStock||[];if(!list.includes(id))list.push(id);state.settings.ignoredLowStock=list;save();renderDashboard();toast("Ürün uyarılardan gizlendi");}
+function restoreLowStockAlert(id){state.settings.ignoredLowStock=(state.settings.ignoredLowStock||[]).filter(x=>x!==id);save();renderDashboard();toast("Ürün uyarılara geri alındı");}
 /* ============ DASHBOARD ============ */
 function renderDashboard(){
   const w=state.settings.widgets||DEFAULT_WIDGETS;
   const products=state.products;
   const totalValue=products.reduce((s,p)=>s+(+p.quantity||0)*(+p.unit_price||0),0);
-  const low=products.filter(p=>+p.critical_level>0&&+p.quantity<=+p.critical_level);
+  const ignored=state.settings.ignoredLowStock||[];
+  const low=products.filter(p=>!ignored.includes(p.id)&&((+p.quantity||0)===0 || (+p.critical_level>0&&+p.quantity<=+p.critical_level)));
   const today=new Date();today.setHours(0,0,0,0);
   const todayMoves=state.movements.filter(m=>new Date(m.happened_at)>=today).length;
   const recent=[...products].sort((a,b)=>(b.created_at||"").localeCompare(a.created_at||"")).slice(0,5);
@@ -590,7 +598,7 @@ function renderDashboard(){
   const distArr=Object.values(dist);
   const stat=(label,val,bg,show,sub)=>show?`<div class="card p-5"><div class="flex items-start justify-between"><div><div class="text-xs uppercase tracking-wider text-slate-500 font-medium">${label}</div><div class="text-3xl font-bold mono mt-2">${val}</div>${sub?`<div class="text-xs text-slate-500 mt-1">${sub}</div>`:""}</div><div class="stat-icon" style="background:${bg}20;color:${bg}">●</div></div></div>`:"";
   document.getElementById("pageBody").innerHTML=`
-    <h1 class="text-3xl font-bold tracking-tight">Stok Kontrol Paneli</h1>
+    <h1 class="text-3xl font-bold tracking-tight">Özet</h1>
     ${low.length?`<div class="mt-3 mb-4 rounded-md border border-amber-200 bg-amber-50 text-amber-800 px-4 py-3 text-sm"><b>Düşük stok uyarısı:</b> ${low.length} ürün kritik seviyede veya altında.</div>`:""}
     <p class="text-sm text-slate-500 mt-1 mb-6">Anlık envanter özeti · <span class="mono text-xs">${ghConfig.owner}/${ghConfig.repo}</span></p>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -600,7 +608,7 @@ function renderDashboard(){
       ${stat("Bugünkü Hareketler",fmtNum(todayMoves),"#2563EB",w.today_movements_count)}
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
-      ${w.low_stock_list?`<div class="card p-5"><h3 class="font-semibold mb-3">Düşük Stok Listesi <span class="badge bg-slate-100 text-slate-700 ml-2">${low.length}</span></h3>${low.length?low.slice(0,8).map(p=>`<div class="flex justify-between py-2 border-t border-slate-100"><div><div class="font-medium">${p.name}</div><div class="text-xs text-slate-500">${p.code}</div></div><div class="text-right mono font-semibold text-amber-700">${fmtNum(p.quantity)} ${p.unit}</div></div>`).join(""):`<p class="text-sm text-slate-500 py-4 text-center">Kritik seviyede ürün yok.</p>`}</div>`:""}
+      ${w.low_stock_list?`<div class="card p-5"><h3 class="font-semibold mb-3">Düşük Stok Listesi <span class="badge bg-slate-100 text-slate-700 ml-2">${low.length}</span></h3>${low.length?low.map(p=>`<div class="flex items-center justify-between gap-3 py-3 border-t border-slate-100"><div class="min-w-0"><div class="font-medium truncate">${p.name}</div><div class="text-xs text-slate-500">${p.code}</div></div><div class="flex items-center gap-2 shrink-0"><div class="text-right mono font-semibold ${(+p.quantity||0)===0?"text-rose-700":"text-amber-700"}">${fmtNum(p.quantity)} ${p.unit}</div><button class="btn btn-success btn-sm" onclick="addStockForProduct('${p.id}')">Stok Ekle</button><button class="btn btn-ghost btn-sm" onclick="ignoreLowStock('${p.id}')">Yoksay</button></div></div>`).join(""):`<p class="text-sm text-slate-500 py-4 text-center">Aktif düşük stok uyarısı yok.</p>`}</div>`:""}
       ${w.recent_additions?`<div class="card p-5"><h3 class="font-semibold mb-3">Son Eklenen Ürünler</h3>${recent.length?recent.map(p=>`<div class="flex justify-between py-2 border-t border-slate-100"><div><div class="font-medium">${p.name}</div><div class="text-xs text-slate-500">${p.code}</div></div><div class="mono text-sm">${fmtNum(p.quantity)} ${p.unit}</div></div>`).join(""):`<p class="text-sm text-slate-500 py-4 text-center">Henüz ürün yok.</p>`}</div>`:""}
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
@@ -1057,7 +1065,7 @@ function toggleMenu(k,v){state.settings.menus[k]=v;save();renderNav();toast("Men
 function toggleCol(page,k,v){state.settings.cols[page][k]=v;save();toast("Kolon ayarı kaydedildi");}
 function renderUsers(){
   document.getElementById("adminPanel").innerHTML=`
-    <div class="flex justify-end mb-3"><button class="btn btn-primary" onclick="userModal()">+ Yeni Kullanıcı</button></div>
+    <div class="flex justify-between items-center gap-2 mb-3"><button class="btn btn-outline" onclick="changeOwnPassword()">Şifremi Değiştir</button><button class="btn btn-primary" onclick="userModal()">+ Yeni Kullanıcı</button></div>
     <div class="card overflow-x-auto"><table>
       <thead><tr><th>Kullanıcı Adı</th><th>Ad Soyad</th><th>E-posta</th><th>Rol</th><th>Durum</th><th></th></tr></thead>
       <tbody>${state.users.map(u=>`<tr>
@@ -1074,7 +1082,7 @@ function userModal(id){
       <div><label class="text-sm">Kullanıcı Adı</label><input required class="input mt-1" name="username" value="${u.username}" ${id?"disabled":""} /></div>
       <div><label class="text-sm">Ad Soyad</label><input required class="input mt-1" name="name" value="${u.name}" /></div>
       <div><label class="text-sm">E-posta</label><input type="email" class="input mt-1" name="email" value="${u.email||""}" /></div>
-      <div><label class="text-sm">${id?"Yeni Şifre (boş bırakılabilir)":"Şifre"}</label><input type="password" class="input mt-1" name="password" ${id?"":"required"} /></div>
+      ${id?(currentUser()&&currentUser().role==="admin"?"<div><label class=\"text-sm\">Yeni Şifre (boş bırakılabilir)</label><input type=\"password\" class=\"input mt-1\" name=\"password\" /></div>":""):"<div><label class=\"text-sm\">Şifre</label><input required type=\"password\" class=\"input mt-1\" name=\"password\" /></div>"}
       <div class="grid grid-cols-2 gap-3">
         <div><label class="text-sm">Rol</label><select class="input mt-1" name="role"><option value="user" ${u.role==="user"?"selected":""}>Kullanıcı</option><option value="admin" ${u.role==="admin"?"selected":""}>Yönetici</option></select></div>
         <div><label class="text-sm">Durum</label><select class="input mt-1" name="is_active"><option value="true" ${u.is_active!==false?"selected":""}>Aktif</option><option value="false" ${u.is_active===false?"selected":""}>Pasif</option></select></div>
@@ -1087,7 +1095,7 @@ function saveUser(e,id){
   if(id){
     const u=state.users.find(x=>x.id===id);
     Object.assign(u,{name:d.name,email:d.email,role:d.role,is_active:d.is_active});
-    if(d.password) u.password = hashPw(d.password);
+    if(d.password&&currentUser()&&currentUser().role==="admin") u.password=hashPw(d.password);
   } else {
     if(state.users.some(x=>x.username===d.username)){toast("Bu kullanıcı adı kullanımda","error");return;}
     state.users.push({id:uid(),username:d.username,name:d.name,email:d.email,role:d.role,is_active:d.is_active,password:hashPw(d.password),created_at:nowISO()});

@@ -7987,7 +7987,7 @@
     "app_title": "Vingcard Stok Takip",
     "primary_color": "#2563eb",
     "widgets": {
-      "total_products": true,
+      "total_products": false,
       "total_stock_value": false,
       "low_stock_count": true,
       "today_movements_count": true,

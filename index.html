@@ -189,6 +189,7 @@ function toast(msg,type){const t=document.createElement("div");t.className="toas
 function normTr(s){return String(s||"").toLocaleLowerCase("tr-TR").replace(/[çğıöşü]/g,c=>({ç:"c",ğ:"g",ı:"i",ö:"o",ş:"s",ü:"u"}[c]||c)).replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();}
 function matchProduct(p,q){if(!q)return true;const nq=normTr(q);if(!nq)return true;const hay=normTr((p.code||"")+" "+(p.name||"")+" "+(p.description||"")+" "+(p.location||""));return nq.split(" ").every(t=>hay.includes(t));}
 function matchMovement(m,q){if(!q)return true;const nq=normTr(q);if(!nq)return true;const p=state.products.find(x=>x.id===m.product_id);const hay=normTr((m.product_code||"")+" "+(m.product_name||"")+" "+(m.reason||"")+" "+(m.target_location||"")+" "+(p?.code||"")+" "+(p?.name||"")+" "+(p?.description||"")+" "+(p?.location||""));return nq.split(" ").every(t=>hay.includes(t));}
+function movementStockLabel(m){const p=state.products.find(x=>x.id===m.product_id);return p?`Mevcut stok: ${fmtNum(p.quantity)} ${p.unit||""}`:"Ürün artık mevcut değil";}
 function openModal(html,lockOutside=false){const bg=document.getElementById("modalBg");document.getElementById("modalBody").innerHTML=html;bg.onclick=lockOutside?()=>{}:(e)=>{if(e.target===bg)closeModal();};bg.classList.add("open");}
 function closeModal(){document.getElementById("modalBg").classList.remove("open");}
 function currentUser(){return session ? state.users.find(u=>u.id===session.user_id) : null;}
@@ -598,6 +599,7 @@ function renderDashboard(){
 }
 /* ============ PRODUCTS ============ */
 let productFilter={q:"",cat:"all"};
+function clearProductSearch(){productFilter.q="";renderProducts();setTimeout(()=>document.querySelector('[data-p-search]')?.focus(),0);}
 function renderProducts(){
   const u=currentUser();
   const c=state.settings.cols.products;
@@ -621,7 +623,7 @@ function renderProducts(){
       </div>
     </div>
     <div class="card p-4 mb-4 flex gap-3 flex-wrap">
-      <input class="input flex-1 min-w-[220px]" placeholder="Kod, ad, açıklama veya konum ara" value="${productFilter.q}" oninput="productFilter.q=this.value;renderProducts();setTimeout(()=>{const el=document.querySelector('[data-p-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-p-search />
+      <div class="flex-1 min-w-[220px] flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${productFilter.q}" oninput="productFilter.q=this.value;renderProducts();setTimeout(()=>{const el=document.querySelector('[data-p-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-p-search /><button type="button" class="btn btn-outline" onclick="clearProductSearch()" title="Aramayı temizle">Temizle</button></div>
       <select class="input w-56" onchange="productFilter.cat=this.value;renderProducts()">
         <option value="all">Tüm Kategoriler</option>
         ${state.categories.map(c=>`<option value="${c.id}" ${productFilter.cat===c.id?"selected":""}>${c.name}</option>`).join("")}
@@ -826,14 +828,14 @@ function importProductsExcel(e){
   reader.readAsArrayBuffer(file);
 }
 /* ============ MOVEMENTS ============ */
-let mvFilter={type:"all",q:"",location:""};
+let mvFilter={type:"all",q:""};
+function clearMovementSearch(){mvFilter.q="";renderMovements();setTimeout(()=>document.querySelector('[data-mv-search]')?.focus(),0);}
 function renderMovements(){
   const u=currentUser();
   const c=state.settings.cols.movements;
   const items=state.movements.filter(m=>{
     if(mvFilter.type!=="all"&&m.type!==mvFilter.type)return false;
     if(!matchMovement(m,mvFilter.q))return false;
-    if(mvFilter.location&&!(m.target_location||"").toLowerCase().includes(mvFilter.location.toLowerCase()))return false;
     return true;
   }).sort((a,b)=>b.happened_at.localeCompare(a.happened_at));
   document.getElementById("pageBody").innerHTML=`
@@ -843,8 +845,7 @@ function renderMovements(){
     </div>
     <div class="card p-4 mb-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
       <select class="input" onchange="mvFilter.type=this.value;renderMovements()"><option value="all">Tüm Tipler</option><option value="in" ${mvFilter.type==="in"?"selected":""}>Giriş</option><option value="out" ${mvFilter.type==="out"?"selected":""}>Çıkış</option></select>
-      <input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${mvFilter.q}" oninput="mvFilter.q=this.value;renderMovements();setTimeout(()=>{const el=document.querySelector('[data-mv-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-mv-search />
-      <input class="input" placeholder="Lokasyon ara..." value="${mvFilter.location}" oninput="mvFilter.location=this.value;renderMovements()" />
+      <div class="flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${mvFilter.q}" oninput="mvFilter.q=this.value;renderMovements();setTimeout(()=>{const el=document.querySelector('[data-mv-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-mv-search /><button type="button" class="btn btn-outline" onclick="clearMovementSearch()" title="Aramayı temizle">Temizle</button></div>
     </div>
     <div class="card overflow-x-auto"><table>
       <thead><tr>
@@ -855,7 +856,7 @@ function renderMovements(){
       <tbody>${items.length?items.map(m=>`<tr>
         ${c.date?`<td class="text-xs text-slate-500">${fmtDate(m.happened_at)}</td>`:""}
         ${c.user?`<td>${m.user_name}</td>`:""}
-        ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td>${m.product_name}</td>`:""}
+        ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td title="${movementStockLabel(m)}" class="cursor-help">${m.product_name}</td>`:""}
         ${c.type?`<td>${m.type==="in"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`}</td>`:""}
         ${c.quantity?`<td class="text-right mono font-semibold">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td>`:""}
         ${c.location?`<td>${m.target_location||"—"}</td>`:""}
@@ -972,7 +973,7 @@ function renderReports(){
       <tbody>${items.length?items.map(m=>`<tr>
         ${c.date?`<td class="text-xs">${fmtDate(m.happened_at)}</td>`:""}
         ${c.user?`<td>${m.user_name}</td>`:""}
-        ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td>${m.product_name}</td>`:""}
+        ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td title="${movementStockLabel(m)}" class="cursor-help">${m.product_name}</td>`:""}
         ${c.type?`<td>${m.type==="in"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`}</td>`:""}
         ${c.quantity?`<td class="text-right mono font-semibold">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td>`:""}
         ${c.location?`<td>${m.target_location||"—"}</td>`:""}

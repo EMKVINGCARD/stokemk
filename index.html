@@ -172,7 +172,7 @@ function mergeDefaults(s){
   s.cols.movements={...DEFAULT_COLS.movements,...(s.cols.movements||{})};
   s.cols.reports={...DEFAULT_COLS.reports,...(s.cols.reports||{})};
   s.audit_log=s.audit_log||[];
-  s.settings.ignoredLowStock=s.settings.ignoredLowStock||[];
+  s.ignoredLowStock=s.ignoredLowStock||[];
   return s;
 }
 function uid(){return "id-"+Math.random().toString(36).slice(2,10)+Date.now().toString(36);}

@@ -54,6 +54,14 @@
   #syncBadge{position:fixed;top:.75rem;right:1rem;z-index:40;padding:.35rem .7rem;border-radius:9999px;font-size:.75rem;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,.06);cursor:pointer;user-select:none;}
   .spinner{display:inline-block;width:.85rem;height:.85rem;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .6s linear infinite;vertical-align:-2px;margin-right:.35rem;}
   @keyframes spin { to { transform: rotate(360deg); } }
+  .low-stock-table table{min-width:0;}
+  @media (max-width:768px){
+    .low-stock-table th,.low-stock-table td{padding:.45rem .35rem;font-size:.75rem;}
+    .low-stock-table th:nth-child(1),.low-stock-table td:nth-child(1),.low-stock-table th:nth-child(4),.low-stock-table td:nth-child(4),.low-stock-table th:nth-child(5),.low-stock-table td:nth-child(5){display:none;}
+    .low-stock-table .quick-actions{display:grid;grid-template-columns:1fr 1fr;gap:.35rem;min-width:0!important;}
+    .low-stock-table .quick-actions input{grid-column:1 / -1;width:100%;}
+    .low-stock-table .quick-actions button{justify-content:center;padding:.35rem .45rem;}
+  }
   @media (max-width: 768px){
     #appView{display:block !important;}
     #appView aside{width:100%;border-right:0;border-bottom:1px solid var(--border);}
@@ -172,6 +180,7 @@ function mergeDefaults(s){
   s.cols.movements={...DEFAULT_COLS.movements,...(s.cols.movements||{})};
   s.cols.reports={...DEFAULT_COLS.reports,...(s.cols.reports||{})};
   s.audit_log=s.audit_log||[];
+  s.movement_audit=s.movement_audit||[];
   s.ignoredLowStock=s.ignoredLowStock||[];
   return s;
 }
@@ -506,7 +515,7 @@ const ROUTES=[
   {key:"products",label:"Ürünler",icon:"▤",render:renderProducts},
   {key:"movements",label:"Stok Hareketleri",icon:"⇅",render:renderMovements},
   {key:"reports",label:"Raporlar",icon:"◱",render:renderReports},
-  {key:"admin",label:"Yönetim",icon:"⚙",render:renderAdmin,adminOnly:true},
+  {key:"admin",label:"Yönetim",icon:"⚙",render:renderAdmin,adminOnly:false},
 ];
 let currentRoute="dashboard";
 function go(key){currentRoute=key;renderApp();}
@@ -514,6 +523,7 @@ function renderNav(){
   const u=currentUser();const menus=state.settings.menus||DEFAULT_MENUS;
   const html=ROUTES.filter(r=>{
     if(r.adminOnly)return u.role==="admin";
+    if(r.key==="dashboard")return u.role==="admin";
     return menus[r.key]!==false;
   }).map(r=>`<div class="nav-link ${currentRoute===r.key?"active":""}" onclick="go('${r.key}')"><span>${r.icon}</span>${r.label}</div>`).join("");
   document.getElementById("navMenu").innerHTML=html;
@@ -523,8 +533,8 @@ function renderApp(){
   const menus=state.settings.menus||DEFAULT_MENUS;
   const u=currentUser();
   const route=ROUTES.find(r=>r.key===currentRoute);
-  if(!route||(route.adminOnly&&u.role!=="admin")||(!route.adminOnly&&menus[currentRoute]===false)){
-    currentRoute=u.role==="admin"?"admin":"dashboard";
+  if(!route||(currentRoute==="dashboard"&&u.role!=="admin")||(route.adminOnly&&u.role!=="admin")||(!route.adminOnly&&menus[currentRoute]===false)){
+    currentRoute=u.role==="admin"?"admin":"movements";
     ROUTES.find(r=>r.key===currentRoute).render();return;
   }
   route.render();
@@ -614,9 +624,9 @@ function renderDashboard(){
       ${stat("Düşük Stok",fmtNum(low.length),"#D97706",w.low_stock_count,"Kritik seviyede")}
       ${stat("Bugünkü Hareketler",fmtNum(todayMoves),"#2563EB",w.today_movements_count)}
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
-      ${w.low_stock_list?`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><h3 class="font-semibold">Düşük Stok Uyarıları</h3><span class="badge bg-slate-100 text-slate-700">${low.length} aktif</span></div><div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-4"><div class="rounded-md border border-rose-200 bg-rose-50 p-3"><div class="text-xs text-rose-700">Stok Yok</div><div class="text-xl font-bold text-rose-700 mono">${zeroCount}</div></div><div class="rounded-md border border-amber-200 bg-amber-50 p-3"><div class="text-xs text-amber-700">Kritik Stok</div><div class="text-xl font-bold text-amber-700 mono">${criticalCount}</div></div><div class="rounded-md border border-slate-200 bg-slate-50 p-3"><div class="text-xs text-slate-600">Yoksayılan</div><div class="text-xl font-bold text-slate-700 mono">${ignoredProducts.length}</div></div></div><div class="flex flex-col sm:flex-row gap-2 mb-4"><div class="flex flex-1 gap-2"><input class="input" placeholder="Kod veya ürün adı ara" value="${lowStockView.q}" data-low-search oninput="lowStockView.q=this.value;renderDashboard();setTimeout(()=>{const el=document.querySelector('[data-low-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" /><button class="btn btn-outline" type="button" onclick="clearLowStockSearch()">Temizle</button></div><select class="input sm:max-w-48" onchange="lowStockView.status=this.value;renderDashboard()"><option value="all" ${lowStockView.status==="all"?"selected":""}>Tümü</option><option value="zero" ${lowStockView.status==="zero"?"selected":""}>Stok Yok</option><option value="critical" ${lowStockView.status==="critical"?"selected":""}>Kritik Seviyede</option></select></div>${lowFiltered.length?`<div class="overflow-x-auto"><table><thead><tr><th>Ürün Kodu</th><th>Ürün Adı</th><th class="text-right">Mevcut</th><th class="text-right">Kritik</th><th>Durum</th><th>Hızlı İşlem</th></tr></thead><tbody>${lowFiltered.map(p=>{const zero=+p.quantity===0;return `<tr><td class="mono text-xs">${p.code}</td><td class="font-medium">${p.name}</td><td class="text-right mono ${zero?"text-rose-700":"text-amber-700"}">${fmtNum(p.quantity)} ${p.unit}</td><td class="text-right mono">${fmtNum(p.critical_level)}</td><td>${zero?`<span class="badge bg-rose-100 text-rose-700">STOK YOK</span>`:`<span class="badge bg-amber-100 text-amber-700">KRİTİK</span>`}</td><td><div class="flex items-center gap-2 min-w-[210px]"><input id="quick-stock-${p.id}" type="number" min="0.01" step="0.01" class="input w-20" placeholder="Miktar" /><button class="btn btn-success btn-sm" onclick="quickAddStock('${p.id}')">Ekle</button><button class="btn btn-ghost btn-sm" onclick="ignoreLowStock('${p.id}')">Yoksay</button></div></td></tr>`;}).join("")}</tbody></table></div>`:`<p class="text-sm text-slate-500 py-6 text-center">Bu filtreye uygun aktif uyarı yok.</p>`}${ignoredProducts.length?`<details class="mt-4 border-t border-slate-200 pt-3"><summary class="cursor-pointer text-sm font-medium text-slate-600">Yoksayılan Uyarılar (${ignoredProducts.length})</summary><div class="mt-2 space-y-2">${ignoredProducts.map(p=>`<div class="flex items-center justify-between gap-2 text-sm border rounded-md p-2"><span><b>${p.code}</b> — ${p.name}</span><button class="btn btn-outline btn-sm" onclick="restoreLowStockAlert('${p.id}')">Uyarıyı Geri Al</button></div>`).join("")}</div></details>`:""}</div>`:""}
-      ${w.recent_additions?`<div class="card p-5"><h3 class="font-semibold mb-3">Son Eklenen Ürünler</h3>${recent.length?recent.map(p=>`<div class="flex justify-between py-2 border-t border-slate-100"><div><div class="font-medium">${p.name}</div><div class="text-xs text-slate-500">${p.code}</div></div><div class="mono text-sm">${fmtNum(p.quantity)} ${p.unit}</div></div>`).join(""):`<p class="text-sm text-slate-500 py-4 text-center">Henüz ürün yok.</p>`}</div>`:""}
+    <div class="grid grid-cols-1 gap-4 mt-4">
+      ${w.low_stock_list?`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><h3 class="font-semibold">Düşük Stok Uyarıları</h3><span class="badge bg-slate-100 text-slate-700">${low.length} aktif</span></div><div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-4"><div class="rounded-md border border-rose-200 bg-rose-50 p-3"><div class="text-xs text-rose-700">Stok Yok</div><div class="text-xl font-bold text-rose-700 mono">${zeroCount}</div></div><div class="rounded-md border border-amber-200 bg-amber-50 p-3"><div class="text-xs text-amber-700">Kritik Stok</div><div class="text-xl font-bold text-amber-700 mono">${criticalCount}</div></div><div class="rounded-md border border-slate-200 bg-slate-50 p-3"><div class="text-xs text-slate-600">Yoksayılan</div><div class="text-xl font-bold text-slate-700 mono">${ignoredProducts.length}</div></div></div><div class="flex flex-col sm:flex-row gap-2 mb-4"><div class="flex flex-1 gap-2"><input class="input" placeholder="Kod veya ürün adı ara" value="${lowStockView.q}" data-low-search oninput="lowStockView.q=this.value;renderDashboard();setTimeout(()=>{const el=document.querySelector('[data-low-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" /><button class="btn btn-outline" type="button" onclick="clearLowStockSearch()">Temizle</button></div><select class="input sm:max-w-48" onchange="lowStockView.status=this.value;renderDashboard()"><option value="all" ${lowStockView.status==="all"?"selected":""}>Tümü</option><option value="zero" ${lowStockView.status==="zero"?"selected":""}>Stok Yok</option><option value="critical" ${lowStockView.status==="critical"?"selected":""}>Kritik Seviyede</option></select></div>${lowFiltered.length?`<div class="overflow-x-auto low-stock-table"><table><thead><tr><th>Ürün Kodu</th><th>Ürün Adı</th><th class="text-right">Mevcut</th><th class="text-right">Kritik</th><th>Durum</th><th>Hızlı İşlem</th></tr></thead><tbody>${lowFiltered.map(p=>{const zero=+p.quantity===0;return `<tr><td class="mono text-xs">${p.code}</td><td class="font-medium">${p.name}</td><td class="text-right mono ${zero?"text-rose-700":"text-amber-700"}">${fmtNum(p.quantity)} ${p.unit}</td><td class="text-right mono">${fmtNum(p.critical_level)}</td><td>${zero?`<span class="badge bg-rose-100 text-rose-700">STOK YOK</span>`:`<span class="badge bg-amber-100 text-amber-700">KRİTİK</span>`}</td><td><div class="flex items-center gap-2 min-w-[210px] quick-actions"><input id="quick-stock-${p.id}" type="number" min="0.01" step="0.01" class="input w-20" placeholder="Miktar" /><button class="btn btn-success btn-sm" onclick="quickAddStock('${p.id}')">Ekle</button><button class="btn btn-ghost btn-sm" onclick="ignoreLowStock('${p.id}')">Yoksay</button></div></td></tr>`;}).join("")}</tbody></table></div>`:`<p class="text-sm text-slate-500 py-6 text-center">Bu filtreye uygun aktif uyarı yok.</p>`}${ignoredProducts.length?`<details class="mt-4 border-t border-slate-200 pt-3"><summary class="cursor-pointer text-sm font-medium text-slate-600">Yoksayılan Uyarılar (${ignoredProducts.length})</summary><div class="mt-2 space-y-2">${ignoredProducts.map(p=>`<div class="flex items-center justify-between gap-2 text-sm border rounded-md p-2"><span><b>${p.code}</b> — ${p.name}</span><button class="btn btn-outline btn-sm" onclick="restoreLowStockAlert('${p.id}')">Uyarıyı Geri Al</button></div>`).join("")}</div></details>`:""}</div>`:""}
+
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
       ${w.valuable_products?`<div class="card p-5"><h3 class="font-semibold mb-3">En Değerli Ürünler</h3>${valuable.length?valuable.map((p,i)=>`<div class="flex justify-between py-2 border-t border-slate-100"><div class="flex items-center gap-3"><div class="w-7 h-7 rounded-md bg-blue-100 text-blue-700 text-xs font-bold flex items-center justify-center">${i+1}</div><div><div class="font-medium">${p.name}</div><div class="text-xs text-slate-500">${fmtNum(p.quantity)} × ${fmtTRY(p.unit_price)}</div></div></div><div class="mono font-semibold">${fmtTRY((p.quantity||0)*(p.unit_price||0))}</div></div>`).join(""):`<p class="text-sm text-slate-500 py-4 text-center">Veri yok.</p>`}</div>`:""}
@@ -900,7 +910,7 @@ function renderMovements(){
         ${c.quantity?`<td class="text-right mono font-semibold">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td>`:""}
         ${c.location?`<td>${m.target_location||"—"}</td>`:""}
         ${c.reason?`<td class="text-sm text-slate-500">${m.reason||"—"}</td>`:""}
-        <td>${u.role==="admin"?`<button class="btn btn-ghost btn-sm" onclick="deleteMovement('${m.id}')">Sil</button>`:""}</td>
+        <td><button class="btn btn-ghost btn-sm" onclick="deleteMovement('${m.id}')">Sil</button></td>
       </tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Hareket bulunamadı</td></tr>`}</tbody>
     </table></div>`;
 }
@@ -941,6 +951,8 @@ function pickMvProduct(id){
   sel.innerHTML=`<div class="p-2.5 bg-blue-50 rounded-md text-sm flex justify-between items-center"><div><span class="mono text-xs">${p.code}</span> • <b>${p.name}</b></div><div class="mono text-xs">mevcut: <b>${fmtNum(p.quantity)}</b> ${p.unit}</div></div>`;
   sel.classList.remove("hidden");
 }
+function recordMovementAudit(action,m,extra){const u=currentUser();state.movement_audit=state.movement_audit||[];state.movement_audit.push({id:uid(),action,product_id:m.product_id,product_code:m.product_code,product_name:m.product_name,type:m.type,quantity:m.quantity,target_location:m.target_location||null,reason:m.reason||null,user_id:u&&u.id,user_name:u&&(u.name||u.username),created_at:nowISO(),extra:extra||null});}
+function renderMovementAudit(){const logs=[...(state.movement_audit||[])].sort((a,b)=>b.created_at.localeCompare(a.created_at));document.getElementById("adminPanel").innerHTML=`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><div><h3 class="font-semibold">Stok Hareketleri İşlem Geçmişi</h3><p class="text-sm text-slate-500 mt-1">Kullanıcıların yaptığı stok giriş, çıkış ve silme işlemleri.</p></div><span class="badge bg-slate-100 text-slate-700">${logs.length} kayıt</span></div><div class="overflow-x-auto"><table><thead><tr><th>Tarih</th><th>Kullanıcı</th><th>İşlem</th><th>Ürün Kodu</th><th>Ürün Adı</th><th>Miktar</th><th>Lokasyon</th><th>Açıklama</th></tr></thead><tbody>${logs.length?logs.map(x=>`<tr><td class="text-xs text-slate-500">${fmtDate(x.created_at)}</td><td class="font-medium">${x.user_name||"—"}</td><td>${x.action==="Stok girişi"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:x.action==="Stok çıkışı"?`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`:`<span class="badge bg-slate-100 text-slate-700">SİLİNDİ</span>`}</td><td class="mono text-xs">${x.product_code||"—"}</td><td>${x.product_name||"—"}</td><td class="mono">${x.quantity===null||x.quantity===undefined?"—":fmtNum(x.quantity)}</td><td>${x.target_location||"—"}</td><td class="text-sm text-slate-500">${x.reason||x.extra||"—"}</td></tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Henüz stok işlem geçmişi yok.</td></tr>`}</tbody></table></div></div>`;}
 function saveMovement(e,type){
   e.preventDefault();const fd=new FormData(e.target);const d={type};fd.forEach((v,k)=>d[k]=v);d.quantity=+d.quantity;
   const p=state.products.find(x=>x.id===d.product_id);if(!p){toast("Ürün seçin","error");return;}
@@ -949,12 +961,13 @@ function saveMovement(e,type){
   const loc=(d.target_location||"").trim();
   if(loc && !state.locations.some(l=>l.name===loc)){state.locations.push({id:uid(),name:loc,kind:"diger",auto_created:true});}
   const u=currentUser();
-  state.movements.push({id:uid(),product_id:p.id,product_code:p.code,product_name:p.name,type,quantity:d.quantity,target_location:loc||null,reason:d.reason||null,user_id:u.id,user_name:u.name||u.username,happened_at:nowISO(),created_at:nowISO()});
+  const movement={id:uid(),product_id:p.id,product_code:p.code,product_name:p.name,type,quantity:d.quantity,target_location:loc||null,reason:d.reason||null,user_id:u.id,user_name:u.name||u.username,happened_at:nowISO(),created_at:nowISO()};
+  state.movements.push(movement);recordMovementAudit(type==="in"?"Stok girişi":"Stok çıkışı",movement);
   p.quantity+=delta;p.updated_at=nowISO();
   save();closeModal();renderMovements();toast("Hareket kaydedildi");
 }
-function deleteMovement(id){if(!currentUser()||currentUser().role!=="admin"){toast("Bu işlem için yetkiniz yok","error");return;}const m=state.movements.find(x=>x.id===id);if(!m)return;openModal(`<h3 class="text-lg font-semibold mb-2 text-rose-700">Stok Hareketini Sil</h3><p class="text-sm text-slate-600 mb-3">Bu işlem stoğu geri alır. Onaylamak için <b>SIL</b> yazın.</p><input id="delMoveInput" class="input mono" placeholder="SIL" oninput="document.getElementById('delMoveBtn').disabled=this.value!=="SIL"" /><div class="flex justify-end gap-2 mt-4"><button class="btn btn-outline" onclick="closeModal()">İptal</button><button id="delMoveBtn" class="btn btn-danger" disabled onclick="confirmDeleteMovement('${id}')">Sil</button></div>`);setTimeout(()=>document.getElementById("delMoveInput")?.focus(),50);}
-function confirmDeleteMovement(id){const input=document.getElementById("delMoveInput");if(!input||input.value!=="SIL"){toast("Onay için SIL yazmalısınız","error");return;}const m=state.movements.find(x=>x.id===id);const p=state.products.find(x=>x.id===m.product_id);if(p){p.quantity+=m.type==="in"?-m.quantity:m.quantity;}state.movements=state.movements.filter(x=>x.id!==id);save();closeModal();renderMovements();toast("Silindi");}
+function deleteMovement(id){const m=state.movements.find(x=>x.id===id);if(!m)return;openModal(`<h3 class="text-lg font-semibold mb-2 text-rose-700">Stok Hareketini Sil</h3><p class="text-sm text-slate-600 mb-3">Bu işlem stoğu geri alır. Onaylamak için <b>SIL</b> yazın.</p><input id="delMoveInput" class="input mono" placeholder="SIL" oninput="document.getElementById('delMoveBtn').disabled=this.value!=="SIL"" /><div class="flex justify-end gap-2 mt-4"><button class="btn btn-outline" onclick="closeModal()">İptal</button><button id="delMoveBtn" class="btn btn-danger" disabled onclick="confirmDeleteMovement('${id}')">Sil</button></div>`);setTimeout(()=>document.getElementById("delMoveInput")?.focus(),50);}
+function confirmDeleteMovement(id){const input=document.getElementById("delMoveInput");if(!input||input.value!=="SIL"){toast("Onay için SIL yazmalısınız","error");return;}const m=state.movements.find(x=>x.id===id);if(!m)return;const p=state.products.find(x=>x.id===m.product_id);if(p){p.quantity+=m.type==="in"?-m.quantity:m.quantity;}recordMovementAudit("Stok hareketi silindi",m,"Silme sonrası stok geri alındı");state.movements=state.movements.filter(x=>x.id!==id);save();closeModal();renderMovements();toast("Silindi");}
 /* ============ REPORTS ============ */
 let reportRange={start:null,end:null},reportFilters={type:"all",product:"all",user:"all",location:""};
 function rangeThisWeek(){const now=new Date();const day=(now.getDay()+6)%7;const s=new Date(now);s.setDate(now.getDate()-day);s.setHours(0,0,0,0);const e=new Date(s);e.setDate(s.getDate()+6);e.setHours(23,59,59,999);return {start:s.toISOString(),end:e.toISOString()};}
@@ -964,6 +977,7 @@ function rangeLastMonth(){const n=new Date();return {start:new Date(n.getFullYea
 function rangeLast30(){const e=new Date();e.setHours(23,59,59);const s=new Date();s.setDate(s.getDate()-29);s.setHours(0,0,0);return {start:s.toISOString(),end:e.toISOString()};}
 function setQuick(key){const map={this_week:rangeThisWeek,last_week:rangeLastWeek,this_month:rangeThisMonth,last_month:rangeLastMonth,last_30_days:rangeLast30};reportRange=map[key]();renderReports();}
 function renderReports(){
+  const u=currentUser();
   const c=state.settings.cols.reports;
   if(!reportRange.start)reportRange=rangeThisMonth();
   const items=state.movements.filter(m=>{
@@ -982,7 +996,7 @@ function renderReports(){
   document.getElementById("pageBody").innerHTML=`
     <div class="flex justify-between items-end flex-wrap gap-4 mb-6">
       <div><h1 class="text-3xl font-bold tracking-tight">Raporlar</h1><p class="text-sm text-slate-500 mt-1">Filtreleyip Excel'e aktarın</p></div>
-      <button class="btn btn-success" onclick="exportExcel()">Excel İndir</button>
+      ${u.role==="admin"?`<button class="btn btn-success" onclick="exportExcel()">Excel İndir</button>`:""}
     </div>
     <div class="card p-5 mb-4">
       <div class="flex flex-wrap gap-2 mb-4">${quick.map(([k,l])=>`<button class="btn btn-outline btn-sm" onclick="setQuick('${k}')">${l}</button>`).join("")}</div>
@@ -1033,14 +1047,18 @@ function exportExcel(){
 }
 /* ============ ADMIN ============ */
 let adminTab="widgets";
+function renderUserSettings(){
+  document.getElementById("pageBody").innerHTML=`<h1 class="text-3xl font-bold tracking-tight">Yönetim</h1><p class="text-sm text-slate-500 mt-1 mb-6">Kullanıcı ayarları</p><div class="card p-5 max-w-lg"><h3 class="font-semibold mb-2">Hesabım</h3><p class="text-sm text-slate-500 mb-4">Yalnızca kendi şifrenizi değiştirebilirsiniz.</p><button class="btn btn-primary" onclick="changeOwnPassword()">Şifremi Değiştir</button></div>`;
+}
 function renderAdmin(){
-  const tabs=[["widgets","Görünüm"],["users","Kullanıcılar"],["categories","Kategoriler"],["locations","Lokasyonlar"],["settings","Genel"],["backups","Yedekleme"]];
+  if(currentUser().role!=="admin"){renderUserSettings();return;}
+  const tabs=[["widgets","Görünüm"],["users","Kullanıcılar"],["movementAudit","İşlem Geçmişi"],["categories","Kategoriler"],["locations","Lokasyonlar"],["settings","Genel"],["backups","Yedekleme"]];
   document.getElementById("pageBody").innerHTML=`
     <h1 class="text-3xl font-bold tracking-tight">Yönetim Paneli</h1>
     <p class="text-sm text-slate-500 mt-1 mb-6">Sistem ayarları · <span class="mono text-xs">${ghConfig.owner}/${ghConfig.repo}</span></p>
     <div class="border-b border-slate-200 mb-6 flex flex-wrap">${tabs.map(([k,l])=>`<div class="tab-btn ${adminTab===k?"active":""}" onclick="adminTab='${k}';renderAdmin()">${l}</div>`).join("")}</div>
     <div id="adminPanel"></div>`;
-  ({widgets:renderWidgets,users:renderUsers,categories:renderCategories,locations:renderLocations,settings:renderSettings,backups:renderBackups}[adminTab])();
+  ({widgets:renderWidgets,users:renderUsers,movementAudit:renderMovementAudit,categories:renderCategories,locations:renderLocations,settings:renderSettings,backups:renderBackups}[adminTab])();
 }
 function renderWidgets(){
   const wLabels={total_products:"Toplam Ürün",total_stock_value:"Stok Değeri",low_stock_count:"Düşük Stok Uyarısı",today_movements_count:"Bugünkü Hareketler",low_stock_list:"Düşük Stok Listesi",recent_additions:"Son Eklenen Ürünler",valuable_products:"En Değerli Ürünler",category_distribution:"Kategori Dağılımı"};

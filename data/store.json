@@ -5850,13 +5850,13 @@
       "name": "STRAIGHT BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 3,
+      "quantity": 2,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE BLACK T STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-09-07T07:00:29.268Z"
+      "updated_at": "2026-09-07T07:00:48.309Z"
     },
     {
       "id": "id-nijkhojmmtl9kenp",
@@ -7931,6 +7931,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-04T11:06:07.110Z",
       "created_at": "2026-09-04T11:06:07.110Z"
+    },
+    {
+      "id": "id-ufx9zfh4mtqw61px",
+      "product_id": "id-1kwmjzwxmtl9kenp",
+      "product_code": "481633390AC / 481633590AC",
+      "product_name": "STRAIGHT BLACK TITANUM SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "DoubleThree By hilton maçka",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-07T07:00:48.309Z",
+      "created_at": "2026-09-07T07:00:48.309Z"
     }
   ],
   "settings": {

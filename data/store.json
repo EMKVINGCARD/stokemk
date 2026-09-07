@@ -944,13 +944,13 @@
       "name": "EXIT BUTON",
       "category_id": "id-qmgcf4qumtk34t8n",
       "unit": "adet",
-      "quantity": -3,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-07T20:10:40.728Z"
+      "updated_at": "2026-09-07T20:17:10.898Z"
     },
     {
       "id": "id-txlavcqlmtl9kemb",
@@ -7981,6 +7981,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-07T10:32:55.417Z",
       "created_at": "2026-09-07T10:32:55.417Z"
+    },
+    {
+      "id": "id-qozufewwmtrom701",
+      "product_id": "id-z3x5tf7imtl9kemb",
+      "product_code": "YOK",
+      "product_name": "EXIT BUTON",
+      "type": "in",
+      "quantity": 3,
+      "target_location": null,
+      "reason": "Özet ekranından hızlı stok ekleme",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-07T20:17:10.897Z",
+      "created_at": "2026-09-07T20:17:10.897Z"
     }
   ],
   "settings": {

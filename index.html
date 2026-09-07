@@ -148,8 +148,8 @@ const DEFAULT_WIDGETS = {total_products:true,total_stock_value:true,low_stock_co
 const DEFAULT_MENUS = {dashboard:true,products:true,movements:true,reports:true};
 const DEFAULT_COLS = {
   products:{code:true,name:true,category:true,quantity:true,critical:true,unit_price:true,total_value:true},
-  movements:{date:true,user:true,product:true,type:true,quantity:true,location:true,reason:true},
-  reports:{date:true,user:true,product:true,type:true,quantity:true,location:true,reason:true}
+  movements:{date:true,user:true,product_code:true,product_name:true,type:true,quantity:true,location:true,reason:true},
+  reports:{date:true,user:true,product_code:true,product_name:true,type:true,quantity:true,location:true,reason:true}
 };
 function mergeDefaults(s){
   s=s||{};
@@ -612,11 +612,11 @@ function renderProducts(){
     <div class="flex justify-between items-end flex-wrap gap-4 mb-6">
       <div><h1 class="text-3xl font-bold tracking-tight">Ürün Yönetimi</h1><p class="text-sm text-slate-500 mt-1">Toplam ${filtered.length} ürün</p></div>
       <div class="flex gap-2 flex-wrap">
-        <button class="btn btn-outline" onclick="exportProductsExcel()">Excel'e Aktar</button>
+        ${isAdmin?`<button class="btn btn-outline" onclick="exportProductsExcel()">Excel'e Aktar</button>
         <label class="btn btn-outline cursor-pointer">Excel'den Yükle<input type="file" accept=".xlsx,.xls,.csv" class="hidden" onchange="importProductsExcel(event)" /></label>
-        <button class="btn btn-ghost btn-sm" onclick="downloadProductTemplate()">Şablon</button>
+        <button class="btn btn-ghost btn-sm" onclick="downloadProductTemplate()">Şablon</button>`:""}
         ${isAdmin?`<button class="btn btn-danger" onclick="deleteAllProducts()" ${hasAny?"":"disabled"} data-testid="delete-all-products-btn">Tümünü Sil</button>`:""}
-        <button class="btn btn-primary" onclick="productModal()">+ Yeni Ürün</button>
+        ${isAdmin?`<button class="btn btn-primary" onclick="productModal()">+ Yeni Ürün</button>`:""}
       </div>
     </div>
     <div class="card p-4 mb-4 flex gap-3 flex-wrap">
@@ -641,11 +641,12 @@ function renderProducts(){
         ${c.critical?`<td class="text-right mono text-slate-500">${fmtNum(p.critical_level)}</td>`:""}
         ${c.unit_price?`<td class="text-right mono">${fmtTRY(p.unit_price)}</td>`:""}
         ${c.total_value?`<td class="text-right mono font-semibold">${fmtTRY((p.quantity||0)*(p.unit_price||0))}</td>`:""}
-        <td class="text-right"><button class="btn btn-ghost btn-sm" onclick="productModal('${p.id}')">Düzenle</button>${u.role==="admin"?`<button class="btn btn-ghost btn-sm" onclick="deleteProduct('${p.id}')">Sil</button>`:""}</td>
+        <td class="text-right">${isAdmin?`<button class="btn btn-ghost btn-sm" onclick="productModal('${p.id}')">Düzenle</button><button class="btn btn-ghost btn-sm" onclick="deleteProduct('${p.id}')">Sil</button>`:`<span class="text-xs text-slate-400">Sadece görüntüleme</span>`}</td>
       </tr>`;}).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Ürün bulunamadı</td></tr>`}</tbody>
     </table></div>`;
 }
 function productModal(id){
+  if(!currentUser() || currentUser().role !== "admin"){toast("Bu işlem için yetkiniz yok","error");return;}
   const p=id?state.products.find(x=>x.id===id):{code:"",name:"",category_id:"",unit:"adet",quantity:0,critical_level:0,unit_price:0,location:"",description:""};
   openModal(`<h3 class="text-lg font-semibold mb-4">${id?"Ürünü Düzenle":"Yeni Ürün"}</h3>
     <form onsubmit="saveProduct(event,'${id||""}')" class="grid grid-cols-2 gap-4">
@@ -662,7 +663,8 @@ function productModal(id){
     </form>`);
 }
 function saveProduct(e,id){
-  e.preventDefault();const fd=new FormData(e.target);const data={};fd.forEach((v,k)=>data[k]=v);
+  e.preventDefault();
+  if(!currentUser() || currentUser().role !== "admin"){toast("Bu işlem için yetkiniz yok","error");return;}const fd=new FormData(e.target);const data={};fd.forEach((v,k)=>data[k]=v);
   ["quantity","critical_level","unit_price"].forEach(k=>data[k]=+data[k]||0);
   if(!id && state.products.some(p=>p.code===data.code)){toast("Bu ürün kodu zaten var","error");return;}
   if(!id){
@@ -675,7 +677,7 @@ function saveProduct(e,id){
   else{state.products.push({id:uid(),...data,created_at:nowISO(),updated_at:nowISO()});}
   save();closeModal();renderProducts();toast(id?"Ürün güncellendi":"Ürün eklendi");
 }
-function deleteProduct(id){if(!confirm("Ürünü silmek istediğinize emin misiniz?"))return;state.products=state.products.filter(p=>p.id!==id);save();renderProducts();toast("Silindi");}
+function deleteProduct(id){if(!currentUser() || currentUser().role !== "admin"){toast("Bu işlem için yetkiniz yok","error");return;}if(!confirm("Ürünü silmek istediğinize emin misiniz?"))return;state.products=state.products.filter(p=>p.id!==id);save();renderProducts();toast("Silindi");}
 
 /* ==== TÜMÜNÜ SİL (admin) ==== */
 function deleteAllProducts(){
@@ -823,13 +825,13 @@ function importProductsExcel(e){
   reader.readAsArrayBuffer(file);
 }
 /* ============ MOVEMENTS ============ */
-let mvFilter={type:"all",product:"all",location:""};
+let mvFilter={type:"all",q:"",location:""};
 function renderMovements(){
   const u=currentUser();
   const c=state.settings.cols.movements;
   const items=state.movements.filter(m=>{
     if(mvFilter.type!=="all"&&m.type!==mvFilter.type)return false;
-    if(mvFilter.product!=="all"&&m.product_id!==mvFilter.product)return false;
+    if(mvFilter.q&&!matchProduct({code:m.product_code,name:m.product_name,description:m.reason,location:m.target_location},mvFilter.q))return false;
     if(mvFilter.location&&!(m.target_location||"").toLowerCase().includes(mvFilter.location.toLowerCase()))return false;
     return true;
   }).sort((a,b)=>b.happened_at.localeCompare(a.happened_at));
@@ -840,19 +842,19 @@ function renderMovements(){
     </div>
     <div class="card p-4 mb-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
       <select class="input" onchange="mvFilter.type=this.value;renderMovements()"><option value="all">Tüm Tipler</option><option value="in" ${mvFilter.type==="in"?"selected":""}>Giriş</option><option value="out" ${mvFilter.type==="out"?"selected":""}>Çıkış</option></select>
-      <select class="input" onchange="mvFilter.product=this.value;renderMovements()"><option value="all">Tüm Ürünler</option>${state.products.map(p=>`<option value="${p.id}" ${mvFilter.product===p.id?"selected":""}>${p.code} — ${p.name}</option>`).join("")}</select>
+      <input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${mvFilter.q}" oninput="mvFilter.q=this.value;renderMovements()" data-mv-search />
       <input class="input" placeholder="Lokasyon ara..." value="${mvFilter.location}" oninput="mvFilter.location=this.value;renderMovements()" />
     </div>
     <div class="card overflow-x-auto"><table>
       <thead><tr>
-        ${c.date?"<th>Tarih</th>":""}${c.user?"<th>Kullanıcı</th>":""}${c.product?"<th>Ürün</th>":""}
+        ${c.date?"<th>Tarih</th>":""}${c.user?"<th>Kullanıcı</th>":""}${c.product_code?"<th>Ürün Kodu</th>":""}${c.product_name?"<th>Ürün Adı</th>":""}
         ${c.type?"<th>Tip</th>":""}${c.quantity?`<th class="text-right">Miktar</th>`:""}
         ${c.location?"<th>Lokasyon</th>":""}${c.reason?"<th>Sebep</th>":""}<th></th>
       </tr></thead>
       <tbody>${items.length?items.map(m=>`<tr>
         ${c.date?`<td class="text-xs text-slate-500">${fmtDate(m.happened_at)}</td>`:""}
         ${c.user?`<td>${m.user_name}</td>`:""}
-        ${c.product?`<td><span class="mono text-xs mr-2">${m.product_code}</span>${m.product_name}</td>`:""}
+        ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td>${m.product_name}</td>`:""}
         ${c.type?`<td>${m.type==="in"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`}</td>`:""}
         ${c.quantity?`<td class="text-right mono font-semibold">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td>`:""}
         ${c.location?`<td>${m.target_location||"—"}</td>`:""}
@@ -962,14 +964,14 @@ function renderReports(){
     </div>
     <div class="card overflow-x-auto"><table>
       <thead><tr>
-        ${c.date?"<th>Tarih</th>":""}${c.user?"<th>Kullanıcı</th>":""}${c.product?"<th>Ürün</th>":""}
+        ${c.date?"<th>Tarih</th>":""}${c.user?"<th>Kullanıcı</th>":""}${c.product_code?"<th>Ürün Kodu</th>":""}${c.product_name?"<th>Ürün Adı</th>":""}
         ${c.type?"<th>Tip</th>":""}${c.quantity?`<th class="text-right">Miktar</th>`:""}
         ${c.location?"<th>Lokasyon</th>":""}${c.reason?"<th>Sebep</th>":""}
       </tr></thead>
       <tbody>${items.length?items.map(m=>`<tr>
         ${c.date?`<td class="text-xs">${fmtDate(m.happened_at)}</td>`:""}
         ${c.user?`<td>${m.user_name}</td>`:""}
-        ${c.product?`<td><span class="mono text-xs mr-2">${m.product_code}</span>${m.product_name}</td>`:""}
+        ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td>${m.product_name}</td>`:""}
         ${c.type?`<td>${m.type==="in"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`}</td>`:""}
         ${c.quantity?`<td class="text-right mono font-semibold">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td>`:""}
         ${c.location?`<td>${m.target_location||"—"}</td>`:""}
@@ -1008,8 +1010,8 @@ function renderWidgets(){
   const mLabels={dashboard:"Panel",products:"Ürünler",movements:"Stok Hareketleri",reports:"Raporlar"};
   const cLabels={
     products:{code:"Kod",name:"Ürün Adı",category:"Kategori",quantity:"Miktar",critical:"Kritik",unit_price:"Birim Fiyat",total_value:"Toplam Değer"},
-    movements:{date:"Tarih",user:"Kullanıcı",product:"Ürün",type:"Tip",quantity:"Miktar",location:"Lokasyon",reason:"Sebep"},
-    reports:{date:"Tarih",user:"Kullanıcı",product:"Ürün",type:"Tip",quantity:"Miktar",location:"Lokasyon",reason:"Sebep"}
+    movements:{date:"Tarih",user:"Kullanıcı",product_code:"Ürün Kodu",product_name:"Ürün Adı",type:"Tip",quantity:"Miktar",location:"Lokasyon",reason:"Sebep"},
+    reports:{date:"Tarih",user:"Kullanıcı",product_code:"Ürün Kodu",product_name:"Ürün Adı",type:"Tip",quantity:"Miktar",location:"Lokasyon",reason:"Sebep"}
   };
   const w=state.settings.widgets,m=state.settings.menus,cols=state.settings.cols;
   const row=(label,checked,handler)=>`<div class="flex items-center justify-between p-3 border border-slate-200 rounded-md"><label>${label}</label><label class="toggle"><input type="checkbox" ${checked?"checked":""} onchange="${handler}"><span class="toggle-slider"></span></label></div>`;

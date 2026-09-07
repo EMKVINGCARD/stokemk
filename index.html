@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Vincard Stok Takip — GitHub Sync</title>
+<title>EMK Stok Takip — GitHub Sync</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
@@ -74,7 +74,7 @@
   <div class="w-full max-w-lg">
     <div class="flex items-center gap-3 mb-6 justify-center">
       <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl">V</div>
-      <div><h1 class="text-2xl font-bold">Vincard</h1><p class="text-xs text-slate-500 -mt-0.5">GitHub Sync — İlk Kurulum</p></div>
+      <div><h1 class="text-2xl font-bold">EMK</h1><p class="text-xs text-slate-500 -mt-0.5">GitHub Sync — İlk Kurulum</p></div>
     </div>
     <div class="card p-8 shadow-xl">
       <h2 class="text-xl font-semibold mb-1">GitHub Bağlantısı</h2>
@@ -101,7 +101,7 @@
   <div class="w-full max-w-md">
     <div class="flex items-center gap-3 mb-8 justify-center">
       <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center text-xl">V</div>
-      <div><h1 class="text-2xl font-bold">Vincard</h1><p class="text-xs text-slate-500 -mt-0.5">Stok Takip — GitHub Sync</p></div>
+      <div><h1 class="text-2xl font-bold">EMK</h1><p class="text-xs text-slate-500 -mt-0.5">Stok Takip — GitHub Sync</p></div>
     </div>
     <div class="card p-8 shadow-xl">
       <h2 class="text-xl font-semibold">Giriş Yap</h2>
@@ -123,7 +123,7 @@
   <aside class="w-64 shrink-0 bg-white border-r border-slate-200 flex flex-col">
     <div class="h-16 px-5 flex items-center gap-2 border-b border-slate-200">
       <div class="w-9 h-9 rounded-lg bg-blue-600 text-white flex items-center justify-center">V</div>
-      <div><div class="font-semibold">Vincard</div><div class="text-xs text-slate-500">Stok Takip</div></div>
+      <div><div class="font-semibold">EMK</div><div class="text-xs text-slate-500">Stok Takip</div></div>
     </div>
     <nav class="flex-1 p-3 space-y-1" id="navMenu"></nav>
     <div class="p-3 border-t border-slate-200 space-y-2">
@@ -139,7 +139,7 @@
 <div class="modal-bg" id="modalBg" onclick="if(event.target===this)closeModal()"><div class="modal p-6" id="modalBody"></div></div>
 <script>
 /* =====================================================================
-   VINCARD STOK TAKİP — GitHub Sync (tek dosya)
+   EMK STOK TAKİP — GitHub Sync (tek dosya)
    ===================================================================== */
 const GH_CONFIG_KEY = "vincard_gh_config";
 const GH_TOKEN_KEY = "vincard_gh_token";
@@ -186,7 +186,7 @@ function seed(){
     products:[],
     movements:[],
     audit_log:[],
-    settings:mergeDefaults({app_title:"Vincard Stok Takip",primary_color:"#2563EB"})
+    settings:mergeDefaults({app_title:"EMK Stok Takip",primary_color:"#2563EB"})
   };
 }
 function hashPw(pw){ try { return dcodeIO.bcrypt.hashSync(String(pw), 10); } catch(e){ return String(pw); } }
@@ -1150,7 +1150,7 @@ function renderBackups(){
       </div>
     </div>`;
 }
-function downloadBackup(){const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`vincard-yedek-${new Date().toISOString().slice(0,10)}.json`;a.click();toast("Yedek indirildi");}
+function downloadBackup(){const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`EMK-yedek-${new Date().toISOString().slice(0,10)}.json`;a.click();toast("Yedek indirildi");}
 function restoreBackup(e){
   const f=e.target.files[0]; if(!f) return;
   const r=new FileReader();

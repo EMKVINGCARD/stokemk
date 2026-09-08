@@ -6003,12 +6003,12 @@
       "category_id": "id-qv7rf7gxmtl7q19g",
       "unit": "adet",
       "quantity": 37,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.218Z",
-      "updated_at": "2026-09-03T09:15:18.296Z"
+      "updated_at": "2026-09-08T09:17:51.243Z"
     },
     {
       "id": "id-2ntwnk05mtl9kenv",
@@ -16393,6 +16393,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:12:22.168Z"
+    },
+    {
+      "id": "id-wzzdakjgmtsgi58r",
+      "action": "Ürün güncellendi",
+      "product_id": "id-3hretxdrmtl9kenu",
+      "product_code": "YOK",
+      "product_name": "SHIP ROZETSİZ SATIN CHROME",
+      "before": {
+        "id": "id-3hretxdrmtl9kenu",
+        "code": "YOK",
+        "name": "SHIP ROZETSİZ SATIN CHROME",
+        "category_id": "id-qv7rf7gxmtl7q19g",
+        "unit": "adet",
+        "quantity": 37,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.218Z",
+        "updated_at": "2026-09-03T09:15:18.296Z"
+      },
+      "after": {
+        "id": "id-3hretxdrmtl9kenu",
+        "code": "YOK",
+        "name": "SHIP ROZETSİZ SATIN CHROME",
+        "category_id": "id-qv7rf7gxmtl7q19g",
+        "unit": "adet",
+        "quantity": 37,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.218Z",
+        "updated_at": "2026-09-08T09:17:51.243Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:17:51.243Z"
     }
   ]
 }

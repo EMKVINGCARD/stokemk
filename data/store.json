@@ -3465,12 +3465,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 15,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB ADB 4.5V 28MM LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-03T08:29:16.176Z"
+      "updated_at": "2026-09-08T08:03:50.313Z"
     },
     {
       "id": "id-oj8bkmtxmtl9kemp",
@@ -10031,6 +10031,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:03:47.472Z"
+    },
+    {
+      "id": "id-h42cy181mtsduyll",
+      "action": "Ürün güncellendi",
+      "product_id": "id-kjmr5eg6mtl9kemo",
+      "product_code": "4813994A13",
+      "product_name": "ANSI 28MM 3-SW ADB LH GÖMME",
+      "before": {
+        "id": "id-kjmr5eg6mtl9kemo",
+        "code": "4813994A13",
+        "name": "ANSI 28MM 3-SW ADB LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB ADB 4.5V 28MM LH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-03T08:29:16.176Z"
+      },
+      "after": {
+        "id": "id-kjmr5eg6mtl9kemo",
+        "code": "4813994A13",
+        "name": "ANSI 28MM 3-SW ADB LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB ADB 4.5V 28MM LH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-08T08:03:50.313Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:03:50.313Z"
     }
   ]
 }

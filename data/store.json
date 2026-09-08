@@ -411,6 +411,11 @@
       "id": "id-i6wpkoofmtse5iu0",
       "name": "EXIT BUTON",
       "color": "#2563eb"
+    },
+    {
+      "id": "id-yb9e13sumtsewvh0",
+      "name": "AKSESUAR",
+      "color": "#2563eb"
     }
   ],
   "locations": [

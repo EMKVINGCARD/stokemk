@@ -2695,12 +2695,12 @@
       "category_id": "id-esaw1eknmtk34t8n",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "PMS CONVERTER 4020",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:04:38.523Z"
     },
     {
       "id": "id-33lsxo47mtl9kemh",
@@ -14784,6 +14784,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:04:31.703Z"
+    },
+    {
+      "id": "id-jl7gz47dmtsbqu0r",
+      "action": "Ürün güncellendi",
+      "product_id": "id-0aknoa0umtl9kemh",
+      "product_code": "P001065401-001-001",
+      "product_name": "PMS CONVERTER 4020",
+      "before": {
+        "id": "id-0aknoa0umtl9kemh",
+        "code": "P001065401-001-001",
+        "name": "PMS CONVERTER 4020",
+        "category_id": "id-esaw1eknmtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "PMS CONVERTER 4020",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-0aknoa0umtl9kemh",
+        "code": "P001065401-001-001",
+        "name": "PMS CONVERTER 4020",
+        "category_id": "id-esaw1eknmtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "PMS CONVERTER 4020",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:04:38.523Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:04:38.523Z"
     }
   ],
   "movement_audit": [

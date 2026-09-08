@@ -693,12 +693,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 5,
+      "critical_level": 4,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYFOB MIFARE CLASSİC 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:26:40.211Z"
+      "updated_at": "2026-09-08T06:27:43.615Z"
     },
     {
       "id": "id-lzlbl4v2mtl9kemb",
@@ -8910,6 +8910,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:27:38.315Z"
+    },
+    {
+      "id": "id-aq8ruzrgmtsafczk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-wzag7c99mtl9kemb",
+      "product_code": "4824200A",
+      "product_name": "RFID KEYFOB 4K BEYAZ",
+      "before": {
+        "id": "id-wzag7c99mtl9kemb",
+        "code": "4824200A",
+        "name": "RFID KEYFOB 4K BEYAZ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSİC 4K WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:26:40.211Z"
+      },
+      "after": {
+        "id": "id-wzag7c99mtl9kemb",
+        "code": "4824200A",
+        "name": "RFID KEYFOB 4K BEYAZ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 4,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSİC 4K WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:27:43.615Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:27:43.616Z"
     }
   ],
   "movement_audit": [

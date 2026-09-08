@@ -6955,12 +6955,12 @@
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, RIGHT ANTBRASSLIGHT",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:28:19.307Z"
     },
     {
       "id": "id-l0h2z3e8mtl9keog",
@@ -9551,6 +9551,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:28:16.867Z"
+    },
+    {
+      "id": "id-7mc6zyy0mtsgvluz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-t2vkllp7mtl9keog",
+      "product_code": "P001010191-002-225",
+      "product_name": "ADB A28 KARŞILIK RH ANTIK BRASS LIGHTER",
+      "before": {
+        "id": "id-t2vkllp7mtl9keog",
+        "code": "P001010191-002-225",
+        "name": "ADB A28 KARŞILIK RH ANTIK BRASS LIGHTER",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, RIGHT ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-t2vkllp7mtl9keog",
+        "code": "P001010191-002-225",
+        "name": "ADB A28 KARŞILIK RH ANTIK BRASS LIGHTER",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, RIGHT ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:28:19.307Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:28:19.307Z"
     }
   ]
 }

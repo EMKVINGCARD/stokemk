@@ -4421,12 +4421,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 13,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K POLCHROME WO/LOGO 34MM",
       "created_at": "2026-09-03T08:29:16.189Z",
-      "updated_at": "2026-09-03T08:29:16.189Z"
+      "updated_at": "2026-09-08T08:50:30.047Z"
     },
     {
       "id": "id-21ub7vezmtl9ken1",
@@ -14227,6 +14227,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:50:26.136Z"
+    },
+    {
+      "id": "id-m1yui2rkmtsfiyvz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-bzmtaok7mtl9ken1",
+      "product_code": "4812635045V34",
+      "product_name": "34MM POLISH CHROME",
+      "before": {
+        "id": "id-bzmtaok7mtl9ken1",
+        "code": "4812635045V34",
+        "name": "34MM POLISH CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 13,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K POLCHROME WO/LOGO 34MM",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-03T08:29:16.189Z"
+      },
+      "after": {
+        "id": "id-bzmtaok7mtl9ken1",
+        "code": "4812635045V34",
+        "name": "34MM POLISH CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 13,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K POLCHROME WO/LOGO 34MM",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-08T08:50:30.047Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:50:30.047Z"
     }
   ]
 }

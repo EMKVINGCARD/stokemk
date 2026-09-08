@@ -1981,12 +1981,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 31,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FLEX.CABLE SENTINEL PHII/XTRA PHII, 25.5CM X 1.3CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:54:14.347Z"
     },
     {
       "id": "id-tcnrdizlmtl9kemf",
@@ -12721,6 +12721,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:54:07.354Z"
+    },
+    {
+      "id": "id-3l5n2bgymtsbdgej",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fapruuwnmtl9kemf",
+      "product_code": "253-8051",
+      "product_name": "12 POLE FLEXI PH2 İÇİN",
+      "before": {
+        "id": "id-fapruuwnmtl9kemf",
+        "code": "253-8051",
+        "name": "12 POLE FLEXI PH2 İÇİN",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 31,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "FLEX.CABLE SENTINEL PHII/XTRA PHII, 25.5CM X 1.3CM",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-fapruuwnmtl9kemf",
+        "code": "253-8051",
+        "name": "12 POLE FLEXI PH2 İÇİN",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 31,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "FLEX.CABLE SENTINEL PHII/XTRA PHII, 25.5CM X 1.3CM",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:54:14.347Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:54:14.347Z"
     }
   ],
   "movement_audit": [

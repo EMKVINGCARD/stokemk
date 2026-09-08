@@ -7417,12 +7417,12 @@
       "category_id": "id-5ibf2x3imtk34t8p",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Lock front ANSI wo/aux latch 28mm Black T",
       "created_at": "2026-09-03T08:29:16.244Z",
-      "updated_at": "2026-09-03T08:29:16.244Z"
+      "updated_at": "2026-09-08T09:31:41.907Z"
     },
     {
       "id": "id-ou1rlc93mtl9keok",
@@ -10843,6 +10843,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:31:38.171Z"
+    },
+    {
+      "id": "id-ql6rxlbnmtsgzy6r",
+      "action": "Ürün güncellendi",
+      "product_id": "id-jysh33lcmtl9keok",
+      "product_code": "470113190",
+      "product_name": "1021 FRONT BLACK TITANIUM",
+      "before": {
+        "id": "id-jysh33lcmtl9keok",
+        "code": "470113190",
+        "name": "1021 FRONT BLACK TITANIUM",
+        "category_id": "id-5ibf2x3imtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Lock front ANSI wo/aux latch 28mm Black T",
+        "created_at": "2026-09-03T08:29:16.244Z",
+        "updated_at": "2026-09-03T08:29:16.244Z"
+      },
+      "after": {
+        "id": "id-jysh33lcmtl9keok",
+        "code": "470113190",
+        "name": "1021 FRONT BLACK TITANIUM",
+        "category_id": "id-5ibf2x3imtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Lock front ANSI wo/aux latch 28mm Black T",
+        "created_at": "2026-09-03T08:29:16.244Z",
+        "updated_at": "2026-09-08T09:31:41.907Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:31:41.907Z"
     }
   ]
 }

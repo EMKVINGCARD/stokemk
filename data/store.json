@@ -7011,12 +7011,12 @@
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI DEADBOLT ONLY 28MM BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:28:53.971Z"
     },
     {
       "id": "id-bs5ttkscmtl9keog",
@@ -9741,6 +9741,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:28:46.523Z"
+    },
+    {
+      "id": "id-r9cj4e0emtsgwclv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-pp927heamtl9keog",
+      "product_code": "470116090",
+      "product_name": "A28 STD FRONT BLACK TITANIUM PVD",
+      "before": {
+        "id": "id-pp927heamtl9keog",
+        "code": "470116090",
+        "name": "A28 STD FRONT BLACK TITANIUM PVD",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI DEADBOLT ONLY 28MM BLACK T",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-pp927heamtl9keog",
+        "code": "470116090",
+        "name": "A28 STD FRONT BLACK TITANIUM PVD",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI DEADBOLT ONLY 28MM BLACK T",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:28:53.971Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:28:53.971Z"
     }
   ]
 }

@@ -5653,12 +5653,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.209Z",
-      "updated_at": "2026-09-03T09:14:38.495Z"
+      "updated_at": "2026-09-08T08:44:58.360Z"
     },
     {
       "id": "id-zk8qdlq3mtl9kenm",
@@ -10427,6 +10427,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:44:55.836Z"
+    },
+    {
+      "id": "id-ippj8423mtsfbuyg",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fxehqbchmtl9kenl",
+      "product_code": "YOK",
+      "product_name": "WING LH SATIN BRASS SET",
+      "before": {
+        "id": "id-fxehqbchmtl9kenl",
+        "code": "YOK",
+        "name": "WING LH SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.209Z",
+        "updated_at": "2026-09-03T09:14:38.495Z"
+      },
+      "after": {
+        "id": "id-fxehqbchmtl9kenl",
+        "code": "YOK",
+        "name": "WING LH SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.209Z",
+        "updated_at": "2026-09-08T08:44:58.360Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:44:58.360Z"
     }
   ]
 }

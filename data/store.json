@@ -1883,12 +1883,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 2,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:48:13.473Z"
+      "updated_at": "2026-09-08T07:49:13.897Z"
     },
     {
       "id": "id-xkl00ccdmtl9kemf",
@@ -8117,6 +8117,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:49:09.937Z"
+    },
+    {
+      "id": "id-6f621awkmtsdc6cp",
+      "action": "Ürün güncellendi",
+      "product_id": "id-oj6r21ykmtl9kemf",
+      "product_code": "EOL",
+      "product_name": "IR CLASSIC KONTAK KART",
+      "before": {
+        "id": "id-oj6r21ykmtl9kemf",
+        "code": "EOL",
+        "name": "IR CLASSIC KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:48:13.473Z"
+      },
+      "after": {
+        "id": "id-oj6r21ykmtl9kemf",
+        "code": "EOL",
+        "name": "IR CLASSIC KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:49:13.897Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:49:13.897Z"
     }
   ]
 }

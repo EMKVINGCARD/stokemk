@@ -5681,12 +5681,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Handle on outside rose Signature Black T Wing L/ Handle on inside rose Signature Black T Wing R",
       "created_at": "2026-09-03T08:29:16.210Z",
-      "updated_at": "2026-09-03T08:29:16.210Z"
+      "updated_at": "2026-09-08T08:45:03.587Z"
     },
     {
       "id": "id-wieysallmtl9kenm",
@@ -10503,6 +10503,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:01.227Z"
+    },
+    {
+      "id": "id-vym091w0mtsfbyzn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-awbdu866mtl9kenm",
+      "product_code": "481633390AA/481633590AB",
+      "product_name": "WING LH BLACK TITANUM  SET",
+      "before": {
+        "id": "id-awbdu866mtl9kenm",
+        "code": "481633390AA/481633590AB",
+        "name": "WING LH BLACK TITANUM  SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Handle on outside rose Signature Black T Wing L/ Handle on inside rose Signature Black T Wing R",
+        "created_at": "2026-09-03T08:29:16.210Z",
+        "updated_at": "2026-09-03T08:29:16.210Z"
+      },
+      "after": {
+        "id": "id-awbdu866mtl9kenm",
+        "code": "481633390AA/481633590AB",
+        "name": "WING LH BLACK TITANUM  SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Handle on outside rose Signature Black T Wing L/ Handle on inside rose Signature Black T Wing R",
+        "created_at": "2026-09-03T08:29:16.210Z",
+        "updated_at": "2026-09-08T08:45:03.587Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:03.587Z"
     }
   ]
 }

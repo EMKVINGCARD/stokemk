@@ -5933,12 +5933,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T FU.ANSI / HANDLE ON INSIDE ROSE SIGNATURE BLACK T FU.ANSI",
       "created_at": "2026-09-03T08:29:16.216Z",
-      "updated_at": "2026-09-03T08:29:16.216Z"
+      "updated_at": "2026-09-08T08:46:04.420Z"
     },
     {
       "id": "id-xu6vsb84mtl9kens",
@@ -11263,6 +11263,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:02.005Z"
+    },
+    {
+      "id": "id-7ftg7kx8mtsfd9xg",
+      "action": "Ürün güncellendi",
+      "product_id": "id-lkrx4njumtl9kens",
+      "product_code": "481633390AD / 481633590AD",
+      "product_name": "FUNCTIONAL ANSI BLACK TITANIUM SET",
+      "before": {
+        "id": "id-lkrx4njumtl9kens",
+        "code": "481633390AD / 481633590AD",
+        "name": "FUNCTIONAL ANSI BLACK TITANIUM SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T FU.ANSI / HANDLE ON INSIDE ROSE SIGNATURE BLACK T FU.ANSI",
+        "created_at": "2026-09-03T08:29:16.216Z",
+        "updated_at": "2026-09-03T08:29:16.216Z"
+      },
+      "after": {
+        "id": "id-lkrx4njumtl9kens",
+        "code": "481633390AD / 481633590AD",
+        "name": "FUNCTIONAL ANSI BLACK TITANIUM SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T FU.ANSI / HANDLE ON INSIDE ROSE SIGNATURE BLACK T FU.ANSI",
+        "created_at": "2026-09-03T08:29:16.216Z",
+        "updated_at": "2026-09-08T08:46:04.420Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:04.420Z"
     }
   ]
 }

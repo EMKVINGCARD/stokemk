@@ -5429,12 +5429,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE USANTDARK 8MM WO/SEAL",
       "created_at": "2026-09-03T08:29:16.201Z",
-      "updated_at": "2026-09-03T08:29:16.201Z"
+      "updated_at": "2026-09-08T08:46:37.760Z"
     },
     {
       "id": "id-5f3u1tckmtl9kene",
@@ -11605,6 +11605,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:34.228Z"
+    },
+    {
+      "id": "id-d2w4ssuxmtsfdznk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-uyfv8xo0mtl9kend",
+      "product_code": "482191630",
+      "product_name": "8MM RING USANTIK DARK",
+      "before": {
+        "id": "id-uyfv8xo0mtl9kend",
+        "code": "482191630",
+        "name": "8MM RING USANTIK DARK",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE USANTDARK 8MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-03T08:29:16.201Z"
+      },
+      "after": {
+        "id": "id-uyfv8xo0mtl9kend",
+        "code": "482191630",
+        "name": "8MM RING USANTIK DARK",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE USANTDARK 8MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-08T08:46:37.760Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:37.760Z"
     }
   ]
 }

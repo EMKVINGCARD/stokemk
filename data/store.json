@@ -2849,12 +2849,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:06:20.050Z"
     },
     {
       "id": "id-q1kjtgsdmtl9kemh",
@@ -15202,6 +15202,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:06:13.822Z"
+    },
+    {
+      "id": "id-ss2qigvhmtsbt0cy",
+      "action": "Ürün güncellendi",
+      "product_id": "id-bfkoax7dmtl9kemh",
+      "product_code": "EOL",
+      "product_name": "VISION MOC PCB + READER",
+      "before": {
+        "id": "id-bfkoax7dmtl9kemh",
+        "code": "EOL",
+        "name": "VISION MOC PCB + READER",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-bfkoax7dmtl9kemh",
+        "code": "EOL",
+        "name": "VISION MOC PCB + READER",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:06:20.050Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:06:20.050Z"
     }
   ],
   "movement_audit": [

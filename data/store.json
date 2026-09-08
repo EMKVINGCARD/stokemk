@@ -2387,12 +2387,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "INSIDE LIGHT INFINITY/SENTINEL II PHIII",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:01:44.278Z"
     },
     {
       "id": "id-vzb6aizkmtl9kemh",
@@ -13872,6 +13872,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:01:37.730Z"
+    },
+    {
+      "id": "id-6fyy12txmtsbn3km",
+      "action": "Ürün güncellendi",
+      "product_id": "id-s7xf73m7mtl9kemh",
+      "product_code": "270-042",
+      "product_name": "KASA İÇİ AYDINLATMA LED",
+      "before": {
+        "id": "id-s7xf73m7mtl9kemh",
+        "code": "270-042",
+        "name": "KASA İÇİ AYDINLATMA LED",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "INSIDE LIGHT INFINITY/SENTINEL II PHIII",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-s7xf73m7mtl9kemh",
+        "code": "270-042",
+        "name": "KASA İÇİ AYDINLATMA LED",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "INSIDE LIGHT INFINITY/SENTINEL II PHIII",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:01:44.278Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:01:44.278Z"
     }
   ],
   "movement_audit": [

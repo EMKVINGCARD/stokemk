@@ -4701,12 +4701,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 58MM",
       "created_at": "2026-09-03T08:29:16.191Z",
-      "updated_at": "2026-09-03T08:29:16.191Z"
+      "updated_at": "2026-09-08T08:49:37.560Z"
     },
     {
       "id": "id-2c1hxi52mtl9ken4",
@@ -13467,6 +13467,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:34.712Z"
+    },
+    {
+      "id": "id-qn877q2jmtsfhue0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-d01jtuummtl9ken3",
+      "product_code": "4812635015V58",
+      "product_name": "58MM SATIN CHROME",
+      "before": {
+        "id": "id-d01jtuummtl9ken3",
+        "code": "4812635015V58",
+        "name": "58MM SATIN CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 58MM",
+        "created_at": "2026-09-03T08:29:16.191Z",
+        "updated_at": "2026-09-03T08:29:16.191Z"
+      },
+      "after": {
+        "id": "id-d01jtuummtl9ken3",
+        "code": "4812635015V58",
+        "name": "58MM SATIN CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 58MM",
+        "created_at": "2026-09-03T08:29:16.191Z",
+        "updated_at": "2026-09-08T08:49:37.560Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:37.560Z"
     }
   ]
 }

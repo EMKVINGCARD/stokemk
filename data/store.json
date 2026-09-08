@@ -791,12 +791,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 5,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLUE 74MM",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:28:35.475Z"
+      "updated_at": "2026-09-08T07:40:02.181Z"
     },
     {
       "id": "id-ufn6d4bvmtl9kemb",
@@ -15778,6 +15778,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:39:55.577Z"
+    },
+    {
+      "id": "id-81kuf61omtsd0cn9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vfozl9mpmtl9kemb",
+      "product_code": "P001057464-001-403",
+      "product_name": "RFID WRİSTBAND SİLİKON 4K MAVİ 74MM",
+      "before": {
+        "id": "id-vfozl9mpmtl9kemb",
+        "code": "P001057464-001-403",
+        "name": "RFID WRİSTBAND SİLİKON 4K MAVİ 74MM",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLUE 74MM",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:35.475Z"
+      },
+      "after": {
+        "id": "id-vfozl9mpmtl9kemb",
+        "code": "P001057464-001-403",
+        "name": "RFID WRİSTBAND SİLİKON 4K MAVİ 74MM",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLUE 74MM",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T07:40:02.181Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:40:02.181Z"
     }
   ],
   "movement_audit": [

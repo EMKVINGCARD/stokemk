@@ -477,6 +477,12 @@
       "name": "Renaissance Polat İstanbul",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-izj0czjgmtsjxv7e",
+      "name": "The Bank Hotel",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3832,13 +3838,13 @@
       "name": "LCA 6343 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 25,
+      "quantity": 22,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-08T08:31:05.629Z"
+      "updated_at": "2026-09-08T10:54:03.578Z"
     },
     {
       "id": "id-2y8fpfaamtl9kems",
@@ -7943,6 +7949,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-08T09:23:18.565Z",
       "created_at": "2026-09-08T09:23:18.565Z"
+    },
+    {
+      "id": "id-v69umowxmtsjxv7e",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 3,
+      "target_location": "The Bank Hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-08T10:54:03.578Z",
+      "created_at": "2026-09-08T10:54:03.578Z"
     }
   ],
   "settings": {
@@ -11033,6 +11053,23 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:32:36.978Z"
+    }
+  ],
+  "movement_audit": [
+    {
+      "id": "id-f23e8w25mtsjxv7e",
+      "action": "Stok çıkışı",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 3,
+      "target_location": "The Bank Hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-08T10:54:03.578Z",
+      "extra": null
     }
   ]
 }

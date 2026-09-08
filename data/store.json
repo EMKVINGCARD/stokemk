@@ -1701,12 +1701,12 @@
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.166Z",
-      "updated_at": "2026-09-03T09:07:56.180Z"
+      "updated_at": "2026-09-08T06:50:31.295Z"
     },
     {
       "id": "id-7d5q57lumtl9keme",
@@ -11961,6 +11961,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:50:28.371Z"
+    },
+    {
+      "id": "id-kltb9x5cmtsb8oan",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6l4tmv30mtl9keme",
+      "product_code": "YOK",
+      "product_name": "DOOR RETAINER M1 CHROME (YENI PARLAK)",
+      "before": {
+        "id": "id-6l4tmv30mtl9keme",
+        "code": "YOK",
+        "name": "DOOR RETAINER M1 CHROME (YENI PARLAK)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-03T09:07:56.180Z"
+      },
+      "after": {
+        "id": "id-6l4tmv30mtl9keme",
+        "code": "YOK",
+        "name": "DOOR RETAINER M1 CHROME (YENI PARLAK)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-08T06:50:31.295Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:50:31.295Z"
     }
   ],
   "movement_audit": [

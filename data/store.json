@@ -5345,12 +5345,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.200Z",
-      "updated_at": "2026-09-03T09:13:42.876Z"
+      "updated_at": "2026-09-08T08:46:54.948Z"
     },
     {
       "id": "id-iy7a37j4mtl9kenc",
@@ -11833,6 +11833,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:52.792Z"
+    },
+    {
+      "id": "id-ufjpn0ncmtsfecx0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-uwy39g6xmtl9kenc",
+      "product_code": "YOK",
+      "product_name": "21,5MM RING ANTIK BRASS",
+      "before": {
+        "id": "id-uwy39g6xmtl9kenc",
+        "code": "YOK",
+        "name": "21,5MM RING ANTIK BRASS",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.200Z",
+        "updated_at": "2026-09-03T09:13:42.876Z"
+      },
+      "after": {
+        "id": "id-uwy39g6xmtl9kenc",
+        "code": "YOK",
+        "name": "21,5MM RING ANTIK BRASS",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.200Z",
+        "updated_at": "2026-09-08T08:46:54.948Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:54.948Z"
     }
   ]
 }

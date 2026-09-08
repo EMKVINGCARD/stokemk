@@ -6577,12 +6577,12 @@
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE LIGHTBRZ PLASTIC END",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-03T08:29:16.238Z"
+      "updated_at": "2026-09-08T09:25:55.727Z"
     },
     {
       "id": "id-7vg3l3z2mtl9keoe",
@@ -8563,6 +8563,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:25:51.223Z"
+    },
+    {
+      "id": "id-wsbqei53mtsgsj2n",
+      "action": "Ürün güncellendi",
+      "product_id": "id-54yfzehqmtl9keoe",
+      "product_code": "481865905",
+      "product_name": "DB BUTONU COMPOZIT LIGHT BRONZE",
+      "before": {
+        "id": "id-54yfzehqmtl9keoe",
+        "code": "481865905",
+        "name": "DB BUTONU COMPOZIT LIGHT BRONZE",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE LIGHTBRZ PLASTIC END",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-03T08:29:16.238Z"
+      },
+      "after": {
+        "id": "id-54yfzehqmtl9keoe",
+        "code": "481865905",
+        "name": "DB BUTONU COMPOZIT LIGHT BRONZE",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE LIGHTBRZ PLASTIC END",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-08T09:25:55.727Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:25:55.727Z"
     }
   ]
 }

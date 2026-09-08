@@ -1967,12 +1967,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 12,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FLEX CABLE FROM CPU TO KEYPAD SENTINEL PH I,30CM X 1.875CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:54:07.354Z"
     },
     {
       "id": "id-fapruuwnmtl9kemf",
@@ -12683,6 +12683,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:53:58.862Z"
+    },
+    {
+      "id": "id-kihi4rxrmtsbdb0a",
+      "action": "Ürün güncellendi",
+      "product_id": "id-qwybrw4kmtl9kemf",
+      "product_code": "253-802",
+      "product_name": "14 POLE FLEXI PH1 İÇİN",
+      "before": {
+        "id": "id-qwybrw4kmtl9kemf",
+        "code": "253-802",
+        "name": "14 POLE FLEXI PH1 İÇİN",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "FLEX CABLE FROM CPU TO KEYPAD SENTINEL PH I,30CM X 1.875CM",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-qwybrw4kmtl9kemf",
+        "code": "253-802",
+        "name": "14 POLE FLEXI PH1 İÇİN",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "FLEX CABLE FROM CPU TO KEYPAD SENTINEL PH I,30CM X 1.875CM",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:54:07.354Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:54:07.354Z"
     }
   ],
   "movement_audit": [

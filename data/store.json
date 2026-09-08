@@ -2583,12 +2583,12 @@
       "category_id": "id-3qhspgo7mtk34t8n",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "KINGSGATE SAFE WIDE LH, BLACK, INSIDE LIGHT",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:03:32.730Z"
     },
     {
       "id": "id-6g4sblksmtl9kemh",
@@ -14442,6 +14442,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:03:28.646Z"
+    },
+    {
+      "id": "id-z7st2zjmmtsbpf96",
+      "action": "Ürün güncellendi",
+      "product_id": "id-953rnte5mtl9kemh",
+      "product_code": "KGSW008",
+      "product_name": "KINGSGATE KGSWIDE LH",
+      "before": {
+        "id": "id-953rnte5mtl9kemh",
+        "code": "KGSW008",
+        "name": "KINGSGATE KGSWIDE LH",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "KINGSGATE SAFE WIDE LH, BLACK, INSIDE LIGHT",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-953rnte5mtl9kemh",
+        "code": "KGSW008",
+        "name": "KINGSGATE KGSWIDE LH",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "KINGSGATE SAFE WIDE LH, BLACK, INSIDE LIGHT",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:03:32.730Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:03:32.730Z"
     }
   ],
   "movement_audit": [

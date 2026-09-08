@@ -293,12 +293,20 @@ function mergeStates(local, remote){
   const mvMap = {};
   (remote.movements || []).forEach(m => mvMap[m.id] = m);
   (local.movements  || []).forEach(m => { if(!mvMap[m.id]) mvMap[m.id] = m; });
+  const auditMap = {};
+  (remote.audit_log || []).forEach(x => auditMap[x.id] = x);
+  (local.audit_log  || []).forEach(x => { if(!auditMap[x.id]) auditMap[x.id] = x; });
+  const movementAuditMap = {};
+  (remote.movement_audit || []).forEach(x => movementAuditMap[x.id] = x);
+  (local.movement_audit  || []).forEach(x => { if(!movementAuditMap[x.id]) movementAuditMap[x.id] = x; });
   return {
     users:      local.users      || remote.users      || [],
     categories: local.categories || remote.categories || [],
     locations:  local.locations  || remote.locations  || [],
     products:   local.products   || remote.products   || [],
     movements:  Object.values(mvMap).sort((a,b)=> (a.happened_at||"").localeCompare(b.happened_at||"")),
+    audit_log:  Object.values(auditMap).sort((a,b)=> (a.at||a.created_at||"").localeCompare(b.at||b.created_at||"")),
+    movement_audit: Object.values(movementAuditMap).sort((a,b)=> (a.created_at||"").localeCompare(b.created_at||"")),
     settings:   mergeDefaults(local.settings || remote.settings || {})
   };
 }
@@ -309,6 +317,8 @@ function normalizeState(s){
   s.locations = s.locations || [];
   s.products = s.products || [];
   s.movements = s.movements || [];
+  s.audit_log = s.audit_log || [];
+  s.movement_audit = s.movement_audit || [];
   s.settings = mergeDefaults(s.settings || {});
   return s;
 }

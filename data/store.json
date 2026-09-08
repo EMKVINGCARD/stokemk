@@ -4085,12 +4085,12 @@
       "category_id": "id-li2k7ztkmtk34t8o",
       "unit": "adet",
       "quantity": 18,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LCU 3301 4.5V MAG MOC/RC",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-09-03T08:29:16.181Z"
+      "updated_at": "2026-09-08T08:36:35.568Z"
     },
     {
       "id": "id-wewzrvgymtl9kemu",
@@ -9059,6 +9059,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:35:10.700Z"
+    },
+    {
+      "id": "id-lj2naodomtsf1301",
+      "action": "Ürün güncellendi",
+      "product_id": "id-typa1hiwmtl9kemt",
+      "product_code": "4816505",
+      "product_name": "MANYETİK LCU 3301 4.5V MOC/RC",
+      "before": {
+        "id": "id-typa1hiwmtl9kemt",
+        "code": "4816505",
+        "name": "MANYETİK LCU 3301 4.5V MOC/RC",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 3301 4.5V MAG MOC/RC",
+        "created_at": "2026-09-03T08:29:16.181Z",
+        "updated_at": "2026-09-03T08:29:16.181Z"
+      },
+      "after": {
+        "id": "id-typa1hiwmtl9kemt",
+        "code": "4816505",
+        "name": "MANYETİK LCU 3301 4.5V MOC/RC",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 3301 4.5V MAG MOC/RC",
+        "created_at": "2026-09-03T08:29:16.181Z",
+        "updated_at": "2026-09-08T08:36:35.568Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:36:35.569Z"
     }
   ]
 }

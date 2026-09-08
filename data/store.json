@@ -4953,12 +4953,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 43,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE PVD SATCHROME 14MM W/SEAL",
       "created_at": "2026-09-03T08:29:16.195Z",
-      "updated_at": "2026-09-03T08:29:16.195Z"
+      "updated_at": "2026-09-08T08:48:42.512Z"
     },
     {
       "id": "id-gc87dihqmtl9ken7",
@@ -12897,6 +12897,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:48:40.071Z"
+    },
+    {
+      "id": "id-rnb80p0dmtsfgnww",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fstq9e65mtl9ken7",
+      "product_code": "482191961",
+      "product_name": "14MM RING SATIN CHROME",
+      "before": {
+        "id": "id-fstq9e65mtl9ken7",
+        "code": "482191961",
+        "name": "14MM RING SATIN CHROME",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 43,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE PVD SATCHROME 14MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-03T08:29:16.195Z"
+      },
+      "after": {
+        "id": "id-fstq9e65mtl9ken7",
+        "code": "482191961",
+        "name": "14MM RING SATIN CHROME",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 43,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE PVD SATCHROME 14MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-08T08:48:42.512Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:48:42.512Z"
     }
   ]
 }

@@ -1253,12 +1253,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "SMART CABLE FOR EGRESS SWITCH",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:38:59.819Z"
+      "updated_at": "2026-09-08T07:43:11.669Z"
     },
     {
       "id": "id-y25lkwd7mtl9kemc",
@@ -16462,6 +16462,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:43:05.441Z"
+    },
+    {
+      "id": "id-7t94cuu2mtsd4eut",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ppz7klm4mtl9kemc",
+      "product_code": "4824777",
+      "product_name": "SMART CABLE FOR EGRESS SWITCH",
+      "before": {
+        "id": "id-ppz7klm4mtl9kemc",
+        "code": "4824777",
+        "name": "SMART CABLE FOR EGRESS SWITCH",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "SMART CABLE FOR EGRESS SWITCH",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:38:59.819Z"
+      },
+      "after": {
+        "id": "id-ppz7klm4mtl9kemc",
+        "code": "4824777",
+        "name": "SMART CABLE FOR EGRESS SWITCH",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SMART CABLE FOR EGRESS SWITCH",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T07:43:11.669Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:43:11.669Z"
     }
   ],
   "movement_audit": [

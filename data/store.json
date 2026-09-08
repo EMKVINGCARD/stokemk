@@ -3395,12 +3395,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW RH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-03T08:29:16.176Z"
+      "updated_at": "2026-09-08T08:03:09.313Z"
     },
     {
       "id": "id-l71zjod7mtl9kemo",
@@ -9803,6 +9803,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:02:54.533Z"
+    },
+    {
+      "id": "id-1ziedbkzmtsdu2yp",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ytwm8671mtl9kemo",
+      "product_code": "4813864B13",
+      "product_name": "ANSI 28MM 4-SW RH GÖMME",
+      "before": {
+        "id": "id-ytwm8671mtl9kemo",
+        "code": "4813864B13",
+        "name": "ANSI 28MM 4-SW RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW RH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-03T08:29:16.176Z"
+      },
+      "after": {
+        "id": "id-ytwm8671mtl9kemo",
+        "code": "4813864B13",
+        "name": "ANSI 28MM 4-SW RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW RH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-08T08:03:09.313Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:03:09.313Z"
     }
   ]
 }

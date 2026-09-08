@@ -7960,7 +7960,7 @@
       "low_stock_count": false,
       "today_movements_count": false,
       "low_stock_list": true,
-      "recent_additions": true,
+      "recent_additions": false,
       "valuable_products": false,
       "category_distribution": false
     },

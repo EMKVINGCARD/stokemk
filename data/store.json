@@ -2373,12 +2373,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "GEAR LOCKING BOLD SENTINEL/INFINITY",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T09:08:42.452Z"
+      "updated_at": "2026-09-08T07:01:18.134Z"
     },
     {
       "id": "id-s7xf73m7mtl9kemh",
@@ -13796,6 +13796,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:01:11.746Z"
+    },
+    {
+      "id": "id-rlf9anwamtsbmjef",
+      "action": "Ürün güncellendi",
+      "product_id": "id-hmy36svfmtl9kemh",
+      "product_code": "YOK",
+      "product_name": "SENTINEL DİŞLİ VE KANCA SETİ",
+      "before": {
+        "id": "id-hmy36svfmtl9kemh",
+        "code": "YOK",
+        "name": "SENTINEL DİŞLİ VE KANCA SETİ",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "GEAR LOCKING BOLD SENTINEL/INFINITY",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T09:08:42.452Z"
+      },
+      "after": {
+        "id": "id-hmy36svfmtl9kemh",
+        "code": "YOK",
+        "name": "SENTINEL DİŞLİ VE KANCA SETİ",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "GEAR LOCKING BOLD SENTINEL/INFINITY",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:01:18.134Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:01:18.135Z"
     }
   ],
   "movement_audit": [

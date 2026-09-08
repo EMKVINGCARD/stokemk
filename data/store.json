@@ -411,6 +411,11 @@
       "id": "id-i6wpkoofmtse5iu0",
       "name": "EXIT BUTON",
       "color": "#2563eb"
+    },
+    {
+      "id": "id-re34kni3mtsevyqs",
+      "name": "YOYO",
+      "color": "#2563eb"
     }
   ],
   "locations": [

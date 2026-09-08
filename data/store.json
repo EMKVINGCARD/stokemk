@@ -5387,12 +5387,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE SATCHROME 8MM WO/SEAL",
       "created_at": "2026-09-03T08:29:16.201Z",
-      "updated_at": "2026-09-03T08:29:16.201Z"
+      "updated_at": "2026-09-08T08:46:46.520Z"
     },
     {
       "id": "id-yje2oow8mtl9kend",
@@ -11719,6 +11719,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:43.584Z"
+    },
+    {
+      "id": "id-u5nr4lchmtsfe6ew",
+      "action": "Ürün güncellendi",
+      "product_id": "id-kd62ighwmtl9kend",
+      "product_code": "482191661",
+      "product_name": "8MM RING  SATIN CHROME",
+      "before": {
+        "id": "id-kd62ighwmtl9kend",
+        "code": "482191661",
+        "name": "8MM RING  SATIN CHROME",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE SATCHROME 8MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-03T08:29:16.201Z"
+      },
+      "after": {
+        "id": "id-kd62ighwmtl9kend",
+        "code": "482191661",
+        "name": "8MM RING  SATIN CHROME",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE SATCHROME 8MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-08T08:46:46.520Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:46.520Z"
     }
   ]
 }

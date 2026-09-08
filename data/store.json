@@ -4841,12 +4841,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K POLBRASS WO/LOGO 66MM",
       "created_at": "2026-09-03T08:29:16.194Z",
-      "updated_at": "2026-09-03T08:29:16.194Z"
+      "updated_at": "2026-09-08T08:49:07.871Z"
     },
     {
       "id": "id-kk3c6m8nmtl9ken6",
@@ -13087,6 +13087,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:05.380Z"
+    },
+    {
+      "id": "id-l69e2mezmtsfh7hb",
+      "action": "Ürün güncellendi",
+      "product_id": "id-n3hxzc02mtl9ken6",
+      "product_code": "4812635035V66",
+      "product_name": "66MM POLISH BRASS",
+      "before": {
+        "id": "id-n3hxzc02mtl9ken6",
+        "code": "4812635035V66",
+        "name": "66MM POLISH BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K POLBRASS WO/LOGO 66MM",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-03T08:29:16.194Z"
+      },
+      "after": {
+        "id": "id-n3hxzc02mtl9ken6",
+        "code": "4812635035V66",
+        "name": "66MM POLISH BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K POLBRASS WO/LOGO 66MM",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-08T08:49:07.871Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:07.871Z"
     }
   ]
 }

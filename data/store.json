@@ -1015,12 +1015,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE GRAND PANEL W/BELL & ROOM NO, COMPL - BLACK",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T08:29:16.163Z"
+      "updated_at": "2026-09-08T06:29:39.351Z"
     },
     {
       "id": "id-44iudifmmtl9kemb",
@@ -9784,6 +9784,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:29:24.143Z"
+    },
+    {
+      "id": "id-8sievwo0mtsahuaf",
+      "action": "Ürün güncellendi",
+      "product_id": "id-rwdyuqj4mtl9kemb",
+      "product_code": "4825513-000002 / 4825513-000001",
+      "product_name": "ALLURE GRAND SİYAH DIŞ PANEL 101 ODA NUMARALI",
+      "before": {
+        "id": "id-rwdyuqj4mtl9kemb",
+        "code": "4825513-000002 / 4825513-000001",
+        "name": "ALLURE GRAND SİYAH DIŞ PANEL 101 ODA NUMARALI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GRAND PANEL W/BELL & ROOM NO, COMPL - BLACK",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-03T08:29:16.163Z"
+      },
+      "after": {
+        "id": "id-rwdyuqj4mtl9kemb",
+        "code": "4825513-000002 / 4825513-000001",
+        "name": "ALLURE GRAND SİYAH DIŞ PANEL 101 ODA NUMARALI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GRAND PANEL W/BELL & ROOM NO, COMPL - BLACK",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:29:39.351Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:29:39.351Z"
     }
   ],
   "movement_audit": [

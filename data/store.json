@@ -248,11 +248,6 @@
       "color": "#2563EB"
     },
     {
-      "id": "id-g9ocpizimtk34t8o",
-      "name": "RFID LCU-LCA KIT",
-      "color": "#2563EB"
-    },
-    {
       "id": "id-u03sm9tymtk34t8o",
       "name": "LCA",
       "color": "#2563EB"
@@ -2042,7 +2037,7 @@
       "location": "",
       "description": "PCB INSIDE PH III FOR SAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T08:08:47.315Z"
+      "updated_at": "2026-09-08T06:54:53.851Z"
     },
     {
       "id": "id-5mnvowdvmtl9kemf",
@@ -3751,20 +3746,6 @@
       "description": "LCU 6351 SIGNATURE RFID BLE ASSY STD BLACK",
       "created_at": "2026-09-03T08:29:16.178Z",
       "updated_at": "2026-09-08T08:06:51.477Z"
-    },
-    {
-      "id": "id-w8um39c0mtl9kemq",
-      "code": "893001661",
-      "name": "SIGNATURE LCU 6351 & LCA 6344 KIT",
-      "category_id": "id-g9ocpizimtk34t8o",
-      "unit": "adet",
-      "quantity": 0,
-      "critical_level": 0,
-      "unit_price": 0,
-      "location": "",
-      "description": "SIG RFID BLE UPGRADE KIT (LCU 6351 & LCA6344) SATCHROME",
-      "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T08:29:16.178Z"
     },
     {
       "id": "id-ns6kjk14mtl9kemq",
@@ -8092,22 +8073,5 @@
       "id-b6wa5jr9mtl9keo4",
       "id-t37en6ewmtl9keo6"
     ]
-  },
-  "movement_audit": [
-    {
-      "id": "id-fiwjzotcmtse1jb0",
-      "action": "Stok hareketi silindi",
-      "product_id": "id-xuwc46nzmtl9kemf",
-      "product_code": "259-8056",
-      "product_name": "CPU PH3 BOARD",
-      "type": "out",
-      "quantity": 1,
-      "target_location": "Ana Depo",
-      "reason": "1",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "created_at": "2026-09-08T08:08:57.084Z",
-      "extra": "Silme sonrası stok geri alındı"
-    }
-  ]
+  }
 }

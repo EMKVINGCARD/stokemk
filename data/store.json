@@ -7025,12 +7025,12 @@
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM LIGHTBRZ",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:28:58.452Z"
     },
     {
       "id": "id-djhj04rlmtl9keog",
@@ -9779,6 +9779,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:28:53.971Z"
+    },
+    {
+      "id": "id-x6knxn7mmtsgwg2c",
+      "action": "Ürün güncellendi",
+      "product_id": "id-bs5ttkscmtl9keog",
+      "product_code": "480451405",
+      "product_name": "A28 STD FRONT LIGHT BRONZE",
+      "before": {
+        "id": "id-bs5ttkscmtl9keog",
+        "code": "480451405",
+        "name": "A28 STD FRONT LIGHT BRONZE",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM LIGHTBRZ",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-bs5ttkscmtl9keog",
+        "code": "480451405",
+        "name": "A28 STD FRONT LIGHT BRONZE",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM LIGHTBRZ",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:28:58.452Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:28:58.452Z"
     }
   ]
 }

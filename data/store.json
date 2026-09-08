@@ -3745,12 +3745,12 @@
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
       "quantity": 85,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6351 SIGNATURE RFID BLE ASSY STD BLACK",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-07T18:40:50.139Z"
+      "updated_at": "2026-09-08T08:06:51.477Z"
     },
     {
       "id": "id-w8um39c0mtl9kemq",
@@ -10563,6 +10563,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:06:48.628Z"
+    },
+    {
+      "id": "id-3sv0o1j4mtsdyudx",
+      "action": "Ürün güncellendi",
+      "product_id": "id-0zs54nbnmtl9kemq",
+      "product_code": "P001004993-003-001",
+      "product_name": "SIGNATURE 6351 LCU",
+      "before": {
+        "id": "id-0zs54nbnmtl9kemq",
+        "code": "P001004993-003-001",
+        "name": "SIGNATURE 6351 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 85,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6351 SIGNATURE RFID BLE ASSY STD BLACK",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-07T18:40:50.139Z"
+      },
+      "after": {
+        "id": "id-0zs54nbnmtl9kemq",
+        "code": "P001004993-003-001",
+        "name": "SIGNATURE 6351 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 85,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6351 SIGNATURE RFID BLE ASSY STD BLACK",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T08:06:51.477Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:06:51.477Z"
     }
   ]
 }

@@ -2485,12 +2485,12 @@
       "category_id": "id-3qhspgo7mtk34t8n",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ZENITH PULL-OUT SAFE-BLACK-OFFLINE-NO POWER OUTLET-STANDARD  ZDPD001",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:02:37.163Z"
     },
     {
       "id": "id-enocha9cmtl9kemh",
@@ -14138,6 +14138,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:02:24.763Z"
+    },
+    {
+      "id": "id-j4rhak8umtsbo8dn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-9pazy6bpmtl9kemh",
+      "product_code": "ZDPD001",
+      "product_name": "ZENITH ÇEKMECE TİPİ",
+      "before": {
+        "id": "id-9pazy6bpmtl9kemh",
+        "code": "ZDPD001",
+        "name": "ZENITH ÇEKMECE TİPİ",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH PULL-OUT SAFE-BLACK-OFFLINE-NO POWER OUTLET-STANDARD  ZDPD001",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-9pazy6bpmtl9kemh",
+        "code": "ZDPD001",
+        "name": "ZENITH ÇEKMECE TİPİ",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH PULL-OUT SAFE-BLACK-OFFLINE-NO POWER OUTLET-STANDARD  ZDPD001",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:02:37.163Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:02:37.163Z"
     }
   ],
   "movement_audit": [

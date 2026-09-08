@@ -1393,12 +1393,12 @@
       "category_id": "id-hzu8q0wcmtk34t8n",
       "unit": "adet",
       "quantity": 15,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "HOUSING ESSENCE ONLINE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:43:00.359Z"
     },
     {
       "id": "id-6nw4lqxxmtl9kemc",
@@ -10859,6 +10859,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:42:54.043Z"
+    },
+    {
+      "id": "id-r124h2b3mtsaz0cn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-htbq7k5emtl9kemc",
+      "product_code": "4827621",
+      "product_name": "ESSENCE VE BOŞ HOUSING",
+      "before": {
+        "id": "id-htbq7k5emtl9kemc",
+        "code": "4827621",
+        "name": "ESSENCE VE BOŞ HOUSING",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "HOUSING ESSENCE ONLINE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-htbq7k5emtl9kemc",
+        "code": "4827621",
+        "name": "ESSENCE VE BOŞ HOUSING",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "HOUSING ESSENCE ONLINE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:43:00.359Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:43:00.359Z"
     }
   ],
   "movement_audit": [

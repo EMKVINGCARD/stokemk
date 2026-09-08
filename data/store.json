@@ -679,12 +679,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 7,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYFOB 4K BLACK STAFF WITH MAD2 ENCODING",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:27:47.811Z"
+      "updated_at": "2026-09-08T06:29:01.399Z"
     },
     {
       "id": "id-wzag7c99mtl9kemb",
@@ -9594,6 +9594,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:28:57.803Z"
+    },
+    {
+      "id": "id-0nhchhdkmtsah107",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6qjapdgsmtl9kemb",
+      "product_code": "4824200B",
+      "product_name": "RFID KEYFOB 4K SİYAH",
+      "before": {
+        "id": "id-6qjapdgsmtl9kemb",
+        "code": "4824200B",
+        "name": "RFID KEYFOB 4K SİYAH",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 7,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB 4K BLACK STAFF WITH MAD2 ENCODING",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:27:47.811Z"
+      },
+      "after": {
+        "id": "id-6qjapdgsmtl9kemb",
+        "code": "4824200B",
+        "name": "RFID KEYFOB 4K SİYAH",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB 4K BLACK STAFF WITH MAD2 ENCODING",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:29:01.399Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:29:01.399Z"
     }
   ],
   "movement_audit": [

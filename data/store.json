@@ -1239,12 +1239,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE IR FRAME/DOOR",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:39:08.583Z"
+      "updated_at": "2026-09-08T07:43:05.441Z"
     },
     {
       "id": "id-ppz7klm4mtl9kemc",
@@ -16424,6 +16424,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:43:00.109Z"
+    },
+    {
+      "id": "id-hrceypy0mtsd4a1t",
+      "action": "Ürün güncellendi",
+      "product_id": "id-scbrg7yxmtl9kemc",
+      "product_code": "TEK SATILMIYOR",
+      "product_name": "ALLURE IR KASATARAFI",
+      "before": {
+        "id": "id-scbrg7yxmtl9kemc",
+        "code": "TEK SATILMIYOR",
+        "name": "ALLURE IR KASATARAFI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:39:08.583Z"
+      },
+      "after": {
+        "id": "id-scbrg7yxmtl9kemc",
+        "code": "TEK SATILMIYOR",
+        "name": "ALLURE IR KASATARAFI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T07:43:05.441Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:43:05.441Z"
     }
   ],
   "movement_audit": [

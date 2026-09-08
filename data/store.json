@@ -7487,12 +7487,12 @@
       "category_id": "id-twls3oxrmtk34t8p",
       "unit": "adet",
       "quantity": 32,
-      "critical_level": 2,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "DUSTBOX FOR ANSI STRIKE",
       "created_at": "2026-09-03T08:29:16.245Z",
-      "updated_at": "2026-09-08T09:32:06.894Z"
+      "updated_at": "2026-09-08T09:32:11.907Z"
     },
     {
       "id": "id-0h0cipaamtl9keom",
@@ -10957,6 +10957,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:32:06.894Z"
+    },
+    {
+      "id": "id-6i0q16lxmtsh0lc3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vdyh8civmtl9keol",
+      "product_code": "EOL",
+      "product_name": "TOZLUK SATIN BRASS ESKİ",
+      "before": {
+        "id": "id-vdyh8civmtl9keol",
+        "code": "EOL",
+        "name": "TOZLUK SATIN BRASS ESKİ",
+        "category_id": "id-twls3oxrmtk34t8p",
+        "unit": "adet",
+        "quantity": 32,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "DUSTBOX FOR ANSI STRIKE",
+        "created_at": "2026-09-03T08:29:16.245Z",
+        "updated_at": "2026-09-08T09:32:06.894Z"
+      },
+      "after": {
+        "id": "id-vdyh8civmtl9keol",
+        "code": "EOL",
+        "name": "TOZLUK SATIN BRASS ESKİ",
+        "category_id": "id-twls3oxrmtk34t8p",
+        "unit": "adet",
+        "quantity": 32,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "DUSTBOX FOR ANSI STRIKE",
+        "created_at": "2026-09-03T08:29:16.245Z",
+        "updated_at": "2026-09-08T09:32:11.907Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:32:11.907Z"
     }
   ]
 }

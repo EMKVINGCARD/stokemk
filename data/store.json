@@ -4743,12 +4743,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.193Z",
-      "updated_at": "2026-09-03T09:13:02.784Z"
+      "updated_at": "2026-09-08T08:49:29.452Z"
     },
     {
       "id": "id-vybm770pmtl9ken5",
@@ -13353,6 +13353,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:26.887Z"
+    },
+    {
+      "id": "id-x7rlfjmamtsfho4s",
+      "action": "Ürün güncellendi",
+      "product_id": "id-zcw1xubimtl9ken5",
+      "product_code": "YOK",
+      "product_name": "58MM POLISH BRASS",
+      "before": {
+        "id": "id-zcw1xubimtl9ken5",
+        "code": "YOK",
+        "name": "58MM POLISH BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.193Z",
+        "updated_at": "2026-09-03T09:13:02.784Z"
+      },
+      "after": {
+        "id": "id-zcw1xubimtl9ken5",
+        "code": "YOK",
+        "name": "58MM POLISH BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.193Z",
+        "updated_at": "2026-09-08T08:49:29.452Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:29.452Z"
     }
   ]
 }

@@ -2835,12 +2835,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:06:13.822Z"
+      "updated_at": "2026-09-08T07:57:56.605Z"
     },
     {
       "id": "id-bfkoax7dmtl9kemh",
@@ -9119,6 +9119,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:57:45.620Z"
+    },
+    {
+      "id": "id-ell2hq98mtsdndod",
+      "action": "Ürün güncellendi",
+      "product_id": "id-etjknqpnmtl9kemh",
+      "product_code": "EOL",
+      "product_name": "VISION RFID MOC",
+      "before": {
+        "id": "id-etjknqpnmtl9kemh",
+        "code": "EOL",
+        "name": "VISION RFID MOC",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:06:13.822Z"
+      },
+      "after": {
+        "id": "id-etjknqpnmtl9kemh",
+        "code": "EOL",
+        "name": "VISION RFID MOC",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:57:56.605Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:57:56.605Z"
     }
   ]
 }

@@ -763,12 +763,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 12,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "WRISBAND 1K BLUE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T08:29:16.163Z"
+      "updated_at": "2026-09-08T06:27:01.115Z"
     },
     {
       "id": "id-0g98d5tfmtl9kemb",
@@ -8568,6 +8568,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:26:55.739Z"
+    },
+    {
+      "id": "id-6cvnbh49mtsaeg6z",
+      "action": "Ürün güncellendi",
+      "product_id": "id-rtd3zubumtl9kemb",
+      "product_code": "4818598",
+      "product_name": "RFID WRISBAND GUEST MAVİ",
+      "before": {
+        "id": "id-rtd3zubumtl9kemb",
+        "code": "4818598",
+        "name": "RFID WRISBAND GUEST MAVİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "WRISBAND 1K BLUE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-03T08:29:16.163Z"
+      },
+      "after": {
+        "id": "id-rtd3zubumtl9kemb",
+        "code": "4818598",
+        "name": "RFID WRISBAND GUEST MAVİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "WRISBAND 1K BLUE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:27:01.115Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:27:01.115Z"
     }
   ],
   "movement_audit": [

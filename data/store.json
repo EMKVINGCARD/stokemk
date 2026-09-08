@@ -4827,12 +4827,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K SATBRASS WO/LOGO 66MM",
       "created_at": "2026-09-03T08:29:16.194Z",
-      "updated_at": "2026-09-03T08:29:16.194Z"
+      "updated_at": "2026-09-08T08:49:13.032Z"
     },
     {
       "id": "id-n3hxzc02mtl9ken6",
@@ -13125,6 +13125,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:07.871Z"
+    },
+    {
+      "id": "id-4m1r6vtymtsfhbgo",
+      "action": "Ürün güncellendi",
+      "product_id": "id-aqxqcv95mtl9ken6",
+      "product_code": "4812635025V66",
+      "product_name": "66MM SATIN BRASS",
+      "before": {
+        "id": "id-aqxqcv95mtl9ken6",
+        "code": "4812635025V66",
+        "name": "66MM SATIN BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATBRASS WO/LOGO 66MM",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-03T08:29:16.194Z"
+      },
+      "after": {
+        "id": "id-aqxqcv95mtl9ken6",
+        "code": "4812635025V66",
+        "name": "66MM SATIN BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATBRASS WO/LOGO 66MM",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-08T08:49:13.032Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:13.032Z"
     }
   ]
 }

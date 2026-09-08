@@ -1323,12 +1323,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 5,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "MAIN CONTROL UNIT 4G (6334) FOR ALLURE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:47:45.918Z"
+      "updated_at": "2026-09-08T07:43:26.225Z"
     },
     {
       "id": "id-y861b6qpmtl9kemc",
@@ -16538,6 +16538,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:43:14.333Z"
+    },
+    {
+      "id": "id-vkljlkbfmtsd4q35",
+      "action": "Ürün güncellendi",
+      "product_id": "id-iuej3fr5mtl9kemc",
+      "product_code": "4826104",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6334",
+      "before": {
+        "id": "id-iuej3fr5mtl9kemc",
+        "code": "4826104",
+        "name": "MAIN KONTROL ÜNİTESİ 6334",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "MAIN CONTROL UNIT 4G (6334) FOR ALLURE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:47:45.918Z"
+      },
+      "after": {
+        "id": "id-iuej3fr5mtl9kemc",
+        "code": "4826104",
+        "name": "MAIN KONTROL ÜNİTESİ 6334",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "MAIN CONTROL UNIT 4G (6334) FOR ALLURE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T07:43:26.225Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:43:26.225Z"
     }
   ],
   "movement_audit": [

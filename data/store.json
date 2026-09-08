@@ -1617,12 +1617,12 @@
       "category_id": "id-hzu8q0wcmtk34t8n",
       "unit": "adet",
       "quantity": 311,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SIGNATURE BLE HOUSING",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T08:29:16.165Z"
+      "updated_at": "2026-09-08T06:49:58.050Z"
     },
     {
       "id": "id-srqugsnumtl9kemd",
@@ -11733,6 +11733,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:48:06.948Z"
+    },
+    {
+      "id": "id-wtkxpxe1mtsb7yn6",
+      "action": "Ürün güncellendi",
+      "product_id": "id-hlri8p92mtl9kemd",
+      "product_code": "TEK SATILMIYOR",
+      "product_name": "SIGNATURE BLE HOUSING",
+      "before": {
+        "id": "id-hlri8p92mtl9kemd",
+        "code": "TEK SATILMIYOR",
+        "name": "SIGNATURE BLE HOUSING",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 311,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIGNATURE BLE HOUSING",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T08:29:16.165Z"
+      },
+      "after": {
+        "id": "id-hlri8p92mtl9kemd",
+        "code": "TEK SATILMIYOR",
+        "name": "SIGNATURE BLE HOUSING",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 311,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIGNATURE BLE HOUSING",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:49:58.050Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:49:58.050Z"
     }
   ],
   "movement_audit": [

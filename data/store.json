@@ -501,12 +501,6 @@
       "name": "deneme",
       "kind": "diger",
       "auto_created": true
-    },
-    {
-      "id": "id-83nfmh14mtsdazcu",
-      "name": "Renaissance Polat İstanbul",
-      "kind": "diger",
-      "auto_created": true
     }
   ],
   "products": [
@@ -1805,12 +1799,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER (FOR 3G/4G)",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:52:16.047Z"
+      "updated_at": "2026-09-08T07:49:00.666Z"
     },
     {
       "id": "id-5anefamimtl9kemf",
@@ -1833,12 +1827,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ELSAFE SERVICE UNIT (PINKEY, ELKEY OR IR-KEY)",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:52:28.446Z"
+      "updated_at": "2026-09-08T07:48:53.057Z"
     },
     {
       "id": "id-er7uqn2bmtl9kemf",
@@ -1857,7 +1851,7 @@
     {
       "id": "id-tx4d6je8mtl9kemf",
       "code": "4815815",
-      "name": "DA VINCI TYPE IR 4.5V MAG. KONTAK KART",
+      "name": "IR DA VINCI TYPE IR 4.5V MAG. KONTAK KART",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 4,
@@ -1866,12 +1860,12 @@
       "location": "",
       "description": "SYSTEMHW VISION ON CONTACT CARD IR FOR LCUT3/LCUT2",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:46:16.929Z"
+      "updated_at": "2026-09-08T07:47:08.865Z"
     },
     {
       "id": "id-5e01o4wdmtl9kemf",
       "code": "4826030",
-      "name": "DA VINCI TYPE USB 4.5V MAG. KONTAK KART",
+      "name": "USB DA VINCI TYPE 4.5V MAG. KONTAK KART",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 2,
@@ -1880,12 +1874,12 @@
       "location": "",
       "description": "CONT CARD USB FOR ALL 9V T2, T3, 4.5V AND UNIVERSAL LCU",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:46:28.757Z"
+      "updated_at": "2026-09-08T07:47:18.257Z"
     },
     {
       "id": "id-oj6r21ykmtl9kemf",
       "code": "EOL",
-      "name": "CLASSIC IR  KONTAK KART",
+      "name": "IR CLASSIC KONTAK KART",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 5,
@@ -1894,21 +1888,21 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:46:33.985Z"
+      "updated_at": "2026-09-08T07:48:13.473Z"
     },
     {
       "id": "id-xkl00ccdmtl9kemf",
       "code": "EOL",
-      "name": "CLASSIC USB KONTAK KART",
+      "name": "USB CLASSIC KONTAK KART",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:53:30.979Z"
+      "updated_at": "2026-09-08T07:48:23.397Z"
     },
     {
       "id": "id-vutfhrwpmtl9kemf",
@@ -1917,12 +1911,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:53:35.382Z"
+      "updated_at": "2026-09-08T07:46:46.065Z"
     },
     {
       "id": "id-rtuhomf1mtl9kemf",
@@ -1931,12 +1925,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "KIT, USB ADAPTER 2009 WİTH CABLES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:53:45.279Z"
+      "updated_at": "2026-09-08T07:48:33.865Z"
     },
     {
       "id": "id-m5pu25kbmtl9kemf",
@@ -1945,12 +1939,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 10,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "USB ADAPTER 2009",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:53:50.098Z"
+      "updated_at": "2026-09-08T07:48:37.385Z"
     },
     {
       "id": "id-fm056b42mtl9kemf",
@@ -1959,12 +1953,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:53:58.862Z"
+      "updated_at": "2026-09-08T07:48:44.649Z"
     },
     {
       "id": "id-qwybrw4kmtl9kemf",
@@ -2252,13 +2246,13 @@
       "name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 9,
+      "quantity": 10,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SENTINEL II SD PHIII FRONT COMPLETE",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-08T07:48:18.174Z"
+      "updated_at": "2026-09-08T06:59:31.762Z"
     },
     {
       "id": "id-7er824skmtl9kemg",

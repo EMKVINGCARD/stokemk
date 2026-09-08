@@ -2891,12 +2891,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 25,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "PCBA 3016 - USED IN WALL READER AND RELAY BOX 6842",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:06:53.502Z"
     },
     {
       "id": "id-xsdcp52jmtl9kemh",
@@ -15316,6 +15316,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:06:37.238Z"
+    },
+    {
+      "id": "id-bfvfe14zmtsbtq66",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fk7c83flmtl9kemh",
+      "product_code": "4824045",
+      "product_name": "PCBA 3016",
+      "before": {
+        "id": "id-fk7c83flmtl9kemh",
+        "code": "4824045",
+        "name": "PCBA 3016",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 25,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "PCBA 3016 - USED IN WALL READER AND RELAY BOX 6842",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-fk7c83flmtl9kemh",
+        "code": "4824045",
+        "name": "PCBA 3016",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 25,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "PCBA 3016 - USED IN WALL READER AND RELAY BOX 6842",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:06:53.502Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:06:53.502Z"
     }
   ],
   "movement_audit": [

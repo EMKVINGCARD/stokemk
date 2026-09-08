@@ -2681,12 +2681,12 @@
       "category_id": "id-bjj3kd4omtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:04:31.703Z"
+      "updated_at": "2026-09-08T07:55:10.529Z"
     },
     {
       "id": "id-0aknoa0umtl9kemh",
@@ -8967,6 +8967,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:55:07.013Z"
+    },
+    {
+      "id": "id-8dhmovu5mtsdjtj5",
+      "action": "Ürün güncellendi",
+      "product_id": "id-f7ucwbhzmtl9kemh",
+      "product_code": "EOL",
+      "product_name": "MANYETIK ENCODER 2. EL",
+      "before": {
+        "id": "id-f7ucwbhzmtl9kemh",
+        "code": "EOL",
+        "name": "MANYETIK ENCODER 2. EL",
+        "category_id": "id-bjj3kd4omtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:04:31.703Z"
+      },
+      "after": {
+        "id": "id-f7ucwbhzmtl9kemh",
+        "code": "EOL",
+        "name": "MANYETIK ENCODER 2. EL",
+        "category_id": "id-bjj3kd4omtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:55:10.529Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:55:10.529Z"
     }
   ]
 }

@@ -7249,12 +7249,12 @@
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - ANTBRASSLIGHT",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:30:37.347Z"
     },
     {
       "id": "id-50oncdd3mtl9keog",
@@ -10387,6 +10387,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:30:33.883Z"
+    },
+    {
+      "id": "id-6bdt5bm2mtsgykdf",
+      "action": "Ürün güncellendi",
+      "product_id": "id-hmf4x0enmtl9keog",
+      "product_code": "482459025",
+      "product_name": "ESSENCE V2 FRONT ANTIK BRASS LIGHTER",
+      "before": {
+        "id": "id-hmf4x0enmtl9keog",
+        "code": "482459025",
+        "name": "ESSENCE V2 FRONT ANTIK BRASS LIGHTER",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-hmf4x0enmtl9keog",
+        "code": "482459025",
+        "name": "ESSENCE V2 FRONT ANTIK BRASS LIGHTER",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:30:37.347Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:30:37.347Z"
     }
   ]
 }

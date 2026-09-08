@@ -6297,12 +6297,12 @@
       "category_id": "id-tk4ignznmtl7q19h",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.233Z",
-      "updated_at": "2026-09-03T09:16:39.848Z"
+      "updated_at": "2026-09-08T09:24:24.511Z"
     },
     {
       "id": "id-240odq35mtl9keoa",
@@ -8183,6 +8183,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:24:10.551Z"
+    },
+    {
+      "id": "id-0cg3ys34mtsgqkow",
+      "action": "Ürün güncellendi",
+      "product_id": "id-v9nldnpnmtl9keo9",
+      "product_code": "YOK",
+      "product_name": "ROZET İÇ SATIN BRASS",
+      "before": {
+        "id": "id-v9nldnpnmtl9keo9",
+        "code": "YOK",
+        "name": "ROZET İÇ SATIN BRASS",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.233Z",
+        "updated_at": "2026-09-03T09:16:39.848Z"
+      },
+      "after": {
+        "id": "id-v9nldnpnmtl9keo9",
+        "code": "YOK",
+        "name": "ROZET İÇ SATIN BRASS",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.233Z",
+        "updated_at": "2026-09-08T09:24:24.511Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:24:24.512Z"
     }
   ]
 }

@@ -3049,12 +3049,12 @@
       "category_id": "id-p32v71yhmtk34t8o",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.171Z",
-      "updated_at": "2026-09-03T09:08:59.004Z"
+      "updated_at": "2026-09-08T09:04:04.659Z"
     },
     {
       "id": "id-8g4qkqgrmtl9kemk",
@@ -15101,6 +15101,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:03:38.632Z"
+    },
+    {
+      "id": "id-2abl96e3mtsg0fg3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-35z2tru3mtl9kemj",
+      "product_code": "YOK",
+      "product_name": "CLASSIC LIGHT BRONZE SHIP SİLİNDİRSİZ İÇ/DIŞ SET",
+      "before": {
+        "id": "id-35z2tru3mtl9kemj",
+        "code": "YOK",
+        "name": "CLASSIC LIGHT BRONZE SHIP SİLİNDİRSİZ İÇ/DIŞ SET",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.171Z",
+        "updated_at": "2026-09-03T09:08:59.004Z"
+      },
+      "after": {
+        "id": "id-35z2tru3mtl9kemj",
+        "code": "YOK",
+        "name": "CLASSIC LIGHT BRONZE SHIP SİLİNDİRSİZ İÇ/DIŞ SET",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.171Z",
+        "updated_at": "2026-09-08T09:04:04.659Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:04:04.659Z"
     }
   ]
 }

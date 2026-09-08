@@ -5863,12 +5863,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.214Z",
-      "updated_at": "2026-09-03T09:14:58.992Z"
+      "updated_at": "2026-09-08T08:45:50.212Z"
     },
     {
       "id": "id-2s9b4059mtl9kenq",
@@ -11073,6 +11073,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:48.032Z"
+    },
+    {
+      "id": "id-6hnub6cimtsfcyys",
+      "action": "Ürün güncellendi",
+      "product_id": "id-8v10j392mtl9kenq",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT ANTIK BRASS LIGHTER SET",
+      "before": {
+        "id": "id-8v10j392mtl9kenq",
+        "code": "YOK",
+        "name": "STRAIGHT ANTIK BRASS LIGHTER SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.214Z",
+        "updated_at": "2026-09-03T09:14:58.992Z"
+      },
+      "after": {
+        "id": "id-8v10j392mtl9kenq",
+        "code": "YOK",
+        "name": "STRAIGHT ANTIK BRASS LIGHTER SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.214Z",
+        "updated_at": "2026-09-08T08:45:50.212Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:50.212Z"
     }
   ]
 }

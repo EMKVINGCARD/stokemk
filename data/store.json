@@ -3753,20 +3753,6 @@
       "updated_at": "2026-09-08T08:06:51.477Z"
     },
     {
-      "id": "id-w8um39c0mtl9kemq",
-      "code": "893001661",
-      "name": "SIGNATURE LCU 6351 & LCA 6344 KIT",
-      "category_id": "id-g9ocpizimtk34t8o",
-      "unit": "adet",
-      "quantity": 0,
-      "critical_level": 0,
-      "unit_price": 0,
-      "location": "",
-      "description": "SIG RFID BLE UPGRADE KIT (LCU 6351 & LCA6344) SATCHROME",
-      "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T08:29:16.178Z"
-    },
-    {
       "id": "id-ns6kjk14mtl9kemq",
       "code": "YOK",
       "name": "SIGNATURE 1G 6230 LCU (SWISS-RAFFLES)",
@@ -10867,6 +10853,31 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:07:49.005Z"
+    },
+    {
+      "id": "id-atnmskvwmtse1lhc",
+      "action": "Ürün silindi",
+      "product_id": "id-w8um39c0mtl9kemq",
+      "product_code": "893001661",
+      "product_name": "SIGNATURE LCU 6351 & LCA 6344 KIT",
+      "before": {
+        "id": "id-w8um39c0mtl9kemq",
+        "code": "893001661",
+        "name": "SIGNATURE LCU 6351 & LCA 6344 KIT",
+        "category_id": "id-g9ocpizimtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIG RFID BLE UPGRADE KIT (LCU 6351 & LCA6344) SATCHROME",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-03T08:29:16.178Z"
+      },
+      "after": null,
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:08:59.904Z"
     }
   ]
 }

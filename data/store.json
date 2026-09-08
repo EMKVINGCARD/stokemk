@@ -3806,7 +3806,7 @@
     },
     {
       "id": "id-16a4da00mtl9kemr",
-      "code": "YOK",
+      "code": "EOL",
       "name": "LCA 6240",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
@@ -3816,7 +3816,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-09-03T09:11:06.987Z"
+      "updated_at": "2026-09-08T08:15:08.469Z"
     },
     {
       "id": "id-fmq0n43jmtl9kems",
@@ -8319,6 +8319,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:14:09.152Z"
+    },
+    {
+      "id": "id-uss1l3jimtse9hv9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-16a4da00mtl9kemr",
+      "product_code": "EOL",
+      "product_name": "LCA 6240",
+      "before": {
+        "id": "id-16a4da00mtl9kemr",
+        "code": "YOK",
+        "name": "LCA 6240",
+        "category_id": "id-u03sm9tymtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-03T09:11:06.987Z"
+      },
+      "after": {
+        "id": "id-16a4da00mtl9kemr",
+        "code": "EOL",
+        "name": "LCA 6240",
+        "category_id": "id-u03sm9tymtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-08T08:15:08.469Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:15:08.469Z"
     }
   ]
 }

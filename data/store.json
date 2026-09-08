@@ -2037,13 +2037,13 @@
       "name": "CPU PH3 BOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 9,
+      "quantity": 8,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "PCB INSIDE PH III FOR SAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T08:12:28.328Z"
+      "updated_at": "2026-09-08T08:12:48.953Z"
     },
     {
       "id": "id-5mnvowdvmtl9kemf",
@@ -7926,6 +7926,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-07T10:32:55.417Z",
       "created_at": "2026-09-07T10:32:55.417Z"
+    },
+    {
+      "id": "id-pj7vq4humtse6i7t",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Renaissance Polat İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-08T08:12:48.953Z",
+      "created_at": "2026-09-08T08:12:48.953Z"
     }
   ],
   "settings": {
@@ -8112,6 +8126,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-08T08:10:23.616Z",
       "extra": "Silme sonrası stok geri alındı"
+    },
+    {
+      "id": "id-ypeb5cbxmtse6i7t",
+      "action": "Stok çıkışı",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Renaissance Polat İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-08T08:12:48.953Z",
+      "extra": null
     }
   ],
   "audit_log": [

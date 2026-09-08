@@ -3801,12 +3801,12 @@
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
       "quantity": 49,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-09-03T08:29:16.179Z"
+      "updated_at": "2026-09-08T08:07:09.901Z"
     },
     {
       "id": "id-onw2jx0rmtl9kemr",
@@ -10601,6 +10601,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:06:51.477Z"
+    },
+    {
+      "id": "id-rza1ox2mmtsdz8lp",
+      "action": "Ürün güncellendi",
+      "product_id": "id-uwj860famtl9kemr",
+      "product_code": "4826069B",
+      "product_name": "CLASSIC 6334 LCU",
+      "before": {
+        "id": "id-uwj860famtl9kemr",
+        "code": "4826069B",
+        "name": "CLASSIC 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-03T08:29:16.179Z"
+      },
+      "after": {
+        "id": "id-uwj860famtl9kemr",
+        "code": "4826069B",
+        "name": "CLASSIC 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-08T08:07:09.901Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:07:09.901Z"
     }
   ]
 }

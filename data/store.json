@@ -2121,12 +2121,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "PCB ASSEMBLY 5001, INSIDE, SAFE, PH III",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:55:36.315Z"
     },
     {
       "id": "id-5zjdazhkmtl9kemf",
@@ -13101,6 +13101,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:55:29.107Z"
+    },
+    {
+      "id": "id-dk8dkyj0mtsbf7nf",
+      "action": "Ürün güncellendi",
+      "product_id": "id-2etzjkcemtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "PH3 KEYBOARD",
+      "before": {
+        "id": "id-2etzjkcemtl9kemf",
+        "code": "259-8056",
+        "name": "PH3 KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "PCB ASSEMBLY 5001, INSIDE, SAFE, PH III",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-2etzjkcemtl9kemf",
+        "code": "259-8056",
+        "name": "PH3 KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "PCB ASSEMBLY 5001, INSIDE, SAFE, PH III",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:55:36.315Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:55:36.315Z"
     }
   ],
   "movement_audit": [

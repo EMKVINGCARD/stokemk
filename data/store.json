@@ -5821,12 +5821,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE LIGHTBRZ STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE LIGHTBRZ STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-09-03T08:29:16.213Z"
+      "updated_at": "2026-09-08T08:45:39.899Z"
     },
     {
       "id": "id-x837b43amtl9kenp",
@@ -10959,6 +10959,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:36.068Z"
+    },
+    {
+      "id": "id-gli96zwrmtsfcr0b",
+      "action": "Ürün güncellendi",
+      "product_id": "id-nijkhojmmtl9kenp",
+      "product_code": "481633305AC / 481633505AC",
+      "product_name": "STRAIGHT LIGHT BRONZE SET",
+      "before": {
+        "id": "id-nijkhojmmtl9kenp",
+        "code": "481633305AC / 481633505AC",
+        "name": "STRAIGHT LIGHT BRONZE SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE LIGHTBRZ STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE LIGHTBRZ STRAIGHT",
+        "created_at": "2026-09-03T08:29:16.213Z",
+        "updated_at": "2026-09-03T08:29:16.213Z"
+      },
+      "after": {
+        "id": "id-nijkhojmmtl9kenp",
+        "code": "481633305AC / 481633505AC",
+        "name": "STRAIGHT LIGHT BRONZE SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE LIGHTBRZ STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE LIGHTBRZ STRAIGHT",
+        "created_at": "2026-09-03T08:29:16.213Z",
+        "updated_at": "2026-09-08T08:45:39.899Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:39.899Z"
     }
   ]
 }

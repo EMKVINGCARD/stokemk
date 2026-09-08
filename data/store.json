@@ -4281,12 +4281,12 @@
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER US ANT DARK",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-03T08:29:16.185Z"
+      "updated_at": "2026-09-08T09:12:00.147Z"
     },
     {
       "id": "id-kkdy15xsmtl9kemy",
@@ -16203,6 +16203,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:11:57.232Z"
+    },
+    {
+      "id": "id-x6y6ygnbmtsgamc3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-8qz4kcz1mtl9kemx",
+      "product_code": "482379630",
+      "product_name": "SKIRT US ANT DARK",
+      "before": {
+        "id": "id-8qz4kcz1mtl9kemx",
+        "code": "482379630",
+        "name": "SKIRT US ANT DARK",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER US ANT DARK",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-03T08:29:16.185Z"
+      },
+      "after": {
+        "id": "id-8qz4kcz1mtl9kemx",
+        "code": "482379630",
+        "name": "SKIRT US ANT DARK",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER US ANT DARK",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-08T09:12:00.147Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:12:00.147Z"
     }
   ]
 }

@@ -6465,12 +6465,12 @@
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-03T09:16:56.608Z"
+      "updated_at": "2026-09-08T08:56:33.499Z"
     },
     {
       "id": "id-eyt4zknxmtl9keoe",
@@ -14569,6 +14569,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:51:37.271Z"
+    },
+    {
+      "id": "id-pcsfin4qmtsfqrbv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-e8bgng4mmtl9keoe",
+      "product_code": "YOK",
+      "product_name": "DB BUTONU ALL METAL ANTIK BRASS",
+      "before": {
+        "id": "id-e8bgng4mmtl9keoe",
+        "code": "YOK",
+        "name": "DB BUTONU ALL METAL ANTIK BRASS",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-03T09:16:56.608Z"
+      },
+      "after": {
+        "id": "id-e8bgng4mmtl9keoe",
+        "code": "YOK",
+        "name": "DB BUTONU ALL METAL ANTIK BRASS",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-08T08:56:33.499Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:56:33.499Z"
     }
   ]
 }

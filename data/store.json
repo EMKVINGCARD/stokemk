@@ -6521,12 +6521,12 @@
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATBRASS PLASTIC END",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-03T08:29:16.238Z"
+      "updated_at": "2026-09-08T09:25:30.919Z"
     },
     {
       "id": "id-ulsd8zxkmtl9keoe",
@@ -8411,6 +8411,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:25:15.255Z"
+    },
+    {
+      "id": "id-p4xviwyqmtsgrzxj",
+      "action": "Ürün güncellendi",
+      "product_id": "id-jpo6fwbhmtl9keoe",
+      "product_code": "481865962",
+      "product_name": "DB BUTONU COMPOZIT SATIN BRASS",
+      "before": {
+        "id": "id-jpo6fwbhmtl9keoe",
+        "code": "481865962",
+        "name": "DB BUTONU COMPOZIT SATIN BRASS",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE SATBRASS PLASTIC END",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-03T08:29:16.238Z"
+      },
+      "after": {
+        "id": "id-jpo6fwbhmtl9keoe",
+        "code": "481865962",
+        "name": "DB BUTONU COMPOZIT SATIN BRASS",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE SATBRASS PLASTIC END",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-08T09:25:30.919Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:25:30.919Z"
     }
   ]
 }

@@ -4939,12 +4939,12 @@
       "category_id": "id-1n8q8p8pmtk34t8o",
       "unit": "adet",
       "quantity": 178,
-      "critical_level": 0,
+      "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER SEALING ASSY BLACK MATT.",
       "created_at": "2026-09-03T08:29:16.195Z",
-      "updated_at": "2026-09-03T08:29:16.195Z"
+      "updated_at": "2026-09-08T08:41:06.396Z"
     },
     {
       "id": "id-fstq9e65mtl9ken7",
@@ -9971,6 +9971,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:40:58.056Z"
+    },
+    {
+      "id": "id-1tcbglz1mtsf6vz0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-te6ll1rymtl9ken7",
+      "product_code": "480884955",
+      "product_name": "SİLİDİR KAPAĞI BLACK TITANIUM PVD",
+      "before": {
+        "id": "id-te6ll1rymtl9ken7",
+        "code": "480884955",
+        "name": "SİLİDİR KAPAĞI BLACK TITANIUM PVD",
+        "category_id": "id-1n8q8p8pmtk34t8o",
+        "unit": "adet",
+        "quantity": 178,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER SEALING ASSY BLACK MATT.",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-03T08:29:16.195Z"
+      },
+      "after": {
+        "id": "id-te6ll1rymtl9ken7",
+        "code": "480884955",
+        "name": "SİLİDİR KAPAĞI BLACK TITANIUM PVD",
+        "category_id": "id-1n8q8p8pmtk34t8o",
+        "unit": "adet",
+        "quantity": 178,
+        "critical_level": 20,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER SEALING ASSY BLACK MATT.",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-08T08:41:06.396Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:41:06.396Z"
     }
   ]
 }

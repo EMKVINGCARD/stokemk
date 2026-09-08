@@ -2723,12 +2723,12 @@
       "category_id": "id-gjz8r8ckmtk34t8n",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "REMOTE CONTROLLER VISION 4G RFID 6334 INCL RELAY BOX & CABLE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:04:52.102Z"
     },
     {
       "id": "id-vhx3uwjqmtl9kemh",
@@ -14860,6 +14860,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:04:44.434Z"
+    },
+    {
+      "id": "id-wzg9slgxmtsbr4hy",
+      "action": "Ürün güncellendi",
+      "product_id": "id-x8onu8q4mtl9kemh",
+      "product_code": "4826122",
+      "product_name": "VISION RFID RC SET",
+      "before": {
+        "id": "id-x8onu8q4mtl9kemh",
+        "code": "4826122",
+        "name": "VISION RFID RC SET",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "REMOTE CONTROLLER VISION 4G RFID 6334 INCL RELAY BOX & CABLE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-x8onu8q4mtl9kemh",
+        "code": "4826122",
+        "name": "VISION RFID RC SET",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "REMOTE CONTROLLER VISION 4G RFID 6334 INCL RELAY BOX & CABLE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:04:52.102Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:04:52.102Z"
     }
   ],
   "movement_audit": [

@@ -2163,12 +2163,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ZENITH FRONT COMPLETE RAL 7021",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:56:00.646Z"
     },
     {
       "id": "id-npoc9yetmtl9kemg",
@@ -13215,6 +13215,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:55:53.970Z"
+    },
+    {
+      "id": "id-vs8oap0xmtsbfqfa",
+      "action": "Ürün güncellendi",
+      "product_id": "id-gbpqphyymtl9kemf",
+      "product_code": "252-8406ZD0FC00AMS",
+      "product_name": "ZENITH PH3 KOMPLE KEYBOARD",
+      "before": {
+        "id": "id-gbpqphyymtl9kemf",
+        "code": "252-8406ZD0FC00AMS",
+        "name": "ZENITH PH3 KOMPLE KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH FRONT COMPLETE RAL 7021",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-gbpqphyymtl9kemf",
+        "code": "252-8406ZD0FC00AMS",
+        "name": "ZENITH PH3 KOMPLE KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH FRONT COMPLETE RAL 7021",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:56:00.646Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:56:00.646Z"
     }
   ],
   "movement_audit": [

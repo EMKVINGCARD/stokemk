@@ -3951,12 +3951,12 @@
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
       "quantity": 19,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Classic RFID Front cover assy, Black",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-03T08:29:16.180Z"
+      "updated_at": "2026-09-08T08:31:21.612Z"
     },
     {
       "id": "id-vrte8du9mtl9kems",
@@ -8471,6 +8471,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:31:05.629Z"
+    },
+    {
+      "id": "id-9nno1d8gmtseucr0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-p2we1x7kmtl9kems",
+      "product_code": "4821997B",
+      "product_name": "CLASSIC LCU KAPAK",
+      "before": {
+        "id": "id-p2we1x7kmtl9kems",
+        "code": "4821997B",
+        "name": "CLASSIC LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Classic RFID Front cover assy, Black",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-03T08:29:16.180Z"
+      },
+      "after": {
+        "id": "id-p2we1x7kmtl9kems",
+        "code": "4821997B",
+        "name": "CLASSIC LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Classic RFID Front cover assy, Black",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-08T08:31:21.612Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:31:21.612Z"
     }
   ]
 }

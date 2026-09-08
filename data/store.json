@@ -3227,12 +3227,12 @@
       "category_id": "id-vnbd93x1mtk34t8o",
       "unit": "adet",
       "quantity": 177,
-      "critical_level": 0,
+      "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-09-03T09:09:53.004Z"
+      "updated_at": "2026-09-08T08:01:52.840Z"
     },
     {
       "id": "id-e5dro6tfmtl9kemm",
@@ -9575,6 +9575,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:01:41.573Z"
+    },
+    {
+      "id": "id-wrt4zobzmtsdsfyg",
+      "action": "Ürün güncellendi",
+      "product_id": "id-f1isfio8mtl9kemm",
+      "product_code": "YOK",
+      "product_name": "4.5V CLASSIC PİL TABLASI",
+      "before": {
+        "id": "id-f1isfio8mtl9kemm",
+        "code": "YOK",
+        "name": "4.5V CLASSIC PİL TABLASI",
+        "category_id": "id-vnbd93x1mtk34t8o",
+        "unit": "adet",
+        "quantity": 177,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-03T09:09:53.004Z"
+      },
+      "after": {
+        "id": "id-f1isfio8mtl9kemm",
+        "code": "YOK",
+        "name": "4.5V CLASSIC PİL TABLASI",
+        "category_id": "id-vnbd93x1mtk34t8o",
+        "unit": "adet",
+        "quantity": 177,
+        "critical_level": 20,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-08T08:01:52.840Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:01:52.840Z"
     }
   ]
 }

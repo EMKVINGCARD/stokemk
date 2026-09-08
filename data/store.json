@@ -2905,12 +2905,12 @@
       "category_id": "id-cri4rxfumtk34t8o",
       "unit": "adet",
       "quantity": 35,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RS485 Gateway V2",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:07:02.318Z"
     },
     {
       "id": "id-poyt7v4gmtl9kemh",
@@ -15354,6 +15354,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:06:53.502Z"
+    },
+    {
+      "id": "id-nj9xo30vmtsbtwz2",
+      "action": "Ürün güncellendi",
+      "product_id": "id-xsdcp52jmtl9kemh",
+      "product_code": "684040035",
+      "product_name": "RS-485 GW",
+      "before": {
+        "id": "id-xsdcp52jmtl9kemh",
+        "code": "684040035",
+        "name": "RS-485 GW",
+        "category_id": "id-cri4rxfumtk34t8o",
+        "unit": "adet",
+        "quantity": 35,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "RS485 Gateway V2",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-xsdcp52jmtl9kemh",
+        "code": "684040035",
+        "name": "RS-485 GW",
+        "category_id": "id-cri4rxfumtk34t8o",
+        "unit": "adet",
+        "quantity": 35,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RS485 Gateway V2",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:07:02.318Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:07:02.318Z"
     }
   ],
   "movement_audit": [

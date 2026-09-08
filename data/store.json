@@ -5751,12 +5751,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 83,
-      "critical_level": 1,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME STRAIGHT",
       "created_at": "2026-09-03T08:29:16.212Z",
-      "updated_at": "2026-09-08T08:45:16.076Z"
+      "updated_at": "2026-09-08T08:45:22.780Z"
     },
     {
       "id": "id-g78a0g8lmtl9keno",
@@ -10731,6 +10731,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:16.076Z"
+    },
+    {
+      "id": "id-y9b13zhwmtsfcdss",
+      "action": "Ürün güncellendi",
+      "product_id": "id-x2fmf5v0mtl9keno",
+      "product_code": "481633361AC / 481633561AC",
+      "product_name": "STRAIGHT SATIN CHROME SET",
+      "before": {
+        "id": "id-x2fmf5v0mtl9keno",
+        "code": "481633361AC / 481633561AC",
+        "name": "STRAIGHT SATIN CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 83,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME STRAIGHT",
+        "created_at": "2026-09-03T08:29:16.212Z",
+        "updated_at": "2026-09-08T08:45:16.076Z"
+      },
+      "after": {
+        "id": "id-x2fmf5v0mtl9keno",
+        "code": "481633361AC / 481633561AC",
+        "name": "STRAIGHT SATIN CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 83,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME STRAIGHT",
+        "created_at": "2026-09-03T08:29:16.212Z",
+        "updated_at": "2026-09-08T08:45:22.780Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:22.780Z"
     }
   ]
 }

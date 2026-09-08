@@ -2624,13 +2624,13 @@
       "name": "USB RFID ENCODER",
       "category_id": "id-y66x0cekmtk34t8n",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:03:53.818Z"
+      "updated_at": "2026-09-08T07:04:05.362Z"
     },
     {
       "id": "id-wnfnugxlmtl9kemh",
@@ -14594,6 +14594,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:03:53.818Z"
+    },
+    {
+      "id": "id-1y0gft0smtsbq4fm",
+      "action": "Ürün güncellendi",
+      "product_id": "id-puyx45yhmtl9kemh",
+      "product_code": "EOL",
+      "product_name": "USB RFID ENCODER",
+      "before": {
+        "id": "id-puyx45yhmtl9kemh",
+        "code": "EOL",
+        "name": "USB RFID ENCODER",
+        "category_id": "id-y66x0cekmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:03:53.818Z"
+      },
+      "after": {
+        "id": "id-puyx45yhmtl9kemh",
+        "code": "EOL",
+        "name": "USB RFID ENCODER",
+        "category_id": "id-y66x0cekmtk34t8n",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:04:05.362Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:04:05.362Z"
     }
   ],
   "movement_audit": [

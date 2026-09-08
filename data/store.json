@@ -971,7 +971,7 @@
       "id": "id-jolt9cvzmtl9kemb",
       "code": "YOK",
       "name": "ZİL",
-      "category_id": "id-9kw5lsavmtk34t8n",
+      "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
       "quantity": 11,
       "critical_level": 5,
@@ -979,7 +979,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T09:22:34.551Z"
+      "updated_at": "2026-09-08T08:33:55.580Z"
     },
     {
       "id": "id-y8zqh5bvmtl9kemb",
@@ -8818,6 +8818,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:33:45.581Z"
+    },
+    {
+      "id": "id-7lktkiggmtsexnjw",
+      "action": "Ürün güncellendi",
+      "product_id": "id-jolt9cvzmtl9kemb",
+      "product_code": "YOK",
+      "product_name": "ZİL",
+      "before": {
+        "id": "id-jolt9cvzmtl9kemb",
+        "code": "YOK",
+        "name": "ZİL",
+        "category_id": "id-9kw5lsavmtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-03T09:22:34.551Z"
+      },
+      "after": {
+        "id": "id-jolt9cvzmtl9kemb",
+        "code": "YOK",
+        "name": "ZİL",
+        "category_id": "id-yb9e13sumtsewvh0",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T08:33:55.580Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:33:55.580Z"
     }
   ]
 }

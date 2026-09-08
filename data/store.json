@@ -3563,12 +3563,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE EURO 65 4.5V 22MM RH",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T08:29:16.178Z"
+      "updated_at": "2026-09-08T08:04:28.776Z"
     },
     {
       "id": "id-271k5679mtl9kemq",
@@ -10259,6 +10259,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:04:20.245Z"
+    },
+    {
+      "id": "id-5n4w413tmtsdvsa0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-q28251sjmtl9kemq",
+      "product_code": "4813995B2",
+      "product_name": "EURO 22MM RH GÖMME",
+      "before": {
+        "id": "id-q28251sjmtl9kemq",
+        "code": "4813995B2",
+        "name": "EURO 22MM RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 22MM RH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-03T08:29:16.178Z"
+      },
+      "after": {
+        "id": "id-q28251sjmtl9kemq",
+        "code": "4813995B2",
+        "name": "EURO 22MM RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 22MM RH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T08:04:28.776Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:04:28.776Z"
     }
   ]
 }

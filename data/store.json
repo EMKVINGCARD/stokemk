@@ -2727,12 +2727,12 @@
       "category_id": "id-gjz8r8ckmtk34t8n",
       "unit": "adet",
       "quantity": 12,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:05:12.810Z"
+      "updated_at": "2026-09-08T09:02:05.728Z"
     },
     {
       "id": "id-lnij5pfgmtl9kemh",
@@ -14911,6 +14911,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:01:41.520Z"
+    },
+    {
+      "id": "id-vyuvzvznmtsfxvog",
+      "action": "Ürün güncellendi",
+      "product_id": "id-56o4mxkwmtl9kemh",
+      "product_code": "P001006433-003-001",
+      "product_name": "VISIONLINE RC GW HARİÇ",
+      "before": {
+        "id": "id-56o4mxkwmtl9kemh",
+        "code": "P001006433-003-001",
+        "name": "VISIONLINE RC GW HARİÇ",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:05:12.810Z"
+      },
+      "after": {
+        "id": "id-56o4mxkwmtl9kemh",
+        "code": "P001006433-003-001",
+        "name": "VISIONLINE RC GW HARİÇ",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T09:02:05.728Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:02:05.728Z"
     }
   ]
 }

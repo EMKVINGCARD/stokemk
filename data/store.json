@@ -3255,12 +3255,12 @@
       "category_id": "id-7t09o74amtk34t8o",
       "unit": "adet",
       "quantity": 457,
-      "critical_level": 0,
+      "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "BATTERY CABLE SIGNATURE/CLASSİC 4.5V/CLASSIC 9V",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-09-03T08:29:16.174Z"
+      "updated_at": "2026-09-08T08:02:08.584Z"
     },
     {
       "id": "id-euy5dyz3mtl9kemm",
@@ -9613,6 +9613,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:01:52.840Z"
+    },
+    {
+      "id": "id-2ujc01bemtsdss3s",
+      "action": "Ürün güncellendi",
+      "product_id": "id-c8yfvlf2mtl9kemm",
+      "product_code": "4809763",
+      "product_name": "PİL KABLOSU",
+      "before": {
+        "id": "id-c8yfvlf2mtl9kemm",
+        "code": "4809763",
+        "name": "PİL KABLOSU",
+        "category_id": "id-7t09o74amtk34t8o",
+        "unit": "adet",
+        "quantity": 457,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "BATTERY CABLE SIGNATURE/CLASSİC 4.5V/CLASSIC 9V",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-03T08:29:16.174Z"
+      },
+      "after": {
+        "id": "id-c8yfvlf2mtl9kemm",
+        "code": "4809763",
+        "name": "PİL KABLOSU",
+        "category_id": "id-7t09o74amtk34t8o",
+        "unit": "adet",
+        "quantity": 457,
+        "critical_level": 20,
+        "unit_price": 0,
+        "location": "",
+        "description": "BATTERY CABLE SIGNATURE/CLASSİC 4.5V/CLASSIC 9V",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-08T08:02:08.584Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:02:08.584Z"
     }
   ]
 }

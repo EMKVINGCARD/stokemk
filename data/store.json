@@ -1561,12 +1561,12 @@
       "category_id": "id-zde5rxr7mtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SYSTEMHW ONLINE NETWORK ZIGBEE ROUTER - STACK 2006",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T08:29:16.165Z"
+      "updated_at": "2026-09-08T06:46:44.226Z"
     },
     {
       "id": "id-fed6evfhmtl9kemd",
@@ -11353,6 +11353,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:46:38.707Z"
+    },
+    {
+      "id": "id-4udpyuewmtsb3t36",
+      "action": "Ürün güncellendi",
+      "product_id": "id-bo99r6zmmtl9kemd",
+      "product_code": "683081067",
+      "product_name": "ROUTER",
+      "before": {
+        "id": "id-bo99r6zmmtl9kemd",
+        "code": "683081067",
+        "name": "ROUTER",
+        "category_id": "id-zde5rxr7mtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW ONLINE NETWORK ZIGBEE ROUTER - STACK 2006",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T08:29:16.165Z"
+      },
+      "after": {
+        "id": "id-bo99r6zmmtl9kemd",
+        "code": "683081067",
+        "name": "ROUTER",
+        "category_id": "id-zde5rxr7mtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW ONLINE NETWORK ZIGBEE ROUTER - STACK 2006",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:46:44.226Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:46:44.226Z"
     }
   ],
   "movement_audit": [

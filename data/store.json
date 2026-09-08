@@ -7179,12 +7179,12 @@
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - POLBRASS",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:30:15.131Z"
     },
     {
       "id": "id-2eaxsahqmtl9keog",
@@ -10197,6 +10197,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:30:11.699Z"
+    },
+    {
+      "id": "id-a2xfs6kcmtsgy38b",
+      "action": "Ürün güncellendi",
+      "product_id": "id-nj4pv96qmtl9keog",
+      "product_code": "482459063",
+      "product_name": "ESSENCE V2 FRONT POLISH BRASS",
+      "before": {
+        "id": "id-nj4pv96qmtl9keog",
+        "code": "482459063",
+        "name": "ESSENCE V2 FRONT POLISH BRASS",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - POLBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-nj4pv96qmtl9keog",
+        "code": "482459063",
+        "name": "ESSENCE V2 FRONT POLISH BRASS",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - POLBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:30:15.131Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:30:15.131Z"
     }
   ]
 }

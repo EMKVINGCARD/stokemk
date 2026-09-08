@@ -1197,12 +1197,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 15,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, STSTEEL",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:38:28.107Z"
     },
     {
       "id": "id-s3y3t91tmtl9kemc",
@@ -10289,6 +10289,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:38:14.219Z"
+    },
+    {
+      "id": "id-wq79a2prmtsat6a3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-gbolwpwlmtl9kemc",
+      "product_code": "482553422",
+      "product_name": "ALLURE IR KIT KAPI VE KANAT TARAFI SATİN CHROME",
+      "before": {
+        "id": "id-gbolwpwlmtl9kemc",
+        "code": "482553422",
+        "name": "ALLURE IR KIT KAPI VE KANAT TARAFI SATİN CHROME",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, STSTEEL",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-gbolwpwlmtl9kemc",
+        "code": "482553422",
+        "name": "ALLURE IR KIT KAPI VE KANAT TARAFI SATİN CHROME",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, STSTEEL",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:38:28.107Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:38:28.107Z"
     }
   ],
   "movement_audit": [

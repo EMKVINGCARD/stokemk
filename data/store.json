@@ -7193,12 +7193,12 @@
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
       "quantity": 18,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:30:21.955Z"
     },
     {
       "id": "id-g6kzamltmtl9keog",
@@ -10235,6 +10235,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:30:15.131Z"
+    },
+    {
+      "id": "id-brwvnhlcmtsgy8hv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-2eaxsahqmtl9keog",
+      "product_code": "482459090",
+      "product_name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
+      "before": {
+        "id": "id-2eaxsahqmtl9keog",
+        "code": "482459090",
+        "name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - BLACK T",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-2eaxsahqmtl9keog",
+        "code": "482459090",
+        "name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - BLACK T",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:30:21.955Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:30:21.955Z"
     }
   ]
 }

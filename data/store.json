@@ -3077,12 +3077,12 @@
       "category_id": "id-p32v71yhmtk34t8o",
       "unit": "adet",
       "quantity": 18,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.172Z",
-      "updated_at": "2026-09-03T09:09:12.320Z"
+      "updated_at": "2026-09-08T09:04:13.628Z"
     },
     {
       "id": "id-8jka837kmtl9kemk",
@@ -15139,6 +15139,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:04:04.659Z"
+    },
+    {
+      "id": "id-vlmx1t6vmtsg0md8",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ul081etemtl9kemk",
+      "product_code": "YOK",
+      "product_name": "CLASSIC LIGHT BRONZ SİLİNDİRLİ DIŞ AYNA",
+      "before": {
+        "id": "id-ul081etemtl9kemk",
+        "code": "YOK",
+        "name": "CLASSIC LIGHT BRONZ SİLİNDİRLİ DIŞ AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.172Z",
+        "updated_at": "2026-09-03T09:09:12.320Z"
+      },
+      "after": {
+        "id": "id-ul081etemtl9kemk",
+        "code": "YOK",
+        "name": "CLASSIC LIGHT BRONZ SİLİNDİRLİ DIŞ AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.172Z",
+        "updated_at": "2026-09-08T09:04:13.628Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:04:13.628Z"
     }
   ]
 }

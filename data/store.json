@@ -3730,7 +3730,7 @@
     },
     {
       "id": "id-ns6kjk14mtl9kemq",
-      "code": "YOK",
+      "code": "EOL",
       "name": "SIGNATURE 1G 6230 LCU (SWISS-RAFFLES)",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
@@ -3740,7 +3740,7 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T09:10:59.792Z"
+      "updated_at": "2026-09-08T09:07:19.307Z"
     },
     {
       "id": "id-r6wx8w6omtl9kemr",
@@ -15785,6 +15785,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:07:03.000Z"
+    },
+    {
+      "id": "id-2npyxixqmtsg4ln0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ns6kjk14mtl9kemq",
+      "product_code": "EOL",
+      "product_name": "SIGNATURE 1G 6230 LCU (SWISS-RAFFLES)",
+      "before": {
+        "id": "id-ns6kjk14mtl9kemq",
+        "code": "YOK",
+        "name": "SIGNATURE 1G 6230 LCU (SWISS-RAFFLES)",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-03T09:10:59.792Z"
+      },
+      "after": {
+        "id": "id-ns6kjk14mtl9kemq",
+        "code": "EOL",
+        "name": "SIGNATURE 1G 6230 LCU (SWISS-RAFFLES)",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T09:07:19.307Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:07:19.308Z"
     }
   ]
 }

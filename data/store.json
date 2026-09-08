@@ -5905,12 +5905,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.215Z",
-      "updated_at": "2026-09-03T09:15:03.836Z"
+      "updated_at": "2026-09-08T08:45:57.944Z"
     },
     {
       "id": "id-h45e8cybmtl9kens",
@@ -11187,6 +11187,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:55.460Z"
+    },
+    {
+      "id": "id-ixk66fjemtsfd4xk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-62twcm12mtl9kenr",
+      "product_code": "YOK",
+      "product_name": "FUNCTIONAL ANSI SATIN BRASS SET",
+      "before": {
+        "id": "id-62twcm12mtl9kenr",
+        "code": "YOK",
+        "name": "FUNCTIONAL ANSI SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.215Z",
+        "updated_at": "2026-09-03T09:15:03.836Z"
+      },
+      "after": {
+        "id": "id-62twcm12mtl9kenr",
+        "code": "YOK",
+        "name": "FUNCTIONAL ANSI SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.215Z",
+        "updated_at": "2026-09-08T08:45:57.944Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:57.944Z"
     }
   ]
 }

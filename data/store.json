@@ -1575,12 +1575,12 @@
       "category_id": "id-h1tzh7x1mtk34t8n",
       "unit": "adet",
       "quantity": 13,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SHIFTER",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T08:29:16.165Z"
+      "updated_at": "2026-09-08T06:46:48.299Z"
     },
     {
       "id": "id-b1vs4sfsmtl9kemd",
@@ -11391,6 +11391,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:46:44.226Z"
+    },
+    {
+      "id": "id-e3mum3chmtsb3w8b",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fed6evfhmtl9kemd",
+      "product_code": "681100044-A",
+      "product_name": "SHIFTER",
+      "before": {
+        "id": "id-fed6evfhmtl9kemd",
+        "code": "681100044-A",
+        "name": "SHIFTER",
+        "category_id": "id-h1tzh7x1mtk34t8n",
+        "unit": "adet",
+        "quantity": 13,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SHIFTER",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T08:29:16.165Z"
+      },
+      "after": {
+        "id": "id-fed6evfhmtl9kemd",
+        "code": "681100044-A",
+        "name": "SHIFTER",
+        "category_id": "id-h1tzh7x1mtk34t8n",
+        "unit": "adet",
+        "quantity": 13,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SHIFTER",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:46:48.299Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:46:48.299Z"
     }
   ],
   "movement_audit": [

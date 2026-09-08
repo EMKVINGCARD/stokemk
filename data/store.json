@@ -5737,12 +5737,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.212Z",
-      "updated_at": "2026-09-03T09:14:50.359Z"
+      "updated_at": "2026-09-08T08:45:13.596Z"
     },
     {
       "id": "id-x2fmf5v0mtl9keno",
@@ -10655,6 +10655,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:11.260Z"
+    },
+    {
+      "id": "id-6gppbqhlmtsfc6po",
+      "action": "Ürün güncellendi",
+      "product_id": "id-k8alzj3wmtl9keno",
+      "product_code": "YOK",
+      "product_name": "WING LH ANTIK BRASS LIGHTER SET",
+      "before": {
+        "id": "id-k8alzj3wmtl9keno",
+        "code": "YOK",
+        "name": "WING LH ANTIK BRASS LIGHTER SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.212Z",
+        "updated_at": "2026-09-03T09:14:50.359Z"
+      },
+      "after": {
+        "id": "id-k8alzj3wmtl9keno",
+        "code": "YOK",
+        "name": "WING LH ANTIK BRASS LIGHTER SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.212Z",
+        "updated_at": "2026-09-08T08:45:13.596Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:13.596Z"
     }
   ]
 }

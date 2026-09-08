@@ -875,12 +875,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 5,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "RFID ADJUS.WRISTB. MIFARE PLUS 4K BLUE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:28:20.963Z"
+      "updated_at": "2026-09-08T07:39:48.769Z"
     },
     {
       "id": "id-e78id9lzmtl9kemb",
@@ -15664,6 +15664,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:39:45.653Z"
+    },
+    {
+      "id": "id-xm38iju0mtsd02ap",
+      "action": "Ürün güncellendi",
+      "product_id": "id-gzwhw81lmtl9kemb",
+      "product_code": "P001082992-001-403",
+      "product_name": "WRISTBAND AYARLI GUEST 4K PLUSMAVİ",
+      "before": {
+        "id": "id-gzwhw81lmtl9kemb",
+        "code": "P001082992-001-403",
+        "name": "WRISTBAND AYARLI GUEST 4K PLUSMAVİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID ADJUS.WRISTB. MIFARE PLUS 4K BLUE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:20.963Z"
+      },
+      "after": {
+        "id": "id-gzwhw81lmtl9kemb",
+        "code": "P001082992-001-403",
+        "name": "WRISTBAND AYARLI GUEST 4K PLUSMAVİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID ADJUS.WRISTB. MIFARE PLUS 4K BLUE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T07:39:48.769Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:39:48.769Z"
     }
   ],
   "movement_audit": [

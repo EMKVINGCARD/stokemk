@@ -2737,12 +2737,12 @@
       "category_id": "id-gjz8r8ckmtk34t8n",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "RELAY BOX FOR VISION/2800 REMOTE CONTROLLERS",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:04:59.122Z"
     },
     {
       "id": "id-56o4mxkwmtl9kemh",
@@ -14898,6 +14898,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:04:52.102Z"
+    },
+    {
+      "id": "id-bnin62p0mtsbr9wy",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vhx3uwjqmtl9kemh",
+      "product_code": "4821627",
+      "product_name": "VISION RC RELAY BOX",
+      "before": {
+        "id": "id-vhx3uwjqmtl9kemh",
+        "code": "4821627",
+        "name": "VISION RC RELAY BOX",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "RELAY BOX FOR VISION/2800 REMOTE CONTROLLERS",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-vhx3uwjqmtl9kemh",
+        "code": "4821627",
+        "name": "VISION RC RELAY BOX",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "RELAY BOX FOR VISION/2800 REMOTE CONTROLLERS",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:04:59.122Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:04:59.122Z"
     }
   ],
   "movement_audit": [

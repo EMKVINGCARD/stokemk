@@ -3269,12 +3269,12 @@
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
       "quantity": 98,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "CLASSIC BATTERY LID, BLACK, LARGE, ASSY",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-09-03T08:29:16.174Z"
+      "updated_at": "2026-09-08T08:02:19.061Z"
     },
     {
       "id": "id-ydenpb2zmtl9kemn",
@@ -9651,6 +9651,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:02:08.584Z"
+    },
+    {
+      "id": "id-sxagcjefmtsdt06t",
+      "action": "Ürün güncellendi",
+      "product_id": "id-euy5dyz3mtl9kemm",
+      "product_code": "4822036",
+      "product_name": "CLASSIC UZUN TİP PİL KAPAĞI",
+      "before": {
+        "id": "id-euy5dyz3mtl9kemm",
+        "code": "4822036",
+        "name": "CLASSIC UZUN TİP PİL KAPAĞI",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 98,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CLASSIC BATTERY LID, BLACK, LARGE, ASSY",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-03T08:29:16.174Z"
+      },
+      "after": {
+        "id": "id-euy5dyz3mtl9kemm",
+        "code": "4822036",
+        "name": "CLASSIC UZUN TİP PİL KAPAĞI",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 98,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "CLASSIC BATTERY LID, BLACK, LARGE, ASSY",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-08T08:02:19.061Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:02:19.061Z"
     }
   ]
 }

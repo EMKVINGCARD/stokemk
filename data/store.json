@@ -1141,12 +1141,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 36,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE WIRED ROOM PANEL, COMPL - WHITE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:38:01.123Z"
     },
     {
       "id": "id-8jkbg7admtl9kemc",
@@ -10137,6 +10137,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:37:55.694Z"
+    },
+    {
+      "id": "id-7t3nuf1emtsaslgj",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ueqdov9jmtl9kemc",
+      "product_code": "4825523-000009",
+      "product_name": "ALLURE  İÇ PANEL SİYAH",
+      "before": {
+        "id": "id-ueqdov9jmtl9kemc",
+        "code": "4825523-000009",
+        "name": "ALLURE  İÇ PANEL SİYAH",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 36,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE WIRED ROOM PANEL, COMPL - WHITE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-ueqdov9jmtl9kemc",
+        "code": "4825523-000009",
+        "name": "ALLURE  İÇ PANEL SİYAH",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 36,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE WIRED ROOM PANEL, COMPL - WHITE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:38:01.123Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:38:01.123Z"
     }
   ],
   "movement_audit": [

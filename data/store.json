@@ -2471,12 +2471,12 @@
       "category_id": "id-3qhspgo7mtk34t8n",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ZENITH 17 TOP OPEN DIGITAL GREY",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:02:24.763Z"
     },
     {
       "id": "id-9pazy6bpmtl9kemh",
@@ -14100,6 +14100,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:02:14.522Z"
+    },
+    {
+      "id": "id-bmc2ecagmtsbnyt7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-kho40iinmtl9kemh",
+      "product_code": "ZD17001",
+      "product_name": "ZENITH ÇEKMECE TİPİ YUKARI AÇILAN Z17",
+      "before": {
+        "id": "id-kho40iinmtl9kemh",
+        "code": "ZD17001",
+        "name": "ZENITH ÇEKMECE TİPİ YUKARI AÇILAN Z17",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH 17 TOP OPEN DIGITAL GREY",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-kho40iinmtl9kemh",
+        "code": "ZD17001",
+        "name": "ZENITH ÇEKMECE TİPİ YUKARI AÇILAN Z17",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH 17 TOP OPEN DIGITAL GREY",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:02:24.763Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:02:24.763Z"
     }
   ],
   "movement_audit": [

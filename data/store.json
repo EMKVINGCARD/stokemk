@@ -1407,12 +1407,12 @@
       "category_id": "id-hzu8q0wcmtk34t8n",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 5,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HILTON BLE KIT FOR ESSENCE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:43:18.539Z"
+      "updated_at": "2026-09-08T07:44:48.513Z"
     },
     {
       "id": "id-lsundmm1mtl9kemc",
@@ -16690,6 +16690,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:43:57.965Z"
+    },
+    {
+      "id": "id-s6bmhhj7mtsd6hkx",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6nw4lqxxmtl9kemc",
+      "product_code": "P001042274-001-001",
+      "product_name": "ESSENCE V2 BLE HOUSING KUTUSU VE KABLOSU",
+      "before": {
+        "id": "id-6nw4lqxxmtl9kemc",
+        "code": "P001042274-001-001",
+        "name": "ESSENCE V2 BLE HOUSING KUTUSU VE KABLOSU",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "HILTON BLE KIT FOR ESSENCE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:43:18.539Z"
+      },
+      "after": {
+        "id": "id-6nw4lqxxmtl9kemc",
+        "code": "P001042274-001-001",
+        "name": "ESSENCE V2 BLE HOUSING KUTUSU VE KABLOSU",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HILTON BLE KIT FOR ESSENCE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T07:44:48.513Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:44:48.513Z"
     }
   ],
   "movement_audit": [

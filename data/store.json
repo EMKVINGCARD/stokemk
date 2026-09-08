@@ -1813,12 +1813,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 19,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SAFELINK INTERFACE WITH USB FOR ELSAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:52:22.455Z"
     },
     {
       "id": "id-ckfp3h7omtl9kemf",
@@ -12265,6 +12265,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:52:16.047Z"
+    },
+    {
+      "id": "id-z37d929imtsbb22f",
+      "action": "Ürün güncellendi",
+      "product_id": "id-5anefamimtl9kemf",
+      "product_code": "4826010",
+      "product_name": "USB KASA PROGRALAMA KABLOSU",
+      "before": {
+        "id": "id-5anefamimtl9kemf",
+        "code": "4826010",
+        "name": "USB KASA PROGRALAMA KABLOSU",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SAFELINK INTERFACE WITH USB FOR ELSAFES",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-5anefamimtl9kemf",
+        "code": "4826010",
+        "name": "USB KASA PROGRALAMA KABLOSU",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SAFELINK INTERFACE WITH USB FOR ELSAFES",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:52:22.455Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:52:22.455Z"
     }
   ],
   "movement_audit": [

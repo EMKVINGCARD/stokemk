@@ -3381,12 +3381,12 @@
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
       "quantity": 60,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Blocking mechanism 4404",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-03T08:29:16.176Z"
+      "updated_at": "2026-09-08T08:02:54.533Z"
     },
     {
       "id": "id-ytwm8671mtl9kemo",
@@ -9765,6 +9765,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:02:50.881Z"
+    },
+    {
+      "id": "id-spj5h3jgmtsdtrk5",
+      "action": "Ürün güncellendi",
+      "product_id": "id-c989cq1rmtl9kemo",
+      "product_code": "P000730270-002-001",
+      "product_name": "ANSI 4 SWT MOTOR",
+      "before": {
+        "id": "id-c989cq1rmtl9kemo",
+        "code": "P000730270-002-001",
+        "name": "ANSI 4 SWT MOTOR",
+        "category_id": "id-ranp5ei6mtk34t8o",
+        "unit": "adet",
+        "quantity": 60,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Blocking mechanism 4404",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-03T08:29:16.176Z"
+      },
+      "after": {
+        "id": "id-c989cq1rmtl9kemo",
+        "code": "P000730270-002-001",
+        "name": "ANSI 4 SWT MOTOR",
+        "category_id": "id-ranp5ei6mtk34t8o",
+        "unit": "adet",
+        "quantity": 60,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Blocking mechanism 4404",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-08T08:02:54.533Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:02:54.533Z"
     }
   ]
 }

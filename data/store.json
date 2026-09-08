@@ -2751,12 +2751,12 @@
       "category_id": "id-gjz8r8ckmtk34t8n",
       "unit": "adet",
       "quantity": 12,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:05:12.810Z"
     },
     {
       "id": "id-lnij5pfgmtl9kemh",
@@ -14936,6 +14936,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:04:59.122Z"
+    },
+    {
+      "id": "id-zxa99vgfmtsbrkh6",
+      "action": "Ürün güncellendi",
+      "product_id": "id-56o4mxkwmtl9kemh",
+      "product_code": "P001006433-003-001",
+      "product_name": "VISIONLINE RC GW HARİÇ",
+      "before": {
+        "id": "id-56o4mxkwmtl9kemh",
+        "code": "P001006433-003-001",
+        "name": "VISIONLINE RC GW HARİÇ",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-56o4mxkwmtl9kemh",
+        "code": "P001006433-003-001",
+        "name": "VISIONLINE RC GW HARİÇ",
+        "category_id": "id-gjz8r8ckmtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:05:12.810Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:05:12.810Z"
     }
   ],
   "movement_audit": [

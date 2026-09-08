@@ -2804,7 +2804,7 @@
       "id": "id-cdwa07nhmtl9kemh",
       "code": "683081114",
       "name": "MOC BLE HOUSING UZUN KABLO",
-      "category_id": "id-zew1quwomtk34t8n",
+      "category_id": "id-hzu8q0wcmtk34t8n",
       "unit": "adet",
       "quantity": 32,
       "critical_level": 10,
@@ -2812,7 +2812,7 @@
       "location": "",
       "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:05:57.830Z"
+      "updated_at": "2026-09-08T07:57:45.620Z"
     },
     {
       "id": "id-lsjtwpqumtl9kemh",
@@ -9081,6 +9081,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:57:33.493Z"
+    },
+    {
+      "id": "id-loqngelnmtsdn578",
+      "action": "Ürün güncellendi",
+      "product_id": "id-cdwa07nhmtl9kemh",
+      "product_code": "683081114",
+      "product_name": "MOC BLE HOUSING UZUN KABLO",
+      "before": {
+        "id": "id-cdwa07nhmtl9kemh",
+        "code": "683081114",
+        "name": "MOC BLE HOUSING UZUN KABLO",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 32,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:05:57.830Z"
+      },
+      "after": {
+        "id": "id-cdwa07nhmtl9kemh",
+        "code": "683081114",
+        "name": "MOC BLE HOUSING UZUN KABLO",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 32,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:57:45.620Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:57:45.620Z"
     }
   ]
 }

@@ -4925,12 +4925,12 @@
       "category_id": "id-1n8q8p8pmtk34t8o",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER SEALING ASSY PVD POLCHROME",
       "created_at": "2026-09-03T08:29:16.195Z",
-      "updated_at": "2026-09-03T08:29:16.195Z"
+      "updated_at": "2026-09-08T08:48:51.367Z"
     },
     {
       "id": "id-te6ll1rymtl9ken7",
@@ -12935,6 +12935,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:48:42.512Z"
+    },
+    {
+      "id": "id-gdqmpwmjmtsfguqv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-t72iv5yzmtl9ken7",
+      "product_code": "480884964",
+      "product_name": "SİLİNDİR KAPAĞI POLISH CHROME",
+      "before": {
+        "id": "id-t72iv5yzmtl9ken7",
+        "code": "480884964",
+        "name": "SİLİNDİR KAPAĞI POLISH CHROME",
+        "category_id": "id-1n8q8p8pmtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER SEALING ASSY PVD POLCHROME",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-03T08:29:16.195Z"
+      },
+      "after": {
+        "id": "id-t72iv5yzmtl9ken7",
+        "code": "480884964",
+        "name": "SİLİNDİR KAPAĞI POLISH CHROME",
+        "category_id": "id-1n8q8p8pmtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER SEALING ASSY PVD POLCHROME",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-08T08:48:51.367Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:48:51.367Z"
     }
   ]
 }

@@ -4771,12 +4771,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.193Z",
-      "updated_at": "2026-09-03T09:13:08.892Z"
+      "updated_at": "2026-09-08T08:49:23.656Z"
     },
     {
       "id": "id-n1nnq8r0mtl9ken6",
@@ -13277,6 +13277,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:20.744Z"
+    },
+    {
+      "id": "id-au2653x5mtsfhjns",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ubfszbkqmtl9ken5",
+      "product_code": "YOK",
+      "product_name": "58MM LIGHT BRONZE",
+      "before": {
+        "id": "id-ubfszbkqmtl9ken5",
+        "code": "YOK",
+        "name": "58MM LIGHT BRONZE",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.193Z",
+        "updated_at": "2026-09-03T09:13:08.892Z"
+      },
+      "after": {
+        "id": "id-ubfszbkqmtl9ken5",
+        "code": "YOK",
+        "name": "58MM LIGHT BRONZE",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.193Z",
+        "updated_at": "2026-09-08T08:49:23.656Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:23.656Z"
     }
   ]
 }

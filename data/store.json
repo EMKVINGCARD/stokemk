@@ -2877,12 +2877,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 11,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "HW VISIONLINE ELEVATOR RELAY MODULE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:06:37.238Z"
     },
     {
       "id": "id-fk7c83flmtl9kemh",
@@ -15278,6 +15278,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:06:24.798Z"
+    },
+    {
+      "id": "id-eqnslyxlmtsbtdme",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vlebhrf2mtl9kemh",
+      "product_code": "682055007",
+      "product_name": "VISIONLINE EXTRA RELAY BOARD",
+      "before": {
+        "id": "id-vlebhrf2mtl9kemh",
+        "code": "682055007",
+        "name": "VISIONLINE EXTRA RELAY BOARD",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "HW VISIONLINE ELEVATOR RELAY MODULE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-vlebhrf2mtl9kemh",
+        "code": "682055007",
+        "name": "VISIONLINE EXTRA RELAY BOARD",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "HW VISIONLINE ELEVATOR RELAY MODULE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:06:37.238Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:06:37.238Z"
     }
   ],
   "movement_audit": [

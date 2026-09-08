@@ -6857,12 +6857,12 @@
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, LEFT ANTBRASSLIGHT",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:27:51.031Z"
     },
     {
       "id": "id-pinnw1hsmtl9keog",
@@ -9285,6 +9285,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:27:47.703Z"
+    },
+    {
+      "id": "id-m39mq1remtsgv01j",
+      "action": "Ürün güncellendi",
+      "product_id": "id-1kkg0nrjmtl9keog",
+      "product_code": "P001010191-001-225",
+      "product_name": "ADB A28 KARŞILIK LH ANTIK BRASS LIGHTER",
+      "before": {
+        "id": "id-1kkg0nrjmtl9keog",
+        "code": "P001010191-001-225",
+        "name": "ADB A28 KARŞILIK LH ANTIK BRASS LIGHTER",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, LEFT ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-1kkg0nrjmtl9keog",
+        "code": "P001010191-001-225",
+        "name": "ADB A28 KARŞILIK LH ANTIK BRASS LIGHTER",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, LEFT ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:27:51.031Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:27:51.031Z"
     }
   ]
 }

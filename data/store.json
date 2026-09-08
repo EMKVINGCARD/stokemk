@@ -3367,12 +3367,12 @@
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "9 TO 4.5V LOCK MOTOR CONVERSION KIT ANSI",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-03T08:29:16.176Z"
+      "updated_at": "2026-09-08T08:02:50.881Z"
     },
     {
       "id": "id-c989cq1rmtl9kemo",
@@ -9727,6 +9727,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:02:39.137Z"
+    },
+    {
+      "id": "id-cr213kg6mtsdtoqp",
+      "action": "Ürün güncellendi",
+      "product_id": "id-oi20shtfmtl9kemo",
+      "product_code": "8404510",
+      "product_name": "ANSI 3 SWT MOTOR",
+      "before": {
+        "id": "id-oi20shtfmtl9kemo",
+        "code": "8404510",
+        "name": "ANSI 3 SWT MOTOR",
+        "category_id": "id-ranp5ei6mtk34t8o",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "9 TO 4.5V LOCK MOTOR CONVERSION KIT ANSI",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-03T08:29:16.176Z"
+      },
+      "after": {
+        "id": "id-oi20shtfmtl9kemo",
+        "code": "8404510",
+        "name": "ANSI 3 SWT MOTOR",
+        "category_id": "id-ranp5ei6mtk34t8o",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "9 TO 4.5V LOCK MOTOR CONVERSION KIT ANSI",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-08T08:02:50.881Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:02:50.881Z"
     }
   ]
 }

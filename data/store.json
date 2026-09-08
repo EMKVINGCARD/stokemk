@@ -6675,12 +6675,12 @@
       "category_id": "id-4gkyupz3mtk34t8p",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE ANSI, USANTDARK",
       "created_at": "2026-09-03T08:29:16.239Z",
-      "updated_at": "2026-09-03T08:29:16.239Z"
+      "updated_at": "2026-09-08T09:26:39.007Z"
     },
     {
       "id": "id-5vp9ew5fmtl9keof",
@@ -8791,6 +8791,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:26:35.104Z"
+    },
+    {
+      "id": "id-scgjojrgmtsgtggv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-p0uaqwp6mtl9keof",
+      "product_code": "458633530",
+      "product_name": "A28 STD KARŞILIK US ANTIK DARK",
+      "before": {
+        "id": "id-p0uaqwp6mtl9keof",
+        "code": "458633530",
+        "name": "A28 STD KARŞILIK US ANTIK DARK",
+        "category_id": "id-4gkyupz3mtk34t8p",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE ANSI, USANTDARK",
+        "created_at": "2026-09-03T08:29:16.239Z",
+        "updated_at": "2026-09-03T08:29:16.239Z"
+      },
+      "after": {
+        "id": "id-p0uaqwp6mtl9keof",
+        "code": "458633530",
+        "name": "A28 STD KARŞILIK US ANTIK DARK",
+        "category_id": "id-4gkyupz3mtk34t8p",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE ANSI, USANTDARK",
+        "created_at": "2026-09-03T08:29:16.239Z",
+        "updated_at": "2026-09-08T09:26:39.007Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:26:39.007Z"
     }
   ]
 }

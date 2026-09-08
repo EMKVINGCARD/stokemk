@@ -4094,7 +4094,7 @@
     },
     {
       "id": "id-wewzrvgymtl9kemu",
-      "code": "YOK",
+      "code": "EOL",
       "name": "MANYETİK LCU 3322 UNIVERSAL",
       "category_id": "id-li2k7ztkmtk34t8o",
       "unit": "adet",
@@ -4104,7 +4104,7 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.182Z",
-      "updated_at": "2026-09-08T08:36:39.900Z"
+      "updated_at": "2026-09-08T08:37:21.805Z"
     },
     {
       "id": "id-3wqwstytmtl9kemu",
@@ -9363,6 +9363,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:37:14.981Z"
+    },
+    {
+      "id": "id-0x1tcaqwmtsf22od",
+      "action": "Ürün güncellendi",
+      "product_id": "id-wewzrvgymtl9kemu",
+      "product_code": "EOL",
+      "product_name": "MANYETİK LCU 3322 UNIVERSAL",
+      "before": {
+        "id": "id-wewzrvgymtl9kemu",
+        "code": "YOK",
+        "name": "MANYETİK LCU 3322 UNIVERSAL",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.182Z",
+        "updated_at": "2026-09-08T08:36:39.900Z"
+      },
+      "after": {
+        "id": "id-wewzrvgymtl9kemu",
+        "code": "EOL",
+        "name": "MANYETİK LCU 3322 UNIVERSAL",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.182Z",
+        "updated_at": "2026-09-08T08:37:21.805Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:37:21.805Z"
     }
   ]
 }

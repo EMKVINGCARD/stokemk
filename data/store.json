@@ -4575,12 +4575,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K LIGHTBRZ WO/LOGO 42MM",
       "created_at": "2026-09-03T08:29:16.189Z",
-      "updated_at": "2026-09-04T11:05:32.761Z"
+      "updated_at": "2026-09-08T08:49:59.344Z"
     },
     {
       "id": "id-yybewuahmtl9ken2",
@@ -13809,6 +13809,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:57.143Z"
+    },
+    {
+      "id": "id-5rmndlqxmtsfib74",
+      "action": "Ürün güncellendi",
+      "product_id": "id-2chxcx6xmtl9ken1",
+      "product_code": "4812635055V42",
+      "product_name": "42MM LIGHT BRONZE",
+      "before": {
+        "id": "id-2chxcx6xmtl9ken1",
+        "code": "4812635055V42",
+        "name": "42MM LIGHT BRONZE",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K LIGHTBRZ WO/LOGO 42MM",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-04T11:05:32.761Z"
+      },
+      "after": {
+        "id": "id-2chxcx6xmtl9ken1",
+        "code": "4812635055V42",
+        "name": "42MM LIGHT BRONZE",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K LIGHTBRZ WO/LOGO 42MM",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-08T08:49:59.344Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:59.344Z"
     }
   ]
 }

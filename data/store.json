@@ -1673,12 +1673,12 @@
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T09:07:21.732Z"
+      "updated_at": "2026-09-08T06:50:25.166Z"
     },
     {
       "id": "id-t6ukpj0umtl9kemd",
@@ -11885,6 +11885,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:50:22.570Z"
+    },
+    {
+      "id": "id-zouvoct2mtsb8jke",
+      "action": "Ürün güncellendi",
+      "product_id": "id-hjqit6qjmtl9kemd",
+      "product_code": "YOK",
+      "product_name": "DOOR RETAINER M2 GILDED BRASS (PARLAK SARI)",
+      "before": {
+        "id": "id-hjqit6qjmtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER M2 GILDED BRASS (PARLAK SARI)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T09:07:21.732Z"
+      },
+      "after": {
+        "id": "id-hjqit6qjmtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER M2 GILDED BRASS (PARLAK SARI)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:50:25.166Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:50:25.166Z"
     }
   ],
   "movement_audit": [

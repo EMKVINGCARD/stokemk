@@ -2009,12 +2009,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FLEX CABLE - NOT FOR FLOOR, SENT/ INF, PHIII, 26.5CM X 0.9CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:54:25.383Z"
     },
     {
       "id": "id-j92exc11mtl9kemf",
@@ -12797,6 +12797,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:54:18.222Z"
+    },
+    {
+      "id": "id-jaekkn7cmtsbdox3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-pyc8izdzmtl9kemf",
+      "product_code": "253-8121",
+      "product_name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+      "before": {
+        "id": "id-pyc8izdzmtl9kemf",
+        "code": "253-8121",
+        "name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "FLEX CABLE - NOT FOR FLOOR, SENT/ INF, PHIII, 26.5CM X 0.9CM",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-pyc8izdzmtl9kemf",
+        "code": "253-8121",
+        "name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "FLEX CABLE - NOT FOR FLOOR, SENT/ INF, PHIII, 26.5CM X 0.9CM",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:54:25.383Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:54:25.383Z"
     }
   ],
   "movement_audit": [

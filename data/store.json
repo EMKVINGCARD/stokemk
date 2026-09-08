@@ -2527,12 +2527,12 @@
       "category_id": "id-3qhspgo7mtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "SENTINEL II 41 DIG, LH, GREY, W/O POWER OUTLET",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:03:17.427Z"
     },
     {
       "id": "id-g7n8dkf0mtl9kemh",
@@ -14290,6 +14290,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:03:13.746Z"
+    },
+    {
+      "id": "id-7nlp7nsdmtsbp3g3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-a70vgtdymtl9kemh",
+      "product_code": "SD41002",
+      "product_name": "SENTINEL SD41 LH",
+      "before": {
+        "id": "id-a70vgtdymtl9kemh",
+        "code": "SD41002",
+        "name": "SENTINEL SD41 LH",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SENTINEL II 41 DIG, LH, GREY, W/O POWER OUTLET",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-a70vgtdymtl9kemh",
+        "code": "SD41002",
+        "name": "SENTINEL SD41 LH",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "SENTINEL II 41 DIG, LH, GREY, W/O POWER OUTLET",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:03:17.427Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:03:17.427Z"
     }
   ],
   "movement_audit": [

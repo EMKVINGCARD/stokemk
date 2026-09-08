@@ -2555,12 +2555,12 @@
       "category_id": "id-3qhspgo7mtk34t8n",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "INFINITY II 49 DIG, LH, BLACK, W/O POWER OUTLET",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:03:25.211Z"
     },
     {
       "id": "id-vqp21slwmtl9kemh",
@@ -14366,6 +14366,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:03:21.914Z"
+    },
+    {
+      "id": "id-h5dwjnwhmtsbp9gb",
+      "action": "Ürün güncellendi",
+      "product_id": "id-kaeasy5omtl9kemh",
+      "product_code": "JD49002",
+      "product_name": "INFINITY  JD49 LH",
+      "before": {
+        "id": "id-kaeasy5omtl9kemh",
+        "code": "JD49002",
+        "name": "INFINITY  JD49 LH",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "INFINITY II 49 DIG, LH, BLACK, W/O POWER OUTLET",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-kaeasy5omtl9kemh",
+        "code": "JD49002",
+        "name": "INFINITY  JD49 LH",
+        "category_id": "id-3qhspgo7mtk34t8n",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "INFINITY II 49 DIG, LH, BLACK, W/O POWER OUTLET",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:03:25.211Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:03:25.211Z"
     }
   ],
   "movement_audit": [

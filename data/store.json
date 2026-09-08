@@ -6759,12 +6759,12 @@
       "category_id": "id-90f31rmlmtk34t8p",
       "unit": "adet",
       "quantity": 13,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE EURO 5995 STEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:27:19.471Z"
     },
     {
       "id": "id-ysn6epfnmtl9keog",
@@ -9019,6 +9019,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:27:11.871Z"
+    },
+    {
+      "id": "id-xcdy5as9mtsgubov",
+      "action": "Ürün güncellendi",
+      "product_id": "id-91egu73qmtl9keog",
+      "product_code": "4722673",
+      "product_name": "EURO 5995 KÖŞELİ KARŞILIK  SATIN CHROME",
+      "before": {
+        "id": "id-91egu73qmtl9keog",
+        "code": "4722673",
+        "name": "EURO 5995 KÖŞELİ KARŞILIK  SATIN CHROME",
+        "category_id": "id-90f31rmlmtk34t8p",
+        "unit": "adet",
+        "quantity": 13,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE EURO 5995 STEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-91egu73qmtl9keog",
+        "code": "4722673",
+        "name": "EURO 5995 KÖŞELİ KARŞILIK  SATIN CHROME",
+        "category_id": "id-90f31rmlmtk34t8p",
+        "unit": "adet",
+        "quantity": 13,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE EURO 5995 STEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:27:19.471Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:27:19.471Z"
     }
   ]
 }

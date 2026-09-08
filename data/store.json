@@ -5275,12 +5275,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE SATBRASS 21.5MM W/SEAL",
       "created_at": "2026-09-03T08:29:16.198Z",
-      "updated_at": "2026-09-03T08:29:16.198Z"
+      "updated_at": "2026-09-08T08:47:07.676Z"
     },
     {
       "id": "id-1j8zi6h6mtl9kena",
@@ -12023,6 +12023,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:47:05.280Z"
+    },
+    {
+      "id": "id-0q6n1kfvmtsfemqk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-i6fz3exymtl9kena",
+      "product_code": "482192162",
+      "product_name": "21,5MM RING SATIN BRASS",
+      "before": {
+        "id": "id-i6fz3exymtl9kena",
+        "code": "482192162",
+        "name": "21,5MM RING SATIN BRASS",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE SATBRASS 21.5MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.198Z",
+        "updated_at": "2026-09-03T08:29:16.198Z"
+      },
+      "after": {
+        "id": "id-i6fz3exymtl9kena",
+        "code": "482192162",
+        "name": "21,5MM RING SATIN BRASS",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE SATBRASS 21.5MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.198Z",
+        "updated_at": "2026-09-08T08:47:07.676Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:47:07.676Z"
     }
   ]
 }

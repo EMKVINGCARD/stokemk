@@ -1127,12 +1127,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE WIRED ROOM PANEL, COMPL - BLACK",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:37:55.694Z"
     },
     {
       "id": "id-ueqdov9jmtl9kemc",
@@ -10099,6 +10099,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:37:49.123Z"
+    },
+    {
+      "id": "id-gc6axb4gmtsash9q",
+      "action": "Ürün güncellendi",
+      "product_id": "id-5uda0oy0mtl9kemc",
+      "product_code": "4825523-000010",
+      "product_name": "ALLURE  İÇ PANEL BEYAZ",
+      "before": {
+        "id": "id-5uda0oy0mtl9kemc",
+        "code": "4825523-000010",
+        "name": "ALLURE  İÇ PANEL BEYAZ",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE WIRED ROOM PANEL, COMPL - BLACK",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-5uda0oy0mtl9kemc",
+        "code": "4825523-000010",
+        "name": "ALLURE  İÇ PANEL BEYAZ",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE WIRED ROOM PANEL, COMPL - BLACK",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:37:55.694Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:37:55.694Z"
     }
   ],
   "movement_audit": [

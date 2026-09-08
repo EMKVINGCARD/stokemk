@@ -1519,12 +1519,12 @@
       "category_id": "id-cko1by4cmtk34t8n",
       "unit": "adet",
       "quantity": 3000,
-      "critical_level": 0,
+      "critical_level": 500,
       "unit_price": 0,
       "location": "",
       "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T08:29:16.165Z"
+      "updated_at": "2026-09-08T06:46:28.175Z"
     },
     {
       "id": "id-keo29ialmtl9kemd",
@@ -11239,6 +11239,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:46:21.390Z"
+    },
+    {
+      "id": "id-hs6cblo9mtsb3gpc",
+      "action": "Ürün güncellendi",
+      "product_id": "id-24xb25l9mtl9kemd",
+      "product_code": "683081114",
+      "product_name": "Y KABLO",
+      "before": {
+        "id": "id-24xb25l9mtl9kemd",
+        "code": "683081114",
+        "name": "Y KABLO",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 3000,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T08:29:16.165Z"
+      },
+      "after": {
+        "id": "id-24xb25l9mtl9kemd",
+        "code": "683081114",
+        "name": "Y KABLO",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 3000,
+        "critical_level": 500,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:46:28.175Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:46:28.176Z"
     }
   ],
   "movement_audit": [

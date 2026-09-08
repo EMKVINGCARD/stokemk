@@ -501,12 +501,6 @@
       "name": "deneme",
       "kind": "diger",
       "auto_created": true
-    },
-    {
-      "id": "id-yawxffnhmtsdblpl",
-      "name": "Renaissance Polat İstanbul",
-      "kind": "diger",
-      "auto_created": true
     }
   ],
   "products": [
@@ -1889,12 +1883,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 2,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:48:13.473Z"
+      "updated_at": "2026-09-08T07:49:13.897Z"
     },
     {
       "id": "id-xkl00ccdmtl9kemf",
@@ -1903,12 +1897,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 2,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:48:23.397Z"
+      "updated_at": "2026-09-08T07:49:09.937Z"
     },
     {
       "id": "id-vutfhrwpmtl9kemf",
@@ -1917,12 +1911,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 2,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:46:46.065Z"
+      "updated_at": "2026-09-08T07:49:17.261Z"
     },
     {
       "id": "id-rtuhomf1mtl9kemf",
@@ -1969,7 +1963,7 @@
     {
       "id": "id-qwybrw4kmtl9kemf",
       "code": "253-802",
-      "name": "14 POLE FLEXI PH1 İÇİN",
+      "name": "14 POLE FLEXI PH1 ",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 12,
@@ -1978,7 +1972,7 @@
       "location": "",
       "description": "FLEX CABLE FROM CPU TO KEYPAD SENTINEL PH I,30CM X 1.875CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:54:07.354Z"
+      "updated_at": "2026-09-08T07:49:38.645Z"
     },
     {
       "id": "id-fapruuwnmtl9kemf",
@@ -2042,13 +2036,13 @@
       "name": "CPU PH3 BOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 9,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "PCB INSIDE PH III FOR SAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:48:47.146Z"
+      "updated_at": "2026-09-08T06:54:53.851Z"
     },
     {
       "id": "id-5mnvowdvmtl9kemf",

@@ -3637,12 +3637,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "Lock Case EURO ADB 65 4.5V 20mm RH",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T08:29:16.178Z"
+      "updated_at": "2026-09-08T09:06:45.139Z"
     },
     {
       "id": "id-385411tgmtl9kemq",
@@ -15595,6 +15595,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:06:42.400Z"
+    },
+    {
+      "id": "id-zvvo8yw7mtsg3v9v",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ppj67j5nmtl9kemq",
+      "product_code": "4813996B1",
+      "product_name": "EURO ADB 20 RH GÖMME",
+      "before": {
+        "id": "id-ppj67j5nmtl9kemq",
+        "code": "4813996B1",
+        "name": "EURO ADB 20 RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Lock Case EURO ADB 65 4.5V 20mm RH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-03T08:29:16.178Z"
+      },
+      "after": {
+        "id": "id-ppj67j5nmtl9kemq",
+        "code": "4813996B1",
+        "name": "EURO ADB 20 RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "Lock Case EURO ADB 65 4.5V 20mm RH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T09:06:45.139Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:06:45.139Z"
     }
   ]
 }

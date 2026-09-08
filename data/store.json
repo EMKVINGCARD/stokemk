@@ -3679,12 +3679,12 @@
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 2,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-08T09:06:54.471Z"
+      "updated_at": "2026-09-08T09:07:03.000Z"
     },
     {
       "id": "id-qtrsswfjmtl9kemq",
@@ -15747,6 +15747,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:06:54.471Z"
+    },
+    {
+      "id": "id-ugdpkoz9mtsg4920",
+      "action": "Ürün güncellendi",
+      "product_id": "id-dzjr29vymtl9kemq",
+      "product_code": "EOL",
+      "product_name": "SIGNATURE 6330 LCU",
+      "before": {
+        "id": "id-dzjr29vymtl9kemq",
+        "code": "EOL",
+        "name": "SIGNATURE 6330 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T09:06:54.471Z"
+      },
+      "after": {
+        "id": "id-dzjr29vymtl9kemq",
+        "code": "EOL",
+        "name": "SIGNATURE 6330 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T09:07:03.000Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:07:03.000Z"
     }
   ]
 }

@@ -4617,12 +4617,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.190Z",
-      "updated_at": "2026-09-03T09:12:48.579Z"
+      "updated_at": "2026-09-08T08:49:52.696Z"
     },
     {
       "id": "id-n50k9txymtl9ken2",
@@ -13695,6 +13695,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:49.732Z"
+    },
+    {
+      "id": "id-8y0wles1mtsfi62g",
+      "action": "Ürün güncellendi",
+      "product_id": "id-omkx0zkhmtl9ken2",
+      "product_code": "YOK",
+      "product_name": "50MM POLISH CHROME",
+      "before": {
+        "id": "id-omkx0zkhmtl9ken2",
+        "code": "YOK",
+        "name": "50MM POLISH CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.190Z",
+        "updated_at": "2026-09-03T09:12:48.579Z"
+      },
+      "after": {
+        "id": "id-omkx0zkhmtl9ken2",
+        "code": "YOK",
+        "name": "50MM POLISH CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.190Z",
+        "updated_at": "2026-09-08T08:49:52.696Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:52.696Z"
     }
   ]
 }

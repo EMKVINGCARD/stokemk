@@ -5373,12 +5373,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.201Z",
-      "updated_at": "2026-09-03T09:13:49.312Z"
+      "updated_at": "2026-09-08T08:46:49.264Z"
     },
     {
       "id": "id-kd62ighwmtl9kend",
@@ -11757,6 +11757,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:46.520Z"
+    },
+    {
+      "id": "id-4dbr6zilmtsfe8j4",
+      "action": "Ürün güncellendi",
+      "product_id": "id-7nz0ardsmtl9kend",
+      "product_code": "YOK",
+      "product_name": "21,5MM RING VELEUR NICKEL",
+      "before": {
+        "id": "id-7nz0ardsmtl9kend",
+        "code": "YOK",
+        "name": "21,5MM RING VELEUR NICKEL",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-03T09:13:49.312Z"
+      },
+      "after": {
+        "id": "id-7nz0ardsmtl9kend",
+        "code": "YOK",
+        "name": "21,5MM RING VELEUR NICKEL",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-08T08:46:49.264Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:49.264Z"
     }
   ]
 }

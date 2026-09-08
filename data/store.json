@@ -3119,12 +3119,12 @@
       "category_id": "id-p32v71yhmtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.173Z",
-      "updated_at": "2026-09-03T09:09:26.072Z"
+      "updated_at": "2026-09-08T09:04:30.372Z"
     },
     {
       "id": "id-uneg22samtl9keml",
@@ -15253,6 +15253,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:04:24.956Z"
+    },
+    {
+      "id": "id-zg5bavy8mtsg0zac",
+      "action": "Ürün güncellendi",
+      "product_id": "id-0vu6h9y3mtl9keml",
+      "product_code": "YOK",
+      "product_name": "CLASSIC ANTIK BRASS LIGHTER STRAIGHT SİLİNDİRSİZ İÇ/DIŞ SET AYNA",
+      "before": {
+        "id": "id-0vu6h9y3mtl9keml",
+        "code": "YOK",
+        "name": "CLASSIC ANTIK BRASS LIGHTER STRAIGHT SİLİNDİRSİZ İÇ/DIŞ SET AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.173Z",
+        "updated_at": "2026-09-03T09:09:26.072Z"
+      },
+      "after": {
+        "id": "id-0vu6h9y3mtl9keml",
+        "code": "YOK",
+        "name": "CLASSIC ANTIK BRASS LIGHTER STRAIGHT SİLİNDİRSİZ İÇ/DIŞ SET AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.173Z",
+        "updated_at": "2026-09-08T09:04:30.372Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:04:30.372Z"
     }
   ]
 }

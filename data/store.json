@@ -2275,12 +2275,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 3,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "TÜRKİYEDE KULLANAN OTEL YOK",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-08T07:00:10.426Z"
+      "updated_at": "2026-09-08T07:52:54.457Z"
     },
     {
       "id": "id-btlnt9jlmtl9kemg",
@@ -8625,6 +8625,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:52:47.417Z"
+    },
+    {
+      "id": "id-mblt6yfwmtsdgwjd",
+      "action": "Ürün güncellendi",
+      "product_id": "id-qlbwb2d1mtl9kemg",
+      "product_code": "EOL",
+      "product_name": "SENTINEL RFID KEYBOARD COMP.",
+      "before": {
+        "id": "id-qlbwb2d1mtl9kemg",
+        "code": "EOL",
+        "name": "SENTINEL RFID KEYBOARD COMP.",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 3,
+        "unit_price": 0,
+        "location": "",
+        "description": "TÜRKİYEDE KULLANAN OTEL YOK",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T07:00:10.426Z"
+      },
+      "after": {
+        "id": "id-qlbwb2d1mtl9kemg",
+        "code": "EOL",
+        "name": "SENTINEL RFID KEYBOARD COMP.",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "TÜRKİYEDE KULLANAN OTEL YOK",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T07:52:54.457Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:52:54.457Z"
     }
   ]
 }

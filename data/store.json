@@ -4150,7 +4150,7 @@
     },
     {
       "id": "id-7mvnx5l2mtl9kemw",
-      "code": "YOK",
+      "code": "EOL",
       "name": "DAVINCI READER",
       "category_id": "id-li2k7ztkmtk34t8o",
       "unit": "adet",
@@ -4160,7 +4160,7 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.184Z",
-      "updated_at": "2026-09-03T09:12:17.884Z"
+      "updated_at": "2026-09-08T08:36:55.520Z"
     },
     {
       "id": "id-q35lk2oqmtl9kemw",
@@ -9173,6 +9173,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:36:50.320Z"
+    },
+    {
+      "id": "id-cxrkfjvmmtsf1ie8",
+      "action": "Ürün güncellendi",
+      "product_id": "id-7mvnx5l2mtl9kemw",
+      "product_code": "EOL",
+      "product_name": "DAVINCI READER",
+      "before": {
+        "id": "id-7mvnx5l2mtl9kemw",
+        "code": "YOK",
+        "name": "DAVINCI READER",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.184Z",
+        "updated_at": "2026-09-03T09:12:17.884Z"
+      },
+      "after": {
+        "id": "id-7mvnx5l2mtl9kemw",
+        "code": "EOL",
+        "name": "DAVINCI READER",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.184Z",
+        "updated_at": "2026-09-08T08:36:55.520Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:36:55.520Z"
     }
   ]
 }

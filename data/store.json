@@ -4108,7 +4108,7 @@
     },
     {
       "id": "id-3wqwstytmtl9kemu",
-      "code": "EPŞ",
+      "code": "EOL",
       "name": "MANYETİK 9V LCU",
       "category_id": "id-li2k7ztkmtk34t8o",
       "unit": "adet",
@@ -4118,7 +4118,7 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.182Z",
-      "updated_at": "2026-09-08T08:37:10.268Z"
+      "updated_at": "2026-09-08T08:37:14.981Z"
     },
     {
       "id": "id-j54dvgt3mtl9kemv",
@@ -9325,6 +9325,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:37:10.268Z"
+    },
+    {
+      "id": "id-5snf4nuimtsf1xet",
+      "action": "Ürün güncellendi",
+      "product_id": "id-3wqwstytmtl9kemu",
+      "product_code": "EOL",
+      "product_name": "MANYETİK 9V LCU",
+      "before": {
+        "id": "id-3wqwstytmtl9kemu",
+        "code": "EPŞ",
+        "name": "MANYETİK 9V LCU",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.182Z",
+        "updated_at": "2026-09-08T08:37:10.268Z"
+      },
+      "after": {
+        "id": "id-3wqwstytmtl9kemu",
+        "code": "EOL",
+        "name": "MANYETİK 9V LCU",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.182Z",
+        "updated_at": "2026-09-08T08:37:14.981Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:37:14.981Z"
     }
   ]
 }

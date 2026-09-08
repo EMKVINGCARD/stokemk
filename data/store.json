@@ -3979,12 +3979,12 @@
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
       "quantity": 66,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SIG FRONT COVER BLACK FOR MARRIOTT",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-03T08:29:16.180Z"
+      "updated_at": "2026-09-08T08:31:32.420Z"
     },
     {
       "id": "id-qihfztlemtl9kemt",
@@ -8547,6 +8547,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:31:28.109Z"
+    },
+    {
+      "id": "id-lhiswqfjmtseul38",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ux8fepz6mtl9kems",
+      "product_code": "P000591071-001-402",
+      "product_name": "SIGNATURE MARRIOTT LCU KAPAK",
+      "before": {
+        "id": "id-ux8fepz6mtl9kems",
+        "code": "P000591071-001-402",
+        "name": "SIGNATURE MARRIOTT LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 66,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIG FRONT COVER BLACK FOR MARRIOTT",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-03T08:29:16.180Z"
+      },
+      "after": {
+        "id": "id-ux8fepz6mtl9kems",
+        "code": "P000591071-001-402",
+        "name": "SIGNATURE MARRIOTT LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 66,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIG FRONT COVER BLACK FOR MARRIOTT",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-08T08:31:32.420Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:31:32.420Z"
     }
   ]
 }

@@ -6871,12 +6871,12 @@
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
       "quantity": 14,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, RIGHT STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:27:53.867Z"
     },
     {
       "id": "id-ravnurr0mtl9keog",
@@ -9323,6 +9323,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:27:51.031Z"
+    },
+    {
+      "id": "id-htqt6om3mtsgv28b",
+      "action": "Ürün güncellendi",
+      "product_id": "id-pinnw1hsmtl9keog",
+      "product_code": "P001010191-002-222",
+      "product_name": "ADB A28 KARŞILIK RH SATIN CHROME",
+      "before": {
+        "id": "id-pinnw1hsmtl9keog",
+        "code": "P001010191-002-222",
+        "name": "ADB A28 KARŞILIK RH SATIN CHROME",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 14,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, RIGHT STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-pinnw1hsmtl9keog",
+        "code": "P001010191-002-222",
+        "name": "ADB A28 KARŞILIK RH SATIN CHROME",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 14,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, RIGHT STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:27:53.867Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:27:53.867Z"
     }
   ]
 }

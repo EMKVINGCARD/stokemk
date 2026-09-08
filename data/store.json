@@ -5513,12 +5513,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.204Z",
-      "updated_at": "2026-09-03T09:14:01.800Z"
+      "updated_at": "2026-09-08T08:44:25.451Z"
     },
     {
       "id": "id-cvghrnt2mtl9kenh",
@@ -10047,6 +10047,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:44:23.027Z"
+    },
+    {
+      "id": "id-zra5b30jmtsfb5kc",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fuokzmx8mtl9keng",
+      "product_code": "YOK",
+      "product_name": "WING RH POLISH CHROME SET",
+      "before": {
+        "id": "id-fuokzmx8mtl9keng",
+        "code": "YOK",
+        "name": "WING RH POLISH CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.204Z",
+        "updated_at": "2026-09-03T09:14:01.800Z"
+      },
+      "after": {
+        "id": "id-fuokzmx8mtl9keng",
+        "code": "YOK",
+        "name": "WING RH POLISH CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.204Z",
+        "updated_at": "2026-09-08T08:44:25.451Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:44:25.452Z"
     }
   ]
 }

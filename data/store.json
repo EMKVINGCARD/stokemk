@@ -3912,7 +3912,7 @@
     },
     {
       "id": "id-4q6qmqb6mtl9kems",
-      "code": "4826070",
+      "code": "EOL",
       "name": "ESSENCE V1 6333 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
@@ -3922,7 +3922,7 @@
       "location": "",
       "description": "LCU 6334 ESSENCE RFID ASSY (4G)",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-03T08:29:16.180Z"
+      "updated_at": "2026-09-08T09:10:34.358Z"
     },
     {
       "id": "id-p2we1x7kmtl9kems",
@@ -15899,6 +15899,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:10:27.399Z"
+    },
+    {
+      "id": "id-u8kbt9wkmtsg8s52",
+      "action": "Ürün güncellendi",
+      "product_id": "id-4q6qmqb6mtl9kems",
+      "product_code": "EOL",
+      "product_name": "ESSENCE V1 6333 LCU",
+      "before": {
+        "id": "id-4q6qmqb6mtl9kems",
+        "code": "4826070",
+        "name": "ESSENCE V1 6333 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 17,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 ESSENCE RFID ASSY (4G)",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-03T08:29:16.180Z"
+      },
+      "after": {
+        "id": "id-4q6qmqb6mtl9kems",
+        "code": "EOL",
+        "name": "ESSENCE V1 6333 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 17,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 ESSENCE RFID ASSY (4G)",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-08T09:10:34.358Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:10:34.358Z"
     }
   ]
 }

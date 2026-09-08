@@ -3493,12 +3493,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "SIGNATURE MECHANICAL 1021",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-09-03T08:29:16.177Z"
+      "updated_at": "2026-09-08T08:04:04.773Z"
     },
     {
       "id": "id-lfcpe959mtl9kemp",
@@ -10107,6 +10107,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:03:58.488Z"
+    },
+    {
+      "id": "id-ixbsrbcnmtsdv9r9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-dpgylc08mtl9kemp",
+      "product_code": "1000SIGNATURE1021",
+      "product_name": "ANSI 1021 GÖMME",
+      "before": {
+        "id": "id-dpgylc08mtl9kemp",
+        "code": "1000SIGNATURE1021",
+        "name": "ANSI 1021 GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIGNATURE MECHANICAL 1021",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-03T08:29:16.177Z"
+      },
+      "after": {
+        "id": "id-dpgylc08mtl9kemp",
+        "code": "1000SIGNATURE1021",
+        "name": "ANSI 1021 GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIGNATURE MECHANICAL 1021",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-08T08:04:04.773Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:04:04.773Z"
     }
   ]
 }

@@ -7165,12 +7165,12 @@
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - SATBRASS",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:30:11.699Z"
     },
     {
       "id": "id-nj4pv96qmtl9keog",
@@ -10159,6 +10159,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:30:09.051Z"
+    },
+    {
+      "id": "id-z5l8emrkmtsgy0kz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-piyhohzgmtl9keog",
+      "product_code": "482459062",
+      "product_name": "ESSENCE V2 FRONT SATIN BRASS",
+      "before": {
+        "id": "id-piyhohzgmtl9keog",
+        "code": "482459062",
+        "name": "ESSENCE V2 FRONT SATIN BRASS",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - SATBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-piyhohzgmtl9keog",
+        "code": "482459062",
+        "name": "ESSENCE V2 FRONT SATIN BRASS",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - SATBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:30:11.699Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:30:11.699Z"
     }
   ]
 }

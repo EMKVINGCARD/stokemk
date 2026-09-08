@@ -3339,12 +3339,12 @@
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
       "quantity": 41,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LOCK MOTOR SIGNATURE/CLASSIC EURO 4.5V",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-03T08:29:16.176Z"
+      "updated_at": "2026-09-08T08:02:39.137Z"
     },
     {
       "id": "id-0zepp0vnmtl9kemo",
@@ -9689,6 +9689,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:02:19.061Z"
+    },
+    {
+      "id": "id-iiqcqw1dmtsdtfoh",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ryjul9g8mtl9kemo",
+      "product_code": "4817222",
+      "product_name": "EURO 4,5V MOTOR",
+      "before": {
+        "id": "id-ryjul9g8mtl9kemo",
+        "code": "4817222",
+        "name": "EURO 4,5V MOTOR",
+        "category_id": "id-ranp5ei6mtk34t8o",
+        "unit": "adet",
+        "quantity": 41,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK MOTOR SIGNATURE/CLASSIC EURO 4.5V",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-03T08:29:16.176Z"
+      },
+      "after": {
+        "id": "id-ryjul9g8mtl9kemo",
+        "code": "4817222",
+        "name": "EURO 4,5V MOTOR",
+        "category_id": "id-ranp5ei6mtk34t8o",
+        "unit": "adet",
+        "quantity": 41,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK MOTOR SIGNATURE/CLASSIC EURO 4.5V",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-08T08:02:39.137Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:02:39.137Z"
     }
   ]
 }

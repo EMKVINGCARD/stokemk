@@ -3731,12 +3731,12 @@
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
       "quantity": 33,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T08:29:16.178Z"
+      "updated_at": "2026-09-08T08:06:37.688Z"
     },
     {
       "id": "id-0zs54nbnmtl9kemq",
@@ -10487,6 +10487,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:06:17.093Z"
+    },
+    {
+      "id": "id-kb8qnoaemtsdyjqw",
+      "action": "Ürün güncellendi",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "before": {
+        "id": "id-azwdqcz6mtl9kemq",
+        "code": "4826068",
+        "name": "SIGNATURE 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 33,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-03T08:29:16.178Z"
+      },
+      "after": {
+        "id": "id-azwdqcz6mtl9kemq",
+        "code": "4826068",
+        "name": "SIGNATURE 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 33,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T08:06:37.688Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:06:37.688Z"
     }
   ]
 }

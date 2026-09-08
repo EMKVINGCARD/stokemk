@@ -4309,12 +4309,12 @@
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER ANTBRASSLIGHT",
       "created_at": "2026-09-03T08:29:16.186Z",
-      "updated_at": "2026-09-03T08:29:16.186Z"
+      "updated_at": "2026-09-08T09:12:09.123Z"
     },
     {
       "id": "id-c80iehi2mtl9kemy",
@@ -16279,6 +16279,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:12:04.808Z"
+    },
+    {
+      "id": "id-xmmt1gj0mtsgat9f",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ytoq06glmtl9kemy",
+      "product_code": "482379625",
+      "product_name": "SKIRT ANTIK BRASS LIGHT",
+      "before": {
+        "id": "id-ytoq06glmtl9kemy",
+        "code": "482379625",
+        "name": "SKIRT ANTIK BRASS LIGHT",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.186Z",
+        "updated_at": "2026-09-03T08:29:16.186Z"
+      },
+      "after": {
+        "id": "id-ytoq06glmtl9kemy",
+        "code": "482379625",
+        "name": "SKIRT ANTIK BRASS LIGHT",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.186Z",
+        "updated_at": "2026-09-08T09:12:09.123Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:12:09.123Z"
     }
   ]
 }

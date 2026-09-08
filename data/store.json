@@ -1225,12 +1225,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 8,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, BLACK T",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:38:43.987Z"
     },
     {
       "id": "id-scbrg7yxmtl9kemc",
@@ -10365,6 +10365,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:38:35.339Z"
+    },
+    {
+      "id": "id-dso887iemtsatij7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-g8f1w65fmtl9kemc",
+      "product_code": "482553490",
+      "product_name": "ALLURE IR KIT KAPI VE KANAT TARAFI BLACK TİTANİUM",
+      "before": {
+        "id": "id-g8f1w65fmtl9kemc",
+        "code": "482553490",
+        "name": "ALLURE IR KIT KAPI VE KANAT TARAFI BLACK TİTANİUM",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, BLACK T",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-g8f1w65fmtl9kemc",
+        "code": "482553490",
+        "name": "ALLURE IR KIT KAPI VE KANAT TARAFI BLACK TİTANİUM",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, BLACK T",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:38:43.987Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:38:43.987Z"
     }
   ],
   "movement_audit": [

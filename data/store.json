@@ -4491,12 +4491,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.189Z",
-      "updated_at": "2026-09-03T09:12:41.884Z"
+      "updated_at": "2026-09-08T08:50:14.924Z"
     },
     {
       "id": "id-usxttocrmtl9ken1",
@@ -14037,6 +14037,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:50:12.231Z"
+    },
+    {
+      "id": "id-i4nyl5nfmtsfin7w",
+      "action": "Ürün güncellendi",
+      "product_id": "id-16pud98kmtl9ken1",
+      "product_code": "YOK",
+      "product_name": "34 MM US ANTIK DARK",
+      "before": {
+        "id": "id-16pud98kmtl9ken1",
+        "code": "YOK",
+        "name": "34 MM US ANTIK DARK",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-03T09:12:41.884Z"
+      },
+      "after": {
+        "id": "id-16pud98kmtl9ken1",
+        "code": "YOK",
+        "name": "34 MM US ANTIK DARK",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-08T08:50:14.924Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:50:14.924Z"
     }
   ]
 }

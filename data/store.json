@@ -2219,12 +2219,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-08T06:58:58.790Z"
+      "updated_at": "2026-09-08T07:52:22.137Z"
     },
     {
       "id": "id-c98fgatwmtl9kemg",
@@ -8511,6 +8511,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:51:55.597Z"
+    },
+    {
+      "id": "id-1n1ap6n4mtsdg7ll",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fq0gbw9rmtl9kemg",
+      "product_code": "EOL",
+      "product_name": "SENTINEL 1 ADVANCED PH2 KOMPLE KEYBOARD",
+      "before": {
+        "id": "id-fq0gbw9rmtl9kemg",
+        "code": "EOL",
+        "name": "SENTINEL 1 ADVANCED PH2 KOMPLE KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T06:58:58.790Z"
+      },
+      "after": {
+        "id": "id-fq0gbw9rmtl9kemg",
+        "code": "EOL",
+        "name": "SENTINEL 1 ADVANCED PH2 KOMPLE KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T07:52:22.137Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:52:22.137Z"
     }
   ]
 }

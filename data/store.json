@@ -5163,12 +5163,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 17,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE LIGHTBRZ 17.5MM W/SEAL",
       "created_at": "2026-09-03T08:29:16.197Z",
-      "updated_at": "2026-09-03T08:29:16.197Z"
+      "updated_at": "2026-09-08T08:48:02.344Z"
     },
     {
       "id": "id-o1wcy8bmmtl9ken9",
@@ -12327,6 +12327,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:47:59.760Z"
+    },
+    {
+      "id": "id-9c0jvjg3mtsffsx4",
+      "action": "Ürün güncellendi",
+      "product_id": "id-szol9167mtl9ken9",
+      "product_code": "482192005",
+      "product_name": "17,5MM RING LIGHT BRONZ",
+      "before": {
+        "id": "id-szol9167mtl9ken9",
+        "code": "482192005",
+        "name": "17,5MM RING LIGHT BRONZ",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 17,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE LIGHTBRZ 17.5MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.197Z",
+        "updated_at": "2026-09-03T08:29:16.197Z"
+      },
+      "after": {
+        "id": "id-szol9167mtl9ken9",
+        "code": "482192005",
+        "name": "17,5MM RING LIGHT BRONZ",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 17,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE LIGHTBRZ 17.5MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.197Z",
+        "updated_at": "2026-09-08T08:48:02.344Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:48:02.344Z"
     }
   ]
 }

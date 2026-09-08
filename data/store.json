@@ -1169,12 +1169,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 31,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "Cable Assy. D03 - NC Type 5, 1.0 meter",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:38:11.171Z"
     },
     {
       "id": "id-u7cjxyknmtl9kemc",
@@ -10213,6 +10213,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:38:07.707Z"
+    },
+    {
+      "id": "id-flq2shmomtsast7n",
+      "action": "Ürün güncellendi",
+      "product_id": "id-gfkfp38smtl9kemc",
+      "product_code": "5000412",
+      "product_name": "IR FRAME CABLE BEYAZ 100 CM",
+      "before": {
+        "id": "id-gfkfp38smtl9kemc",
+        "code": "5000412",
+        "name": "IR FRAME CABLE BEYAZ 100 CM",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 31,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Cable Assy. D03 - NC Type 5, 1.0 meter",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-gfkfp38smtl9kemc",
+        "code": "5000412",
+        "name": "IR FRAME CABLE BEYAZ 100 CM",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 31,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "Cable Assy. D03 - NC Type 5, 1.0 meter",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:38:11.171Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:38:11.171Z"
     }
   ],
   "movement_audit": [

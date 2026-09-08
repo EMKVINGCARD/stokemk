@@ -2065,12 +2065,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:55:05.367Z"
+      "updated_at": "2026-09-08T07:51:03.904Z"
     },
     {
       "id": "id-52puydrumtl9kemf",
@@ -8245,6 +8245,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:50:58.673Z"
+    },
+    {
+      "id": "id-mry1v82kmtsdej8h",
+      "action": "Ürün güncellendi",
+      "product_id": "id-28lm1yrtmtl9kemf",
+      "product_code": "EOL",
+      "product_name": "CPU PH1 BOARD",
+      "before": {
+        "id": "id-28lm1yrtmtl9kemf",
+        "code": "EOL",
+        "name": "CPU PH1 BOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:55:05.367Z"
+      },
+      "after": {
+        "id": "id-28lm1yrtmtl9kemf",
+        "code": "EOL",
+        "name": "CPU PH1 BOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:51:03.904Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:51:03.905Z"
     }
   ]
 }

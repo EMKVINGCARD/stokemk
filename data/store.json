@@ -3105,12 +3105,12 @@
       "category_id": "id-p32v71yhmtk34t8o",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.173Z",
-      "updated_at": "2026-09-03T09:09:21.444Z"
+      "updated_at": "2026-09-08T09:04:24.956Z"
     },
     {
       "id": "id-0vu6h9y3mtl9keml",
@@ -15215,6 +15215,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:04:18.676Z"
+    },
+    {
+      "id": "id-8x55voxemtsg0v3w",
+      "action": "Ürün güncellendi",
+      "product_id": "id-sez1xm7cmtl9keml",
+      "product_code": "YOK",
+      "product_name": "CLASSIC ANTIK BRASS LIGHTER SHIP SİLİNDİRLİ İÇ/DIŞ SET AYNA",
+      "before": {
+        "id": "id-sez1xm7cmtl9keml",
+        "code": "YOK",
+        "name": "CLASSIC ANTIK BRASS LIGHTER SHIP SİLİNDİRLİ İÇ/DIŞ SET AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.173Z",
+        "updated_at": "2026-09-03T09:09:21.444Z"
+      },
+      "after": {
+        "id": "id-sez1xm7cmtl9keml",
+        "code": "YOK",
+        "name": "CLASSIC ANTIK BRASS LIGHTER SHIP SİLİNDİRLİ İÇ/DIŞ SET AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.173Z",
+        "updated_at": "2026-09-08T09:04:24.956Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:04:24.956Z"
     }
   ]
 }

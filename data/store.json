@@ -6311,12 +6311,12 @@
       "category_id": "id-tk4ignznmtl7q19h",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.234Z",
-      "updated_at": "2026-09-03T09:16:42.959Z"
+      "updated_at": "2026-09-08T09:24:10.551Z"
     },
     {
       "id": "id-hbokp7bemtl9keob",
@@ -8145,6 +8145,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:24:06.744Z"
+    },
+    {
+      "id": "id-p4vym4lnmtsgq9x3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-240odq35mtl9keoa",
+      "product_code": "YOK",
+      "product_name": "ROZET İÇ BLACK TITANIUM PVD",
+      "before": {
+        "id": "id-240odq35mtl9keoa",
+        "code": "YOK",
+        "name": "ROZET İÇ BLACK TITANIUM PVD",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.234Z",
+        "updated_at": "2026-09-03T09:16:42.959Z"
+      },
+      "after": {
+        "id": "id-240odq35mtl9keoa",
+        "code": "YOK",
+        "name": "ROZET İÇ BLACK TITANIUM PVD",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.234Z",
+        "updated_at": "2026-09-08T09:24:10.551Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:24:10.551Z"
     }
   ]
 }

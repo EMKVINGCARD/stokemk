@@ -2779,12 +2779,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 49,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:05:27.770Z"
     },
     {
       "id": "id-xc3qv3afmtl9kemh",
@@ -15012,6 +15012,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:05:20.522Z"
+    },
+    {
+      "id": "id-n5crsmpbmtsbrw0q",
+      "action": "Ürün güncellendi",
+      "product_id": "id-viezhpvgmtl9kemh",
+      "product_code": "683081113",
+      "product_name": "MOC BLE HOUSING KISA KABLO",
+      "before": {
+        "id": "id-viezhpvgmtl9kemh",
+        "code": "683081113",
+        "name": "MOC BLE HOUSING KISA KABLO",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-viezhpvgmtl9kemh",
+        "code": "683081113",
+        "name": "MOC BLE HOUSING KISA KABLO",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:05:27.770Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:05:27.770Z"
     }
   ],
   "movement_audit": [

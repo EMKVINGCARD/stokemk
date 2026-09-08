@@ -5793,12 +5793,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-09-03T09:14:53.024Z"
+      "updated_at": "2026-09-08T08:45:33.323Z"
     },
     {
       "id": "id-1kwmjzwxmtl9kenp",
@@ -10883,6 +10883,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:31.144Z"
+    },
+    {
+      "id": "id-oafwdo33mtsfclxn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-q4wgp84xmtl9kenp",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT POLISH BRASS SET",
+      "before": {
+        "id": "id-q4wgp84xmtl9kenp",
+        "code": "YOK",
+        "name": "STRAIGHT POLISH BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.213Z",
+        "updated_at": "2026-09-03T09:14:53.024Z"
+      },
+      "after": {
+        "id": "id-q4wgp84xmtl9kenp",
+        "code": "YOK",
+        "name": "STRAIGHT POLISH BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.213Z",
+        "updated_at": "2026-09-08T08:45:33.323Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:33.323Z"
     }
   ]
 }

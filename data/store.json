@@ -1505,12 +1505,12 @@
       "category_id": "id-cko1by4cmtk34t8n",
       "unit": "adet",
       "quantity": 47,
-      "critical_level": 0,
+      "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "CABLE ASSY, DOUBLE ENDNODE FOR SIGNATURE",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T08:29:16.165Z"
+      "updated_at": "2026-09-08T06:46:21.390Z"
     },
     {
       "id": "id-24xb25l9mtl9kemd",
@@ -11201,6 +11201,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:46:13.787Z"
+    },
+    {
+      "id": "id-lkwcx21fmtsb3bgu",
+      "action": "Ürün güncellendi",
+      "product_id": "id-dax3iuzjmtl9kemd",
+      "product_code": "4826075",
+      "product_name": "DUAL KABLO",
+      "before": {
+        "id": "id-dax3iuzjmtl9kemd",
+        "code": "4826075",
+        "name": "DUAL KABLO",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 47,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CABLE ASSY, DOUBLE ENDNODE FOR SIGNATURE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T08:29:16.165Z"
+      },
+      "after": {
+        "id": "id-dax3iuzjmtl9kemd",
+        "code": "4826075",
+        "name": "DUAL KABLO",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 47,
+        "critical_level": 20,
+        "unit_price": 0,
+        "location": "",
+        "description": "CABLE ASSY, DOUBLE ENDNODE FOR SIGNATURE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:46:21.390Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:46:21.390Z"
     }
   ],
   "movement_audit": [

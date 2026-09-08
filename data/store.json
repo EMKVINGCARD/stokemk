@@ -2667,12 +2667,12 @@
       "category_id": "id-bjj3kd4omtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "SYSTEMHW VISION ENC.MAG HICO/LOCO EST4938 NETW, MULTI TRACK",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:04:27.850Z"
     },
     {
       "id": "id-f7ucwbhzmtl9kemh",
@@ -14708,6 +14708,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:04:23.271Z"
+    },
+    {
+      "id": "id-p9y76pujmtsbqlsa",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6febaktumtl9kemh",
+      "product_code": "4824510",
+      "product_name": "MANYETIK ENCODER SIFIR",
+      "before": {
+        "id": "id-6febaktumtl9kemh",
+        "code": "4824510",
+        "name": "MANYETIK ENCODER SIFIR",
+        "category_id": "id-bjj3kd4omtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW VISION ENC.MAG HICO/LOCO EST4938 NETW, MULTI TRACK",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-6febaktumtl9kemh",
+        "code": "4824510",
+        "name": "MANYETIK ENCODER SIFIR",
+        "category_id": "id-bjj3kd4omtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW VISION ENC.MAG HICO/LOCO EST4938 NETW, MULTI TRACK",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:04:27.850Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:04:27.850Z"
     }
   ],
   "movement_audit": [

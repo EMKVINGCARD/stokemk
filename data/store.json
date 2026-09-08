@@ -7081,12 +7081,12 @@
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:29:50.306Z"
     },
     {
       "id": "id-izic0gxzmtl9keog",
@@ -9931,6 +9931,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:29:47.706Z"
+    },
+    {
+      "id": "id-wjn3vm6fmtsgxk2q",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ltmhe585mtl9keog",
+      "product_code": "481514322",
+      "product_name": "ADB A28 FRONT SATIN CHROME",
+      "before": {
+        "id": "id-ltmhe585mtl9keog",
+        "code": "481514322",
+        "name": "ADB A28 FRONT SATIN CHROME",
+        "category_id": "id-5qf81eivmtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-ltmhe585mtl9keog",
+        "code": "481514322",
+        "name": "ADB A28 FRONT SATIN CHROME",
+        "category_id": "id-5qf81eivmtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:29:50.306Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:29:50.306Z"
     }
   ]
 }

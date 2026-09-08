@@ -7067,12 +7067,12 @@
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM ANTBRASSLIGHT",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:29:47.706Z"
     },
     {
       "id": "id-ltmhe585mtl9keog",
@@ -9893,6 +9893,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:29:42.455Z"
+    },
+    {
+      "id": "id-ngwgd98bmtsgxi2i",
+      "action": "Ürün güncellendi",
+      "product_id": "id-pg4m9896mtl9keog",
+      "product_code": "480451425",
+      "product_name": "A28 STD FRONT ANTIK BRASS LIGHTER",
+      "before": {
+        "id": "id-pg4m9896mtl9keog",
+        "code": "480451425",
+        "name": "A28 STD FRONT ANTIK BRASS LIGHTER",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-pg4m9896mtl9keog",
+        "code": "480451425",
+        "name": "A28 STD FRONT ANTIK BRASS LIGHTER",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM ANTBRASSLIGHT",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:29:47.706Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:29:47.706Z"
     }
   ]
 }

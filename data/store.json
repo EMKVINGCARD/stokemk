@@ -985,7 +985,7 @@
       "id": "id-y8zqh5bvmtl9kemb",
       "code": "YOK",
       "name": "POWER SUPPLY 24V",
-      "category_id": "id-rtr1ulyzmtk34t8n",
+      "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
       "quantity": 10,
       "critical_level": 5,
@@ -993,7 +993,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T09:22:39.675Z"
+      "updated_at": "2026-09-08T08:34:02.268Z"
     },
     {
       "id": "id-9e4kw08nmtl9kemb",
@@ -8856,6 +8856,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:33:55.580Z"
+    },
+    {
+      "id": "id-0r4nsbgomtsexspo",
+      "action": "Ürün güncellendi",
+      "product_id": "id-y8zqh5bvmtl9kemb",
+      "product_code": "YOK",
+      "product_name": "POWER SUPPLY 24V",
+      "before": {
+        "id": "id-y8zqh5bvmtl9kemb",
+        "code": "YOK",
+        "name": "POWER SUPPLY 24V",
+        "category_id": "id-rtr1ulyzmtk34t8n",
+        "unit": "adet",
+        "quantity": 10,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-03T09:22:39.675Z"
+      },
+      "after": {
+        "id": "id-y8zqh5bvmtl9kemb",
+        "code": "YOK",
+        "name": "POWER SUPPLY 24V",
+        "category_id": "id-yb9e13sumtsewvh0",
+        "unit": "adet",
+        "quantity": 10,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T08:34:02.268Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:34:02.268Z"
     }
   ]
 }

@@ -665,12 +665,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 6,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYFOB MIFARE CLASSIC 1K BLUE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:27:51.403Z"
+      "updated_at": "2026-09-08T06:29:03.983Z"
     },
     {
       "id": "id-6qjapdgsmtl9kemb",
@@ -9632,6 +9632,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:29:01.399Z"
+    },
+    {
+      "id": "id-11rwx8m7mtsah2zz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-r9b945ahmtl9kemb",
+      "product_code": "4818599C",
+      "product_name": "RFID KEYFOB MAVİ",
+      "before": {
+        "id": "id-r9b945ahmtl9kemb",
+        "code": "4818599C",
+        "name": "RFID KEYFOB MAVİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 6,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSIC 1K BLUE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:27:51.403Z"
+      },
+      "after": {
+        "id": "id-r9b945ahmtl9kemb",
+        "code": "4818599C",
+        "name": "RFID KEYFOB MAVİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSIC 1K BLUE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:29:03.983Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:29:03.983Z"
     }
   ],
   "movement_audit": [

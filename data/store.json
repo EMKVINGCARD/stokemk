@@ -4239,12 +4239,12 @@
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER PVD POLBRASS",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-08T08:14:09.152Z"
+      "updated_at": "2026-09-08T09:11:52.536Z"
     },
     {
       "id": "id-h4vwdt1pmtl9kemx",
@@ -16127,6 +16127,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:11:50.087Z"
+    },
+    {
+      "id": "id-4zehmt39mtsgaggo",
+      "action": "Ürün güncellendi",
+      "product_id": "id-2rt15xn7mtl9kemx",
+      "product_code": "482379663",
+      "product_name": "SKIRT POLISH RASS",
+      "before": {
+        "id": "id-2rt15xn7mtl9kemx",
+        "code": "482379663",
+        "name": "SKIRT POLISH RASS",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER PVD POLBRASS",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-08T08:14:09.152Z"
+      },
+      "after": {
+        "id": "id-2rt15xn7mtl9kemx",
+        "code": "482379663",
+        "name": "SKIRT POLISH RASS",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER PVD POLBRASS",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-08T09:11:52.536Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:11:52.536Z"
     }
   ]
 }

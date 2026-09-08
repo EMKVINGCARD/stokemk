@@ -7207,12 +7207,12 @@
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Front end kit, ANSI, for Essence cassette - LightBrz",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:30:25.051Z"
     },
     {
       "id": "id-krrj3ta7mtl9keog",
@@ -10273,6 +10273,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:30:21.955Z"
+    },
+    {
+      "id": "id-l2mxlna3mtsgyavv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-g6kzamltmtl9keog",
+      "product_code": "482459005",
+      "product_name": "ESSENCE V2FRONT LIGHT BRONZ",
+      "before": {
+        "id": "id-g6kzamltmtl9keog",
+        "code": "482459005",
+        "name": "ESSENCE V2FRONT LIGHT BRONZ",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Front end kit, ANSI, for Essence cassette - LightBrz",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-g6kzamltmtl9keog",
+        "code": "482459005",
+        "name": "ESSENCE V2FRONT LIGHT BRONZ",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Front end kit, ANSI, for Essence cassette - LightBrz",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:30:25.051Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:30:25.051Z"
     }
   ]
 }

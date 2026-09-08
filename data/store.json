@@ -2135,12 +2135,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "CPU CIRCUIT BOARD WITH PROTECTION BOARD SENTINEL & XTRA PHII",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:55:47.566Z"
+      "updated_at": "2026-09-08T07:51:44.593Z"
     },
     {
       "id": "id-vyqex89smtl9kemf",
@@ -8435,6 +8435,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:51:39.561Z"
+    },
+    {
+      "id": "id-q0ma8r2qmtsdfemp",
+      "action": "Ürün güncellendi",
+      "product_id": "id-5zjdazhkmtl9kemf",
+      "product_code": "259-8022KIT",
+      "product_name": "PH2 KEYBOARD",
+      "before": {
+        "id": "id-5zjdazhkmtl9kemf",
+        "code": "259-8022KIT",
+        "name": "PH2 KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CPU CIRCUIT BOARD WITH PROTECTION BOARD SENTINEL & XTRA PHII",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:55:47.566Z"
+      },
+      "after": {
+        "id": "id-5zjdazhkmtl9kemf",
+        "code": "259-8022KIT",
+        "name": "PH2 KEYBOARD",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CPU CIRCUIT BOARD WITH PROTECTION BOARD SENTINEL & XTRA PHII",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:51:44.593Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:51:44.593Z"
     }
   ]
 }

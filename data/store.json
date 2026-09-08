@@ -2821,12 +2821,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 21,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ELEVATOR CTRL 4G RFID BLE W/GW SATCHROME",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:06:04.723Z"
     },
     {
       "id": "id-etjknqpnmtl9kemh",
@@ -15126,6 +15126,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:05:57.830Z"
+    },
+    {
+      "id": "id-dk0vhfcgmtsbsoj7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-lsjtwpqumtl9kemh",
+      "product_code": "840009661",
+      "product_name": "VISIONLINE MOC",
+      "before": {
+        "id": "id-lsjtwpqumtl9kemh",
+        "code": "840009661",
+        "name": "VISIONLINE MOC",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 21,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ELEVATOR CTRL 4G RFID BLE W/GW SATCHROME",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-lsjtwpqumtl9kemh",
+        "code": "840009661",
+        "name": "VISIONLINE MOC",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 21,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ELEVATOR CTRL 4G RFID BLE W/GW SATCHROME",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:06:04.723Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:06:04.723Z"
     }
   ],
   "movement_audit": [

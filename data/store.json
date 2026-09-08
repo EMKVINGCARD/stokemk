@@ -3301,12 +3301,12 @@
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
       "quantity": 40,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-03T09:10:31.484Z"
+      "updated_at": "2026-09-08T09:05:23.352Z"
     },
     {
       "id": "id-ryjul9g8mtl9kemo",
@@ -15443,6 +15443,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:05:19.880Z"
+    },
+    {
+      "id": "id-tvs7tp72mtsg2460",
+      "action": "Ürün güncellendi",
+      "product_id": "id-8ooxdb7ymtl9kemo",
+      "product_code": "YOK",
+      "product_name": "PİL KAPAĞI SATIN CHROME ALL METAL",
+      "before": {
+        "id": "id-8ooxdb7ymtl9kemo",
+        "code": "YOK",
+        "name": "PİL KAPAĞI SATIN CHROME ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 40,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-03T09:10:31.484Z"
+      },
+      "after": {
+        "id": "id-8ooxdb7ymtl9kemo",
+        "code": "YOK",
+        "name": "PİL KAPAĞI SATIN CHROME ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 40,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-08T09:05:23.352Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:05:23.352Z"
     }
   ]
 }

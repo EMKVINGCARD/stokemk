@@ -3968,7 +3968,7 @@
     },
     {
       "id": "id-qihfztlemtl9kemt",
-      "code": "YOK",
+      "code": "EOL",
       "name": "SIGNATURE 1G KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
@@ -3978,7 +3978,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-09-03T09:11:24.388Z"
+      "updated_at": "2026-09-08T09:10:49.525Z"
     },
     {
       "id": "id-jjmttdlgmtl9kemt",
@@ -15937,6 +15937,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:10:34.358Z"
+    },
+    {
+      "id": "id-r0jlzpuzmtsg93ud",
+      "action": "Ürün güncellendi",
+      "product_id": "id-qihfztlemtl9kemt",
+      "product_code": "EOL",
+      "product_name": "SIGNATURE 1G KAPAK",
+      "before": {
+        "id": "id-qihfztlemtl9kemt",
+        "code": "YOK",
+        "name": "SIGNATURE 1G KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.181Z",
+        "updated_at": "2026-09-03T09:11:24.388Z"
+      },
+      "after": {
+        "id": "id-qihfztlemtl9kemt",
+        "code": "EOL",
+        "name": "SIGNATURE 1G KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.181Z",
+        "updated_at": "2026-09-08T09:10:49.525Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:10:49.525Z"
     }
   ]
 }

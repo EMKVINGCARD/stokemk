@@ -6885,12 +6885,12 @@
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
       "quantity": 8,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, RIGHT SATBRASS",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:27:56.535Z"
     },
     {
       "id": "id-qiww4vhbmtl9keog",
@@ -9361,6 +9361,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:27:53.867Z"
+    },
+    {
+      "id": "id-kv2kj9hpmtsgv4af",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ravnurr0mtl9keog",
+      "product_code": "P001010191-002-262",
+      "product_name": "ADB A28 KARŞILIK RH SATIN BRASS",
+      "before": {
+        "id": "id-ravnurr0mtl9keog",
+        "code": "P001010191-002-262",
+        "name": "ADB A28 KARŞILIK RH SATIN BRASS",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, RIGHT SATBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-ravnurr0mtl9keog",
+        "code": "P001010191-002-262",
+        "name": "ADB A28 KARŞILIK RH SATIN BRASS",
+        "category_id": "id-61g0m64bmtk34t8p",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE ANSI ADB, RIGHT SATBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:27:56.535Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:27:56.535Z"
     }
   ]
 }

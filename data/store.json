@@ -2191,12 +2191,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 11,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ZENITH FRONT COVER RED TRANSPARENT",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-03T08:29:16.168Z"
+      "updated_at": "2026-09-08T06:56:23.122Z"
     },
     {
       "id": "id-r575ewvemtl9kemg",
@@ -13291,6 +13291,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:56:07.775Z"
+    },
+    {
+      "id": "id-1sqssk2tmtsbg7rm",
+      "action": "Ürün güncellendi",
+      "product_id": "id-7mpmlk80mtl9kemg",
+      "product_code": "252-164000006",
+      "product_name": "ZENITH YUVARLAK KAPAK",
+      "before": {
+        "id": "id-7mpmlk80mtl9kemg",
+        "code": "252-164000006",
+        "name": "ZENITH YUVARLAK KAPAK",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH FRONT COVER RED TRANSPARENT",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-03T08:29:16.168Z"
+      },
+      "after": {
+        "id": "id-7mpmlk80mtl9kemg",
+        "code": "252-164000006",
+        "name": "ZENITH YUVARLAK KAPAK",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZENITH FRONT COVER RED TRANSPARENT",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T06:56:23.122Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:56:23.122Z"
     }
   ],
   "movement_audit": [

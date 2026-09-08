@@ -2241,7 +2241,7 @@
       "name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 11,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
@@ -7920,20 +7920,6 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-07T10:32:55.417Z",
       "created_at": "2026-09-07T10:32:55.417Z"
-    },
-    {
-      "id": "id-nx9xnqgumtsdazcu",
-      "product_id": "id-z4n6o2hfmtl9kemg",
-      "product_code": "252-8406SD00600AMS",
-      "product_name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
-      "type": "out",
-      "quantity": 1,
-      "target_location": "Renaissance Polat İstanbul",
-      "reason": "sipariş",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "happened_at": "2026-09-08T07:48:18.174Z",
-      "created_at": "2026-09-08T07:48:18.174Z"
     }
   ],
   "settings": {
@@ -8074,6 +8060,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-08T08:09:39.016Z",
+      "extra": "Silme sonrası stok geri alındı"
+    },
+    {
+      "id": "id-xgtp4dz5mtse2obi",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-z4n6o2hfmtl9kemg",
+      "product_code": "252-8406SD00600AMS",
+      "product_name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Renaissance Polat İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-08T08:09:50.238Z",
       "extra": "Silme sonrası stok geri alındı"
     }
   ]

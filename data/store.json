@@ -1911,12 +1911,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:53:35.382Z"
     },
     {
       "id": "id-rtuhomf1mtl9kemf",
@@ -12531,6 +12531,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:53:30.979Z"
+    },
+    {
+      "id": "id-gh5uo4nrmtsbcmc6",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vutfhrwpmtl9kemf",
+      "product_code": "EOL",
+      "product_name": "RFID EXP. PACK",
+      "before": {
+        "id": "id-vutfhrwpmtl9kemf",
+        "code": "EOL",
+        "name": "RFID EXP. PACK",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-vutfhrwpmtl9kemf",
+        "code": "EOL",
+        "name": "RFID EXP. PACK",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:53:35.382Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:53:35.382Z"
     }
   ],
   "movement_audit": [

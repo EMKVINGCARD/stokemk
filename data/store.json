@@ -3665,12 +3665,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE EURO ADB 65 4.5V 24MM LH",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T08:29:16.178Z"
+      "updated_at": "2026-09-08T09:06:52.204Z"
     },
     {
       "id": "id-dzjr29vymtl9kemq",
@@ -15671,6 +15671,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:06:47.804Z"
+    },
+    {
+      "id": "id-b26vdvxhmtsg40q4",
+      "action": "Ürün güncellendi",
+      "product_id": "id-saeb1b60mtl9kemq",
+      "product_code": "4813996A3",
+      "product_name": "EURO ADB 24 LH GÖMME",
+      "before": {
+        "id": "id-saeb1b60mtl9kemq",
+        "code": "4813996A3",
+        "name": "EURO ADB 24 LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO ADB 65 4.5V 24MM LH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-03T08:29:16.178Z"
+      },
+      "after": {
+        "id": "id-saeb1b60mtl9kemq",
+        "code": "4813996A3",
+        "name": "EURO ADB 24 LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO ADB 65 4.5V 24MM LH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T09:06:52.204Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:06:52.204Z"
     }
   ]
 }

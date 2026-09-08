@@ -721,12 +721,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 5,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYFOB MIFARE CLASSIC 1K GREEN",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:28:51.145Z"
+      "updated_at": "2026-09-08T07:40:17.169Z"
     },
     {
       "id": "id-8cscjhf6mtl9kemb",
@@ -15930,6 +15930,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:40:14.505Z"
+    },
+    {
+      "id": "id-8agnrz8vmtsd0o7l",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6rjvw0qxmtl9kemb",
+      "product_code": "4818599E",
+      "product_name": "RFID KEYFOB MIFARE CLASSİC 1K YEŞİL",
+      "before": {
+        "id": "id-6rjvw0qxmtl9kemb",
+        "code": "4818599E",
+        "name": "RFID KEYFOB MIFARE CLASSİC 1K YEŞİL",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSIC 1K GREEN",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:51.145Z"
+      },
+      "after": {
+        "id": "id-6rjvw0qxmtl9kemb",
+        "code": "4818599E",
+        "name": "RFID KEYFOB MIFARE CLASSİC 1K YEŞİL",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSIC 1K GREEN",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T07:40:17.169Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:40:17.169Z"
     }
   ],
   "movement_audit": [

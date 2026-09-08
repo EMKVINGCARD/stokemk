@@ -6451,12 +6451,12 @@
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE USANTDARK METAL END",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-03T08:29:16.237Z"
+      "updated_at": "2026-09-08T08:51:37.271Z"
     },
     {
       "id": "id-e8bgng4mmtl9keoe",
@@ -14531,6 +14531,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:51:34.135Z"
+    },
+    {
+      "id": "id-ft7l8zwpmtsfkerb",
+      "action": "Ürün güncellendi",
+      "product_id": "id-4y6gqpg2mtl9keod",
+      "product_code": "481865830",
+      "product_name": "DB BUTONU ALL METAL US ANTIK DARK",
+      "before": {
+        "id": "id-4y6gqpg2mtl9keod",
+        "code": "481865830",
+        "name": "DB BUTONU ALL METAL US ANTIK DARK",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE USANTDARK METAL END",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-03T08:29:16.237Z"
+      },
+      "after": {
+        "id": "id-4y6gqpg2mtl9keod",
+        "code": "481865830",
+        "name": "DB BUTONU ALL METAL US ANTIK DARK",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE USANTDARK METAL END",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-08T08:51:37.271Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:51:37.271Z"
     }
   ]
 }

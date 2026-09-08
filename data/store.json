@@ -1841,12 +1841,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "SYSTEMHW VISION CONTACT CARD FOR RFID",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:52:37.294Z"
+      "updated_at": "2026-09-08T07:46:04.882Z"
     },
     {
       "id": "id-tx4d6je8mtl9kemf",
@@ -16804,6 +16804,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:45:22.821Z"
+    },
+    {
+      "id": "id-89jmj32lmtsd84ia",
+      "action": "Ürün güncellendi",
+      "product_id": "id-er7uqn2bmtl9kemf",
+      "product_code": "4817700",
+      "product_name": "RFID IR KONTAK KART",
+      "before": {
+        "id": "id-er7uqn2bmtl9kemf",
+        "code": "4817700",
+        "name": "RFID IR KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW VISION CONTACT CARD FOR RFID",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:52:37.294Z"
+      },
+      "after": {
+        "id": "id-er7uqn2bmtl9kemf",
+        "code": "4817700",
+        "name": "RFID IR KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW VISION CONTACT CARD FOR RFID",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:46:04.882Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:46:04.882Z"
     }
   ],
   "movement_audit": [

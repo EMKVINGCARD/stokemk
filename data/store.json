@@ -1631,12 +1631,12 @@
       "category_id": "id-hzu8q0wcmtk34t8n",
       "unit": "adet",
       "quantity": 200,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SIGNATURE KIT, HOUSİNG BLE",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T08:29:16.165Z"
+      "updated_at": "2026-09-08T06:50:05.906Z"
     },
     {
       "id": "id-h4gbid64mtl9kemd",
@@ -11771,6 +11771,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:49:58.050Z"
+    },
+    {
+      "id": "id-scfby35lmtsb84pe",
+      "action": "Ürün güncellendi",
+      "product_id": "id-srqugsnumtl9kemd",
+      "product_code": "4825942",
+      "product_name": "SIGNATURE BLE HOUSING KABLO DAHİL",
+      "before": {
+        "id": "id-srqugsnumtl9kemd",
+        "code": "4825942",
+        "name": "SIGNATURE BLE HOUSING KABLO DAHİL",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 200,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIGNATURE KIT, HOUSİNG BLE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T08:29:16.165Z"
+      },
+      "after": {
+        "id": "id-srqugsnumtl9kemd",
+        "code": "4825942",
+        "name": "SIGNATURE BLE HOUSING KABLO DAHİL",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 200,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIGNATURE KIT, HOUSİNG BLE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:50:05.906Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:50:05.906Z"
     }
   ],
   "movement_audit": [

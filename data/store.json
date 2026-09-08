@@ -1729,12 +1729,12 @@
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.166Z",
-      "updated_at": "2026-09-03T09:08:10.416Z"
+      "updated_at": "2026-09-08T06:50:38.535Z"
     },
     {
       "id": "id-56cm3i9dmtl9keme",
@@ -12037,6 +12037,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:50:35.095Z"
+    },
+    {
+      "id": "id-8xa43lu2mtsb8tvr",
+      "action": "Ürün güncellendi",
+      "product_id": "id-lc21ktrxmtl9keme",
+      "product_code": "YOK",
+      "product_name": "DOOR RETAINER SATIN BRASS ESKİ TİP",
+      "before": {
+        "id": "id-lc21ktrxmtl9keme",
+        "code": "YOK",
+        "name": "DOOR RETAINER SATIN BRASS ESKİ TİP",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-03T09:08:10.416Z"
+      },
+      "after": {
+        "id": "id-lc21ktrxmtl9keme",
+        "code": "YOK",
+        "name": "DOOR RETAINER SATIN BRASS ESKİ TİP",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-08T06:50:38.535Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:50:38.535Z"
     }
   ],
   "movement_audit": [

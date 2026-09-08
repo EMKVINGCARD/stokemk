@@ -7277,12 +7277,12 @@
       "category_id": "id-hiacwb7tmtl7q19i",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.241Z",
-      "updated_at": "2026-09-03T09:17:09.863Z"
+      "updated_at": "2026-09-08T09:30:43.323Z"
     },
     {
       "id": "id-iejujf0gmtl9keoi",
@@ -10463,6 +10463,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:30:40.675Z"
+    },
+    {
+      "id": "id-zwxzg2kamtsgyozf",
+      "action": "Ürün güncellendi",
+      "product_id": "id-69mjwnxpmtl9keoh",
+      "product_code": "YOK",
+      "product_name": "IR FRAME DOOR FRONT CHROME",
+      "before": {
+        "id": "id-69mjwnxpmtl9keoh",
+        "code": "YOK",
+        "name": "IR FRAME DOOR FRONT CHROME",
+        "category_id": "id-hiacwb7tmtl7q19i",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.241Z",
+        "updated_at": "2026-09-03T09:17:09.863Z"
+      },
+      "after": {
+        "id": "id-69mjwnxpmtl9keoh",
+        "code": "YOK",
+        "name": "IR FRAME DOOR FRONT CHROME",
+        "category_id": "id-hiacwb7tmtl7q19i",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.241Z",
+        "updated_at": "2026-09-08T09:30:43.323Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:30:43.323Z"
     }
   ]
 }

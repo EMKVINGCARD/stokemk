@@ -7053,12 +7053,12 @@
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM ANTBRASS",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:29:42.455Z"
     },
     {
       "id": "id-pg4m9896mtl9keog",
@@ -9855,6 +9855,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:29:10.855Z"
+    },
+    {
+      "id": "id-fgxy8kwwmtsgxe0n",
+      "action": "Ürün güncellendi",
+      "product_id": "id-8fo6yjc2mtl9keog",
+      "product_code": "480451424",
+      "product_name": "A28 STD FRONT ANTIK BRASS",
+      "before": {
+        "id": "id-8fo6yjc2mtl9keog",
+        "code": "480451424",
+        "name": "A28 STD FRONT ANTIK BRASS",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM ANTBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-8fo6yjc2mtl9keog",
+        "code": "480451424",
+        "name": "A28 STD FRONT ANTIK BRASS",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM ANTBRASS",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:29:42.455Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:29:42.455Z"
     }
   ]
 }

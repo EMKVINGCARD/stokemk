@@ -1687,12 +1687,12 @@
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T09:07:25.384Z"
+      "updated_at": "2026-09-08T06:50:28.370Z"
     },
     {
       "id": "id-6l4tmv30mtl9keme",
@@ -11923,6 +11923,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:50:25.166Z"
+    },
+    {
+      "id": "id-c693z9lfmtsb8m1f",
+      "action": "Ürün güncellendi",
+      "product_id": "id-t6ukpj0umtl9kemd",
+      "product_code": "YOK",
+      "product_name": "DOOR RETAINER M6 WHITE",
+      "before": {
+        "id": "id-t6ukpj0umtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER M6 WHITE",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T09:07:25.384Z"
+      },
+      "after": {
+        "id": "id-t6ukpj0umtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER M6 WHITE",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:50:28.370Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:50:28.371Z"
     }
   ],
   "movement_audit": [

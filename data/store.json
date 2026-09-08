@@ -3507,12 +3507,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-09-03T09:10:48.700Z"
+      "updated_at": "2026-09-08T08:04:12.396Z"
     },
     {
       "id": "id-b15acgfumtl9kemp",
@@ -10145,6 +10145,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:04:04.773Z"
+    },
+    {
+      "id": "id-4rr93x1amtsdvfn0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-lfcpe959mtl9kemp",
+      "product_code": "YOK",
+      "product_name": "EURO 20MM LHR GÖMME",
+      "before": {
+        "id": "id-lfcpe959mtl9kemp",
+        "code": "YOK",
+        "name": "EURO 20MM LHR GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-03T09:10:48.700Z"
+      },
+      "after": {
+        "id": "id-lfcpe959mtl9kemp",
+        "code": "YOK",
+        "name": "EURO 20MM LHR GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-08T08:04:12.396Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:04:12.396Z"
     }
   ]
 }

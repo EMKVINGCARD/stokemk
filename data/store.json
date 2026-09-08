@@ -2764,7 +2764,7 @@
     },
     {
       "id": "id-xc3qv3afmtl9kemh",
-      "code": "(EOL)4817758",
+      "code": "EOL",
       "name": "VISION MOC PCB",
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
@@ -2774,7 +2774,7 @@
       "location": "",
       "description": "(EOL)MOC PCB RFID",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:58:17.241Z"
+      "updated_at": "2026-09-08T09:02:24.413Z"
     },
     {
       "id": "id-cdwa07nhmtl9kemh",
@@ -14949,6 +14949,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:02:05.728Z"
+    },
+    {
+      "id": "id-gnomkda8mtsfya3h",
+      "action": "Ürün güncellendi",
+      "product_id": "id-xc3qv3afmtl9kemh",
+      "product_code": "EOL",
+      "product_name": "VISION MOC PCB",
+      "before": {
+        "id": "id-xc3qv3afmtl9kemh",
+        "code": "(EOL)4817758",
+        "name": "VISION MOC PCB",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "(EOL)MOC PCB RFID",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:58:17.241Z"
+      },
+      "after": {
+        "id": "id-xc3qv3afmtl9kemh",
+        "code": "EOL",
+        "name": "VISION MOC PCB",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "(EOL)MOC PCB RFID",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T09:02:24.413Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:02:24.413Z"
     }
   ]
 }

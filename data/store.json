@@ -6535,12 +6535,12 @@
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE POLBRASS PLASTIC END ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-03T08:29:16.238Z"
+      "updated_at": "2026-09-08T09:25:36.263Z"
     },
     {
       "id": "id-ruv31tkbmtl9keoe",
@@ -8449,6 +8449,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:25:30.919Z"
+    },
+    {
+      "id": "id-p1cjroxwmtsgs41z",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ulsd8zxkmtl9keoe",
+      "product_code": "481865963",
+      "product_name": "DB BUTONU COMPOZIT POLISH BRASS",
+      "before": {
+        "id": "id-ulsd8zxkmtl9keoe",
+        "code": "481865963",
+        "name": "DB BUTONU COMPOZIT POLISH BRASS",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE POLBRASS PLASTIC END ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-03T08:29:16.238Z"
+      },
+      "after": {
+        "id": "id-ulsd8zxkmtl9keoe",
+        "code": "481865963",
+        "name": "DB BUTONU COMPOZIT POLISH BRASS",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE POLBRASS PLASTIC END ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-08T09:25:36.263Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:25:36.263Z"
     }
   ]
 }

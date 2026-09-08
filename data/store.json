@@ -4197,12 +4197,12 @@
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
       "quantity": 193,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER STSTEEL",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-03T08:29:16.185Z"
+      "updated_at": "2026-09-08T08:39:36.392Z"
     },
     {
       "id": "id-n05erbigmtl9kemx",
@@ -9781,6 +9781,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:39:30.736Z"
+    },
+    {
+      "id": "id-l0j53ow3mtsf4yiw",
+      "action": "Ürün güncellendi",
+      "product_id": "id-wnzlk2mbmtl9kemx",
+      "product_code": "482379622",
+      "product_name": "SKIRT SATIN CHROME",
+      "before": {
+        "id": "id-wnzlk2mbmtl9kemx",
+        "code": "482379622",
+        "name": "SKIRT SATIN CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 193,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER STSTEEL",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-03T08:29:16.185Z"
+      },
+      "after": {
+        "id": "id-wnzlk2mbmtl9kemx",
+        "code": "482379622",
+        "name": "SKIRT SATIN CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 193,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER STSTEEL",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-08T08:39:36.392Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:39:36.392Z"
     }
   ]
 }

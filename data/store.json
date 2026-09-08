@@ -4785,12 +4785,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.194Z",
-      "updated_at": "2026-09-03T09:13:12.107Z"
+      "updated_at": "2026-09-08T08:49:20.744Z"
     },
     {
       "id": "id-3fqd9j8ymtl9ken6",
@@ -13239,6 +13239,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:18.016Z"
+    },
+    {
+      "id": "id-rgq2d7bimtsfhhew",
+      "action": "Ürün güncellendi",
+      "product_id": "id-n1nnq8r0mtl9ken6",
+      "product_code": "YOK",
+      "product_name": "58MM US ANTIK DARK",
+      "before": {
+        "id": "id-n1nnq8r0mtl9ken6",
+        "code": "YOK",
+        "name": "58MM US ANTIK DARK",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-03T09:13:12.107Z"
+      },
+      "after": {
+        "id": "id-n1nnq8r0mtl9ken6",
+        "code": "YOK",
+        "name": "58MM US ANTIK DARK",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-08T08:49:20.744Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:20.744Z"
     }
   ]
 }

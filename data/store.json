@@ -7361,12 +7361,12 @@
       "category_id": "id-7q7gha1tmtk34t8p",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI WO/DEADBOLT 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.243Z",
-      "updated_at": "2026-09-03T08:29:16.243Z"
+      "updated_at": "2026-09-08T09:31:18.883Z"
     },
     {
       "id": "id-p0kiiarmmtl9keoj",
@@ -10691,6 +10691,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:31:13.339Z"
+    },
+    {
+      "id": "id-q9xzf4wfmtsgzgf7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-bsrf1kozmtl9keoj",
+      "product_code": "470112022",
+      "product_name": "1001 FRONT SATIN CHROME",
+      "before": {
+        "id": "id-bsrf1kozmtl9keoj",
+        "code": "470112022",
+        "name": "1001 FRONT SATIN CHROME",
+        "category_id": "id-7q7gha1tmtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI WO/DEADBOLT 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.243Z",
+        "updated_at": "2026-09-03T08:29:16.243Z"
+      },
+      "after": {
+        "id": "id-bsrf1kozmtl9keoj",
+        "code": "470112022",
+        "name": "1001 FRONT SATIN CHROME",
+        "category_id": "id-7q7gha1tmtk34t8p",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI WO/DEADBOLT 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.243Z",
+        "updated_at": "2026-09-08T09:31:18.883Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:31:18.883Z"
     }
   ]
 }

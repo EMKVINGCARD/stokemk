@@ -819,12 +819,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 8,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RFID WRISTBAND MIFARE UL EV1 BLACK",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T08:29:16.163Z"
+      "updated_at": "2026-09-08T06:27:16.251Z"
     },
     {
       "id": "id-873u2jdhmtl9kemb",
@@ -8720,6 +8720,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:27:12.571Z"
+    },
+    {
+      "id": "id-83pi0n1jmtsaervf",
+      "action": "Ürün güncellendi",
+      "product_id": "id-x3ndcrpomtl9kemb",
+      "product_code": "4828161B",
+      "product_name": "RFID WRISTBAND GUEST SİYAH",
+      "before": {
+        "id": "id-x3ndcrpomtl9kemb",
+        "code": "4828161B",
+        "name": "RFID WRISTBAND GUEST SİYAH",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID WRISTBAND MIFARE UL EV1 BLACK",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-03T08:29:16.163Z"
+      },
+      "after": {
+        "id": "id-x3ndcrpomtl9kemb",
+        "code": "4828161B",
+        "name": "RFID WRISTBAND GUEST SİYAH",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID WRISTBAND MIFARE UL EV1 BLACK",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:27:16.251Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:27:16.251Z"
     }
   ],
   "movement_audit": [

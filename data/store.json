@@ -4360,7 +4360,7 @@
     },
     {
       "id": "id-ppycfeahmtl9kemz",
-      "code": "YOK",
+      "code": "EOL",
       "name": "SKIR 1G POLISH CHROME",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
@@ -4370,7 +4370,7 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.187Z",
-      "updated_at": "2026-09-03T09:12:32.179Z"
+      "updated_at": "2026-09-08T08:38:23.552Z"
     },
     {
       "id": "id-9abebamrmtl9ken0",
@@ -9553,6 +9553,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:38:19.388Z"
+    },
+    {
+      "id": "id-4khwg9yqmtsf3ebk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ppycfeahmtl9kemz",
+      "product_code": "EOL",
+      "product_name": "SKIR 1G POLISH CHROME",
+      "before": {
+        "id": "id-ppycfeahmtl9kemz",
+        "code": "YOK",
+        "name": "SKIR 1G POLISH CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.187Z",
+        "updated_at": "2026-09-03T09:12:32.179Z"
+      },
+      "after": {
+        "id": "id-ppycfeahmtl9kemz",
+        "code": "EOL",
+        "name": "SKIR 1G POLISH CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.187Z",
+        "updated_at": "2026-09-08T08:38:23.552Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:38:23.552Z"
     }
   ]
 }

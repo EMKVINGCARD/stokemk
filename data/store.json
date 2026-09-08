@@ -3213,12 +3213,12 @@
       "category_id": "id-g0rn6savmtk34t8o",
       "unit": "adet",
       "quantity": 332,
-      "critical_level": 0,
+      "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-09-03T08:29:16.174Z"
+      "updated_at": "2026-09-08T08:01:41.573Z"
     },
     {
       "id": "id-f1isfio8mtl9kemm",
@@ -9537,6 +9537,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:01:16.152Z"
+    },
+    {
+      "id": "id-rbiwopbvmtsds79h",
+      "action": "Ürün güncellendi",
+      "product_id": "id-aqloyxbxmtl9kemm",
+      "product_code": "EOL",
+      "product_name": "9V PİL KASETİ",
+      "before": {
+        "id": "id-aqloyxbxmtl9kemm",
+        "code": "EOL",
+        "name": "9V PİL KASETİ",
+        "category_id": "id-g0rn6savmtk34t8o",
+        "unit": "adet",
+        "quantity": 332,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-03T08:29:16.174Z"
+      },
+      "after": {
+        "id": "id-aqloyxbxmtl9kemm",
+        "code": "EOL",
+        "name": "9V PİL KASETİ",
+        "category_id": "id-g0rn6savmtk34t8o",
+        "unit": "adet",
+        "quantity": 332,
+        "critical_level": 20,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.174Z",
+        "updated_at": "2026-09-08T08:01:41.573Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:01:41.573Z"
     }
   ]
 }

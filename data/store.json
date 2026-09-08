@@ -2401,12 +2401,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 69,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "INFINITY II/SENTINEL II PHIII DOOR SWITCH KIT",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:01:49.538Z"
     },
     {
       "id": "id-7kr7elukmtl9kemh",
@@ -13910,6 +13910,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:01:44.278Z"
+    },
+    {
+      "id": "id-tg9lsbybmtsbn7mq",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vzb6aizkmtl9kemh",
+      "product_code": "600-SWITCHKIT",
+      "product_name": "DOOR SWICTH",
+      "before": {
+        "id": "id-vzb6aizkmtl9kemh",
+        "code": "600-SWITCHKIT",
+        "name": "DOOR SWICTH",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 69,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "INFINITY II/SENTINEL II PHIII DOOR SWITCH KIT",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-vzb6aizkmtl9kemh",
+        "code": "600-SWITCHKIT",
+        "name": "DOOR SWICTH",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 69,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "INFINITY II/SENTINEL II PHIII DOOR SWITCH KIT",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:01:49.538Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:01:49.538Z"
     }
   ],
   "movement_audit": [

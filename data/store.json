@@ -6409,12 +6409,12 @@
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE POLCHROME METAL END ÇİZİK",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-03T08:29:16.237Z"
+      "updated_at": "2026-09-08T08:51:26.144Z"
     },
     {
       "id": "id-k0e91qr8mtl9keod",
@@ -14417,6 +14417,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:51:22.324Z"
+    },
+    {
+      "id": "id-9qrwqaz6mtsfk668",
+      "action": "Ürün güncellendi",
+      "product_id": "id-yrwvpjncmtl9keod",
+      "product_code": "481865864",
+      "product_name": "DB BUTONU ALL METAL POLISH BRASS",
+      "before": {
+        "id": "id-yrwvpjncmtl9keod",
+        "code": "481865864",
+        "name": "DB BUTONU ALL METAL POLISH BRASS",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE POLCHROME METAL END ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-03T08:29:16.237Z"
+      },
+      "after": {
+        "id": "id-yrwvpjncmtl9keod",
+        "code": "481865864",
+        "name": "DB BUTONU ALL METAL POLISH BRASS",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE POLCHROME METAL END ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-08T08:51:26.144Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:51:26.144Z"
     }
   ]
 }

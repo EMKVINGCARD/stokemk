@@ -5527,12 +5527,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.205Z",
-      "updated_at": "2026-09-03T09:14:05.020Z"
+      "updated_at": "2026-09-08T08:44:28.084Z"
     },
     {
       "id": "id-2typ01iwmtl9kenh",
@@ -10085,6 +10085,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:44:25.452Z"
+    },
+    {
+      "id": "id-hcgescpzmtsfb7lg",
+      "action": "Ürün güncellendi",
+      "product_id": "id-cvghrnt2mtl9kenh",
+      "product_code": "YOK",
+      "product_name": "WING RH SATIN BRASS SET",
+      "before": {
+        "id": "id-cvghrnt2mtl9kenh",
+        "code": "YOK",
+        "name": "WING RH SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.205Z",
+        "updated_at": "2026-09-03T09:14:05.020Z"
+      },
+      "after": {
+        "id": "id-cvghrnt2mtl9kenh",
+        "code": "YOK",
+        "name": "WING RH SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.205Z",
+        "updated_at": "2026-09-08T08:44:28.084Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:44:28.084Z"
     }
   ]
 }

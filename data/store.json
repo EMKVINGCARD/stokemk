@@ -5784,7 +5784,7 @@
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATBRASS STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATBRASS STRAIGHT",
       "created_at": "2026-09-03T08:29:16.212Z",
-      "updated_at": "2026-09-08T08:45:29.136Z"
+      "updated_at": "2026-09-08T08:45:31.144Z"
     },
     {
       "id": "id-q4wgp84xmtl9kenp",
@@ -10845,6 +10845,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:29.136Z"
+    },
+    {
+      "id": "id-ljwn4d10mtsfck94",
+      "action": "Ürün güncellendi",
+      "product_id": "id-4g0crlr2mtl9keno",
+      "product_code": "481633362AC / 481633562AC",
+      "product_name": "STRAIGHT SATIN BRASS SET",
+      "before": {
+        "id": "id-4g0crlr2mtl9keno",
+        "code": "481633362AC / 481633562AC",
+        "name": "STRAIGHT SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATBRASS STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATBRASS STRAIGHT",
+        "created_at": "2026-09-03T08:29:16.212Z",
+        "updated_at": "2026-09-08T08:45:29.136Z"
+      },
+      "after": {
+        "id": "id-4g0crlr2mtl9keno",
+        "code": "481633362AC / 481633562AC",
+        "name": "STRAIGHT SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATBRASS STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATBRASS STRAIGHT",
+        "created_at": "2026-09-03T08:29:16.212Z",
+        "updated_at": "2026-09-08T08:45:31.144Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:31.144Z"
     }
   ]
 }

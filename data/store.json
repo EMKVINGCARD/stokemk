@@ -4346,7 +4346,7 @@
     },
     {
       "id": "id-0f1gtaoomtl9kemy",
-      "code": "YOK",
+      "code": "EOL",
       "name": "SKIRT 1G SATIN CHROME",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
@@ -4356,7 +4356,7 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.186Z",
-      "updated_at": "2026-09-03T09:12:29.160Z"
+      "updated_at": "2026-09-08T08:38:19.388Z"
     },
     {
       "id": "id-ppycfeahmtl9kemz",
@@ -9515,6 +9515,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:38:01.504Z"
+    },
+    {
+      "id": "id-7c2un7bgmtsf3b3w",
+      "action": "Ürün güncellendi",
+      "product_id": "id-0f1gtaoomtl9kemy",
+      "product_code": "EOL",
+      "product_name": "SKIRT 1G SATIN CHROME",
+      "before": {
+        "id": "id-0f1gtaoomtl9kemy",
+        "code": "YOK",
+        "name": "SKIRT 1G SATIN CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.186Z",
+        "updated_at": "2026-09-03T09:12:29.160Z"
+      },
+      "after": {
+        "id": "id-0f1gtaoomtl9kemy",
+        "code": "EOL",
+        "name": "SKIRT 1G SATIN CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.186Z",
+        "updated_at": "2026-09-08T08:38:19.388Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:38:19.388Z"
     }
   ]
 }

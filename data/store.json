@@ -7589,20 +7589,6 @@
       "updated_at": "2026-09-03T09:17:30.503Z"
     },
     {
-      "id": "id-cekktkitmtl9keoo",
-      "code": "YOK",
-      "name": "ESSENCE V2 SATIN CHROME WING KOL RH ANSI28 DB GÖMME",
-      "category_id": "id-a04v1tgfmtl7q19i",
-      "unit": "adet",
-      "quantity": 0,
-      "critical_level": 0,
-      "unit_price": 0,
-      "location": "",
-      "description": "",
-      "created_at": "2026-09-03T08:29:16.248Z",
-      "updated_at": "2026-09-03T09:17:33.732Z"
-    },
-    {
       "id": "id-cwhpwxc3mtl9keop",
       "code": "YOK",
       "name": "ESSENCE V2 SATIN CHROME WING KOL LH ANSI28 DB GÖMME",
@@ -8291,6 +8277,31 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-07T20:17:29.903Z"
+    },
+    {
+      "id": "id-irc0q3nfmtsacysy",
+      "action": "Ürün silindi",
+      "product_id": "id-cekktkitmtl9keoo",
+      "product_code": "YOK",
+      "product_name": "ESSENCE V2 SATIN CHROME WING KOL RH ANSI28 DB GÖMME",
+      "before": {
+        "id": "id-cekktkitmtl9keoo",
+        "code": "YOK",
+        "name": "ESSENCE V2 SATIN CHROME WING KOL RH ANSI28 DB GÖMME",
+        "category_id": "id-a04v1tgfmtl7q19i",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.248Z",
+        "updated_at": "2026-09-03T09:17:33.732Z"
+      },
+      "after": null,
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:25:51.922Z"
     }
   ],
   "movement_audit": [

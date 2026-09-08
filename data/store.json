@@ -3591,12 +3591,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE EURO 65 4.5V 24MM RH",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T08:29:16.178Z"
+      "updated_at": "2026-09-08T08:04:37.785Z"
     },
     {
       "id": "id-lr7m0664mtl9kemq",
@@ -10335,6 +10335,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:04:31.773Z"
+    },
+    {
+      "id": "id-eon0376lmtsdvz89",
+      "action": "Ürün güncellendi",
+      "product_id": "id-n9kwt54mmtl9kemq",
+      "product_code": "4813995B3",
+      "product_name": "EURO 24MM RH GÖMME",
+      "before": {
+        "id": "id-n9kwt54mmtl9kemq",
+        "code": "4813995B3",
+        "name": "EURO 24MM RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 24MM RH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-03T08:29:16.178Z"
+      },
+      "after": {
+        "id": "id-n9kwt54mmtl9kemq",
+        "code": "4813995B3",
+        "name": "EURO 24MM RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 24MM RH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T08:04:37.785Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:04:37.785Z"
     }
   ]
 }

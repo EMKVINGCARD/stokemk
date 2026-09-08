@@ -5499,12 +5499,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME WING R / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME WING L",
       "created_at": "2026-09-03T08:29:16.203Z",
-      "updated_at": "2026-09-03T08:29:16.203Z"
+      "updated_at": "2026-09-08T08:44:23.027Z"
     },
     {
       "id": "id-fuokzmx8mtl9keng",
@@ -10009,6 +10009,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:41:06.396Z"
+    },
+    {
+      "id": "id-axk54bxkmtsfb3oz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-51d1nopgmtl9kenf",
+      "product_code": "481633361AB / 481633561AA",
+      "product_name": "WING RH SATIN CHROME SET",
+      "before": {
+        "id": "id-51d1nopgmtl9kenf",
+        "code": "481633361AB / 481633561AA",
+        "name": "WING RH SATIN CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME WING R / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME WING L",
+        "created_at": "2026-09-03T08:29:16.203Z",
+        "updated_at": "2026-09-03T08:29:16.203Z"
+      },
+      "after": {
+        "id": "id-51d1nopgmtl9kenf",
+        "code": "481633361AB / 481633561AA",
+        "name": "WING RH SATIN CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME WING R / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME WING L",
+        "created_at": "2026-09-03T08:29:16.203Z",
+        "updated_at": "2026-09-08T08:44:23.027Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:44:23.027Z"
     }
   ]
 }

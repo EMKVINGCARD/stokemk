@@ -6983,12 +6983,12 @@
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
       "quantity": 33,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:33:14.765Z"
+      "updated_at": "2026-09-08T09:28:30.899Z"
     },
     {
       "id": "id-zvzx5yr2mtl9keog",
@@ -9627,6 +9627,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:28:28.331Z"
+    },
+    {
+      "id": "id-1wmqg357mtsgvusz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "before": {
+        "id": "id-iz2rtm6wmtl9keog",
+        "code": "480451422",
+        "name": "A28 STD FRONT SATIN CHROME",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 33,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:33:14.765Z"
+      },
+      "after": {
+        "id": "id-iz2rtm6wmtl9keog",
+        "code": "480451422",
+        "name": "A28 STD FRONT SATIN CHROME",
+        "category_id": "id-8ho5xd6fmtk34t8p",
+        "unit": "adet",
+        "quantity": 33,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:28:30.899Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:28:30.899Z"
     }
   ]
 }

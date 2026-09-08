@@ -3535,12 +3535,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE EURO 65 4.5V 20MM LH",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-09-03T08:29:16.177Z"
+      "updated_at": "2026-09-08T08:04:20.245Z"
     },
     {
       "id": "id-t4tg25p7mtl9kemq",
@@ -10221,6 +10221,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:04:17.388Z"
+    },
+    {
+      "id": "id-jkgimrmrmtsdvlp1",
+      "action": "Ürün güncellendi",
+      "product_id": "id-wcyzo90fmtl9kemp",
+      "product_code": "4813995A1",
+      "product_name": "EURO 20MM LH GÖMME",
+      "before": {
+        "id": "id-wcyzo90fmtl9kemp",
+        "code": "4813995A1",
+        "name": "EURO 20MM LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 20MM LH",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-03T08:29:16.177Z"
+      },
+      "after": {
+        "id": "id-wcyzo90fmtl9kemp",
+        "code": "4813995A1",
+        "name": "EURO 20MM LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 20MM LH",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-08T08:04:20.245Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:04:20.245Z"
     }
   ]
 }

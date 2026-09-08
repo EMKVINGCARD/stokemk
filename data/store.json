@@ -2807,12 +2807,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 32,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:05:57.830Z"
     },
     {
       "id": "id-lsjtwpqumtl9kemh",
@@ -15088,6 +15088,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:05:38.342Z"
+    },
+    {
+      "id": "id-mq7f6mt5mtsbsj7q",
+      "action": "Ürün güncellendi",
+      "product_id": "id-cdwa07nhmtl9kemh",
+      "product_code": "683081114",
+      "product_name": "MOC BLE HOUSING UZUN KABLO",
+      "before": {
+        "id": "id-cdwa07nhmtl9kemh",
+        "code": "683081114",
+        "name": "MOC BLE HOUSING UZUN KABLO",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 32,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-cdwa07nhmtl9kemh",
+        "code": "683081114",
+        "name": "MOC BLE HOUSING UZUN KABLO",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 32,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:05:57.830Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:05:57.830Z"
     }
   ],
   "movement_audit": [

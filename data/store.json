@@ -4164,7 +4164,7 @@
     },
     {
       "id": "id-q35lk2oqmtl9kemw",
-      "code": "YOK",
+      "code": "EOL",
       "name": "DAVINCI HALIFAX",
       "category_id": "id-li2k7ztkmtk34t8o",
       "unit": "adet",
@@ -4174,7 +4174,7 @@
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.184Z",
-      "updated_at": "2026-09-03T09:12:20.667Z"
+      "updated_at": "2026-09-08T08:36:59.384Z"
     },
     {
       "id": "id-m4o6l4nwmtl9kemx",
@@ -9211,6 +9211,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:36:55.520Z"
+    },
+    {
+      "id": "id-a8wkcflamtsf1ldk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-q35lk2oqmtl9kemw",
+      "product_code": "EOL",
+      "product_name": "DAVINCI HALIFAX",
+      "before": {
+        "id": "id-q35lk2oqmtl9kemw",
+        "code": "YOK",
+        "name": "DAVINCI HALIFAX",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.184Z",
+        "updated_at": "2026-09-03T09:12:20.667Z"
+      },
+      "after": {
+        "id": "id-q35lk2oqmtl9kemw",
+        "code": "EOL",
+        "name": "DAVINCI HALIFAX",
+        "category_id": "id-li2k7ztkmtk34t8o",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.184Z",
+        "updated_at": "2026-09-08T08:36:59.384Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:36:59.384Z"
     }
   ]
 }

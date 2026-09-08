@@ -2984,17 +2984,17 @@
     },
     {
       "id": "id-ov0bdk9nmtl9kemh",
-      "code": "None",
+      "code": "YOK",
       "name": "CLASSIC SATIN CHROME SHIP SİLİNDİRSİZ DIŞ AYNA",
       "category_id": "id-p32v71yhmtk34t8o",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "None",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T08:00:13.088Z"
     },
     {
       "id": "id-di8uwyd3mtl9kemh",
@@ -9385,6 +9385,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:59:53.637Z"
+    },
+    {
+      "id": "id-35hn7aejmtsdqazk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ov0bdk9nmtl9kemh",
+      "product_code": "YOK",
+      "product_name": "CLASSIC SATIN CHROME SHIP SİLİNDİRSİZ DIŞ AYNA",
+      "before": {
+        "id": "id-ov0bdk9nmtl9kemh",
+        "code": "None",
+        "name": "CLASSIC SATIN CHROME SHIP SİLİNDİRSİZ DIŞ AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "None",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-ov0bdk9nmtl9kemh",
+        "code": "YOK",
+        "name": "CLASSIC SATIN CHROME SHIP SİLİNDİRSİZ DIŞ AYNA",
+        "category_id": "id-p32v71yhmtk34t8o",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "None",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T08:00:13.088Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:00:13.088Z"
     }
   ]
 }

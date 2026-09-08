@@ -3899,12 +3899,12 @@
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "B:18-25MM, ESS V2 BLE MAIN WOOD SATCHROME,BLACK,ANSI,OFFL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-03T08:29:16.180Z"
+      "updated_at": "2026-09-08T08:07:23.981Z"
     },
     {
       "id": "id-dqgns810mtl9kems",
@@ -10677,6 +10677,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:07:16.064Z"
+    },
+    {
+      "id": "id-019hhb6nmtsdzjgt",
+      "action": "Ürün güncellendi",
+      "product_id": "id-luklsqk5mtl9kems",
+      "product_code": "P000883457-115-522",
+      "product_name": "ESSENCE V2 5351 KASET SET CHROME",
+      "before": {
+        "id": "id-luklsqk5mtl9kems",
+        "code": "P000883457-115-522",
+        "name": "ESSENCE V2 5351 KASET SET CHROME",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "B:18-25MM, ESS V2 BLE MAIN WOOD SATCHROME,BLACK,ANSI,OFFL",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-03T08:29:16.180Z"
+      },
+      "after": {
+        "id": "id-luklsqk5mtl9kems",
+        "code": "P000883457-115-522",
+        "name": "ESSENCE V2 5351 KASET SET CHROME",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "B:18-25MM, ESS V2 BLE MAIN WOOD SATCHROME,BLACK,ANSI,OFFL",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-08T08:07:23.981Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:07:23.981Z"
     }
   ]
 }

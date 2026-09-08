@@ -2945,7 +2945,7 @@
       "id": "id-b5mcogz8mtl9kemh",
       "code": "DIŞARIDAN TEDARİK EDİYORUZ",
       "name": "18 Lİ SİGORTA KUTUSU",
-      "category_id": "id-phqne5txmtk34t8o",
+      "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
       "quantity": 4,
       "critical_level": 5,
@@ -2953,7 +2953,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:07:36.847Z"
+      "updated_at": "2026-09-08T08:35:10.700Z"
     },
     {
       "id": "id-h0oomfcymtl9kemh",
@@ -9046,6 +9046,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:35:05.860Z"
+    },
+    {
+      "id": "id-jshkoxxbmtsez9ik",
+      "action": "Ürün güncellendi",
+      "product_id": "id-b5mcogz8mtl9kemh",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "18 Lİ SİGORTA KUTUSU",
+      "before": {
+        "id": "id-b5mcogz8mtl9kemh",
+        "code": "DIŞARIDAN TEDARİK EDİYORUZ",
+        "name": "18 Lİ SİGORTA KUTUSU",
+        "category_id": "id-phqne5txmtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:07:36.847Z"
+      },
+      "after": {
+        "id": "id-b5mcogz8mtl9kemh",
+        "code": "DIŞARIDAN TEDARİK EDİYORUZ",
+        "name": "18 Lİ SİGORTA KUTUSU",
+        "category_id": "id-yb9e13sumtsewvh0",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T08:35:10.700Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:35:10.700Z"
     }
   ]
 }

@@ -6381,12 +6381,12 @@
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE PVD POLCHROME BRASS END ÇİZİK",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-03T08:29:16.237Z"
+      "updated_at": "2026-09-08T08:51:11.736Z"
     },
     {
       "id": "id-92kmsz6wmtl9keod",
@@ -14341,6 +14341,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:51:06.832Z"
+    },
+    {
+      "id": "id-zrze3xw6mtsfjv20",
+      "action": "Ürün güncellendi",
+      "product_id": "id-rakgyegpmtl9keod",
+      "product_code": "481865864",
+      "product_name": "DB BUTONU ALL METAL POLISH CHROME",
+      "before": {
+        "id": "id-rakgyegpmtl9keod",
+        "code": "481865864",
+        "name": "DB BUTONU ALL METAL POLISH CHROME",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE PVD POLCHROME BRASS END ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-03T08:29:16.237Z"
+      },
+      "after": {
+        "id": "id-rakgyegpmtl9keod",
+        "code": "481865864",
+        "name": "DB BUTONU ALL METAL POLISH CHROME",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE PVD POLCHROME BRASS END ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-08T08:51:11.736Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:51:11.736Z"
     }
   ]
 }

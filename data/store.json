@@ -1379,12 +1379,12 @@
       "category_id": "id-mqy6c8n0mtk34t8n",
       "unit": "adet",
       "quantity": 22,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T09:06:30.896Z"
+      "updated_at": "2026-09-08T06:42:54.043Z"
     },
     {
       "id": "id-htbq7k5emtl9kemc",
@@ -10821,6 +10821,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:42:44.407Z"
+    },
+    {
+      "id": "id-u1oeb6l1mtsayvh7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-9evxki91mtl9kemc",
+      "product_code": "YOK",
+      "product_name": "VINGCARD BLE",
+      "before": {
+        "id": "id-9evxki91mtl9kemc",
+        "code": "YOK",
+        "name": "VINGCARD BLE",
+        "category_id": "id-mqy6c8n0mtk34t8n",
+        "unit": "adet",
+        "quantity": 22,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T09:06:30.896Z"
+      },
+      "after": {
+        "id": "id-9evxki91mtl9kemc",
+        "code": "YOK",
+        "name": "VINGCARD BLE",
+        "category_id": "id-mqy6c8n0mtk34t8n",
+        "unit": "adet",
+        "quantity": 22,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:42:54.043Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:42:54.043Z"
     }
   ],
   "movement_audit": [

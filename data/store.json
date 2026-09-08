@@ -6269,12 +6269,12 @@
       "category_id": "id-tk4ignznmtl7q19h",
       "unit": "adet",
       "quantity": 21,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.232Z",
-      "updated_at": "2026-09-03T09:16:33.271Z"
+      "updated_at": "2026-09-08T09:24:32.479Z"
     },
     {
       "id": "id-2p1f2xfumtl9keo9",
@@ -8259,6 +8259,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:24:29.887Z"
+    },
+    {
+      "id": "id-cxepfvosmtsgqqu7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-mo19be0imtl9keo8",
+      "product_code": "YOK",
+      "product_name": "ROZET İÇ SATIN CHROME",
+      "before": {
+        "id": "id-mo19be0imtl9keo8",
+        "code": "YOK",
+        "name": "ROZET İÇ SATIN CHROME",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 21,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.232Z",
+        "updated_at": "2026-09-03T09:16:33.271Z"
+      },
+      "after": {
+        "id": "id-mo19be0imtl9keo8",
+        "code": "YOK",
+        "name": "ROZET İÇ SATIN CHROME",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 21,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.232Z",
+        "updated_at": "2026-09-08T09:24:32.479Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:24:32.479Z"
     }
   ]
 }

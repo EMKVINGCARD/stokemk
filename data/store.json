@@ -5947,12 +5947,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE LIGHTBRZ FU.ANSI / HANDLE ON INSIDE ROSE SIGNATURE LIGHTBRZ FU.ANSI",
       "created_at": "2026-09-03T08:29:16.216Z",
-      "updated_at": "2026-09-03T08:29:16.216Z"
+      "updated_at": "2026-09-08T08:46:06.816Z"
     },
     {
       "id": "id-g4cey8q1mtl9kens",
@@ -11301,6 +11301,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:04.420Z"
+    },
+    {
+      "id": "id-8i5wv5q9mtsfdbs0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-xu6vsb84mtl9kens",
+      "product_code": "481633305AD / 481633505AD",
+      "product_name": "FUNCTIONAL ANSI LIGHT BRONZE SET",
+      "before": {
+        "id": "id-xu6vsb84mtl9kens",
+        "code": "481633305AD / 481633505AD",
+        "name": "FUNCTIONAL ANSI LIGHT BRONZE SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE LIGHTBRZ FU.ANSI / HANDLE ON INSIDE ROSE SIGNATURE LIGHTBRZ FU.ANSI",
+        "created_at": "2026-09-03T08:29:16.216Z",
+        "updated_at": "2026-09-03T08:29:16.216Z"
+      },
+      "after": {
+        "id": "id-xu6vsb84mtl9kens",
+        "code": "481633305AD / 481633505AD",
+        "name": "FUNCTIONAL ANSI LIGHT BRONZE SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE LIGHTBRZ FU.ANSI / HANDLE ON INSIDE ROSE SIGNATURE LIGHTBRZ FU.ANSI",
+        "created_at": "2026-09-03T08:29:16.216Z",
+        "updated_at": "2026-09-08T08:46:06.816Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:06.816Z"
     }
   ]
 }

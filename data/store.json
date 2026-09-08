@@ -1281,12 +1281,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 30,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE  FOR ETHERNET LOCK INTERFACE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:39:46.799Z"
     },
     {
       "id": "id-viw1n3fgmtl9kemc",
@@ -10555,6 +10555,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:39:08.583Z"
+    },
+    {
+      "id": "id-q1w1vaz8mtsauuzz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-g8g07p3nmtl9kemc",
+      "product_code": "4825882",
+      "product_name": "ALLURE ETHERNET KARTI",
+      "before": {
+        "id": "id-g8g07p3nmtl9kemc",
+        "code": "4825882",
+        "name": "ALLURE ETHERNET KARTI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 30,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE  FOR ETHERNET LOCK INTERFACE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-g8g07p3nmtl9kemc",
+        "code": "4825882",
+        "name": "ALLURE ETHERNET KARTI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 30,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE  FOR ETHERNET LOCK INTERFACE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:39:46.799Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:39:46.799Z"
     }
   ],
   "movement_audit": [

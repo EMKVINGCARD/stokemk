@@ -2345,12 +2345,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 23,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "PROTECTION CAP SENTINEL II / INFINITY II",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-03T08:29:16.168Z"
+      "updated_at": "2026-09-08T07:01:06.563Z"
     },
     {
       "id": "id-sk4n2lj7mtl9kemg",
@@ -13720,6 +13720,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:00:49.886Z"
+    },
+    {
+      "id": "id-56od1z6cmtsbmagz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-92ochowvmtl9kemg",
+      "product_code": "252-83500000700",
+      "product_name": "PROTECTION CAP SENTINEL II / INFINITY II",
+      "before": {
+        "id": "id-92ochowvmtl9kemg",
+        "code": "252-83500000700",
+        "name": "PROTECTION CAP SENTINEL II / INFINITY II",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 23,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "PROTECTION CAP SENTINEL II / INFINITY II",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-03T08:29:16.168Z"
+      },
+      "after": {
+        "id": "id-92ochowvmtl9kemg",
+        "code": "252-83500000700",
+        "name": "PROTECTION CAP SENTINEL II / INFINITY II",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 23,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "PROTECTION CAP SENTINEL II / INFINITY II",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T07:01:06.563Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:01:06.563Z"
     }
   ],
   "movement_audit": [

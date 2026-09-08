@@ -1645,12 +1645,12 @@
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T09:07:15.060Z"
+      "updated_at": "2026-09-08T06:50:20.178Z"
     },
     {
       "id": "id-32mavvummtl9kemd",
@@ -11809,6 +11809,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:50:05.906Z"
+    },
+    {
+      "id": "id-7vkh8euqmtsb8fpu",
+      "action": "Ürün güncellendi",
+      "product_id": "id-h4gbid64mtl9kemd",
+      "product_code": "YOK",
+      "product_name": "DOOR RETAINER AGED BRONZE",
+      "before": {
+        "id": "id-h4gbid64mtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER AGED BRONZE",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T09:07:15.060Z"
+      },
+      "after": {
+        "id": "id-h4gbid64mtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER AGED BRONZE",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:50:20.178Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:50:20.178Z"
     }
   ],
   "movement_audit": [

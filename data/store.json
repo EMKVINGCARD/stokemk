@@ -2079,12 +2079,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 30,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "MOTOR COMPLETE INFINITY/SENTİNEL/ZENITH",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:55:15.227Z"
     },
     {
       "id": "id-7pqcq0drmtl9kemf",
@@ -12987,6 +12987,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:55:05.367Z"
+    },
+    {
+      "id": "id-gr8bissmmtsberdn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-52puydrumtl9kemf",
+      "product_code": "600-9001",
+      "product_name": "KASA MOTORU INFINITY/SENTINEL/ZENITH",
+      "before": {
+        "id": "id-52puydrumtl9kemf",
+        "code": "600-9001",
+        "name": "KASA MOTORU INFINITY/SENTINEL/ZENITH",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 30,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "MOTOR COMPLETE INFINITY/SENTİNEL/ZENITH",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-52puydrumtl9kemf",
+        "code": "600-9001",
+        "name": "KASA MOTORU INFINITY/SENTINEL/ZENITH",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 30,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "MOTOR COMPLETE INFINITY/SENTİNEL/ZENITH",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:55:15.227Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:55:15.227Z"
     }
   ],
   "movement_audit": [

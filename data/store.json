@@ -4211,12 +4211,12 @@
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
       "quantity": 55,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER PVD POLCHROME",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-03T08:29:16.185Z"
+      "updated_at": "2026-09-08T08:39:30.736Z"
     },
     {
       "id": "id-kptmdd8dmtl9kemx",
@@ -9743,6 +9743,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:39:24.584Z"
+    },
+    {
+      "id": "id-0je1ashimtsf4u5s",
+      "action": "Ürün güncellendi",
+      "product_id": "id-n05erbigmtl9kemx",
+      "product_code": "482379664",
+      "product_name": "SKIRT POLISH CHROME",
+      "before": {
+        "id": "id-n05erbigmtl9kemx",
+        "code": "482379664",
+        "name": "SKIRT POLISH CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 55,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER PVD POLCHROME",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-03T08:29:16.185Z"
+      },
+      "after": {
+        "id": "id-n05erbigmtl9kemx",
+        "code": "482379664",
+        "name": "SKIRT POLISH CHROME",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 55,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER PVD POLCHROME",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-08T08:39:30.736Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:39:30.736Z"
     }
   ]
 }

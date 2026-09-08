@@ -2765,12 +2765,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ELEVATOR BLE HW KIT (NOT INCL. ELECTRONICS)",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:05:20.522Z"
     },
     {
       "id": "id-viezhpvgmtl9kemh",
@@ -14974,6 +14974,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:05:12.810Z"
+    },
+    {
+      "id": "id-wroswcadmtsbrqfe",
+      "action": "Ürün güncellendi",
+      "product_id": "id-lnij5pfgmtl9kemh",
+      "product_code": "4825732",
+      "product_name": "VISIONLINE MOC HOUSING KABLO DAHİL",
+      "before": {
+        "id": "id-lnij5pfgmtl9kemh",
+        "code": "4825732",
+        "name": "VISIONLINE MOC HOUSING KABLO DAHİL",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ELEVATOR BLE HW KIT (NOT INCL. ELECTRONICS)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-lnij5pfgmtl9kemh",
+        "code": "4825732",
+        "name": "VISIONLINE MOC HOUSING KABLO DAHİL",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ELEVATOR BLE HW KIT (NOT INCL. ELECTRONICS)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:05:20.522Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:05:20.522Z"
     }
   ],
   "movement_audit": [

@@ -1799,12 +1799,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER (FOR 3G/4G)",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:52:16.047Z"
     },
     {
       "id": "id-5anefamimtl9kemf",
@@ -12227,6 +12227,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:52:07.450Z"
+    },
+    {
+      "id": "id-2oqob1n7mtsbax4f",
+      "action": "Ürün güncellendi",
+      "product_id": "id-1ey0prynmtl9kemf",
+      "product_code": "686001061",
+      "product_name": "RFID KİLİT PROGRAMLAMA USB TARAFI",
+      "before": {
+        "id": "id-1ey0prynmtl9kemf",
+        "code": "686001061",
+        "name": "RFID KİLİT PROGRAMLAMA USB TARAFI",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CABLE RJ12 TO USB ADAPTER (FOR 3G/4G)",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-1ey0prynmtl9kemf",
+        "code": "686001061",
+        "name": "RFID KİLİT PROGRAMLAMA USB TARAFI",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CABLE RJ12 TO USB ADAPTER (FOR 3G/4G)",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:52:16.047Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:52:16.047Z"
     }
   ],
   "movement_audit": [

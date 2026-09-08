@@ -7473,12 +7473,12 @@
       "category_id": "id-twls3oxrmtk34t8p",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "DUSTBOX FOR ANSI STRIKE",
       "created_at": "2026-09-03T08:29:16.244Z",
-      "updated_at": "2026-09-03T08:29:16.244Z"
+      "updated_at": "2026-09-08T09:31:59.719Z"
     },
     {
       "id": "id-vdyh8civmtl9keol",
@@ -10881,6 +10881,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:31:41.907Z"
+    },
+    {
+      "id": "id-8q1j27pamtsh0bxj",
+      "action": "Ürün güncellendi",
+      "product_id": "id-esnd4ubumtl9keok",
+      "product_code": "4701975",
+      "product_name": "TOZLUK SATIN CHROME YENİ",
+      "before": {
+        "id": "id-esnd4ubumtl9keok",
+        "code": "4701975",
+        "name": "TOZLUK SATIN CHROME YENİ",
+        "category_id": "id-twls3oxrmtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "DUSTBOX FOR ANSI STRIKE",
+        "created_at": "2026-09-03T08:29:16.244Z",
+        "updated_at": "2026-09-03T08:29:16.244Z"
+      },
+      "after": {
+        "id": "id-esnd4ubumtl9keok",
+        "code": "4701975",
+        "name": "TOZLUK SATIN CHROME YENİ",
+        "category_id": "id-twls3oxrmtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "DUSTBOX FOR ANSI STRIKE",
+        "created_at": "2026-09-03T08:29:16.244Z",
+        "updated_at": "2026-09-08T09:31:59.719Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:31:59.719Z"
     }
   ]
 }

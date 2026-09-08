@@ -6101,12 +6101,12 @@
       "category_id": "id-zgl5kigumtk34t8p",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.224Z",
-      "updated_at": "2026-09-08T09:18:15.767Z"
+      "updated_at": "2026-09-08T09:18:24.779Z"
     },
     {
       "id": "id-ahnpen97mtl9keo1",
@@ -16735,6 +16735,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:18:22.547Z"
+    },
+    {
+      "id": "id-xfq9b397mtsgiv4b",
+      "action": "Ürün güncellendi",
+      "product_id": "id-du5ijfzkmtl9keo0",
+      "product_code": "YOK",
+      "product_name": "WING RH SATIN BRASS DIŞ",
+      "before": {
+        "id": "id-du5ijfzkmtl9keo0",
+        "code": "YOK",
+        "name": "WING RH SATIN BRASS DIŞ",
+        "category_id": "id-zgl5kigumtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.224Z",
+        "updated_at": "2026-09-08T09:18:15.767Z"
+      },
+      "after": {
+        "id": "id-du5ijfzkmtl9keo0",
+        "code": "YOK",
+        "name": "WING RH SATIN BRASS DIŞ",
+        "category_id": "id-zgl5kigumtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.224Z",
+        "updated_at": "2026-09-08T09:18:24.779Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:18:24.779Z"
     }
   ]
 }

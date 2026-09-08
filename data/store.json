@@ -1309,12 +1309,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 12,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:39:57.872Z"
     },
     {
       "id": "id-iuej3fr5mtl9kemc",
@@ -10631,6 +10631,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:39:50.967Z"
+    },
+    {
+      "id": "id-fr15v30xmtsav3jk",
+      "action": "Ürün güncellendi",
+      "product_id": "id-3p2kkjqrmtl9kemc",
+      "product_code": "P001005359-003-001",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6351",
+      "before": {
+        "id": "id-3p2kkjqrmtl9kemc",
+        "code": "P001005359-003-001",
+        "name": "MAIN KONTROL ÜNİTESİ 6351",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-3p2kkjqrmtl9kemc",
+        "code": "P001005359-003-001",
+        "name": "MAIN KONTROL ÜNİTESİ 6351",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:39:57.872Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:39:57.872Z"
     }
   ],
   "movement_audit": [

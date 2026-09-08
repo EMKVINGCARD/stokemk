@@ -1295,12 +1295,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 17,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE GENERAL PURPOSE IO MODULE (GPIO)",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:39:50.967Z"
     },
     {
       "id": "id-3p2kkjqrmtl9kemc",
@@ -10593,6 +10593,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:39:46.799Z"
+    },
+    {
+      "id": "id-bjh0arb1mtsauy7r",
+      "action": "Ürün güncellendi",
+      "product_id": "id-viw1n3fgmtl9kemc",
+      "product_code": "4825711",
+      "product_name": "ALLURE GPIO MODÜLÜ",
+      "before": {
+        "id": "id-viw1n3fgmtl9kemc",
+        "code": "4825711",
+        "name": "ALLURE GPIO MODÜLÜ",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 17,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GENERAL PURPOSE IO MODULE (GPIO)",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-viw1n3fgmtl9kemc",
+        "code": "4825711",
+        "name": "ALLURE GPIO MODÜLÜ",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 17,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GENERAL PURPOSE IO MODULE (GPIO)",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:39:50.967Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:39:50.967Z"
     }
   ],
   "movement_audit": [

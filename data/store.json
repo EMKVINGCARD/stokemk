@@ -2597,12 +2597,12 @@
       "category_id": "id-sqb6phowmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:03:38.214Z"
     },
     {
       "id": "id-xbftxk8nmtl9kemh",
@@ -14480,6 +14480,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:03:32.730Z"
+    },
+    {
+      "id": "id-d1g83koumtsbpjhi",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6g4sblksmtl9kemh",
+      "product_code": "EOL",
+      "product_name": "SERVIS TERMINAL SIFIR",
+      "before": {
+        "id": "id-6g4sblksmtl9kemh",
+        "code": "EOL",
+        "name": "SERVIS TERMINAL SIFIR",
+        "category_id": "id-sqb6phowmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-6g4sblksmtl9kemh",
+        "code": "EOL",
+        "name": "SERVIS TERMINAL SIFIR",
+        "category_id": "id-sqb6phowmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:03:38.214Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:03:38.214Z"
     }
   ],
   "movement_audit": [

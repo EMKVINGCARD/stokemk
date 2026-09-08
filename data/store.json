@@ -6712,7 +6712,7 @@
     },
     {
       "id": "id-3w8bk199mtl9keog",
-      "code": "YOK",
+      "code": "EOL",
       "name": "EURO 5994 ESKİ KARŞILIK",
       "category_id": "id-90f31rmlmtk34t8p",
       "unit": "adet",
@@ -6722,7 +6722,7 @@
       "location": "",
       "description": "STRIKE, LOW FRICTION EURO STRIKE 5994 STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T09:17:04.144Z"
+      "updated_at": "2026-09-08T09:26:57.407Z"
     },
     {
       "id": "id-5578tgzlmtl9keog",
@@ -8905,6 +8905,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:26:47.924Z"
+    },
+    {
+      "id": "id-u9fjwe4rmtsgtunz",
+      "action": "Ürün güncellendi",
+      "product_id": "id-3w8bk199mtl9keog",
+      "product_code": "EOL",
+      "product_name": "EURO 5994 ESKİ KARŞILIK",
+      "before": {
+        "id": "id-3w8bk199mtl9keog",
+        "code": "YOK",
+        "name": "EURO 5994 ESKİ KARŞILIK",
+        "category_id": "id-90f31rmlmtk34t8p",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE, LOW FRICTION EURO STRIKE 5994 STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T09:17:04.144Z"
+      },
+      "after": {
+        "id": "id-3w8bk199mtl9keog",
+        "code": "EOL",
+        "name": "EURO 5994 ESKİ KARŞILIK",
+        "category_id": "id-90f31rmlmtk34t8p",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKE, LOW FRICTION EURO STRIKE 5994 STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:26:57.407Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:26:57.407Z"
     }
   ]
 }

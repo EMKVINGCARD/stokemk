@@ -749,12 +749,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 2,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYFOB MIFARE CLASSIC 1K GRAY",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:26:55.739Z"
+      "updated_at": "2026-09-08T06:28:44.027Z"
     },
     {
       "id": "id-rtd3zubumtl9kemb",
@@ -9404,6 +9404,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:28:38.872Z"
+    },
+    {
+      "id": "id-v9ihbgzamtsagnln",
+      "action": "Ürün güncellendi",
+      "product_id": "id-pcsw6ndomtl9kemb",
+      "product_code": "4818599D",
+      "product_name": "RFID KEYFOB MIFARE CLASSİC 1K GRİ",
+      "before": {
+        "id": "id-pcsw6ndomtl9kemb",
+        "code": "4818599D",
+        "name": "RFID KEYFOB MIFARE CLASSİC 1K GRİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSIC 1K GRAY",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:26:55.739Z"
+      },
+      "after": {
+        "id": "id-pcsw6ndomtl9kemb",
+        "code": "4818599D",
+        "name": "RFID KEYFOB MIFARE CLASSİC 1K GRİ",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYFOB MIFARE CLASSIC 1K GRAY",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:44.027Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:28:44.027Z"
     }
   ],
   "movement_audit": [

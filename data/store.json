@@ -777,12 +777,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 3,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLACK 74MM",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:27:05.387Z"
+      "updated_at": "2026-09-08T06:28:38.872Z"
     },
     {
       "id": "id-vfozl9mpmtl9kemb",
@@ -9366,6 +9366,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:28:35.475Z"
+    },
+    {
+      "id": "id-to2kyi4pmtsagjmg",
+      "action": "Ürün güncellendi",
+      "product_id": "id-0g98d5tfmtl9kemb",
+      "product_code": "P001057464-001-402",
+      "product_name": "RFID WRISTBAND SİLİKON 4K SİYAH 74MM",
+      "before": {
+        "id": "id-0g98d5tfmtl9kemb",
+        "code": "P001057464-001-402",
+        "name": "RFID WRISTBAND SİLİKON 4K SİYAH 74MM",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 3,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLACK 74MM",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:27:05.387Z"
+      },
+      "after": {
+        "id": "id-0g98d5tfmtl9kemb",
+        "code": "P001057464-001-402",
+        "name": "RFID WRISTBAND SİLİKON 4K SİYAH 74MM",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLACK 74MM",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:38.872Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:28:38.872Z"
     }
   ],
   "movement_audit": [

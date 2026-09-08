@@ -1043,12 +1043,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 2,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:37:06.755Z"
+      "updated_at": "2026-09-08T06:48:06.948Z"
     },
     {
       "id": "id-6vu60ms8mtl9kemc",
@@ -11695,6 +11695,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:47:59.087Z"
+    },
+    {
+      "id": "id-jct2miscmtsb5kx0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-l5f1248gmtl9kemc",
+      "product_code": "YOK",
+      "product_name": "ALLURE BLEND SİYAH DIŞ PANEL 101 ODA NUMARALI",
+      "before": {
+        "id": "id-l5f1248gmtl9kemc",
+        "code": "YOK",
+        "name": "ALLURE BLEND SİYAH DIŞ PANEL 101 ODA NUMARALI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:37:06.755Z"
+      },
+      "after": {
+        "id": "id-l5f1248gmtl9kemc",
+        "code": "YOK",
+        "name": "ALLURE BLEND SİYAH DIŞ PANEL 101 ODA NUMARALI",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:48:06.948Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:48:06.948Z"
     }
   ],
   "movement_audit": [

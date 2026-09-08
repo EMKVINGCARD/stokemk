@@ -2107,12 +2107,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 8,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:55:29.106Z"
     },
     {
       "id": "id-2etzjkcemtl9kemf",
@@ -13063,6 +13063,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:55:24.699Z"
+    },
+    {
+      "id": "id-zapoq7f7mtsbf237",
+      "action": "Ürün güncellendi",
+      "product_id": "id-phmroxbzmtl9kemf",
+      "product_code": "EOL",
+      "product_name": "XTRA MOTOR",
+      "before": {
+        "id": "id-phmroxbzmtl9kemf",
+        "code": "EOL",
+        "name": "XTRA MOTOR",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-phmroxbzmtl9kemf",
+        "code": "EOL",
+        "name": "XTRA MOTOR",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:55:29.106Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:55:29.107Z"
     }
   ],
   "movement_audit": [

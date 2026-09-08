@@ -903,12 +903,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 9,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RFID PULPER KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:28:11.539Z"
+      "updated_at": "2026-09-08T06:28:14.723Z"
     },
     {
       "id": "id-gg8ewkf4mtl9kemb",
@@ -9138,6 +9138,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:28:11.539Z"
+    },
+    {
+      "id": "id-egxb1ztumtsag0zn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-8zazpzewmtl9kemb",
+      "product_code": "P001086509-001-001",
+      "product_name": "RFID PULPER KEYCARD MIFARE UL EV1 WHITE",
+      "before": {
+        "id": "id-8zazpzewmtl9kemb",
+        "code": "P001086509-001-001",
+        "name": "RFID PULPER KEYCARD MIFARE UL EV1 WHITE",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 9,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID PULPER KEYCARD MIFARE UL EV1 WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:11.539Z"
+      },
+      "after": {
+        "id": "id-8zazpzewmtl9kemb",
+        "code": "P001086509-001-001",
+        "name": "RFID PULPER KEYCARD MIFARE UL EV1 WHITE",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID PULPER KEYCARD MIFARE UL EV1 WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:14.723Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:28:14.723Z"
     }
   ],
   "movement_audit": [

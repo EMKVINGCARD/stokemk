@@ -6339,12 +6339,12 @@
       "category_id": "id-tk4ignznmtl7q19h",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.236Z",
-      "updated_at": "2026-09-03T09:16:49.672Z"
+      "updated_at": "2026-09-08T09:24:02.215Z"
     },
     {
       "id": "id-obu6b4l3mtl9keod",
@@ -8068,5 +8068,45 @@
       "id-b6wa5jr9mtl9keo4",
       "id-t37en6ewmtl9keo6"
     ]
-  }
+  },
+  "audit_log": [
+    {
+      "id": "id-9ff2fwsomtsgq3hj",
+      "action": "Ürün güncellendi",
+      "product_id": "id-xkl2dp6nmtl9keoc",
+      "product_code": "YOK",
+      "product_name": "ROZET DIŞ US ANTIK DARK",
+      "before": {
+        "id": "id-xkl2dp6nmtl9keoc",
+        "code": "YOK",
+        "name": "ROZET DIŞ US ANTIK DARK",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.236Z",
+        "updated_at": "2026-09-03T09:16:49.672Z"
+      },
+      "after": {
+        "id": "id-xkl2dp6nmtl9keoc",
+        "code": "YOK",
+        "name": "ROZET DIŞ US ANTIK DARK",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.236Z",
+        "updated_at": "2026-09-08T09:24:02.215Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:24:02.215Z"
+    }
+  ]
 }

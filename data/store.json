@@ -6969,12 +6969,12 @@
       "category_id": "id-o93whpzymtk34t8p",
       "unit": "adet",
       "quantity": 15,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE AUS STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-03T08:29:16.240Z"
+      "updated_at": "2026-09-08T09:28:28.331Z"
     },
     {
       "id": "id-iz2rtm6wmtl9keog",
@@ -9589,6 +9589,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:28:19.307Z"
+    },
+    {
+      "id": "id-113ne97fmtsgvstn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-l0h2z3e8mtl9keog",
+      "product_code": "480695422",
+      "product_name": "1001 KARŞILIK SATIN CHROME",
+      "before": {
+        "id": "id-l0h2z3e8mtl9keog",
+        "code": "480695422",
+        "name": "1001 KARŞILIK SATIN CHROME",
+        "category_id": "id-o93whpzymtk34t8p",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE AUS STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-03T08:29:16.240Z"
+      },
+      "after": {
+        "id": "id-l0h2z3e8mtl9keog",
+        "code": "480695422",
+        "name": "1001 KARŞILIK SATIN CHROME",
+        "category_id": "id-o93whpzymtk34t8p",
+        "unit": "adet",
+        "quantity": 15,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE AUS STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:28:28.331Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:28:28.331Z"
     }
   ]
 }

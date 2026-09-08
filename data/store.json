@@ -6045,12 +6045,12 @@
       "category_id": "id-qv7rf7gxmtl7q19g",
       "unit": "adet",
       "quantity": 10,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.220Z",
-      "updated_at": "2026-09-03T09:15:30.183Z"
+      "updated_at": "2026-09-08T09:18:00.548Z"
     },
     {
       "id": "id-5htv1411mtl9kenx",
@@ -16507,6 +16507,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:17:57.019Z"
+    },
+    {
+      "id": "id-0m2x0dnumtsgicf8",
+      "action": "Ürün güncellendi",
+      "product_id": "id-1nrgfx94mtl9kenw",
+      "product_code": "YOK",
+      "product_name": "WING LH ROZETSİZ SATIN CHROME",
+      "before": {
+        "id": "id-1nrgfx94mtl9kenw",
+        "code": "YOK",
+        "name": "WING LH ROZETSİZ SATIN CHROME",
+        "category_id": "id-qv7rf7gxmtl7q19g",
+        "unit": "adet",
+        "quantity": 10,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.220Z",
+        "updated_at": "2026-09-03T09:15:30.183Z"
+      },
+      "after": {
+        "id": "id-1nrgfx94mtl9kenw",
+        "code": "YOK",
+        "name": "WING LH ROZETSİZ SATIN CHROME",
+        "category_id": "id-qv7rf7gxmtl7q19g",
+        "unit": "adet",
+        "quantity": 10,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.220Z",
+        "updated_at": "2026-09-08T09:18:00.548Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:18:00.548Z"
     }
   ]
 }

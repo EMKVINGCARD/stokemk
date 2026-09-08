@@ -4715,12 +4715,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.192Z",
-      "updated_at": "2026-09-03T09:12:55.596Z"
+      "updated_at": "2026-09-08T08:49:34.712Z"
     },
     {
       "id": "id-glibgf7hmtl9ken4",
@@ -13429,6 +13429,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:31.824Z"
+    },
+    {
+      "id": "id-gimwycwvmtsfhs6w",
+      "action": "Ürün güncellendi",
+      "product_id": "id-2c1hxi52mtl9ken4",
+      "product_code": "YOK",
+      "product_name": "58MM POLISH CHROME",
+      "before": {
+        "id": "id-2c1hxi52mtl9ken4",
+        "code": "YOK",
+        "name": "58MM POLISH CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.192Z",
+        "updated_at": "2026-09-03T09:12:55.596Z"
+      },
+      "after": {
+        "id": "id-2c1hxi52mtl9ken4",
+        "code": "YOK",
+        "name": "58MM POLISH CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.192Z",
+        "updated_at": "2026-09-08T08:49:34.712Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:34.712Z"
     }
   ]
 }

@@ -1897,12 +1897,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 1,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:46:38.793Z"
+      "updated_at": "2026-09-08T07:46:41.797Z"
     },
     {
       "id": "id-vutfhrwpmtl9kemf",
@@ -17070,6 +17070,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:46:38.793Z"
+    },
+    {
+      "id": "id-68klpq2omtsd8wzp",
+      "action": "Ürün güncellendi",
+      "product_id": "id-xkl00ccdmtl9kemf",
+      "product_code": "EOL",
+      "product_name": "CLASSIC USB KONTAK KART",
+      "before": {
+        "id": "id-xkl00ccdmtl9kemf",
+        "code": "EOL",
+        "name": "CLASSIC USB KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:46:38.793Z"
+      },
+      "after": {
+        "id": "id-xkl00ccdmtl9kemf",
+        "code": "EOL",
+        "name": "CLASSIC USB KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:46:41.797Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:46:41.797Z"
     }
   ],
   "movement_audit": [

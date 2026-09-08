@@ -2863,12 +2863,12 @@
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "MULTI OUTPUT CONTROLLER (MOC) 4.5V SATCHROME MAG",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:06:24.798Z"
     },
     {
       "id": "id-vlebhrf2mtl9kemh",
@@ -15240,6 +15240,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:06:20.050Z"
+    },
+    {
+      "id": "id-gux14gnmmtsbt40u",
+      "action": "Ürün güncellendi",
+      "product_id": "id-q1kjtgsdmtl9kemh",
+      "product_code": "481629551O",
+      "product_name": "VISION MANYETIK MOC",
+      "before": {
+        "id": "id-q1kjtgsdmtl9kemh",
+        "code": "481629551O",
+        "name": "VISION MANYETIK MOC",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "MULTI OUTPUT CONTROLLER (MOC) 4.5V SATCHROME MAG",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-q1kjtgsdmtl9kemh",
+        "code": "481629551O",
+        "name": "VISION MANYETIK MOC",
+        "category_id": "id-zew1quwomtk34t8n",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "MULTI OUTPUT CONTROLLER (MOC) 4.5V SATCHROME MAG",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:06:24.798Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:06:24.798Z"
     }
   ],
   "movement_audit": [

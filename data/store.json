@@ -2069,12 +2069,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:51:31.481Z"
+      "updated_at": "2026-09-08T09:00:18.975Z"
     },
     {
       "id": "id-phmroxbzmtl9kemf",
@@ -14797,6 +14797,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:59:59.556Z"
+    },
+    {
+      "id": "id-3jrlfznomtsfvlb3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-7pqcq0drmtl9kemf",
+      "product_code": "YOK",
+      "product_name": "XA/ZENITH FLOOR MOTOR",
+      "before": {
+        "id": "id-7pqcq0drmtl9kemf",
+        "code": "YOK",
+        "name": "XA/ZENITH FLOOR MOTOR",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:51:31.481Z"
+      },
+      "after": {
+        "id": "id-7pqcq0drmtl9kemf",
+        "code": "YOK",
+        "name": "XA/ZENITH FLOOR MOTOR",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T09:00:18.975Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:00:18.975Z"
     }
   ]
 }

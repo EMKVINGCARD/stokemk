@@ -1827,12 +1827,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ELSAFE SERVICE UNIT (PINKEY, ELKEY OR IR-KEY)",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:52:28.446Z"
     },
     {
       "id": "id-er7uqn2bmtl9kemf",
@@ -12303,6 +12303,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:52:22.455Z"
+    },
+    {
+      "id": "id-e3ba4nqumtsbb6ou",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ckfp3h7omtl9kemf",
+      "product_code": "252-380",
+      "product_name": "IR CONNECTION BOX (SERVİS TERMİNAL KASA)",
+      "before": {
+        "id": "id-ckfp3h7omtl9kemf",
+        "code": "252-380",
+        "name": "IR CONNECTION BOX (SERVİS TERMİNAL KASA)",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ELSAFE SERVICE UNIT (PINKEY, ELKEY OR IR-KEY)",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-ckfp3h7omtl9kemf",
+        "code": "252-380",
+        "name": "IR CONNECTION BOX (SERVİS TERMİNAL KASA)",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ELSAFE SERVICE UNIT (PINKEY, ELKEY OR IR-KEY)",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:52:28.446Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:52:28.446Z"
     }
   ],
   "movement_audit": [

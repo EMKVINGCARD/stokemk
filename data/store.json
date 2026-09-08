@@ -791,12 +791,12 @@
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
       "quantity": 2,
-      "critical_level": 2,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLUE 74MM",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T06:27:08.603Z"
+      "updated_at": "2026-09-08T06:28:35.475Z"
     },
     {
       "id": "id-ufn6d4bvmtl9kemb",
@@ -9328,6 +9328,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:28:30.819Z"
+    },
+    {
+      "id": "id-uv7pf5cemtsagh03",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vfozl9mpmtl9kemb",
+      "product_code": "P001057464-001-403",
+      "product_name": "RFID WRİSTBAND SİLİKON 4K MAVİ 74MM",
+      "before": {
+        "id": "id-vfozl9mpmtl9kemb",
+        "code": "P001057464-001-403",
+        "name": "RFID WRİSTBAND SİLİKON 4K MAVİ 74MM",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLUE 74MM",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:27:08.603Z"
+      },
+      "after": {
+        "id": "id-vfozl9mpmtl9kemb",
+        "code": "P001057464-001-403",
+        "name": "RFID WRİSTBAND SİLİKON 4K MAVİ 74MM",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID SILIC. WRISTB. MIFARE CLASSIC 4K BLUE 74MM",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T06:28:35.475Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:28:35.475Z"
     }
   ],
   "movement_audit": [

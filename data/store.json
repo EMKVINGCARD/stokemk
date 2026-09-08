@@ -1491,12 +1491,12 @@
       "category_id": "id-5oi5rl6smtk34t8n",
       "unit": "adet",
       "quantity": 11,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ZIGBEE END NODE KIT WITH ALLURE CABLE",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T08:29:16.165Z"
+      "updated_at": "2026-09-08T06:46:13.787Z"
     },
     {
       "id": "id-dax3iuzjmtl9kemd",
@@ -11163,6 +11163,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:45:14.131Z"
+    },
+    {
+      "id": "id-b2c3e53umtsb35ln",
+      "action": "Ürün güncellendi",
+      "product_id": "id-bawdz6zhmtl9kemd",
+      "product_code": "8404512",
+      "product_name": "RF ENDNODE SWISS İSTANBUL",
+      "before": {
+        "id": "id-bawdz6zhmtl9kemd",
+        "code": "8404512",
+        "name": "RF ENDNODE SWISS İSTANBUL",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZIGBEE END NODE KIT WITH ALLURE CABLE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T08:29:16.165Z"
+      },
+      "after": {
+        "id": "id-bawdz6zhmtl9kemd",
+        "code": "8404512",
+        "name": "RF ENDNODE SWISS İSTANBUL",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZIGBEE END NODE KIT WITH ALLURE CABLE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:46:13.787Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:46:13.787Z"
     }
   ],
   "movement_audit": [

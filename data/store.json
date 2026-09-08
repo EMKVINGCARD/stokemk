@@ -1659,12 +1659,12 @@
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T09:07:18.444Z"
+      "updated_at": "2026-09-08T06:50:22.570Z"
     },
     {
       "id": "id-hjqit6qjmtl9kemd",
@@ -11847,6 +11847,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:50:20.178Z"
+    },
+    {
+      "id": "id-4i4hor7ymtsb8hka",
+      "action": "Ürün güncellendi",
+      "product_id": "id-32mavvummtl9kemd",
+      "product_code": "YOK",
+      "product_name": "DOOR RETAINER POLISH CHROME (ESKİ POLISH CHROME)",
+      "before": {
+        "id": "id-32mavvummtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER POLISH CHROME (ESKİ POLISH CHROME)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T09:07:18.444Z"
+      },
+      "after": {
+        "id": "id-32mavvummtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER POLISH CHROME (ESKİ POLISH CHROME)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:50:22.570Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:50:22.570Z"
     }
   ],
   "movement_audit": [

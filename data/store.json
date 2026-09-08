@@ -5107,12 +5107,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 18,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE POLCHROME 17.5MM W/SEAL",
       "created_at": "2026-09-03T08:29:16.197Z",
-      "updated_at": "2026-09-03T08:29:16.197Z"
+      "updated_at": "2026-09-08T08:48:12.552Z"
     },
     {
       "id": "id-230lzuwjmtl9ken9",
@@ -12479,6 +12479,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:48:10.280Z"
+    },
+    {
+      "id": "id-u8zkw9ijmtsfg0so",
+      "action": "Ürün güncellendi",
+      "product_id": "id-smapnmbgmtl9ken9",
+      "product_code": "482192064",
+      "product_name": "17,5MM RING POLISH CHROME",
+      "before": {
+        "id": "id-smapnmbgmtl9ken9",
+        "code": "482192064",
+        "name": "17,5MM RING POLISH CHROME",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE POLCHROME 17.5MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.197Z",
+        "updated_at": "2026-09-03T08:29:16.197Z"
+      },
+      "after": {
+        "id": "id-smapnmbgmtl9ken9",
+        "code": "482192064",
+        "name": "17,5MM RING POLISH CHROME",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE POLCHROME 17.5MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.197Z",
+        "updated_at": "2026-09-08T08:48:12.552Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:48:12.552Z"
     }
   ]
 }

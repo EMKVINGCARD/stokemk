@@ -5989,12 +5989,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK FU.ANSI /  HANDLE ON INSIDE ROSE SIGNATURE USANTDARK FU.ANSI",
       "created_at": "2026-09-03T08:29:16.217Z",
-      "updated_at": "2026-09-03T08:29:16.217Z"
+      "updated_at": "2026-09-08T08:46:14.484Z"
     },
     {
       "id": "id-3hretxdrmtl9kenu",
@@ -11415,6 +11415,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:12.160Z"
+    },
+    {
+      "id": "id-nfwxdjx8mtsfdhp0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-l8js1liumtl9kent",
+      "product_code": "481633330AD / 481633530AD",
+      "product_name": "FUNCTIONAL ANSI ANTIK BRASS LIGHTER SET",
+      "before": {
+        "id": "id-l8js1liumtl9kent",
+        "code": "481633330AD / 481633530AD",
+        "name": "FUNCTIONAL ANSI ANTIK BRASS LIGHTER SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK FU.ANSI /  HANDLE ON INSIDE ROSE SIGNATURE USANTDARK FU.ANSI",
+        "created_at": "2026-09-03T08:29:16.217Z",
+        "updated_at": "2026-09-03T08:29:16.217Z"
+      },
+      "after": {
+        "id": "id-l8js1liumtl9kent",
+        "code": "481633330AD / 481633530AD",
+        "name": "FUNCTIONAL ANSI ANTIK BRASS LIGHTER SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK FU.ANSI /  HANDLE ON INSIDE ROSE SIGNATURE USANTDARK FU.ANSI",
+        "created_at": "2026-09-03T08:29:16.217Z",
+        "updated_at": "2026-09-08T08:46:14.484Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:14.484Z"
     }
   ]
 }

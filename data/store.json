@@ -4864,7 +4864,7 @@
     },
     {
       "id": "id-5d17fxajmtl9ken6",
-      "code": "4812635055V66,",
+      "code": "4812635055V66",
       "name": "66MM LIGHT BRONZE",
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
@@ -4874,7 +4874,7 @@
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K LIGHTBRZ WO/LOGO 66MM",
       "created_at": "2026-09-03T08:29:16.194Z",
-      "updated_at": "2026-09-03T08:29:16.194Z"
+      "updated_at": "2026-09-08T08:40:07.105Z"
     },
     {
       "id": "id-5iwq4vv2mtl9ken7",
@@ -9857,6 +9857,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:40:03.228Z"
+    },
+    {
+      "id": "id-hpolrelimtsf5m81",
+      "action": "Ürün güncellendi",
+      "product_id": "id-5d17fxajmtl9ken6",
+      "product_code": "4812635055V66",
+      "product_name": "66MM LIGHT BRONZE",
+      "before": {
+        "id": "id-5d17fxajmtl9ken6",
+        "code": "4812635055V66,",
+        "name": "66MM LIGHT BRONZE",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K LIGHTBRZ WO/LOGO 66MM",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-03T08:29:16.194Z"
+      },
+      "after": {
+        "id": "id-5d17fxajmtl9ken6",
+        "code": "4812635055V66",
+        "name": "66MM LIGHT BRONZE",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K LIGHTBRZ WO/LOGO 66MM",
+        "created_at": "2026-09-03T08:29:16.194Z",
+        "updated_at": "2026-09-08T08:40:07.105Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:40:07.105Z"
     }
   ]
 }

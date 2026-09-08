@@ -7319,12 +7319,12 @@
       "category_id": "id-5e6ux667mtk34t8p",
       "unit": "adet",
       "quantity": 16,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Lock front EURO DIN 20mm",
       "created_at": "2026-09-03T08:29:16.243Z",
-      "updated_at": "2026-09-03T08:29:16.243Z"
+      "updated_at": "2026-09-08T09:30:57.619Z"
     },
     {
       "id": "id-jcfnma5gmtl9keoj",
@@ -10577,6 +10577,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:30:55.055Z"
+    },
+    {
+      "id": "id-2nbv92osmtsgz00j",
+      "action": "Ürün güncellendi",
+      "product_id": "id-uwqm9r2vmtl9keoj",
+      "product_code": "4804279",
+      "product_name": "GÖMME EURO 20MM FRONT",
+      "before": {
+        "id": "id-uwqm9r2vmtl9keoj",
+        "code": "4804279",
+        "name": "GÖMME EURO 20MM FRONT",
+        "category_id": "id-5e6ux667mtk34t8p",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Lock front EURO DIN 20mm",
+        "created_at": "2026-09-03T08:29:16.243Z",
+        "updated_at": "2026-09-03T08:29:16.243Z"
+      },
+      "after": {
+        "id": "id-uwqm9r2vmtl9keoj",
+        "code": "4804279",
+        "name": "GÖMME EURO 20MM FRONT",
+        "category_id": "id-5e6ux667mtk34t8p",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Lock front EURO DIN 20mm",
+        "created_at": "2026-09-03T08:29:16.243Z",
+        "updated_at": "2026-09-08T09:30:57.619Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:30:57.619Z"
     }
   ]
 }

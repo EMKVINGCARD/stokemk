@@ -3479,12 +3479,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-09-03T09:10:34.932Z"
+      "updated_at": "2026-09-08T08:03:58.488Z"
     },
     {
       "id": "id-dpgylc08mtl9kemp",
@@ -10069,6 +10069,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:03:50.313Z"
+    },
+    {
+      "id": "id-v9z0z35nmtsdv4wo",
+      "action": "Ürün güncellendi",
+      "product_id": "id-oj8bkmtxmtl9kemp",
+      "product_code": "YOK",
+      "product_name": "ANSI 1001 GÖMME",
+      "before": {
+        "id": "id-oj8bkmtxmtl9kemp",
+        "code": "YOK",
+        "name": "ANSI 1001 GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-03T09:10:34.932Z"
+      },
+      "after": {
+        "id": "id-oj8bkmtxmtl9kemp",
+        "code": "YOK",
+        "name": "ANSI 1001 GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-08T08:03:58.488Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:03:58.488Z"
     }
   ]
 }

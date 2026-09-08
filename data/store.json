@@ -6031,12 +6031,12 @@
       "category_id": "id-qv7rf7gxmtl7q19g",
       "unit": "adet",
       "quantity": 4,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.220Z",
-      "updated_at": "2026-09-03T09:15:27.140Z"
+      "updated_at": "2026-09-08T09:17:57.019Z"
     },
     {
       "id": "id-1nrgfx94mtl9kenw",
@@ -16469,6 +16469,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:17:54.644Z"
+    },
+    {
+      "id": "id-efxtpjm7mtsgi9p7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-3ftjlqh0mtl9kenw",
+      "product_code": "YOK",
+      "product_name": "ALFA ROZETSİZ SATIN CHROME",
+      "before": {
+        "id": "id-3ftjlqh0mtl9kenw",
+        "code": "YOK",
+        "name": "ALFA ROZETSİZ SATIN CHROME",
+        "category_id": "id-qv7rf7gxmtl7q19g",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.220Z",
+        "updated_at": "2026-09-03T09:15:27.140Z"
+      },
+      "after": {
+        "id": "id-3ftjlqh0mtl9kenw",
+        "code": "YOK",
+        "name": "ALFA ROZETSİZ SATIN CHROME",
+        "category_id": "id-qv7rf7gxmtl7q19g",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.220Z",
+        "updated_at": "2026-09-08T09:17:57.019Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:17:57.019Z"
     }
   ]
 }

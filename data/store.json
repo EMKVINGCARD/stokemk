@@ -5331,12 +5331,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.199Z",
-      "updated_at": "2026-09-03T09:13:40.031Z"
+      "updated_at": "2026-09-08T08:46:57.628Z"
     },
     {
       "id": "id-uwy39g6xmtl9kenc",
@@ -11871,6 +11871,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:46:54.948Z"
+    },
+    {
+      "id": "id-16b1kgzemtsfeezg",
+      "action": "Ürün güncellendi",
+      "product_id": "id-u83pyw20mtl9kenb",
+      "product_code": "YOK",
+      "product_name": "21,5MM RING US ANTIK DARK",
+      "before": {
+        "id": "id-u83pyw20mtl9kenb",
+        "code": "YOK",
+        "name": "21,5MM RING US ANTIK DARK",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.199Z",
+        "updated_at": "2026-09-03T09:13:40.031Z"
+      },
+      "after": {
+        "id": "id-u83pyw20mtl9kenb",
+        "code": "YOK",
+        "name": "21,5MM RING US ANTIK DARK",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.199Z",
+        "updated_at": "2026-09-08T08:46:57.628Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:46:57.628Z"
     }
   ]
 }

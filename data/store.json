@@ -5569,12 +5569,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.206Z",
-      "updated_at": "2026-09-03T09:14:19.283Z"
+      "updated_at": "2026-09-08T08:44:35.751Z"
     },
     {
       "id": "id-qzsgpp0amtl9kenj",
@@ -10199,6 +10199,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:44:33.076Z"
+    },
+    {
+      "id": "id-y99mvwwqmtsfbdif",
+      "action": "Ürün güncellendi",
+      "product_id": "id-rdy0ipsmmtl9keni",
+      "product_code": "YOK",
+      "product_name": "WING RH LIGHT BRONZE SET",
+      "before": {
+        "id": "id-rdy0ipsmmtl9keni",
+        "code": "YOK",
+        "name": "WING RH LIGHT BRONZE SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.206Z",
+        "updated_at": "2026-09-03T09:14:19.283Z"
+      },
+      "after": {
+        "id": "id-rdy0ipsmmtl9keni",
+        "code": "YOK",
+        "name": "WING RH LIGHT BRONZE SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.206Z",
+        "updated_at": "2026-09-08T08:44:35.751Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:44:35.751Z"
     }
   ]
 }

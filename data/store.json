@@ -5233,12 +5233,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.198Z",
-      "updated_at": "2026-09-03T08:29:16.198Z"
+      "updated_at": "2026-09-08T08:47:47.591Z"
     },
     {
       "id": "id-20lqd3srmtl9kena",
@@ -12137,6 +12137,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:47:43.816Z"
+    },
+    {
+      "id": "id-z2f07ywbmtsffhjb",
+      "action": "Ürün güncellendi",
+      "product_id": "id-a1eajkoamtl9kena",
+      "product_code": "EOL",
+      "product_name": "17,5MM RING BLACK RUGGED",
+      "before": {
+        "id": "id-a1eajkoamtl9kena",
+        "code": "EOL",
+        "name": "17,5MM RING BLACK RUGGED",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.198Z",
+        "updated_at": "2026-09-03T08:29:16.198Z"
+      },
+      "after": {
+        "id": "id-a1eajkoamtl9kena",
+        "code": "EOL",
+        "name": "17,5MM RING BLACK RUGGED",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.198Z",
+        "updated_at": "2026-09-08T08:47:47.591Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:47:47.591Z"
     }
   ]
 }

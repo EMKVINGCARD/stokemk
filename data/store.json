@@ -5009,12 +5009,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE BLACK T 14MM W/SEAL",
       "created_at": "2026-09-03T08:29:16.195Z",
-      "updated_at": "2026-09-03T08:29:16.195Z"
+      "updated_at": "2026-09-08T08:48:31.451Z"
     },
     {
       "id": "id-6hvj83olmtl9ken7",
@@ -12745,6 +12745,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:48:29.184Z"
+    },
+    {
+      "id": "id-fr4nsi09mtsfgfdn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-37xqunxtmtl9ken7",
+      "product_code": "482191990",
+      "product_name": "14MM RING BLACK TITANIUM",
+      "before": {
+        "id": "id-37xqunxtmtl9ken7",
+        "code": "482191990",
+        "name": "14MM RING BLACK TITANIUM",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE BLACK T 14MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-03T08:29:16.195Z"
+      },
+      "after": {
+        "id": "id-37xqunxtmtl9ken7",
+        "code": "482191990",
+        "name": "14MM RING BLACK TITANIUM",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE BLACK T 14MM W/SEAL",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-08T08:48:31.451Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:48:31.451Z"
     }
   ]
 }

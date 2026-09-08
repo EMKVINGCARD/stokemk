@@ -1547,12 +1547,12 @@
       "category_id": "id-tap8voj8mtk34t8n",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-08T06:47:26.155Z"
+      "updated_at": "2026-09-08T07:45:22.821Z"
     },
     {
       "id": "id-bo99r6zmmtl9kemd",
@@ -16766,6 +16766,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:45:00.325Z"
+    },
+    {
+      "id": "id-kjccivqqmtsd781x",
+      "action": "Ürün güncellendi",
+      "product_id": "id-j75xtmejmtl9kemd",
+      "product_code": "EOL",
+      "product_name": "RF GETAWEY SWISS",
+      "before": {
+        "id": "id-j75xtmejmtl9kemd",
+        "code": "EOL",
+        "name": "RF GETAWEY SWISS",
+        "category_id": "id-tap8voj8mtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:47:26.155Z"
+      },
+      "after": {
+        "id": "id-j75xtmejmtl9kemd",
+        "code": "EOL",
+        "name": "RF GETAWEY SWISS",
+        "category_id": "id-tap8voj8mtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T07:45:22.821Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:45:22.821Z"
     }
   ],
   "movement_audit": [

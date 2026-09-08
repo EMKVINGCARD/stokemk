@@ -1449,12 +1449,12 @@
       "category_id": "id-5oi5rl6smtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ZIGBEE ENDNODE KIT W/CABLE FOR SIGNATURE AND ESSENCE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-03T08:29:16.164Z"
+      "updated_at": "2026-09-08T06:45:05.007Z"
     },
     {
       "id": "id-u99zaqdvmtl9kemc",
@@ -11049,6 +11049,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:44:56.887Z"
+    },
+    {
+      "id": "id-5owk7x55mtsb1oj3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-bett0o5bmtl9kemc",
+      "product_code": "4828015",
+      "product_name": "ZIGBEE ENDNODE KIT SIGNATURE",
+      "before": {
+        "id": "id-bett0o5bmtl9kemc",
+        "code": "4828015",
+        "name": "ZIGBEE ENDNODE KIT SIGNATURE",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZIGBEE ENDNODE KIT W/CABLE FOR SIGNATURE AND ESSENCE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-03T08:29:16.164Z"
+      },
+      "after": {
+        "id": "id-bett0o5bmtl9kemc",
+        "code": "4828015",
+        "name": "ZIGBEE ENDNODE KIT SIGNATURE",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ZIGBEE ENDNODE KIT W/CABLE FOR SIGNATURE AND ESSENCE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:45:05.007Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:45:05.007Z"
     }
   ],
   "movement_audit": [

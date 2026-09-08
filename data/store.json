@@ -8037,7 +8037,9 @@
     },
     "audit_log": [],
     "movement_audit": [],
-    "ignoredLowStock": []
+    "ignoredLowStock": [
+      "id-kaeasy5omtl9kemh"
+    ]
   },
   "audit_log": [
     {

@@ -1925,12 +1925,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 9,
-      "critical_level": 5,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "KIT, USB ADAPTER 2009 WİTH CABLES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:53:45.279Z"
+      "updated_at": "2026-09-08T07:48:33.865Z"
     },
     {
       "id": "id-m5pu25kbmtl9kemf",
@@ -17298,6 +17298,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:48:23.397Z"
+    },
+    {
+      "id": "id-swuoyqvkmtsdbbgp",
+      "action": "Ürün güncellendi",
+      "product_id": "id-rtuhomf1mtl9kemf",
+      "product_code": "P000908644-001-001",
+      "product_name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
+      "before": {
+        "id": "id-rtuhomf1mtl9kemf",
+        "code": "P000908644-001-001",
+        "name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "KIT, USB ADAPTER 2009 WİTH CABLES",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:53:45.279Z"
+      },
+      "after": {
+        "id": "id-rtuhomf1mtl9kemf",
+        "code": "P000908644-001-001",
+        "name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "KIT, USB ADAPTER 2009 WİTH CABLES",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:48:33.865Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:48:33.865Z"
     }
   ],
   "movement_audit": [

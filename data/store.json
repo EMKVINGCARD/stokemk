@@ -2036,7 +2036,7 @@
       "name": "CPU PH3 BOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 9,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
@@ -7967,20 +7967,6 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-08T07:48:47.146Z",
       "created_at": "2026-09-08T07:48:47.146Z"
-    },
-    {
-      "id": "id-a2g8bhommtse1brn",
-      "product_id": "id-xuwc46nzmtl9kemf",
-      "product_code": "259-8056",
-      "product_name": "CPU PH3 BOARD",
-      "type": "out",
-      "quantity": 1,
-      "target_location": "Ana Depo",
-      "reason": "1",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "happened_at": "2026-09-08T08:08:47.315Z",
-      "created_at": "2026-09-08T08:08:47.315Z"
     }
   ],
   "settings": {
@@ -8106,5 +8092,22 @@
       "id-b6wa5jr9mtl9keo4",
       "id-t37en6ewmtl9keo6"
     ]
-  }
+  },
+  "movement_audit": [
+    {
+      "id": "id-fiwjzotcmtse1jb0",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "1",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-08T08:08:57.084Z",
+      "extra": "Silme sonrası stok geri alındı"
+    }
+  ]
 }

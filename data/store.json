@@ -3259,12 +3259,12 @@
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.175Z",
-      "updated_at": "2026-09-03T09:09:56.068Z"
+      "updated_at": "2026-09-08T09:05:14.728Z"
     },
     {
       "id": "id-r5axai8hmtl9kemn",
@@ -15329,6 +15329,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:04:52.172Z"
+    },
+    {
+      "id": "id-ya48wcchmtsg1xig",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ydenpb2zmtl9kemn",
+      "product_code": "YOK",
+      "product_name": "PİL KAPAĞI POLISH CHROME ALL METAL",
+      "before": {
+        "id": "id-ydenpb2zmtl9kemn",
+        "code": "YOK",
+        "name": "PİL KAPAĞI POLISH CHROME ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.175Z",
+        "updated_at": "2026-09-03T09:09:56.068Z"
+      },
+      "after": {
+        "id": "id-ydenpb2zmtl9kemn",
+        "code": "YOK",
+        "name": "PİL KAPAĞI POLISH CHROME ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.175Z",
+        "updated_at": "2026-09-08T09:05:14.728Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:05:14.728Z"
     }
   ]
 }

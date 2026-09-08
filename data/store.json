@@ -1023,20 +1023,6 @@
       "updated_at": "2026-09-08T06:29:39.351Z"
     },
     {
-      "id": "id-44iudifmmtl9kemb",
-      "code": "ALLUREGRAND-000018",
-      "name": "ALLURE GRAND SİYAH  DIŞ PANEL ODA NO YOK",
-      "category_id": "id-90e6qm0jmtk34t8n",
-      "unit": "adet",
-      "quantity": 2,
-      "critical_level": 0,
-      "unit_price": 0,
-      "location": "",
-      "description": "",
-      "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T09:24:23.339Z"
-    },
-    {
       "id": "id-q4r2u1zjmtl9kemc",
       "code": "YOK",
       "name": "ALLURE GRAND SİYAH DIŞ PANEL 1001 ODA NUMARALI",
@@ -9822,6 +9808,31 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:29:39.351Z"
+    },
+    {
+      "id": "id-fkbx7zfjmtsao81m",
+      "action": "Ürün silindi",
+      "product_id": "id-44iudifmmtl9kemb",
+      "product_code": "ALLUREGRAND-000018",
+      "product_name": "ALLURE GRAND SİYAH  DIŞ PANEL ODA NO YOK",
+      "before": {
+        "id": "id-44iudifmmtl9kemb",
+        "code": "ALLUREGRAND-000018",
+        "name": "ALLURE GRAND SİYAH  DIŞ PANEL ODA NO YOK",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-03T09:24:23.339Z"
+      },
+      "after": null,
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:34:37.114Z"
     }
   ],
   "movement_audit": [

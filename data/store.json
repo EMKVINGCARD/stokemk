@@ -1477,12 +1477,12 @@
       "category_id": "id-5oi5rl6smtk34t8n",
       "unit": "adet",
       "quantity": 19,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-03T09:07:10.168Z"
+      "updated_at": "2026-09-08T06:45:14.131Z"
     },
     {
       "id": "id-bawdz6zhmtl9kemd",
@@ -11125,6 +11125,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:45:09.719Z"
+    },
+    {
+      "id": "id-sxrsc9y7mtsb1vkj",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ymvllco6mtl9kemd",
+      "product_code": "YOK",
+      "product_name": "ZIGBEE ENDNODE",
+      "before": {
+        "id": "id-ymvllco6mtl9kemd",
+        "code": "YOK",
+        "name": "ZIGBEE ENDNODE",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-03T09:07:10.168Z"
+      },
+      "after": {
+        "id": "id-ymvllco6mtl9kemd",
+        "code": "YOK",
+        "name": "ZIGBEE ENDNODE",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:45:14.131Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:45:14.131Z"
     }
   ],
   "movement_audit": [

@@ -2177,12 +2177,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ÇIKMA PARÇA PORTALDAN SİPARİŞ VERİLEMEZ",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-03T09:08:30.960Z"
+      "updated_at": "2026-09-08T06:56:07.775Z"
     },
     {
       "id": "id-7mpmlk80mtl9kemg",
@@ -13253,6 +13253,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:56:00.646Z"
+    },
+    {
+      "id": "id-co7lsaeimtsbfvxb",
+      "action": "Ürün güncellendi",
+      "product_id": "id-npoc9yetmtl9kemg",
+      "product_code": "YOK",
+      "product_name": "ZENITH TRANSPARENT PANEL 7021",
+      "before": {
+        "id": "id-npoc9yetmtl9kemg",
+        "code": "YOK",
+        "name": "ZENITH TRANSPARENT PANEL 7021",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ÇIKMA PARÇA PORTALDAN SİPARİŞ VERİLEMEZ",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-03T09:08:30.960Z"
+      },
+      "after": {
+        "id": "id-npoc9yetmtl9kemg",
+        "code": "YOK",
+        "name": "ZENITH TRANSPARENT PANEL 7021",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ÇIKMA PARÇA PORTALDAN SİPARİŞ VERİLEMEZ",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T06:56:07.775Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:56:07.775Z"
     }
   ],
   "movement_audit": [

@@ -2023,12 +2023,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 66,
-      "critical_level": 0,
+      "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "None",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-03T08:29:16.167Z"
+      "updated_at": "2026-09-08T06:54:29.959Z"
     },
     {
       "id": "id-xuwc46nzmtl9kemf",
@@ -12835,6 +12835,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:54:25.383Z"
+    },
+    {
+      "id": "id-9eifluf0mtsbdsg7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN TR DE YAPTIRILAN",
+      "before": {
+        "id": "id-j92exc11mtl9kemf",
+        "code": "DIŞARIDAN TEDARİK EDİYORUZ",
+        "name": "8 POLE FLEXI PH3 İÇİN TR DE YAPTIRILAN",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 66,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "None",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-03T08:29:16.167Z"
+      },
+      "after": {
+        "id": "id-j92exc11mtl9kemf",
+        "code": "DIŞARIDAN TEDARİK EDİYORUZ",
+        "name": "8 POLE FLEXI PH3 İÇİN TR DE YAPTIRILAN",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 66,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "None",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:54:29.959Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:54:29.959Z"
     }
   ],
   "movement_audit": [

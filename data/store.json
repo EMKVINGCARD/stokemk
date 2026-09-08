@@ -6423,12 +6423,12 @@
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
       "quantity": 6,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T METAL END",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-03T08:29:16.237Z"
+      "updated_at": "2026-09-08T08:51:30.520Z"
     },
     {
       "id": "id-tjdwani0mtl9keod",
@@ -14455,6 +14455,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:51:26.144Z"
+    },
+    {
+      "id": "id-y05p48ulmtsfk9js",
+      "action": "Ürün güncellendi",
+      "product_id": "id-k0e91qr8mtl9keod",
+      "product_code": "481865890",
+      "product_name": "DB BUTONU ALL METAL BLACK TITANIUM",
+      "before": {
+        "id": "id-k0e91qr8mtl9keod",
+        "code": "481865890",
+        "name": "DB BUTONU ALL METAL BLACK TITANIUM",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T METAL END",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-03T08:29:16.237Z"
+      },
+      "after": {
+        "id": "id-k0e91qr8mtl9keod",
+        "code": "481865890",
+        "name": "DB BUTONU ALL METAL BLACK TITANIUM",
+        "category_id": "id-zquiojm0mtk34t8p",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T METAL END",
+        "created_at": "2026-09-03T08:29:16.237Z",
+        "updated_at": "2026-09-08T08:51:30.520Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:51:30.520Z"
     }
   ]
 }

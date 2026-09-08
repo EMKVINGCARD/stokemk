@@ -4533,12 +4533,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K SATBRASS WO/LOGO 42MM",
       "created_at": "2026-09-03T08:29:16.189Z",
-      "updated_at": "2026-09-03T08:29:16.189Z"
+      "updated_at": "2026-09-08T08:50:07.160Z"
     },
     {
       "id": "id-ncxflbmnmtl9ken1",
@@ -13923,6 +13923,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:50:05.000Z"
+    },
+    {
+      "id": "id-lp4zwrw6mtsfih88",
+      "action": "Ürün güncellendi",
+      "product_id": "id-e57a17kimtl9ken1",
+      "product_code": "4812635025V42",
+      "product_name": "42MM SATIN BRASS",
+      "before": {
+        "id": "id-e57a17kimtl9ken1",
+        "code": "4812635025V42",
+        "name": "42MM SATIN BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATBRASS WO/LOGO 42MM",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-03T08:29:16.189Z"
+      },
+      "after": {
+        "id": "id-e57a17kimtl9ken1",
+        "code": "4812635025V42",
+        "name": "42MM SATIN BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATBRASS WO/LOGO 42MM",
+        "created_at": "2026-09-03T08:29:16.189Z",
+        "updated_at": "2026-09-08T08:50:07.160Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:50:07.160Z"
     }
   ]
 }

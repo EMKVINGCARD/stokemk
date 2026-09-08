@@ -2975,12 +2975,12 @@
       "category_id": "id-8qrv5o7hmtk34t8o",
       "unit": "adet",
       "quantity": 7,
-      "critical_level": 0,
+      "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESC CLASSIC IN PLAIN DB SATCHROME TT/CAP(P) STRAINGHT (5 TANESİ ÇİZİK)",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-03T08:29:16.169Z"
+      "updated_at": "2026-09-08T07:59:53.637Z"
     },
     {
       "id": "id-ov0bdk9nmtl9kemh",
@@ -9347,6 +9347,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:59:50.861Z"
+    },
+    {
+      "id": "id-mbkph3pgmtsdpvz9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-4yerjrv3mtl9kemh",
+      "product_code": "481173151FAC",
+      "product_name": "ALFA STRAIGHT KOL İÇ AYNA",
+      "before": {
+        "id": "id-4yerjrv3mtl9kemh",
+        "code": "481173151FAC",
+        "name": "ALFA STRAIGHT KOL İÇ AYNA",
+        "category_id": "id-8qrv5o7hmtk34t8o",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESC CLASSIC IN PLAIN DB SATCHROME TT/CAP(P) STRAINGHT (5 TANESİ ÇİZİK)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-03T08:29:16.169Z"
+      },
+      "after": {
+        "id": "id-4yerjrv3mtl9kemh",
+        "code": "481173151FAC",
+        "name": "ALFA STRAIGHT KOL İÇ AYNA",
+        "category_id": "id-8qrv5o7hmtk34t8o",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESC CLASSIC IN PLAIN DB SATCHROME TT/CAP(P) STRAINGHT (5 TANESİ ÇİZİK)",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:59:53.637Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:59:53.637Z"
     }
   ]
 }

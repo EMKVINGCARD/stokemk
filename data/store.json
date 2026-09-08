@@ -4757,12 +4757,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K BLACK T WO/LOGO 58MM",
       "created_at": "2026-09-03T08:29:16.193Z",
-      "updated_at": "2026-09-03T08:29:16.193Z"
+      "updated_at": "2026-09-08T08:49:26.887Z"
     },
     {
       "id": "id-ubfszbkqmtl9ken5",
@@ -13315,6 +13315,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:23.656Z"
+    },
+    {
+      "id": "id-veeb4yddmtsfhm5j",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vybm770pmtl9ken5",
+      "product_code": "4812635905V58",
+      "product_name": "58MM BLACK TITANUM PVD",
+      "before": {
+        "id": "id-vybm770pmtl9ken5",
+        "code": "4812635905V58",
+        "name": "58MM BLACK TITANUM PVD",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K BLACK T WO/LOGO 58MM",
+        "created_at": "2026-09-03T08:29:16.193Z",
+        "updated_at": "2026-09-03T08:29:16.193Z"
+      },
+      "after": {
+        "id": "id-vybm770pmtl9ken5",
+        "code": "4812635905V58",
+        "name": "58MM BLACK TITANUM PVD",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K BLACK T WO/LOGO 58MM",
+        "created_at": "2026-09-03T08:29:16.193Z",
+        "updated_at": "2026-09-08T08:49:26.887Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:26.887Z"
     }
   ]
 }

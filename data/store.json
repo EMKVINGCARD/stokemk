@@ -4225,12 +4225,12 @@
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER SATBRASS",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-03T08:29:16.185Z"
+      "updated_at": "2026-09-08T09:11:50.087Z"
     },
     {
       "id": "id-2rt15xn7mtl9kemx",
@@ -16089,6 +16089,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:11:25.325Z"
+    },
+    {
+      "id": "id-1tm6b2vumtsgaekn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-kptmdd8dmtl9kemx",
+      "product_code": "482379662",
+      "product_name": "SKIRT SAT.BRASS",
+      "before": {
+        "id": "id-kptmdd8dmtl9kemx",
+        "code": "482379662",
+        "name": "SKIRT SAT.BRASS",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER SATBRASS",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-03T08:29:16.185Z"
+      },
+      "after": {
+        "id": "id-kptmdd8dmtl9kemx",
+        "code": "482379662",
+        "name": "SKIRT SAT.BRASS",
+        "category_id": "id-xjno3olumtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER SATBRASS",
+        "created_at": "2026-09-03T08:29:16.185Z",
+        "updated_at": "2026-09-08T09:11:50.087Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:11:50.087Z"
     }
   ]
 }

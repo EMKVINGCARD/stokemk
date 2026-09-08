@@ -2611,12 +2611,12 @@
       "category_id": "id-sqb6phowmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:03:45.887Z"
+      "updated_at": "2026-09-08T07:54:38.548Z"
     },
     {
       "id": "id-puyx45yhmtl9kemh",
@@ -8853,6 +8853,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:54:36.325Z"
+    },
+    {
+      "id": "id-1sg1fehtmtsdj4us",
+      "action": "Ürün güncellendi",
+      "product_id": "id-xbftxk8nmtl9kemh",
+      "product_code": "EOL",
+      "product_name": "SERVIS TERMINAL 2. EL",
+      "before": {
+        "id": "id-xbftxk8nmtl9kemh",
+        "code": "EOL",
+        "name": "SERVIS TERMINAL 2. EL",
+        "category_id": "id-sqb6phowmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:03:45.887Z"
+      },
+      "after": {
+        "id": "id-xbftxk8nmtl9kemh",
+        "code": "EOL",
+        "name": "SERVIS TERMINAL 2. EL",
+        "category_id": "id-sqb6phowmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:54:38.548Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:54:38.548Z"
     }
   ]
 }

@@ -5709,12 +5709,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.211Z",
-      "updated_at": "2026-09-03T09:14:46.864Z"
+      "updated_at": "2026-09-08T08:45:07.979Z"
     },
     {
       "id": "id-ck6sootqmtl9kenn",
@@ -10579,6 +10579,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:45:05.707Z"
+    },
+    {
+      "id": "id-v5yzcmuemtsfc2dn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-dzkpcuw6mtl9kenn",
+      "product_code": "YOK",
+      "product_name": "WING LH US ANTIK DARK SET",
+      "before": {
+        "id": "id-dzkpcuw6mtl9kenn",
+        "code": "YOK",
+        "name": "WING LH US ANTIK DARK SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.211Z",
+        "updated_at": "2026-09-03T09:14:46.864Z"
+      },
+      "after": {
+        "id": "id-dzkpcuw6mtl9kenn",
+        "code": "YOK",
+        "name": "WING LH US ANTIK DARK SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.211Z",
+        "updated_at": "2026-09-08T08:45:07.979Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:45:07.979Z"
     }
   ]
 }

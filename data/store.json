@@ -1099,12 +1099,12 @@
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 1,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE CHIC PANEL W/BELL, COMPL., STD, BLACK",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:37:42.027Z"
+      "updated_at": "2026-09-08T06:47:59.087Z"
     },
     {
       "id": "id-4ohva77jmtl9kemc",
@@ -11657,6 +11657,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:47:45.918Z"
+    },
+    {
+      "id": "id-xomn7270mtsb5eun",
+      "action": "Ürün güncellendi",
+      "product_id": "id-qfk8gx7gmtl9kemc",
+      "product_code": "4825659-000019",
+      "product_name": "ALLURE CHIC SİYAH SET",
+      "before": {
+        "id": "id-qfk8gx7gmtl9kemc",
+        "code": "4825659-000019",
+        "name": "ALLURE CHIC SİYAH SET",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE CHIC PANEL W/BELL, COMPL., STD, BLACK",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:37:42.027Z"
+      },
+      "after": {
+        "id": "id-qfk8gx7gmtl9kemc",
+        "code": "4825659-000019",
+        "name": "ALLURE CHIC SİYAH SET",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE CHIC PANEL W/BELL, COMPL., STD, BLACK",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T06:47:59.087Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:47:59.087Z"
     }
   ],
   "movement_audit": [

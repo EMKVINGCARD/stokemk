@@ -1743,12 +1743,12 @@
       "category_id": "id-ez9bemcrmtl7q19c",
       "unit": "adet",
       "quantity": 11,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.166Z",
-      "updated_at": "2026-09-03T09:08:13.348Z"
+      "updated_at": "2026-09-08T06:51:59.110Z"
     },
     {
       "id": "id-gag1ev14mtl9keme",
@@ -12075,6 +12075,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T06:50:38.535Z"
+    },
+    {
+      "id": "id-kdjyg5knmtsbak1y",
+      "action": "Ürün güncellendi",
+      "product_id": "id-56cm3i9dmtl9keme",
+      "product_code": "YOK",
+      "product_name": "VIEWER SATIN CHROME VIEWER",
+      "before": {
+        "id": "id-56cm3i9dmtl9keme",
+        "code": "YOK",
+        "name": "VIEWER SATIN CHROME VIEWER",
+        "category_id": "id-ez9bemcrmtl7q19c",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-03T09:08:13.348Z"
+      },
+      "after": {
+        "id": "id-56cm3i9dmtl9keme",
+        "code": "YOK",
+        "name": "VIEWER SATIN CHROME VIEWER",
+        "category_id": "id-ez9bemcrmtl7q19c",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-08T06:51:59.110Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T06:51:59.110Z"
     }
   ],
   "movement_audit": [

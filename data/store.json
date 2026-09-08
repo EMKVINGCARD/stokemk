@@ -1953,12 +1953,12 @@
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:53:58.862Z"
+      "updated_at": "2026-09-08T07:48:44.649Z"
     },
     {
       "id": "id-qwybrw4kmtl9kemf",
@@ -17374,6 +17374,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:48:37.385Z"
+    },
+    {
+      "id": "id-vdr94nkhmtsdbjs9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fm056b42mtl9kemf",
+      "product_code": "YOK",
+      "product_name": "NOVEL PROGRAMLAMA KABLOSU",
+      "before": {
+        "id": "id-fm056b42mtl9kemf",
+        "code": "YOK",
+        "name": "NOVEL PROGRAMLAMA KABLOSU",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T06:53:58.862Z"
+      },
+      "after": {
+        "id": "id-fm056b42mtl9kemf",
+        "code": "YOK",
+        "name": "NOVEL PROGRAMLAMA KABLOSU",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:48:44.649Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:48:44.649Z"
     }
   ],
   "movement_audit": [

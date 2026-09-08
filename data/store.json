@@ -4911,12 +4911,12 @@
       "category_id": "id-1n8q8p8pmtk34t8o",
       "unit": "adet",
       "quantity": 16,
-      "critical_level": 0,
+      "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER SEALING ASSY PVD SATBRASS",
       "created_at": "2026-09-03T08:29:16.195Z",
-      "updated_at": "2026-09-03T08:29:16.195Z"
+      "updated_at": "2026-09-08T08:40:58.056Z"
     },
     {
       "id": "id-t72iv5yzmtl9ken7",
@@ -9933,6 +9933,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:40:53.104Z"
+    },
+    {
+      "id": "id-bikrq4wzmtsf6pjc",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6n60u1fymtl9ken7",
+      "product_code": "480884962",
+      "product_name": "SİLİDİR KAPAĞI SATIN BRASS",
+      "before": {
+        "id": "id-6n60u1fymtl9ken7",
+        "code": "480884962",
+        "name": "SİLİDİR KAPAĞI SATIN BRASS",
+        "category_id": "id-1n8q8p8pmtk34t8o",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER SEALING ASSY PVD SATBRASS",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-03T08:29:16.195Z"
+      },
+      "after": {
+        "id": "id-6n60u1fymtl9ken7",
+        "code": "480884962",
+        "name": "SİLİDİR KAPAĞI SATIN BRASS",
+        "category_id": "id-1n8q8p8pmtk34t8o",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER SEALING ASSY PVD SATBRASS",
+        "created_at": "2026-09-03T08:29:16.195Z",
+        "updated_at": "2026-09-08T08:40:58.056Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:40:58.056Z"
     }
   ]
 }

@@ -2303,12 +2303,12 @@
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-08T07:00:36.962Z"
+      "updated_at": "2026-09-08T07:53:08.841Z"
     },
     {
       "id": "id-ij498y9imtl9kemg",
@@ -8701,6 +8701,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:53:00.689Z"
+    },
+    {
+      "id": "id-aqt0xrecmtsdh7mx",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ca1qjecamtl9kemg",
+      "product_code": "EOL",
+      "product_name": "INFINTY 2 TRANSPARANT PANEL",
+      "before": {
+        "id": "id-ca1qjecamtl9kemg",
+        "code": "EOL",
+        "name": "INFINTY 2 TRANSPARANT PANEL",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T07:00:36.962Z"
+      },
+      "after": {
+        "id": "id-ca1qjecamtl9kemg",
+        "code": "EOL",
+        "name": "INFINTY 2 TRANSPARANT PANEL",
+        "category_id": "id-i227be5umtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.168Z",
+        "updated_at": "2026-09-08T07:53:08.841Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:53:08.841Z"
     }
   ]
 }

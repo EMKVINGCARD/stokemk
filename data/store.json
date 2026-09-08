@@ -1851,7 +1851,7 @@
     {
       "id": "id-tx4d6je8mtl9kemf",
       "code": "4815815",
-      "name": "DA VINCI TYPE IR 4.5V MAG. KONTAK KART",
+      "name": "IR DA VINCI TYPE IR 4.5V MAG. KONTAK KART",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
       "quantity": 4,
@@ -1860,7 +1860,7 @@
       "location": "",
       "description": "SYSTEMHW VISION ON CONTACT CARD IR FOR LCUT3/LCUT2",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:46:16.929Z"
+      "updated_at": "2026-09-08T07:47:08.865Z"
     },
     {
       "id": "id-5e01o4wdmtl9kemf",
@@ -17146,6 +17146,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T07:46:46.065Z"
+    },
+    {
+      "id": "id-tjvzqvxdmtsd9hvl",
+      "action": "Ürün güncellendi",
+      "product_id": "id-tx4d6je8mtl9kemf",
+      "product_code": "4815815",
+      "product_name": "IR DA VINCI TYPE IR 4.5V MAG. KONTAK KART",
+      "before": {
+        "id": "id-tx4d6je8mtl9kemf",
+        "code": "4815815",
+        "name": "DA VINCI TYPE IR 4.5V MAG. KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW VISION ON CONTACT CARD IR FOR LCUT3/LCUT2",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:46:16.929Z"
+      },
+      "after": {
+        "id": "id-tx4d6je8mtl9kemf",
+        "code": "4815815",
+        "name": "IR DA VINCI TYPE IR 4.5V MAG. KONTAK KART",
+        "category_id": "id-fmh7hoscmtk34t8n",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "SYSTEMHW VISION ON CONTACT CARD IR FOR LCUT3/LCUT2",
+        "created_at": "2026-09-03T08:29:16.167Z",
+        "updated_at": "2026-09-08T07:47:08.865Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T07:47:08.865Z"
     }
   ],
   "movement_audit": [

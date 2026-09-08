@@ -6689,12 +6689,12 @@
       "category_id": "id-4gkyupz3mtk34t8p",
       "unit": "adet",
       "quantity": 5,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE ANSI, ANTBRASS",
       "created_at": "2026-09-03T08:29:16.239Z",
-      "updated_at": "2026-09-03T08:29:16.239Z"
+      "updated_at": "2026-09-08T09:26:42.532Z"
     },
     {
       "id": "id-9yh1ypm1mtl9keof",
@@ -8829,6 +8829,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:26:39.007Z"
+    },
+    {
+      "id": "id-46ksrp23mtsgtj6s",
+      "action": "Ürün güncellendi",
+      "product_id": "id-5vp9ew5fmtl9keof",
+      "product_code": "458633524",
+      "product_name": "A28 STD KARŞILIK ANTIK BRASS",
+      "before": {
+        "id": "id-5vp9ew5fmtl9keof",
+        "code": "458633524",
+        "name": "A28 STD KARŞILIK ANTIK BRASS",
+        "category_id": "id-4gkyupz3mtk34t8p",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE ANSI, ANTBRASS",
+        "created_at": "2026-09-03T08:29:16.239Z",
+        "updated_at": "2026-09-03T08:29:16.239Z"
+      },
+      "after": {
+        "id": "id-5vp9ew5fmtl9keof",
+        "code": "458633524",
+        "name": "A28 STD KARŞILIK ANTIK BRASS",
+        "category_id": "id-4gkyupz3mtk34t8p",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "STRIKER PLATE ANSI, ANTBRASS",
+        "created_at": "2026-09-03T08:29:16.239Z",
+        "updated_at": "2026-09-08T09:26:42.532Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:26:42.532Z"
     }
   ]
 }

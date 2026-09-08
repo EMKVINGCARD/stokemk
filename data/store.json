@@ -6325,12 +6325,12 @@
       "category_id": "id-tk4ignznmtl7q19h",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.235Z",
-      "updated_at": "2026-09-03T09:16:46.167Z"
+      "updated_at": "2026-09-08T09:24:06.743Z"
     },
     {
       "id": "id-xkl2dp6nmtl9keoc",
@@ -8107,6 +8107,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:24:02.215Z"
+    },
+    {
+      "id": "id-gd8t2h09mtsgq6zc",
+      "action": "Ürün güncellendi",
+      "product_id": "id-hbokp7bemtl9keob",
+      "product_code": "YOK",
+      "product_name": "ROZET İÇ US ANTIK DARK",
+      "before": {
+        "id": "id-hbokp7bemtl9keob",
+        "code": "YOK",
+        "name": "ROZET İÇ US ANTIK DARK",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.235Z",
+        "updated_at": "2026-09-03T09:16:46.167Z"
+      },
+      "after": {
+        "id": "id-hbokp7bemtl9keob",
+        "code": "YOK",
+        "name": "ROZET İÇ US ANTIK DARK",
+        "category_id": "id-tk4ignznmtl7q19h",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.235Z",
+        "updated_at": "2026-09-08T09:24:06.743Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T09:24:06.744Z"
     }
   ]
 }

@@ -5597,12 +5597,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Handle on outside rose Signature AntBrass Wing R / Handle on inside rose Signature AntBrass Wing L",
       "created_at": "2026-09-03T08:29:16.207Z",
-      "updated_at": "2026-09-03T08:29:16.207Z"
+      "updated_at": "2026-09-08T08:44:41.612Z"
     },
     {
       "id": "id-go2x8tz5mtl9kenj",
@@ -10275,6 +10275,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:44:38.592Z"
+    },
+    {
+      "id": "id-fbomfqnwmtsfbi18",
+      "action": "Ürün güncellendi",
+      "product_id": "id-25jsmc7cmtl9kenj",
+      "product_code": "481633324AB / 481633524AA",
+      "product_name": "WING RH ANTIK BRASS  SET",
+      "before": {
+        "id": "id-25jsmc7cmtl9kenj",
+        "code": "481633324AB / 481633524AA",
+        "name": "WING RH ANTIK BRASS  SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "Handle on outside rose Signature AntBrass Wing R / Handle on inside rose Signature AntBrass Wing L",
+        "created_at": "2026-09-03T08:29:16.207Z",
+        "updated_at": "2026-09-03T08:29:16.207Z"
+      },
+      "after": {
+        "id": "id-25jsmc7cmtl9kenj",
+        "code": "481633324AB / 481633524AA",
+        "name": "WING RH ANTIK BRASS  SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Handle on outside rose Signature AntBrass Wing R / Handle on inside rose Signature AntBrass Wing L",
+        "created_at": "2026-09-03T08:29:16.207Z",
+        "updated_at": "2026-09-08T08:44:41.612Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:44:41.612Z"
     }
   ]
 }

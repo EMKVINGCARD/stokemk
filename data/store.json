@@ -4729,12 +4729,12 @@
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 0,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.192Z",
-      "updated_at": "2026-09-03T09:12:58.700Z"
+      "updated_at": "2026-09-08T08:49:31.824Z"
     },
     {
       "id": "id-zcw1xubimtl9ken5",
@@ -13391,6 +13391,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T08:49:29.452Z"
+    },
+    {
+      "id": "id-5topdx74mtsfhpyo",
+      "action": "Ürün güncellendi",
+      "product_id": "id-glibgf7hmtl9ken4",
+      "product_code": "YOK",
+      "product_name": "58MM SATIN BRASS",
+      "before": {
+        "id": "id-glibgf7hmtl9ken4",
+        "code": "YOK",
+        "name": "58MM SATIN BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.192Z",
+        "updated_at": "2026-09-03T09:12:58.700Z"
+      },
+      "after": {
+        "id": "id-glibgf7hmtl9ken4",
+        "code": "YOK",
+        "name": "58MM SATIN BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.192Z",
+        "updated_at": "2026-09-08T08:49:31.824Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-08T08:49:31.824Z"
     }
   ]
 }

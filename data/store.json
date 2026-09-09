@@ -501,6 +501,12 @@
       "name": "marriot hotel pendik",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-4x568jcumtuemvem",
+      "name": "deneme2",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -510,13 +516,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2997,
+      "quantity": 2990,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-09T17:53:56.692Z",
+      "updated_at": "2026-09-09T18:01:04.894Z",
       "stock_base_quantity": 3297
     },
     {
@@ -8585,6 +8591,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-09T17:53:56.692Z",
       "created_at": "2026-09-09T17:53:56.692Z"
+    },
+    {
+      "id": "id-o8zy30ugmtuemvem",
+      "operation_id": "id-bdmjf9mxmtuemvem",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 7,
+      "before_quantity": 2997,
+      "after_quantity": 2990,
+      "target_location": "deneme2",
+      "reason": "deneme2",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-09T18:01:04.894Z",
+      "created_at": "2026-09-09T18:01:04.894Z"
     }
   ],
   "audit_log": [
@@ -13478,6 +13501,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-09T17:53:56.692Z",
       "extra": "Orijinal hareket silinmeden ters kayıt oluşturuldu"
+    },
+    {
+      "id": "id-62ho1d42mtuemvem",
+      "action": "Stok çıkışı",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 7,
+      "before_quantity": 2997,
+      "after_quantity": 2990,
+      "target_location": "deneme2",
+      "reason": "deneme2",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-09T18:01:04.895Z",
+      "extra": null
     }
   ],
   "settings": {

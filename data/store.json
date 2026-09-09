@@ -5652,7 +5652,7 @@
     },
     {
       "id": "id-r3esplp1mtl9kenk",
-      "code": "YOK",
+      "code": "481633464AAAL / 481633664ACAR",
       "name": "WING LH POLISH CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
@@ -5660,9 +5660,9 @@
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "Handle Wing on outside rose w/retainer PolChrome ANSI L / Handle Straight on inside rose w/retainer PolChrome ANSI R",
       "created_at": "2026-09-03T08:29:16.208Z",
-      "updated_at": "2026-09-08T08:44:55.836Z"
+      "updated_at": "2026-09-09T08:56:46.383Z"
     },
     {
       "id": "id-fxehqbchmtl9kenl",
@@ -11630,6 +11630,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T08:55:33.247Z"
+    },
+    {
+      "id": "id-s14eh06bmttv6vxr",
+      "action": "Ürün güncellendi",
+      "product_id": "id-r3esplp1mtl9kenk",
+      "product_code": "481633464AAAL / 481633664ACAR",
+      "product_name": "WING LH POLISH CHROME SET",
+      "before": {
+        "id": "id-r3esplp1mtl9kenk",
+        "code": "YOK",
+        "name": "WING LH POLISH CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.208Z",
+        "updated_at": "2026-09-08T08:44:55.836Z"
+      },
+      "after": {
+        "id": "id-r3esplp1mtl9kenk",
+        "code": "481633464AAAL / 481633664ACAR",
+        "name": "WING LH POLISH CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Handle Wing on outside rose w/retainer PolChrome ANSI L / Handle Straight on inside rose w/retainer PolChrome ANSI R",
+        "created_at": "2026-09-03T08:29:16.208Z",
+        "updated_at": "2026-09-09T08:56:46.383Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:56:46.383Z"
     }
   ],
   "movement_audit": [

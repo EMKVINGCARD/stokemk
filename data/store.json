@@ -5666,7 +5666,7 @@
     },
     {
       "id": "id-fxehqbchmtl9kenl",
-      "code": "YOK",
+      "code": "481633462AAAL / 481633662ABAR",
       "name": "WING LH SATIN BRASS SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
@@ -5674,9 +5674,9 @@
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "Handle Wing on outside rose w/retainer SatBrass ANSI L / Handle Wing on inside rose w/retainer SatBrass ANSI R",
       "created_at": "2026-09-03T08:29:16.209Z",
-      "updated_at": "2026-09-08T08:44:58.360Z"
+      "updated_at": "2026-09-09T08:51:31.262Z"
     },
     {
       "id": "id-zk8qdlq3mtl9kenm",
@@ -11502,6 +11502,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T08:32:42.574Z"
+    },
+    {
+      "id": "id-2ca0qep1mttv04se",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fxehqbchmtl9kenl",
+      "product_code": "481633462AAAL / 481633662ABAR",
+      "product_name": "WING LH SATIN BRASS SET",
+      "before": {
+        "id": "id-fxehqbchmtl9kenl",
+        "code": "YOK",
+        "name": "WING LH SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.209Z",
+        "updated_at": "2026-09-08T08:44:58.360Z"
+      },
+      "after": {
+        "id": "id-fxehqbchmtl9kenl",
+        "code": "481633462AAAL / 481633662ABAR",
+        "name": "WING LH SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Handle Wing on outside rose w/retainer SatBrass ANSI L / Handle Wing on inside rose w/retainer SatBrass ANSI R",
+        "created_at": "2026-09-03T08:29:16.209Z",
+        "updated_at": "2026-09-09T08:51:31.262Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:51:31.262Z"
     }
   ],
   "movement_audit": [

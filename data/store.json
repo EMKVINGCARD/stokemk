@@ -3627,12 +3627,12 @@
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "LOCKCASE 5116/50 L",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-08T09:06:37.232Z"
+      "updated_at": "2026-09-09T11:52:04.665Z"
     },
     {
       "id": "id-3wnc3bv6mtl9kemq",
@@ -12466,6 +12466,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T11:51:44.772Z"
+    },
+    {
+      "id": "id-q6twszr9mtu1gbw9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vtkxmpeomtl9kemq",
+      "product_code": "8400101AB23",
+      "product_name": "5116 LH GÖMME",
+      "before": {
+        "id": "id-vtkxmpeomtl9kemq",
+        "code": "8400101AB23",
+        "name": "5116 LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCKCASE 5116/50 L",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T09:06:37.232Z"
+      },
+      "after": {
+        "id": "id-vtkxmpeomtl9kemq",
+        "code": "8400101AB23",
+        "name": "5116 LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCKCASE 5116/50 L",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-09T11:52:04.665Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T11:52:04.665Z"
     }
   ],
   "movement_audit": [

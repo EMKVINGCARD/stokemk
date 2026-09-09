@@ -2769,16 +2769,16 @@
     {
       "id": "id-viezhpvgmtl9kemh",
       "code": "683081113",
-      "name": "SIGNATURE/ESSENCE ENDNODE/ZGIBEE Y KABLO",
+      "name": "SIGNATURE&ESSENCE ZIGBEE&BLE Y KABLO",
       "category_id": "id-cko1by4cmtk34t8n",
       "unit": "adet",
       "quantity": 49,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
-      "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
+      "description": "Y-CABLE ZIGBEE&BLE FOR SIGNATURE&ESSENCE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-09T08:21:30.088Z"
+      "updated_at": "2026-09-09T08:24:57.996Z"
     },
     {
       "id": "id-xc3qv3afmtl9kemh",
@@ -11273,6 +11273,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T08:23:58.264Z"
+    },
+    {
+      "id": "id-cnmqru8dmttu1zf0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-viezhpvgmtl9kemh",
+      "product_code": "683081113",
+      "product_name": "SIGNATURE&ESSENCE ZIGBEE&BLE Y KABLO",
+      "before": {
+        "id": "id-viezhpvgmtl9kemh",
+        "code": "683081113",
+        "name": "SIGNATURE/ESSENCE ENDNODE/ZGIBEE Y KABLO",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-09T08:21:30.088Z"
+      },
+      "after": {
+        "id": "id-viezhpvgmtl9kemh",
+        "code": "683081113",
+        "name": "SIGNATURE&ESSENCE ZIGBEE&BLE Y KABLO",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR SIGNATURE&ESSENCE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-09T08:24:57.996Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:24:57.996Z"
     }
   ],
   "movement_audit": [

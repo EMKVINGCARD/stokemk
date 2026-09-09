@@ -3305,12 +3305,12 @@
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-08T09:05:19.880Z"
+      "updated_at": "2026-09-09T11:51:44.772Z"
     },
     {
       "id": "id-8ooxdb7ymtl9kemo",
@@ -12428,6 +12428,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T11:51:34.844Z"
+    },
+    {
+      "id": "id-c6cdo7jxmtu1fwjo",
+      "action": "Ürün güncellendi",
+      "product_id": "id-1ruohu1umtl9kemo",
+      "product_code": "YOK",
+      "product_name": "PİL KAPAĞI POLISH BRASS ALL METAL",
+      "before": {
+        "id": "id-1ruohu1umtl9kemo",
+        "code": "YOK",
+        "name": "PİL KAPAĞI POLISH BRASS ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-08T09:05:19.880Z"
+      },
+      "after": {
+        "id": "id-1ruohu1umtl9kemo",
+        "code": "YOK",
+        "name": "PİL KAPAĞI POLISH BRASS ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-09T11:51:44.772Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T11:51:44.772Z"
     }
   ],
   "movement_audit": [

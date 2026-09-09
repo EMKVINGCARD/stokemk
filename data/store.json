@@ -1509,7 +1509,7 @@
     {
       "id": "id-24xb25l9mtl9kemd",
       "code": "683081114",
-      "name": "Y KABLO ENDNODE/ZGIBEE/BLE",
+      "name": "Y KABLO ZIGIBEE/BLE",
       "category_id": "id-cko1by4cmtk34t8n",
       "unit": "adet",
       "quantity": 3000,
@@ -1518,7 +1518,7 @@
       "location": "",
       "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-09T08:22:48.488Z"
+      "updated_at": "2026-09-09T08:23:58.264Z"
     },
     {
       "id": "id-keo29ialmtl9kemd",
@@ -11235,6 +11235,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T08:22:53.333Z"
+    },
+    {
+      "id": "id-5e8efcfzmttu0pbs",
+      "action": "Ürün güncellendi",
+      "product_id": "id-24xb25l9mtl9kemd",
+      "product_code": "683081114",
+      "product_name": "Y KABLO ZIGIBEE/BLE",
+      "before": {
+        "id": "id-24xb25l9mtl9kemd",
+        "code": "683081114",
+        "name": "Y KABLO ENDNODE/ZGIBEE/BLE",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 3000,
+        "critical_level": 500,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-09T08:22:48.488Z"
+      },
+      "after": {
+        "id": "id-24xb25l9mtl9kemd",
+        "code": "683081114",
+        "name": "Y KABLO ZIGIBEE/BLE",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 3000,
+        "critical_level": 500,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR CLASSIC",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-09T08:23:58.264Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:23:58.264Z"
     }
   ],
   "movement_audit": [

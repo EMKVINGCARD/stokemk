@@ -2769,8 +2769,8 @@
     {
       "id": "id-viezhpvgmtl9kemh",
       "code": "683081113",
-      "name": "MOC BLE HOUSING KISA KABLO",
-      "category_id": "id-hzu8q0wcmtk34t8n",
+      "name": "SIGNATURE/ESSENCE ENDNODE/ZGIBEE Y KABLO",
+      "category_id": "id-cko1by4cmtk34t8n",
       "unit": "adet",
       "quantity": 49,
       "critical_level": 10,
@@ -2778,7 +2778,7 @@
       "location": "",
       "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:57:33.493Z"
+      "updated_at": "2026-09-09T08:21:30.088Z"
     },
     {
       "id": "id-xc3qv3afmtl9kemh",
@@ -11007,6 +11007,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T08:18:46.248Z"
+    },
+    {
+      "id": "id-fe9shttxmtttxizs",
+      "action": "Ürün güncellendi",
+      "product_id": "id-viezhpvgmtl9kemh",
+      "product_code": "683081113",
+      "product_name": "SIGNATURE/ESSENCE ENDNODE/ZGIBEE Y KABLO",
+      "before": {
+        "id": "id-viezhpvgmtl9kemh",
+        "code": "683081113",
+        "name": "MOC BLE HOUSING KISA KABLO",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-08T07:57:33.493Z"
+      },
+      "after": {
+        "id": "id-viezhpvgmtl9kemh",
+        "code": "683081113",
+        "name": "SIGNATURE/ESSENCE ENDNODE/ZGIBEE Y KABLO",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 49,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Y-CABLE ZIGBEE&BLE FOR SGNATURE & ESSENCE",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-09-09T08:21:30.088Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:21:30.088Z"
     }
   ],
   "movement_audit": [

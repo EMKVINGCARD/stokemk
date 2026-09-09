@@ -3291,12 +3291,12 @@
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.175Z",
-      "updated_at": "2026-09-08T09:05:17.008Z"
+      "updated_at": "2026-09-09T11:51:34.844Z"
     },
     {
       "id": "id-1ruohu1umtl9kemo",
@@ -12390,6 +12390,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T11:51:21.532Z"
+    },
+    {
+      "id": "id-ovrrrrjamtu1fovw",
+      "action": "Ürün güncellendi",
+      "product_id": "id-r5axai8hmtl9kemn",
+      "product_code": "YOK",
+      "product_name": "PİL KAPAĞI VALUER NICKEL ALL METAL",
+      "before": {
+        "id": "id-r5axai8hmtl9kemn",
+        "code": "YOK",
+        "name": "PİL KAPAĞI VALUER NICKEL ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.175Z",
+        "updated_at": "2026-09-08T09:05:17.008Z"
+      },
+      "after": {
+        "id": "id-r5axai8hmtl9kemn",
+        "code": "YOK",
+        "name": "PİL KAPAĞI VALUER NICKEL ALL METAL",
+        "category_id": "id-lhu1c58ymtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.175Z",
+        "updated_at": "2026-09-09T11:51:34.844Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T11:51:34.844Z"
     }
   ],
   "movement_audit": [

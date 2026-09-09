@@ -1784,7 +1784,7 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 21,
+      "quantity": 23,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
@@ -8011,20 +8011,6 @@
       "created_at": "2026-09-08T12:04:45.892Z"
     },
     {
-      "id": "id-ol7010nfmttt2v2w",
-      "product_id": "id-de0o30vlmtl9kemf",
-      "product_code": "686001061  686001050",
-      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
-      "type": "out",
-      "quantity": 2,
-      "target_location": "Divan Adana",
-      "reason": "sipariş",
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-09-09T07:57:39.416Z",
-      "created_at": "2026-09-09T07:57:39.416Z"
-    },
-    {
       "id": "id-uh3d7hbmmtucbaep",
       "product_id": "id-2g7hmgpqmtl9kemb",
       "product_code": "4817691",
@@ -12754,6 +12740,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-09T16:56:05.233Z",
       "extra": null
+    },
+    {
+      "id": "id-05um4rjpmtucicfp",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "Divan Adana",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-09T17:01:34.453Z",
+      "extra": "Silme sonrası stok geri alındı"
     }
   ],
   "settings": {

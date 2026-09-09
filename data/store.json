@@ -5918,7 +5918,7 @@
     },
     {
       "id": "id-62twcm12mtl9kenr",
-      "code": "YOK",
+      "code": "/ 481633562AD",
       "name": "FUNCTIONAL ANSI SATIN BRASS SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
@@ -5926,9 +5926,9 @@
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "/ Handle on inside rose Signature SatBrass Fu.ANSI",
       "created_at": "2026-09-03T08:29:16.215Z",
-      "updated_at": "2026-09-08T08:45:57.944Z"
+      "updated_at": "2026-09-09T09:15:28.849Z"
     },
     {
       "id": "id-h45e8cybmtl9kens",
@@ -11706,6 +11706,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T09:13:38.117Z"
+    },
+    {
+      "id": "id-07ow2fnwmttvuy1d",
+      "action": "Ürün güncellendi",
+      "product_id": "id-62twcm12mtl9kenr",
+      "product_code": "/ 481633562AD",
+      "product_name": "FUNCTIONAL ANSI SATIN BRASS SET",
+      "before": {
+        "id": "id-62twcm12mtl9kenr",
+        "code": "YOK",
+        "name": "FUNCTIONAL ANSI SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.215Z",
+        "updated_at": "2026-09-08T08:45:57.944Z"
+      },
+      "after": {
+        "id": "id-62twcm12mtl9kenr",
+        "code": "/ 481633562AD",
+        "name": "FUNCTIONAL ANSI SATIN BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "/ Handle on inside rose Signature SatBrass Fu.ANSI",
+        "created_at": "2026-09-03T08:29:16.215Z",
+        "updated_at": "2026-09-09T09:15:28.849Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T09:15:28.849Z"
     }
   ],
   "movement_audit": [

@@ -5993,12 +5993,12 @@
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.217Z",
-      "updated_at": "2026-09-08T08:46:12.160Z"
+      "updated_at": "2026-09-09T09:23:06.993Z"
     },
     {
       "id": "id-l8js1liumtl9kent",
@@ -11858,6 +11858,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T09:18:30.789Z"
+    },
+    {
+      "id": "id-kygs3u6pmttw4rjl",
+      "action": "Ürün güncellendi",
+      "product_id": "id-u6evzxalmtl9kent",
+      "product_code": "YOK",
+      "product_name": "FUNCTIONAL ANSI ANTIK BRASS SET",
+      "before": {
+        "id": "id-u6evzxalmtl9kent",
+        "code": "YOK",
+        "name": "FUNCTIONAL ANSI ANTIK BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.217Z",
+        "updated_at": "2026-09-08T08:46:12.160Z"
+      },
+      "after": {
+        "id": "id-u6evzxalmtl9kent",
+        "code": "YOK",
+        "name": "FUNCTIONAL ANSI ANTIK BRASS SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.217Z",
+        "updated_at": "2026-09-09T09:23:06.993Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T09:23:06.993Z"
     }
   ],
   "movement_audit": [

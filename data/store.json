@@ -495,12 +495,6 @@
       "name": "Divan Adana",
       "kind": "diger",
       "auto_created": true
-    },
-    {
-      "id": "id-zgzqemirmttv2jri",
-      "name": "marriot hotel pendik",
-      "kind": "diger",
-      "auto_created": true
     }
   ],
   "products": [
@@ -510,13 +504,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2997,
+      "quantity": 3297,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-09T08:53:23.982Z"
+      "updated_at": "2026-09-07T20:15:15.825Z"
     },
     {
       "id": "id-vp6u11jwmtl9kemb",
@@ -5532,7 +5526,7 @@
     },
     {
       "id": "id-fuokzmx8mtl9keng",
-      "code": "YOK",
+      "code": "481633464ABAR / 481633664AAAL",
       "name": "WING RH POLISH CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
@@ -5540,13 +5534,13 @@
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "Handle Wing on outside rose w/retainer PolChrome ANSI R / Handle Wing on inside rose w/retainer PolChrome ANSI L",
       "created_at": "2026-09-03T08:29:16.204Z",
-      "updated_at": "2026-09-08T08:44:25.451Z"
+      "updated_at": "2026-09-09T08:55:33.247Z"
     },
     {
       "id": "id-cvghrnt2mtl9kenh",
-      "code": "YOK",
+      "code": "481633462ABAR / 481633662AAAL",
       "name": "WING RH SATIN BRASS SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
@@ -5554,9 +5548,9 @@
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "Handle Wing on outside rose w/retainer SatBrass ANSI R / Handle Wing on inside rose w/retainer SatBrass ANSI L",
       "created_at": "2026-09-03T08:29:16.205Z",
-      "updated_at": "2026-09-08T08:44:28.084Z"
+      "updated_at": "2026-09-09T08:52:55.994Z"
     },
     {
       "id": "id-2typ01iwmtl9kenh",
@@ -11598,6 +11592,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T08:52:55.994Z"
+    },
+    {
+      "id": "id-5ejajr6tmttv5bi7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-fuokzmx8mtl9keng",
+      "product_code": "481633464ABAR / 481633664AAAL",
+      "product_name": "WING RH POLISH CHROME SET",
+      "before": {
+        "id": "id-fuokzmx8mtl9keng",
+        "code": "YOK",
+        "name": "WING RH POLISH CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.204Z",
+        "updated_at": "2026-09-08T08:44:25.451Z"
+      },
+      "after": {
+        "id": "id-fuokzmx8mtl9keng",
+        "code": "481633464ABAR / 481633664AAAL",
+        "name": "WING RH POLISH CHROME SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "Handle Wing on outside rose w/retainer PolChrome ANSI R / Handle Wing on inside rose w/retainer PolChrome ANSI L",
+        "created_at": "2026-09-03T08:29:16.204Z",
+        "updated_at": "2026-09-09T08:55:33.247Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:55:33.247Z"
     }
   ],
   "movement_audit": [

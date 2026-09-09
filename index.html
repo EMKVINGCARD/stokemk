@@ -164,6 +164,7 @@ let syncStatus = "idle";
 let rateLimitRemaining = null;
 let lastRateWarn = null;
 let refreshTimer = null;
+let localDirty = false;
 const DEFAULT_WIDGETS = {total_products:true,total_stock_value:true,low_stock_count:true,today_movements_count:true,low_stock_list:true,recent_additions:true,valuable_products:true,category_distribution:true};
 const DEFAULT_MENUS = {dashboard:true,products:true,movements:true,reports:true};
 const DEFAULT_COLS = {
@@ -290,6 +291,12 @@ async function ghPutStore(stateObj, sha){
   return data.content.sha;
 }
 function mergeStates(local, remote){
+  const productMap = {};
+  (remote.products || []).forEach(p => productMap[p.id] = p);
+  (local.products || []).forEach(p => {
+    const r = productMap[p.id];
+    if(!r || (p.updated_at||p.created_at||"") >= (r.updated_at||r.created_at||"")) productMap[p.id] = p;
+  });
   const mvMap = {};
   (remote.movements || []).forEach(m => mvMap[m.id] = m);
   (local.movements  || []).forEach(m => { if(!mvMap[m.id]) mvMap[m.id] = m; });
@@ -303,7 +310,7 @@ function mergeStates(local, remote){
     users:      local.users      || remote.users      || [],
     categories: local.categories || remote.categories || [],
     locations:  local.locations  || remote.locations  || [],
-    products:   local.products   || remote.products   || [],
+    products:   Object.values(productMap),
     movements:  Object.values(mvMap).sort((a,b)=> (a.happened_at||"").localeCompare(b.happened_at||"")),
     audit_log:  Object.values(auditMap).sort((a,b)=> (a.at||a.created_at||"").localeCompare(b.at||b.created_at||"")),
     movement_audit: Object.values(movementAuditMap).sort((a,b)=> (a.created_at||"").localeCompare(b.created_at||"")),
@@ -323,6 +330,7 @@ function normalizeState(s){
   return s;
 }
 async function pullState(silent){
+  if(silent && localDirty) return { skipped: true };
   if(!silent) setSyncStatus("loading");
   try{
     const r = await ghGetStore();
@@ -344,6 +352,7 @@ async function pushState(){
     try{
       const newSha = await ghPutStore(state, currentSHA);
       currentSHA = newSha;
+      localDirty = false;
       setSyncStatus("idle");
       return;
     } catch(e){
@@ -368,6 +377,7 @@ async function pushState(){
   throw new Error("Çakışma çözülemedi (3 deneme başarısız). Sayfayı yenileyip tekrar deneyin.");
 }
 function save(){
+  localDirty = true;
   saveQueue = saveQueue.then(() => pushState().catch(err => {
     console.error("Push error:", err);
     toast("Kayıt hatası: " + err.message, "error");

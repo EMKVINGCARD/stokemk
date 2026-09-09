@@ -1495,7 +1495,7 @@
     {
       "id": "id-dax3iuzjmtl9kemd",
       "code": "4826075",
-      "name": "DUAL KABLO ENDNODE/ZGIBEE/BLE",
+      "name": "DUAL KABLO ENDNODE&ZIGBEE&BLE",
       "category_id": "id-cko1by4cmtk34t8n",
       "unit": "adet",
       "quantity": 47,
@@ -1504,7 +1504,7 @@
       "location": "",
       "description": "CABLE ASSY, DOUBLE ENDNODE FOR SIGNATURE",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-09T08:22:53.333Z"
+      "updated_at": "2026-09-09T08:26:22.411Z"
     },
     {
       "id": "id-24xb25l9mtl9kemd",
@@ -11387,6 +11387,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T08:25:57.451Z"
+    },
+    {
+      "id": "id-931sqwrmmttu3sjv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-dax3iuzjmtl9kemd",
+      "product_code": "4826075",
+      "product_name": "DUAL KABLO ENDNODE&ZIGBEE&BLE",
+      "before": {
+        "id": "id-dax3iuzjmtl9kemd",
+        "code": "4826075",
+        "name": "DUAL KABLO ENDNODE/ZGIBEE/BLE",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 47,
+        "critical_level": 20,
+        "unit_price": 0,
+        "location": "",
+        "description": "CABLE ASSY, DOUBLE ENDNODE FOR SIGNATURE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-09T08:22:53.333Z"
+      },
+      "after": {
+        "id": "id-dax3iuzjmtl9kemd",
+        "code": "4826075",
+        "name": "DUAL KABLO ENDNODE&ZIGBEE&BLE",
+        "category_id": "id-cko1by4cmtk34t8n",
+        "unit": "adet",
+        "quantity": 47,
+        "critical_level": 20,
+        "unit_price": 0,
+        "location": "",
+        "description": "CABLE ASSY, DOUBLE ENDNODE FOR SIGNATURE",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-09T08:26:22.411Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:26:22.411Z"
     }
   ],
   "movement_audit": [

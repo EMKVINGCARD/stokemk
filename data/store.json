@@ -489,6 +489,12 @@
       "name": "HGI Airport",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-laia2lqmmttt2v2w",
+      "name": "Divan Adana",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1772,13 +1778,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 23,
+      "quantity": 21,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T12:04:45.892Z"
+      "updated_at": "2026-09-09T07:57:39.416Z"
     },
     {
       "id": "id-1ey0prynmtl9kemf",
@@ -7983,76 +7989,22 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-08T12:04:45.892Z",
       "created_at": "2026-09-08T12:04:45.892Z"
+    },
+    {
+      "id": "id-ol7010nfmttt2v2w",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "Divan Adana",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-09T07:57:39.416Z",
+      "created_at": "2026-09-09T07:57:39.416Z"
     }
   ],
-  "settings": {
-    "app_title": "Vingcard Stok Takip",
-    "primary_color": "#2563eb",
-    "widgets": {
-      "total_products": false,
-      "total_stock_value": false,
-      "low_stock_count": false,
-      "today_movements_count": false,
-      "low_stock_list": true,
-      "recent_additions": false,
-      "valuable_products": false,
-      "category_distribution": false
-    },
-    "menus": {
-      "dashboard": true,
-      "products": true,
-      "movements": true,
-      "reports": true
-    },
-    "cols": {
-      "products": {
-        "code": true,
-        "name": true,
-        "category": true,
-        "quantity": true,
-        "critical": true,
-        "unit_price": false,
-        "total_value": false
-      },
-      "movements": {
-        "date": true,
-        "user": true,
-        "product_code": true,
-        "product_name": true,
-        "type": true,
-        "quantity": true,
-        "location": true,
-        "reason": true,
-        "product": true
-      },
-      "reports": {
-        "date": true,
-        "user": true,
-        "product_code": true,
-        "product_name": true,
-        "type": true,
-        "quantity": true,
-        "location": true,
-        "reason": true,
-        "product": true
-      }
-    },
-    "audit_log": [],
-    "movement_audit": [],
-    "ignoredLowStock": [
-      "id-r575ewvemtl9kemg",
-      "id-w8um39c0mtl9kemq",
-      "id-z3x5tf7imtl9kemb",
-      "id-txlavcqlmtl9kemb",
-      "id-9e4kw08nmtl9kemb",
-      "id-8xt80yl1mtl9kend",
-      "id-h4gbid64mtl9kemd",
-      "id-t6ukpj0umtl9kemd",
-      "id-7d5q57lumtl9keme",
-      "id-9nrpr9n3mtl9kemf",
-      "id-fm056b42mtl9kemf"
-    ]
-  },
   "audit_log": [
     {
       "id": "id-9ff2fwsomtsgq3hj",
@@ -11049,6 +11001,83 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-08T12:04:45.892Z",
       "extra": null
+    },
+    {
+      "id": "id-qi8m87svmttt2v2w",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "Divan Adana",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-09T07:57:39.416Z",
+      "extra": null
     }
-  ]
+  ],
+  "settings": {
+    "app_title": "Vingcard Stok Takip",
+    "primary_color": "#2563eb",
+    "widgets": {
+      "total_products": false,
+      "total_stock_value": false,
+      "low_stock_count": false,
+      "today_movements_count": false,
+      "low_stock_list": true,
+      "recent_additions": false,
+      "valuable_products": false,
+      "category_distribution": false
+    },
+    "menus": {
+      "dashboard": true,
+      "products": true,
+      "movements": true,
+      "reports": true
+    },
+    "cols": {
+      "products": {
+        "code": true,
+        "name": true,
+        "category": true,
+        "quantity": true,
+        "critical": true,
+        "unit_price": false,
+        "total_value": false
+      },
+      "movements": {
+        "date": true,
+        "user": true,
+        "product_code": true,
+        "product_name": true,
+        "type": true,
+        "quantity": true,
+        "location": true,
+        "reason": true,
+        "product": true
+      },
+      "reports": {
+        "date": true,
+        "user": true,
+        "product_code": true,
+        "product_name": true,
+        "type": true,
+        "quantity": true,
+        "location": true,
+        "reason": true,
+        "product": true
+      }
+    },
+    "audit_log": [],
+    "movement_audit": [],
+    "ignoredLowStock": [
+      "id-r575ewvemtl9kemg",
+      "id-w8um39c0mtl9kemq",
+      "id-z3x5tf7imtl9kemb",
+      "id-txlavcqlmtl9kemb",
+      "id-9e4kw08nmtl9kemb"
+    ]
+  }
 }

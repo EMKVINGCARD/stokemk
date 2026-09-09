@@ -317,7 +317,7 @@ function mergeStates(local, remote){
     settings:   mergeDefaults(local.settings || remote.settings || {})
   };
 }
-function movementDelta(m){if(!m||m.reversed_at)return 0;return m.type==="in"?Number(m.quantity||0):-Number(m.quantity||0);}
+function movementDelta(m){if(!m)return 0;return m.type==="in"?Number(m.quantity||0):-Number(m.quantity||0);}
 function normalizeStockFromMovements(s){const net={};(s.movements||[]).forEach(m=>{net[m.product_id]=(net[m.product_id]||0)+movementDelta(m);});(s.products||[]).forEach(p=>{if(!Number.isFinite(Number(p.stock_base_quantity))){p.stock_base_quantity=Number(p.quantity||0)-(net[p.id]||0);};p.quantity=Number(p.stock_base_quantity||0)+(net[p.id]||0);});return s;}
 function normalizeState(s){
   s = s || {};

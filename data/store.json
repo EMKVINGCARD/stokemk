@@ -5982,9 +5982,9 @@
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK FU.ANSI /  HANDLE ON INSIDE ROSE SIGNATURE USANTDARK FU.ANSI",
       "created_at": "2026-09-03T08:29:16.216Z",
-      "updated_at": "2026-09-09T09:17:46.017Z"
+      "updated_at": "2026-09-09T09:18:20.197Z"
     },
     {
       "id": "id-u6evzxalmtl9kent",
@@ -11782,6 +11782,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-09T09:17:46.017Z"
+    },
+    {
+      "id": "id-06sm9ulgmttvym91",
+      "action": "Ürün güncellendi",
+      "product_id": "id-g4cey8q1mtl9kens",
+      "product_code": "481633330AD / 481633530AD",
+      "product_name": "FUNCTIONAL ANSI US ANTIK DARK SET",
+      "before": {
+        "id": "id-g4cey8q1mtl9kens",
+        "code": "481633330AD / 481633530AD",
+        "name": "FUNCTIONAL ANSI US ANTIK DARK SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.216Z",
+        "updated_at": "2026-09-09T09:17:46.017Z"
+      },
+      "after": {
+        "id": "id-g4cey8q1mtl9kens",
+        "code": "481633330AD / 481633530AD",
+        "name": "FUNCTIONAL ANSI US ANTIK DARK SET",
+        "category_id": "id-iros97w4mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK FU.ANSI /  HANDLE ON INSIDE ROSE SIGNATURE USANTDARK FU.ANSI",
+        "created_at": "2026-09-03T08:29:16.216Z",
+        "updated_at": "2026-09-09T09:18:20.197Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T09:18:20.197Z"
     }
   ],
   "movement_audit": [

@@ -1466,7 +1466,7 @@
     },
     {
       "id": "id-ymvllco6mtl9kemd",
-      "code": "YOK",
+      "code": "683081150",
       "name": "ZIGBEE ENDNODE",
       "category_id": "id-5oi5rl6smtk34t8n",
       "unit": "adet",
@@ -1474,9 +1474,9 @@
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "Zigbee Endnode EN4",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-08T06:45:14.131Z"
+      "updated_at": "2026-09-09T08:18:46.248Z"
     },
     {
       "id": "id-bawdz6zhmtl9kemd",
@@ -10969,6 +10969,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-08T09:32:36.978Z"
+    },
+    {
+      "id": "id-niridp6ymtttu0ko",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ymvllco6mtl9kemd",
+      "product_code": "683081150",
+      "product_name": "ZIGBEE ENDNODE",
+      "before": {
+        "id": "id-ymvllco6mtl9kemd",
+        "code": "YOK",
+        "name": "ZIGBEE ENDNODE",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:45:14.131Z"
+      },
+      "after": {
+        "id": "id-ymvllco6mtl9kemd",
+        "code": "683081150",
+        "name": "ZIGBEE ENDNODE",
+        "category_id": "id-5oi5rl6smtk34t8n",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "Zigbee Endnode EN4",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-09T08:18:46.248Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-09T08:18:46.248Z"
     }
   ],
   "movement_audit": [

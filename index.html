@@ -902,6 +902,7 @@ function renderMovements(){
   const u=currentUser();
   const c=state.settings.cols.movements;
   const items=state.movements.filter(m=>{
+    if(m.reversed_at||m.reversal_of)return false;
     if(mvFilter.type!=="all"&&m.type!==mvFilter.type)return false;
     if(!matchMovement(m,mvFilter.q))return false;
     if(mvFilter.start&&m.happened_at<new Date(mvFilter.start+"T00:00").toISOString())return false;

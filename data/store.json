@@ -510,13 +510,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2997,
+      "quantity": 2900,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-09T16:56:05.233Z"
+      "updated_at": "2026-09-09T17:03:34.623Z"
     },
     {
       "id": "id-vp6u11jwmtl9kemb",
@@ -8037,6 +8037,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-09T17:01:57.986Z",
       "created_at": "2026-09-09T17:01:57.986Z"
+    },
+    {
+      "id": "id-cju36ilmmtuckx5r",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 97,
+      "target_location": "deneme",
+      "reason": "deneme",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-09T17:03:34.623Z",
+      "created_at": "2026-09-09T17:03:34.623Z"
     }
   ],
   "audit_log": [
@@ -12897,6 +12911,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-09T17:01:57.986Z",
+      "extra": null
+    },
+    {
+      "id": "id-x4wswiaqmtuckx5r",
+      "action": "Stok çıkışı",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 97,
+      "target_location": "deneme",
+      "reason": "deneme",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-09T17:03:34.623Z",
       "extra": null
     }
   ],

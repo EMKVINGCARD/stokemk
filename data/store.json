@@ -504,7 +504,7 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 3297,
+      "quantity": 3597,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
@@ -8017,20 +8017,6 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-09T07:57:39.416Z",
       "created_at": "2026-09-09T07:57:39.416Z"
-    },
-    {
-      "id": "id-b0577i5fmttv2jri",
-      "product_id": "id-2g7hmgpqmtl9kemb",
-      "product_code": "4817691",
-      "product_name": "RFID UL GUEST BASKISIZ KART",
-      "type": "out",
-      "quantity": 300,
-      "target_location": "marriot hotel pendik",
-      "reason": "sipariş",
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-09-09T08:53:23.982Z",
-      "created_at": "2026-09-09T08:53:23.982Z"
     }
   ],
   "audit_log": [
@@ -12680,6 +12666,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-09T08:53:23.982Z",
       "extra": null
+    },
+    {
+      "id": "id-rd8kgirqmtucaaq9",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 300,
+      "target_location": "marriot hotel pendik",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-09T16:55:18.993Z",
+      "extra": "Silme sonrası stok geri alındı"
     }
   ],
   "settings": {

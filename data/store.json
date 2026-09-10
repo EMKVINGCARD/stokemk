@@ -4311,13 +4311,13 @@
       "name": "ESSENCE V2 KAPAK SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 8,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-09-10T09:01:22.821Z",
+      "updated_at": "2026-09-10T09:04:22.535Z",
       "stock_base_quantity": 8
     },
     {
@@ -9071,7 +9071,27 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T09:01:22.821Z",
-      "created_at": "2026-09-10T09:01:22.821Z"
+      "created_at": "2026-09-10T09:01:22.821Z",
+      "reversed_at": "2026-09-10T09:04:22.535Z",
+      "reversed_by": "id-umv29fzpmtk3a4nj"
+    },
+    {
+      "id": "id-4xuv88y5mtvawikn",
+      "operation_id": "id-fz4yyugymtvawikn",
+      "reversal_of": "id-taecbs32mtvasnwl",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "in",
+      "quantity": 3,
+      "before_quantity": 5,
+      "after_quantity": 8,
+      "target_location": "taş konak",
+      "reason": "Önceki stok hareketinin ters işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T09:04:22.535Z",
+      "created_at": "2026-09-10T09:04:22.535Z"
     }
   ],
   "audit_log": [
@@ -14527,6 +14547,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T09:01:22.821Z",
       "extra": null
+    },
+    {
+      "id": "id-2106kygsmtvawikn",
+      "action": "Stok hareketi tersine çevrildi",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "in",
+      "quantity": 3,
+      "before_quantity": 5,
+      "after_quantity": 8,
+      "target_location": "taş konak",
+      "reason": "Önceki stok hareketinin ters işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T09:04:22.535Z",
+      "extra": "Orijinal hareket silinmeden ters kayıt oluşturuldu"
     }
   ],
   "settings": {

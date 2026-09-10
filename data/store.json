@@ -507,6 +507,12 @@
       "name": "deneme2",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-yms96wl7mtv6fu3c",
+      "name": "The Edition Bodrum",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3666,13 +3672,13 @@
       "name": "ANSI 28MM 3-SW ADB RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 11,
+      "quantity": 10,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB ADB 4.5V 28MM RH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-08T08:03:47.472Z",
+      "updated_at": "2026-09-10T06:59:25.848Z",
       "stock_base_quantity": 11
     },
     {
@@ -8665,6 +8671,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T04:20:09.802Z",
       "created_at": "2026-09-10T04:20:09.802Z"
+    },
+    {
+      "id": "id-9hfcwfzpmtv6fu3f",
+      "operation_id": "id-mv89j3srmtv6fu3c",
+      "product_id": "id-hvgib2svmtl9kemo",
+      "product_code": "4813994B13",
+      "product_name": "ANSI 28MM 3-SW ADB RH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 11,
+      "after_quantity": 10,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-10T06:59:25.848Z",
+      "created_at": "2026-09-10T06:59:25.848Z"
     }
   ],
   "audit_log": [
@@ -13746,6 +13769,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T04:20:09.803Z",
       "extra": "Orijinal hareket silinmeden ters kayıt oluşturuldu"
+    },
+    {
+      "id": "id-ljir022kmtv6fu3f",
+      "action": "Stok çıkışı",
+      "product_id": "id-hvgib2svmtl9kemo",
+      "product_code": "4813994B13",
+      "product_name": "ANSI 28MM 3-SW ADB RH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 11,
+      "after_quantity": 10,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-10T06:59:25.851Z",
+      "extra": null
     }
   ],
   "settings": {

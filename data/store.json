@@ -513,6 +513,12 @@
       "name": "The Edition Bodrum",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-wx317oaxmtv6n7v9",
+      "name": "Radisson Blu Şişli",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2382,13 +2388,13 @@
       "name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 9,
+      "quantity": 6,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SENTINEL II SD PHIII FRONT COMPLETE",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-10T05:55:15.715Z",
+      "updated_at": "2026-09-10T07:05:10.293Z",
       "stock_base_quantity": 10
     },
     {
@@ -8739,6 +8745,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-10T07:00:38.561Z",
       "created_at": "2026-09-10T07:00:38.561Z"
+    },
+    {
+      "id": "id-0b945a8hmtv6n7v9",
+      "operation_id": "id-7l84kekqmtv6n7v9",
+      "product_id": "id-z4n6o2hfmtl9kemg",
+      "product_code": "252-8406SD00600AMS",
+      "product_name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 9,
+      "after_quantity": 6,
+      "target_location": "Radisson Blu Şişli",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-10T07:05:10.293Z",
+      "created_at": "2026-09-10T07:05:10.293Z"
     }
   ],
   "audit_log": [
@@ -13887,6 +13910,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-10T07:00:38.561Z",
+      "extra": null
+    },
+    {
+      "id": "id-qanvdeexmtv6n7v9",
+      "action": "Stok çıkışı",
+      "product_id": "id-z4n6o2hfmtl9kemg",
+      "product_code": "252-8406SD00600AMS",
+      "product_name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 9,
+      "after_quantity": 6,
+      "target_location": "Radisson Blu Şişli",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-10T07:05:10.293Z",
       "extra": null
     }
   ],

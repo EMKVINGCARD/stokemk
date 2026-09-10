@@ -7731,13 +7731,13 @@
       "name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
-      "quantity": 18,
+      "quantity": 21,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:30:21.955Z",
+      "updated_at": "2026-09-10T08:52:56.378Z",
       "stock_base_quantity": 18
     },
     {
@@ -8865,6 +8865,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T08:51:59.010Z",
       "created_at": "2026-09-10T08:51:59.010Z"
+    },
+    {
+      "id": "id-z3zy198kmtvaht4q",
+      "operation_id": "id-0x501704mtvaht4q",
+      "product_id": "id-2eaxsahqmtl9keog",
+      "product_code": "482459090",
+      "product_name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "taş konak",
+      "reason": "ayrıldı (1 tanesi daha önce ayrılan kilitte vardı o yüzden 4 tane toplam)",
+      "before_quantity": 18,
+      "after_quantity": 21,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:52:56.378Z",
+      "created_at": "2026-09-10T08:52:56.378Z"
     }
   ],
   "audit_log": [
@@ -14115,6 +14132,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T08:51:59.011Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-zfzyqi0dmtvaht4q",
+      "action": "Stok girişi",
+      "product_id": "id-2eaxsahqmtl9keog",
+      "product_code": "482459090",
+      "product_name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
+      "type": "in",
+      "quantity": 3,
+      "before_quantity": 18,
+      "after_quantity": 21,
+      "target_location": "taş konak",
+      "reason": "ayrıldı (1 tanesi daha önce ayrılan kilitte vardı o yüzden 4 tane toplam)",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:52:56.378Z",
       "extra": "Toplu işlem"
     }
   ],

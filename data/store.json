@@ -4152,13 +4152,13 @@
       "name": "ESSENCE V2 5351 KASET SET BLACK",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "B:37-44MM, ESS V2 BLE MAIN WOOD ANTBRASSLIGHT,BLACK,ANSI OFF",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-08T08:07:45.124Z",
+      "updated_at": "2026-09-10T07:00:19.415Z",
       "stock_base_quantity": 2
     },
     {
@@ -8705,6 +8705,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-10T06:59:46.937Z",
       "created_at": "2026-09-10T06:59:46.937Z"
+    },
+    {
+      "id": "id-gbzwhwzumtv6gzfb",
+      "operation_id": "id-c70gfthbmtv6gzfb",
+      "product_id": "id-dqgns810mtl9kems",
+      "product_code": "P000883457-118-525",
+      "product_name": "ESSENCE V2 5351 KASET SET BLACK",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 2,
+      "after_quantity": 0,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-10T07:00:19.415Z",
+      "created_at": "2026-09-10T07:00:19.415Z"
     }
   ],
   "audit_log": [
@@ -13819,6 +13836,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-10T06:59:46.937Z",
+      "extra": null
+    },
+    {
+      "id": "id-h3lstt8lmtv6gzfb",
+      "action": "Stok çıkışı",
+      "product_id": "id-dqgns810mtl9kems",
+      "product_code": "P000883457-118-525",
+      "product_name": "ESSENCE V2 5351 KASET SET BLACK",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 2,
+      "after_quantity": 0,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-10T07:00:19.415Z",
       "extra": null
     }
   ],

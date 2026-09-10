@@ -525,6 +525,12 @@
       "name": "swiss otel bosphorus",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-t0jrso0dmtva3z2s",
+      "name": "depo",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -7614,13 +7620,13 @@
       "name": "ADB A28 FRONT SATIN BRASS",
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 4,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM SATBRASS",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:29:53.559Z",
+      "updated_at": "2026-09-10T08:42:10.900Z",
       "stock_base_quantity": 5
     },
     {
@@ -8785,6 +8791,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T08:02:51.047Z",
       "created_at": "2026-09-10T08:02:51.047Z"
+    },
+    {
+      "id": "id-ki42ddjtmtva3z2s",
+      "operation_id": "id-mty2w3dzmtva3z2s",
+      "product_id": "id-izic0gxzmtl9keog",
+      "product_code": "481514362",
+      "product_name": "ADB A28 FRONT SATIN BRASS",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 5,
+      "after_quantity": 4,
+      "target_location": "depo",
+      "reason": "black tit oldu",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:42:10.900Z",
+      "created_at": "2026-09-10T08:42:10.900Z"
     }
   ],
   "audit_log": [
@@ -13967,6 +13990,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T08:02:51.048Z",
+      "extra": null
+    },
+    {
+      "id": "id-tu6xk7vmmtva3z2s",
+      "action": "Stok çıkışı",
+      "product_id": "id-izic0gxzmtl9keog",
+      "product_code": "481514362",
+      "product_name": "ADB A28 FRONT SATIN BRASS",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 5,
+      "after_quantity": 4,
+      "target_location": "depo",
+      "reason": "black tit oldu",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:42:10.900Z",
       "extra": null
     }
   ],

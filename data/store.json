@@ -3687,13 +3687,13 @@
       "name": "ANSI 28MM 3-SW ADB LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 15,
+      "quantity": 14,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB ADB 4.5V 28MM LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-08T08:03:50.313Z",
+      "updated_at": "2026-09-10T06:59:46.937Z",
       "stock_base_quantity": 15
     },
     {
@@ -8688,6 +8688,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-10T06:59:25.848Z",
       "created_at": "2026-09-10T06:59:25.848Z"
+    },
+    {
+      "id": "id-dx0c75vimtv6gad5",
+      "operation_id": "id-isgnoqpimtv6gad5",
+      "product_id": "id-kjmr5eg6mtl9kemo",
+      "product_code": "4813994A13",
+      "product_name": "ANSI 28MM 3-SW ADB LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 15,
+      "after_quantity": 14,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-10T06:59:46.937Z",
+      "created_at": "2026-09-10T06:59:46.937Z"
     }
   ],
   "audit_log": [
@@ -13785,6 +13802,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-10T06:59:25.851Z",
+      "extra": null
+    },
+    {
+      "id": "id-ebcelcstmtv6gad5",
+      "action": "Stok çıkışı",
+      "product_id": "id-kjmr5eg6mtl9kemo",
+      "product_code": "4813994A13",
+      "product_name": "ANSI 28MM 3-SW ADB LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 15,
+      "after_quantity": 14,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-10T06:59:46.937Z",
       "extra": null
     }
   ],

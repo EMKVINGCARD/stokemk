@@ -7116,13 +7116,13 @@
       "name": "A28 STD KARŞILIK SATIN CHROME",
       "category_id": "id-4gkyupz3mtk34t8p",
       "unit": "adet",
-      "quantity": 115,
+      "quantity": 116,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE ANSI, STSTEEL",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-08T09:26:14.591Z",
+      "updated_at": "2026-09-10T09:17:31.180Z",
       "stock_base_quantity": 114
     },
     {
@@ -9194,6 +9194,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T09:16:30.652Z",
       "created_at": "2026-09-10T09:16:30.652Z"
+    },
+    {
+      "id": "id-mzz6tm44mtvbdf3g",
+      "operation_id": "id-x4dmlpthmtvbdf3g",
+      "product_id": "id-t6otamg1mtl9keoe",
+      "product_code": "458633522",
+      "product_name": "A28 STD KARŞILIK SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 115,
+      "after_quantity": 116,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T09:17:31.180Z",
+      "created_at": "2026-09-10T09:17:31.180Z"
     }
   ],
   "audit_log": [
@@ -14768,6 +14785,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T09:16:30.652Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-dbgsqgn6mtvbdf3g",
+      "action": "Stok girişi",
+      "product_id": "id-t6otamg1mtl9keoe",
+      "product_code": "458633522",
+      "product_name": "A28 STD KARŞILIK SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 115,
+      "after_quantity": 116,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T09:17:31.180Z",
+      "extra": null
     }
   ],
   "settings": {

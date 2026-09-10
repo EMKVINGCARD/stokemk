@@ -3636,13 +3636,13 @@
       "name": "ANSI 28MM 4-SW RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW RH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-08T08:03:21.824Z",
+      "updated_at": "2026-09-10T09:16:30.652Z",
       "stock_base_quantity": 0
     },
     {
@@ -3651,13 +3651,13 @@
       "name": "ANSI 28MM 4-SW LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-08T08:03:25.601Z",
+      "updated_at": "2026-09-10T09:16:30.652Z",
       "stock_base_quantity": 1
     },
     {
@@ -9160,6 +9160,40 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T09:15:56.786Z",
       "created_at": "2026-09-10T09:15:56.786Z"
+    },
+    {
+      "id": "id-38e5ckaamtvbc4e4",
+      "operation_id": "id-5v7go476mtvbc4e4",
+      "product_id": "id-ytwm8671mtl9kemo",
+      "product_code": "4813864B13",
+      "product_name": "ANSI 28MM 4-SW RH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "before_quantity": 0,
+      "after_quantity": 1,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T09:16:30.652Z",
+      "created_at": "2026-09-10T09:16:30.652Z"
+    },
+    {
+      "id": "id-oyzq7uismtvbc4e4",
+      "operation_id": "id-u3bowmmomtvbc4e4",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "before_quantity": 1,
+      "after_quantity": 2,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T09:16:30.652Z",
+      "created_at": "2026-09-10T09:16:30.652Z"
     }
   ],
   "audit_log": [
@@ -14700,6 +14734,40 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T09:15:56.786Z",
       "extra": null
+    },
+    {
+      "id": "id-58u4op0wmtvbc4e4",
+      "action": "Stok girişi",
+      "product_id": "id-ytwm8671mtl9kemo",
+      "product_code": "4813864B13",
+      "product_name": "ANSI 28MM 4-SW RH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 0,
+      "after_quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T09:16:30.652Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-psbvwj7smtvbc4e4",
+      "action": "Stok girişi",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T09:16:30.652Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

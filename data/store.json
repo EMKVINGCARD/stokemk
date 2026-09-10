@@ -4311,13 +4311,13 @@
       "name": "ESSENCE V2 KAPAK SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 5,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-09-08T08:31:53.157Z",
+      "updated_at": "2026-09-10T09:01:22.821Z",
       "stock_base_quantity": 8
     },
     {
@@ -9055,6 +9055,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T09:00:38.053Z",
       "created_at": "2026-09-10T09:00:38.053Z"
+    },
+    {
+      "id": "id-taecbs32mtvasnwl",
+      "operation_id": "id-rpg4ui9zmtvasnwl",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 8,
+      "after_quantity": 5,
+      "target_location": "taş konak",
+      "reason": "1 tanesi daha önce ayrılan kilitten alındı, toplam 4",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T09:01:22.821Z",
+      "created_at": "2026-09-10T09:01:22.821Z"
     }
   ],
   "audit_log": [
@@ -14492,6 +14509,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T09:00:38.053Z",
+      "extra": null
+    },
+    {
+      "id": "id-aefaqmv3mtvasnwl",
+      "action": "Stok çıkışı",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 8,
+      "after_quantity": 5,
+      "target_location": "taş konak",
+      "reason": "1 tanesi daha önce ayrılan kilitten alındı, toplam 4",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T09:01:22.821Z",
       "extra": null
     }
   ],

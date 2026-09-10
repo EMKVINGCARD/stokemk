@@ -5916,13 +5916,13 @@
       "name": "WING RH SATIN CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 3,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME WING R / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME WING L",
       "created_at": "2026-09-03T08:29:16.203Z",
-      "updated_at": "2026-09-08T08:44:23.027Z",
+      "updated_at": "2026-09-10T09:15:00.712Z",
       "stock_base_quantity": 2
     },
     {
@@ -7506,13 +7506,13 @@
       "name": "A28 STD FRONT SATIN CHROME",
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
-      "quantity": 33,
+      "quantity": 34,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:28:37.915Z",
+      "updated_at": "2026-09-10T09:15:00.712Z",
       "stock_base_quantity": 32
     },
     {
@@ -9092,6 +9092,40 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T09:04:22.535Z",
       "created_at": "2026-09-10T09:04:22.535Z"
+    },
+    {
+      "id": "id-06punxbumtvba6zt",
+      "operation_id": "id-lqxyqbz5mtvba6zt",
+      "product_id": "id-51d1nopgmtl9kenf",
+      "product_code": "481633361AB / 481633561AA",
+      "product_name": "WING RH SATIN CHROME SET",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "before_quantity": 2,
+      "after_quantity": 3,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T09:15:00.712Z",
+      "created_at": "2026-09-10T09:15:00.712Z"
+    },
+    {
+      "id": "id-6qrdwhr4mtvba6zt",
+      "operation_id": "id-wvp7u1namtvba6zt",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "before_quantity": 33,
+      "after_quantity": 34,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T09:15:00.712Z",
+      "created_at": "2026-09-10T09:15:00.712Z"
     }
   ],
   "audit_log": [
@@ -14564,6 +14598,40 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T09:04:22.535Z",
       "extra": "Orijinal hareket silinmeden ters kayıt oluşturuldu"
+    },
+    {
+      "id": "id-70zyt1j6mtvba6zt",
+      "action": "Stok girişi",
+      "product_id": "id-51d1nopgmtl9kenf",
+      "product_code": "481633361AB / 481633561AA",
+      "product_name": "WING RH SATIN CHROME SET",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 2,
+      "after_quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T09:15:00.713Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-h9yurcljmtvba6zt",
+      "action": "Stok girişi",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 33,
+      "after_quantity": 34,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T09:15:00.713Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

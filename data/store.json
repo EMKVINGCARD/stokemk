@@ -4101,14 +4101,14 @@
       "name": "LCA 6343 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 19,
+      "quantity": 23,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-09T17:02:23.476Z",
-      "stock_base_quantity": 22
+      "updated_at": "2026-09-10T05:54:09.578Z",
+      "stock_base_quantity": 26
     },
     {
       "id": "id-2y8fpfaamtl9kems",
@@ -13404,6 +13404,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-09T17:02:38.747Z"
+    },
+    {
+      "id": "id-ekbe6l6wmtv43wav",
+      "action": "Ürün güncellendi",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "before": {
+        "id": "id-7x6timiwmtl9kems",
+        "code": "EOL",
+        "name": "LCA 6343 SIGNATURE/CLASSIC",
+        "category_id": "id-u03sm9tymtk34t8o",
+        "unit": "adet",
+        "quantity": 19,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-09T17:02:23.476Z",
+        "stock_base_quantity": 22
+      },
+      "after": {
+        "id": "id-7x6timiwmtl9kems",
+        "code": "EOL",
+        "name": "LCA 6343 SIGNATURE/CLASSIC",
+        "category_id": "id-u03sm9tymtk34t8o",
+        "unit": "adet",
+        "quantity": 23,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "EOL",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-10T05:54:09.578Z",
+        "stock_base_quantity": 26
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T05:54:09.607Z"
     }
   ],
   "movement_audit": [

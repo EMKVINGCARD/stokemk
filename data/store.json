@@ -537,6 +537,12 @@
       "name": "taş konak",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-gcw5lkaumtvh768p",
+      "name": "taş konak akyurt için",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1536,13 +1542,13 @@
       "name": "ESSENCE V2 ENDNODE KIT",
       "category_id": "id-5oi5rl6smtk34t8n",
       "unit": "adet",
-      "quantity": 38,
+      "quantity": 37,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "ONLINE KIT NEW ESSENCE V2",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:44:56.887Z",
+      "updated_at": "2026-09-10T12:00:37.465Z",
       "stock_base_quantity": 38
     },
     {
@@ -9228,6 +9234,23 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-09-10T11:24:27.984Z",
       "created_at": "2026-09-10T11:24:27.984Z"
+    },
+    {
+      "id": "id-u177ka9dmtvh768p",
+      "operation_id": "id-9skg2sddmtvh768p",
+      "product_id": "id-msrqblilmtl9kemc",
+      "product_code": "4827699",
+      "product_name": "ESSENCE V2 ENDNODE KIT",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 38,
+      "after_quantity": 37,
+      "target_location": "taş konak akyurt için",
+      "reason": "kilit seti için essence v2 online ,black tit straight, ansi 28 adb LH (A60,B36,C24)",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T12:00:37.465Z",
+      "created_at": "2026-09-10T12:00:37.465Z"
     }
   ],
   "audit_log": [
@@ -14835,6 +14858,23 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-10T11:24:27.985Z",
+      "extra": null
+    },
+    {
+      "id": "id-nli2eij1mtvh768p",
+      "action": "Stok çıkışı",
+      "product_id": "id-msrqblilmtl9kemc",
+      "product_code": "4827699",
+      "product_name": "ESSENCE V2 ENDNODE KIT",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 38,
+      "after_quantity": 37,
+      "target_location": "taş konak akyurt için",
+      "reason": "kilit seti için essence v2 online ,black tit straight, ansi 28 adb LH (A60,B36,C24)",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T12:00:37.465Z",
       "extra": null
     }
   ],

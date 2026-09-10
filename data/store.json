@@ -6906,13 +6906,13 @@
       "name": "DB BUTONU ALL METAL BLACK TITANIUM",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 3,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T METAL END",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-08T08:51:30.520Z",
+      "updated_at": "2026-09-10T08:58:01.034Z",
       "stock_base_quantity": 6
     },
     {
@@ -9004,6 +9004,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T08:57:23.068Z",
       "created_at": "2026-09-10T08:57:23.068Z"
+    },
+    {
+      "id": "id-794kc0lxmtvaoc7e",
+      "operation_id": "id-dvjq9xtamtvaoc7e",
+      "product_id": "id-k0e91qr8mtl9keod",
+      "product_code": "481865890",
+      "product_name": "DB BUTONU ALL METAL BLACK TITANIUM",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 6,
+      "after_quantity": 3,
+      "target_location": "taş konak",
+      "reason": "1 tanesi daha önce ayrılan kilitten, toplam 4",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:58:01.034Z",
+      "created_at": "2026-09-10T08:58:01.034Z"
     }
   ],
   "audit_log": [
@@ -14390,6 +14407,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T08:57:23.068Z",
+      "extra": null
+    },
+    {
+      "id": "id-yb7ka4jbmtvaoc7e",
+      "action": "Stok çıkışı",
+      "product_id": "id-k0e91qr8mtl9keod",
+      "product_code": "481865890",
+      "product_name": "DB BUTONU ALL METAL BLACK TITANIUM",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 6,
+      "after_quantity": 3,
+      "target_location": "taş konak",
+      "reason": "1 tanesi daha önce ayrılan kilitten, toplam 4",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:58:01.034Z",
       "extra": null
     }
   ],

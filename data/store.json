@@ -3387,13 +3387,13 @@
       "name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
       "category_id": "id-g0rn6savmtk34t8o",
       "unit": "adet",
-      "quantity": 311,
+      "quantity": 309,
       "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "BATTERY HOLDER 4.5V W/CABLE",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-09-08T08:01:16.152Z",
+      "updated_at": "2026-09-10T07:00:38.561Z",
       "stock_base_quantity": 312
     },
     {
@@ -8722,6 +8722,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-10T07:00:19.415Z",
       "created_at": "2026-09-10T07:00:19.415Z"
+    },
+    {
+      "id": "id-7eyunsk4mtv6he75",
+      "operation_id": "id-spp85vkgmtv6he75",
+      "product_id": "id-fvfbqrtlmtl9kemm",
+      "product_code": "4825011",
+      "product_name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 311,
+      "after_quantity": 309,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-10T07:00:38.561Z",
+      "created_at": "2026-09-10T07:00:38.561Z"
     }
   ],
   "audit_log": [
@@ -13853,6 +13870,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-10T07:00:19.415Z",
+      "extra": null
+    },
+    {
+      "id": "id-49yew51jmtv6he75",
+      "action": "Stok çıkışı",
+      "product_id": "id-fvfbqrtlmtl9kemm",
+      "product_code": "4825011",
+      "product_name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 311,
+      "after_quantity": 309,
+      "target_location": "The Edition Bodrum",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-10T07:00:38.561Z",
       "extra": null
     }
   ],

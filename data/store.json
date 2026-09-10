@@ -5976,13 +5976,13 @@
       "name": "WING RH BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Handle on outside rose Signature Black T Wing R /Handle on inside rose Signature Black T Wing L",
       "created_at": "2026-09-03T08:29:16.205Z",
-      "updated_at": "2026-09-08T08:44:33.076Z",
+      "updated_at": "2026-09-10T08:56:46.561Z",
       "stock_base_quantity": 4
     },
     {
@@ -8970,6 +8970,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T08:55:27.291Z",
       "created_at": "2026-09-10T08:55:27.291Z"
+    },
+    {
+      "id": "id-7c6yd5j2mtvamqqp",
+      "operation_id": "id-66m35an2mtvamqqp",
+      "product_id": "id-z53fn23imtl9kenh",
+      "product_code": "481633390AB/481633590AA",
+      "product_name": "WING RH BLACK TITANUM SET",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "taş konak",
+      "reason": "ayrıldı",
+      "before_quantity": 4,
+      "after_quantity": 2,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:56:46.561Z",
+      "created_at": "2026-09-10T08:56:46.561Z"
     }
   ],
   "audit_log": [
@@ -14322,6 +14339,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T08:55:27.291Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-18x50gysmtvamqqp",
+      "action": "Stok çıkışı",
+      "product_id": "id-z53fn23imtl9kenh",
+      "product_code": "481633390AB/481633590AA",
+      "product_name": "WING RH BLACK TITANUM SET",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 4,
+      "after_quantity": 2,
+      "target_location": "taş konak",
+      "reason": "ayrıldı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:56:46.561Z",
       "extra": "Toplu işlem"
     }
   ],

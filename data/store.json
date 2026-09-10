@@ -2166,13 +2166,13 @@
       "name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 66,
+      "quantity": 65,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "None",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:50:49.009Z",
+      "updated_at": "2026-09-10T11:24:27.984Z",
       "stock_base_quantity": 66
     },
     {
@@ -9211,6 +9211,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T09:17:31.180Z",
       "created_at": "2026-09-10T09:17:31.180Z"
+    },
+    {
+      "id": "id-84b9a7uwmtvfwo9d",
+      "operation_id": "id-rykwbnramtvfwo9c",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 66,
+      "after_quantity": 65,
+      "target_location": "Ana Depo",
+      "reason": "Sheraton Grand Samsun Sipariş",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-09-10T11:24:27.984Z",
+      "created_at": "2026-09-10T11:24:27.984Z"
     }
   ],
   "audit_log": [
@@ -14801,6 +14818,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T09:17:31.180Z",
+      "extra": null
+    },
+    {
+      "id": "id-kfuhsmfdmtvfwo9d",
+      "action": "Stok çıkışı",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 66,
+      "after_quantity": 65,
+      "target_location": "Ana Depo",
+      "reason": "Sheraton Grand Samsun Sipariş",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-10T11:24:27.985Z",
       "extra": null
     }
   ],

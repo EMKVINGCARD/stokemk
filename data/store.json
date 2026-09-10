@@ -6246,13 +6246,13 @@
       "name": "STRAIGHT BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE BLACK T STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-09-08T08:45:36.068Z",
+      "updated_at": "2026-09-10T08:57:23.068Z",
       "stock_base_quantity": 3
     },
     {
@@ -8987,6 +8987,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T08:56:46.561Z",
       "created_at": "2026-09-10T08:56:46.561Z"
+    },
+    {
+      "id": "id-c4tsl44emtvaniws",
+      "operation_id": "id-4ok6cmujmtvaniwr",
+      "product_id": "id-1kwmjzwxmtl9kenp",
+      "product_code": "481633390AC / 481633590AC",
+      "product_name": "STRAIGHT BLACK TITANUM SET",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 2,
+      "after_quantity": 1,
+      "target_location": "taş konak",
+      "reason": "ayrıldı.(1 tanesi daha önceden ayrılan kilitten) toplam 2",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:57:23.068Z",
+      "created_at": "2026-09-10T08:57:23.068Z"
     }
   ],
   "audit_log": [
@@ -14357,6 +14374,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T08:56:46.561Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-0uugywk7mtvaniws",
+      "action": "Stok çıkışı",
+      "product_id": "id-1kwmjzwxmtl9kenp",
+      "product_code": "481633390AC / 481633590AC",
+      "product_name": "STRAIGHT BLACK TITANUM SET",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 2,
+      "after_quantity": 1,
+      "target_location": "taş konak",
+      "reason": "ayrıldı.(1 tanesi daha önceden ayrılan kilitten) toplam 2",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:57:23.068Z",
+      "extra": null
     }
   ],
   "settings": {

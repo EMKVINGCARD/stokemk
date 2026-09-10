@@ -516,13 +516,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2990,
+      "quantity": 2997,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-09T18:24:36.676Z",
+      "updated_at": "2026-09-10T04:20:09.802Z",
       "stock_base_quantity": 3297
     },
     {
@@ -8607,7 +8607,9 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-09T18:01:04.894Z",
-      "created_at": "2026-09-09T18:01:04.894Z"
+      "created_at": "2026-09-09T18:01:04.894Z",
+      "reversed_at": "2026-09-10T04:20:09.802Z",
+      "reversed_by": "id-umv29fzpmtk3a4nj"
     },
     {
       "id": "id-4045ub96mtufgsff",
@@ -8645,6 +8647,24 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-09T18:24:36.676Z",
       "created_at": "2026-09-09T18:24:36.676Z"
+    },
+    {
+      "id": "id-5ov4ygj5mtv0r0ln",
+      "operation_id": "id-paxaq1u2mtv0r0ln",
+      "reversal_of": "id-o8zy30ugmtuemvem",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "in",
+      "quantity": 7,
+      "before_quantity": 2990,
+      "after_quantity": 2997,
+      "target_location": "deneme2",
+      "reason": "Önceki stok hareketinin ters işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T04:20:09.802Z",
+      "created_at": "2026-09-10T04:20:09.802Z"
     }
   ],
   "audit_log": [
@@ -13588,6 +13608,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-09T18:24:36.677Z",
+      "extra": "Orijinal hareket silinmeden ters kayıt oluşturuldu"
+    },
+    {
+      "id": "id-1k2lqmz5mtv0r0ln",
+      "action": "Stok hareketi tersine çevrildi",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "in",
+      "quantity": 7,
+      "before_quantity": 2990,
+      "after_quantity": 2997,
+      "target_location": "deneme2",
+      "reason": "Önceki stok hareketinin ters işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T04:20:09.803Z",
       "extra": "Orijinal hareket silinmeden ters kayıt oluşturuldu"
     }
   ],

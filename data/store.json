@@ -4176,13 +4176,13 @@
       "name": "ESSENCE V2 5351 KASET SET BLACK",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 3,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "B:37-44MM, ESS V2 BLE MAIN WOOD ANTBRASSLIGHT,BLACK,ANSI OFF",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-10T07:00:19.415Z",
+      "updated_at": "2026-09-10T08:59:38.625Z",
       "stock_base_quantity": 2
     },
     {
@@ -9021,6 +9021,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T08:58:01.034Z",
       "created_at": "2026-09-10T08:58:01.034Z"
+    },
+    {
+      "id": "id-nt9u101dmtvaqfi9",
+      "operation_id": "id-fu0kqzgumtvaqfi9",
+      "product_id": "id-dqgns810mtl9kems",
+      "product_code": "P000883457-118-525",
+      "product_name": "ESSENCE V2 5351 KASET SET BLACK",
+      "type": "in",
+      "quantity": 3,
+      "before_quantity": 0,
+      "after_quantity": 3,
+      "target_location": "depo",
+      "reason": "ayrılan kilit için frontları ve reader kapakları takılarak hazırlandı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:59:38.625Z",
+      "created_at": "2026-09-10T08:59:38.625Z"
     }
   ],
   "audit_log": [
@@ -14424,6 +14441,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T08:58:01.034Z",
+      "extra": null
+    },
+    {
+      "id": "id-xcwoi0u0mtvaqfi9",
+      "action": "Stok girişi",
+      "product_id": "id-dqgns810mtl9kems",
+      "product_code": "P000883457-118-525",
+      "product_name": "ESSENCE V2 5351 KASET SET BLACK",
+      "type": "in",
+      "quantity": 3,
+      "before_quantity": 0,
+      "after_quantity": 3,
+      "target_location": "depo",
+      "reason": "ayrılan kilit için frontları ve reader kapakları takılarak hazırlandı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:59:38.625Z",
       "extra": null
     }
   ],

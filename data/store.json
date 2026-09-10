@@ -531,6 +531,12 @@
       "name": "depo",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-r0i211pbmtvagkv6",
+      "name": "taş konak",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -7305,13 +7311,13 @@
       "name": "ADB A28 KARŞILIK LH BLACK TITANIUM PVD",
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 3,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, LEFT BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:27:37.263Z",
+      "updated_at": "2026-09-10T08:51:59.010Z",
       "stock_base_quantity": 5
     },
     {
@@ -7410,13 +7416,13 @@
       "name": "ADB A28 KARŞILIK RH BLACK TITANIUM PVD",
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 4,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, RIGHT BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:27:59.387Z",
+      "updated_at": "2026-09-10T08:51:59.010Z",
       "stock_base_quantity": 6
     },
     {
@@ -8825,6 +8831,40 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-10T08:42:29.809Z",
       "created_at": "2026-09-10T08:42:29.809Z"
+    },
+    {
+      "id": "id-wh35qm9hmtvagkv6",
+      "operation_id": "id-nwy1wmojmtvagkv6",
+      "product_id": "id-udy1ofu4mtl9keog",
+      "product_code": "P001010191-001-290",
+      "product_name": "ADB A28 KARŞILIK LH BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "taş konak",
+      "reason": "ayrıldı",
+      "before_quantity": 5,
+      "after_quantity": 3,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:51:59.010Z",
+      "created_at": "2026-09-10T08:51:59.010Z"
+    },
+    {
+      "id": "id-67bdgvf8mtvagkv7",
+      "operation_id": "id-vpa7x5sfmtvagkv7",
+      "product_id": "id-qiww4vhbmtl9keog",
+      "product_code": "P001010191-002-290",
+      "product_name": "ADB A28 KARŞILIK RH BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "taş konak",
+      "reason": "ayrıldı",
+      "before_quantity": 6,
+      "after_quantity": 4,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:51:59.010Z",
+      "created_at": "2026-09-10T08:51:59.010Z"
     }
   ],
   "audit_log": [
@@ -14042,6 +14082,40 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T08:42:29.809Z",
       "extra": null
+    },
+    {
+      "id": "id-0w30vsbxmtvagkv7",
+      "action": "Stok çıkışı",
+      "product_id": "id-udy1ofu4mtl9keog",
+      "product_code": "P001010191-001-290",
+      "product_name": "ADB A28 KARŞILIK LH BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 5,
+      "after_quantity": 3,
+      "target_location": "taş konak",
+      "reason": "ayrıldı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:51:59.011Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-hh99b424mtvagkv7",
+      "action": "Stok çıkışı",
+      "product_id": "id-qiww4vhbmtl9keog",
+      "product_code": "P001010191-002-290",
+      "product_name": "ADB A28 KARŞILIK RH BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 6,
+      "after_quantity": 4,
+      "target_location": "taş konak",
+      "reason": "ayrıldı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:51:59.011Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

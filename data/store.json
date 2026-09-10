@@ -519,6 +519,12 @@
       "name": "Radisson Blu Şişli",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-7v2c47n8mtv8pe7b",
+      "name": "swiss otel bosphorus",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2808,13 +2814,13 @@
       "name": "RFID ENCODER UPDATER",
       "category_id": "id-y66x0cekmtk34t8n",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 3,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "RFID ENCODER & UPDATER COMPLETE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:04:12.943Z",
+      "updated_at": "2026-09-10T08:02:51.047Z",
       "stock_base_quantity": 4
     },
     {
@@ -8762,6 +8768,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-10T07:05:10.293Z",
       "created_at": "2026-09-10T07:05:10.293Z"
+    },
+    {
+      "id": "id-cj0wk00emtv8pe7b",
+      "operation_id": "id-tp0bqxb6mtv8pe7b",
+      "product_id": "id-wnfnugxlmtl9kemh",
+      "product_code": "681001030",
+      "product_name": "RFID ENCODER UPDATER",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 4,
+      "after_quantity": 3,
+      "target_location": "swiss otel bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-10T08:02:51.047Z",
+      "created_at": "2026-09-10T08:02:51.047Z"
     }
   ],
   "audit_log": [
@@ -13927,6 +13950,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-10T07:05:10.293Z",
+      "extra": null
+    },
+    {
+      "id": "id-r9gauijmmtv8pe7c",
+      "action": "Stok çıkışı",
+      "product_id": "id-wnfnugxlmtl9kemh",
+      "product_code": "681001030",
+      "product_name": "RFID ENCODER UPDATER",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 4,
+      "after_quantity": 3,
+      "target_location": "swiss otel bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-10T08:02:51.048Z",
       "extra": null
     }
   ],

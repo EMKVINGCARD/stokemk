@@ -714,7 +714,7 @@ function renderProducts(){
         ${c.total_value?`<td class="text-right mono font-semibold">${fmtTRY((p.quantity||0)*(p.unit_price||0))}</td>`:""}
         <td class="text-right">${isAdmin?`<button class="btn btn-ghost btn-sm" onclick="productModal('${p.id}')">Düzenle</button><button class="btn btn-ghost btn-sm" onclick="showProductHistory('${p.id}')">Geçmiş</button><button class="btn btn-ghost btn-sm" onclick="deleteProduct('${p.id}')">Sil</button>`:`<span class="text-xs text-slate-400">Sadece görüntüleme</span>`}</td>
       </tr>`;}).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Ürün bulunamadı</td></tr>`}</tbody>
-    </table></div>${totalPages>1?`<div class="flex items-center justify-between gap-3 flex-wrap p-4 border-t border-slate-200"><span class="text-sm text-slate-500">Sayfa ${mvPage} / ${totalPages} · ${items.length} kayıt</span><div class="flex gap-2"><button class="btn btn-outline btn-sm" ${mvPage<=1?"disabled":""} onclick="mvPage--;renderMovements()">Önceki</button><button class="btn btn-outline btn-sm" ${mvPage>=totalPages?"disabled":""} onclick="mvPage++;renderMovements()">Sonraki</button></div></div>`:""}</div>`;
+    </table></div>`;
 }
 function productModal(id){
   if(!currentUser() || currentUser().role !== "admin"){toast("Bu işlem için yetkiniz yok","error");return;}
@@ -939,7 +939,7 @@ function renderMovements(){
         ${c.reason?`<td class="text-sm text-slate-500">${m.reason||"—"}</td>`:""}
         <td><button class="btn btn-ghost btn-sm" onclick="deleteMovement('${m.id}')">Sil</button></td>
       </tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Hareket bulunamadı</td></tr>`}</tbody>
-    </table></div>`;
+    </table></div>${totalPages>1?`<div class="flex items-center justify-between gap-3 flex-wrap p-4 border-t border-slate-200"><span class="text-sm text-slate-500">Sayfa ${mvPage} / ${totalPages} · ${items.length} kayıt</span><div class="flex gap-2"><button class="btn btn-outline btn-sm" ${mvPage<=1?"disabled":""} onclick="mvPage--;renderMovements()">Önceki</button><button class="btn btn-outline btn-sm" ${mvPage>=totalPages?"disabled":""} onclick="mvPage++;renderMovements()">Sonraki</button></div></div>`:""}`;
 }
 let mvPicker={q:"",productId:""};
 let bulkPicker={q:"",selected:[]};

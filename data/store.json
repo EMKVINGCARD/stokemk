@@ -1548,13 +1548,13 @@
       "name": "ESSENCE V2 ENDNODE KIT",
       "category_id": "id-5oi5rl6smtk34t8n",
       "unit": "adet",
-      "quantity": 37,
+      "quantity": 34,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "ONLINE KIT NEW ESSENCE V2",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-10T12:00:37.465Z",
+      "updated_at": "2026-09-11T12:15:18.863Z",
       "stock_base_quantity": 38
     },
     {
@@ -9291,6 +9291,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-11T06:24:17.293Z",
       "created_at": "2026-09-11T06:24:17.293Z"
+    },
+    {
+      "id": "id-w1xd67vxmtwx5wzz",
+      "operation_id": "id-ndg57hqzmtwx5wzz",
+      "product_id": "id-msrqblilmtl9kemc",
+      "product_code": "4827699",
+      "product_name": "ESSENCE V2 ENDNODE KIT",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 37,
+      "after_quantity": 34,
+      "target_location": "taş konak",
+      "reason": "mockup oda için",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-11T12:15:18.863Z",
+      "created_at": "2026-09-11T12:15:18.863Z"
     }
   ],
   "audit_log": [
@@ -14949,6 +14966,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-11T06:24:17.296Z",
+      "extra": null
+    },
+    {
+      "id": "id-yapg3so7mtwx5wzz",
+      "action": "Stok çıkışı",
+      "product_id": "id-msrqblilmtl9kemc",
+      "product_code": "4827699",
+      "product_name": "ESSENCE V2 ENDNODE KIT",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 37,
+      "after_quantity": 34,
+      "target_location": "taş konak",
+      "reason": "mockup oda için",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-11T12:15:18.863Z",
       "extra": null
     }
   ],

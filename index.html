@@ -714,7 +714,7 @@ function renderProducts(){
         ${c.total_value?`<td class="text-right mono font-semibold">${fmtTRY((p.quantity||0)*(p.unit_price||0))}</td>`:""}
         <td class="text-right">${isAdmin?`<button class="btn btn-ghost btn-sm" onclick="productModal('${p.id}')">Düzenle</button><button class="btn btn-ghost btn-sm" onclick="showProductHistory('${p.id}')">Geçmiş</button><button class="btn btn-ghost btn-sm" onclick="deleteProduct('${p.id}')">Sil</button>`:`<span class="text-xs text-slate-400">Sadece görüntüleme</span>`}</td>
       </tr>`;}).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Ürün bulunamadı</td></tr>`}</tbody>
-    </table></div>`;
+    </table></div>${totalPages>1?`<div class="flex items-center justify-between gap-3 flex-wrap p-4 border-t border-slate-200"><span class="text-sm text-slate-500">Sayfa ${mvPage} / ${totalPages} · ${items.length} kayıt</span><div class="flex gap-2"><button class="btn btn-outline btn-sm" ${mvPage<=1?"disabled":""} onclick="mvPage--;renderMovements()">Önceki</button><button class="btn btn-outline btn-sm" ${mvPage>=totalPages?"disabled":""} onclick="mvPage++;renderMovements()">Sonraki</button></div></div>`:""}</div>`;
 }
 function productModal(id){
   if(!currentUser() || currentUser().role !== "admin"){toast("Bu işlem için yetkiniz yok","error");return;}
@@ -897,7 +897,8 @@ function importProductsExcel(e){
 }
 /* ============ MOVEMENTS ============ */
 let mvFilter={type:"all",q:"",start:"",end:"",sort:"date_desc"};
-function clearMovementSearch(){mvFilter.q="";renderMovements();setTimeout(()=>document.querySelector('[data-mv-search]')?.focus(),0);}
+let mvPage=1;const PAGE_SIZE=30;
+function clearMovementSearch(){mvFilter.q="";mvPage=1;renderMovements();setTimeout(()=>document.querySelector('[data-mv-search]')?.focus(),0);}
 function renderMovements(){
   const u=currentUser();
   const c=state.settings.cols.movements;
@@ -909,17 +910,18 @@ function renderMovements(){
     if(mvFilter.end&&m.happened_at>new Date(mvFilter.end+"T23:59:59").toISOString())return false;
     return true;
   }).sort((a,b)=>mvFilter.sort==="date_asc"?a.happened_at.localeCompare(b.happened_at):mvFilter.sort==="qty_desc"?b.quantity-a.quantity:mvFilter.sort==="qty_asc"?a.quantity-b.quantity:(mvFilter.sort==="name_asc"?(a.product_name||"").localeCompare(b.product_name||"", "tr"):(b.happened_at.localeCompare(a.happened_at))));
+  const totalPages=Math.max(1,Math.ceil(items.length/PAGE_SIZE));mvPage=Math.min(Math.max(1,mvPage),totalPages);const pageItems=items.slice((mvPage-1)*PAGE_SIZE,mvPage*PAGE_SIZE);
   document.getElementById("pageBody").innerHTML=`
     <div class="flex justify-between items-end flex-wrap gap-4 mb-6">
       <div><h1 class="text-3xl font-bold tracking-tight">Stok Hareketleri</h1><p class="text-sm text-slate-500 mt-1">${items.length} kayıt</p></div>
       <div class="flex gap-2 flex-wrap"><button class="btn btn-outline" onclick="bulkMovementModal()">Toplu İşlem</button><button class="btn btn-success" onclick="movementModal('in')">Stok Girişi</button><button class="btn btn-danger" onclick="movementModal('out')">Stok Çıkışı</button></div>
     </div>
     <div class="card p-4 mb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
-      <select class="input" onchange="mvFilter.type=this.value;renderMovements()"><option value="all">Tüm Tipler</option><option value="in" ${mvFilter.type==="in"?"selected":""}>Giriş</option><option value="out" ${mvFilter.type==="out"?"selected":""}>Çıkış</option></select>
-      <input type="date" class="input" value="${mvFilter.start}" onchange="mvFilter.start=this.value;renderMovements()" title="Başlangıç tarihi" />
-      <input type="date" class="input" value="${mvFilter.end}" onchange="mvFilter.end=this.value;renderMovements()" title="Bitiş tarihi" />
-      <select class="input" onchange="mvFilter.sort=this.value;renderMovements()"><option value="date_desc" ${mvFilter.sort==="date_desc"?"selected":""}>Yeni hareketler</option><option value="date_asc" ${mvFilter.sort==="date_asc"?"selected":""}>Eski hareketler</option><option value="qty_desc" ${mvFilter.sort==="qty_desc"?"selected":""}>Miktar çoktan aza</option><option value="qty_asc" ${mvFilter.sort==="qty_asc"?"selected":""}>Miktar azdan çoğa</option><option value="name_asc" ${mvFilter.sort==="name_asc"?"selected":""}>Ürün adına göre</option></select>
-      <div class="flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${mvFilter.q}" oninput="mvFilter.q=this.value;renderMovements();setTimeout(()=>{const el=document.querySelector('[data-mv-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-mv-search /><button type="button" class="btn btn-outline" onclick="clearMovementSearch()" title="Aramayı temizle">Temizle</button></div>
+      <select class="input" onchange="mvFilter.type=this.value;mvPage=1;renderMovements()"><option value="all">Tüm Tipler</option><option value="in" ${mvFilter.type==="in"?"selected":""}>Giriş</option><option value="out" ${mvFilter.type==="out"?"selected":""}>Çıkış</option></select>
+      <input type="date" class="input" value="${mvFilter.start}" onchange="mvFilter.start=this.value;mvPage=1;renderMovements()" title="Başlangıç tarihi" />
+      <input type="date" class="input" value="${mvFilter.end}" onchange="mvFilter.end=this.value;mvPage=1;renderMovements()" title="Bitiş tarihi" />
+      <select class="input" onchange="mvFilter.sort=this.value;mvPage=1;renderMovements()"><option value="date_desc" ${mvFilter.sort==="date_desc"?"selected":""}>Yeni hareketler</option><option value="date_asc" ${mvFilter.sort==="date_asc"?"selected":""}>Eski hareketler</option><option value="qty_desc" ${mvFilter.sort==="qty_desc"?"selected":""}>Miktar çoktan aza</option><option value="qty_asc" ${mvFilter.sort==="qty_asc"?"selected":""}>Miktar azdan çoğa</option><option value="name_asc" ${mvFilter.sort==="name_asc"?"selected":""}>Ürün adına göre</option></select>
+      <div class="flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${mvFilter.q}" oninput="mvFilter.q=this.value;mvPage=1;renderMovements();setTimeout(()=>{const el=document.querySelector('[data-mv-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-mv-search /><button type="button" class="btn btn-outline" onclick="clearMovementSearch()" title="Aramayı temizle">Temizle</button></div>
     </div>
     <div class="card overflow-x-auto"><table>
       <thead><tr>
@@ -927,7 +929,7 @@ function renderMovements(){
         ${c.type?"<th>Tip</th>":""}${c.quantity?`<th class="text-right">Miktar</th>`:""}
         ${c.location?"<th>Lokasyon</th>":""}${c.reason?"<th>Sebep</th>":""}<th></th>
       </tr></thead>
-      <tbody>${items.length?items.map(m=>`<tr>
+      <tbody>${pageItems.length?pageItems.map(m=>`<tr>
         ${c.date?`<td class="text-xs text-slate-500">${fmtDate(m.happened_at)}</td>`:""}
         ${c.user?`<td>${m.user_name}</td>`:""}
         ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td title="${movementStockLabel(m)}" class="cursor-help">${m.product_name}</td>`:""}
@@ -982,7 +984,18 @@ function pickMvProduct(id){
   sel.classList.remove("hidden");
 }
 function recordMovementAudit(action,m,extra){const u=currentUser();state.movement_audit=state.movement_audit||[];state.movement_audit.push({id:uid(),action,product_id:m.product_id,product_code:m.product_code,product_name:m.product_name,type:m.type,quantity:m.quantity,before_quantity:m.before_quantity,after_quantity:m.after_quantity,target_location:m.target_location||null,reason:m.reason||null,user_id:u&&u.id,user_name:u&&(u.name||u.username),created_at:nowISO(),extra:extra||null});}
-function renderMovementAudit(){const logs=[...(state.movement_audit||[])].sort((a,b)=>b.created_at.localeCompare(a.created_at));document.getElementById("adminPanel").innerHTML=`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><div><h3 class="font-semibold">Stok Hareketleri İşlem Geçmişi</h3><p class="text-sm text-slate-500 mt-1">Kullanıcıların yaptığı stok giriş, çıkış ve silme işlemleri.</p></div><span class="badge bg-slate-100 text-slate-700">${logs.length} kayıt</span></div><div class="overflow-x-auto"><table><thead><tr><th>Tarih</th><th>Kullanıcı</th><th>İşlem</th><th>Ürün Kodu</th><th>Ürün Adı</th><th>Miktar</th><th>Lokasyon</th><th>Açıklama</th></tr></thead><tbody>${logs.length?logs.map(x=>`<tr><td class="text-xs text-slate-500">${fmtDate(x.created_at)}</td><td class="font-medium">${x.user_name||"—"}</td><td>${x.action==="Stok girişi"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:x.action==="Stok çıkışı"?`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`:`<span class="badge bg-slate-100 text-slate-700">TERS İŞLEM</span>`}</td><td class="mono text-xs">${x.product_code||"—"}</td><td>${x.product_name||"—"}</td><td class="mono">${x.quantity===null||x.quantity===undefined?"—":fmtNum(x.quantity)}</td><td>${x.target_location||"—"}</td><td class="text-sm text-slate-500">${x.reason||x.extra||"—"}${x.before_quantity!==undefined?` · ${fmtNum(x.before_quantity)} → ${fmtNum(x.after_quantity)}`:""}</td></tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Henüz stok işlem geçmişi yok.</td></tr>`}</tbody></table></div></div>`;}
+function renderMovementAudit(){
+  const allLogs=[...(state.movement_audit||[])].filter(x=>{
+    if(auditFilter.type!=="all"&&x.type!==auditFilter.type)return false;
+    if(auditFilter.start&&x.created_at<new Date(auditFilter.start+"T00:00").toISOString())return false;
+    if(auditFilter.end&&x.created_at>new Date(auditFilter.end+"T23:59:59").toISOString())return false;
+    if(auditFilter.q){const q=normTr(auditFilter.q);const hay=normTr([x.product_code,x.product_name,x.user_name,x.reason,x.extra,x.action].join(" "));if(!q.split(" ").every(t=>hay.includes(t)))return false;}
+    return true;
+  }).sort((a,b)=>b.created_at.localeCompare(a.created_at));
+  const totalPages=Math.max(1,Math.ceil(allLogs.length/PAGE_SIZE));auditFilter.page=Math.min(Math.max(1,auditFilter.page),totalPages);const logs=allLogs.slice((auditFilter.page-1)*PAGE_SIZE,auditFilter.page*PAGE_SIZE);
+  document.getElementById("adminPanel").innerHTML=`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><div><h3 class="font-semibold">Stok Hareketleri İşlem Geçmişi</h3><p class="text-sm text-slate-500 mt-1">Kullanıcıların yaptığı stok giriş, çıkış ve ters işlem kayıtları.</p></div><span class="badge bg-slate-100 text-slate-700">${allLogs.length} kayıt</span></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-4"><select class="input" onchange="auditFilter.type=this.value;auditFilter.page=1;renderMovementAudit()"><option value="all">Tüm Tipler</option><option value="in" ${auditFilter.type==="in"?"selected":""}>Giriş</option><option value="out" ${auditFilter.type==="out"?"selected":""}>Çıkış</option></select><input type="date" class="input" value="${auditFilter.start}" onchange="auditFilter.start=this.value;auditFilter.page=1;renderMovementAudit()" title="Başlangıç tarihi" /><input type="date" class="input" value="${auditFilter.end}" onchange="auditFilter.end=this.value;auditFilter.page=1;renderMovementAudit()" title="Bitiş tarihi" /><div class="flex gap-2"><input class="input" placeholder="Kod, ürün, kullanıcı veya açıklama ara" value="${auditFilter.q}" oninput="auditFilter.q=this.value;auditFilter.page=1;renderMovementAudit()" /><button class="btn btn-outline" type="button" onclick="auditFilter.q='';auditFilter.page=1;renderMovementAudit()">Temizle</button></div></div><div class="overflow-x-auto"><table><thead><tr><th>Tarih</th><th>Kullanıcı</th><th>İşlem</th><th>Ürün Kodu</th><th>Ürün Adı</th><th>Miktar</th><th>Lokasyon</th><th>Açıklama</th></tr></thead><tbody>${logs.length?logs.map(x=>`<tr><td class="text-xs text-slate-500">${fmtDate(x.created_at)}</td><td class="font-medium">${x.user_name||"—"}</td><td>${x.action==="Stok girişi"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:x.action==="Stok çıkışı"?`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`:`<span class="badge bg-slate-100 text-slate-700">TERS İŞLEM</span>`}</td><td class="mono text-xs">${x.product_code||"—"}</td><td>${x.product_name||"—"}</td><td class="mono">${x.quantity===null||x.quantity===undefined?"—":fmtNum(x.quantity)}</td><td>${x.target_location||"—"}</td><td class="text-sm text-slate-500">${x.reason||x.extra||"—"}${x.before_quantity!==undefined?` · ${fmtNum(x.before_quantity)} → ${fmtNum(x.after_quantity)}`:""}</td></tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Kayıt bulunamadı</td></tr>`}</tbody></table></div>${totalPages>1?`<div class="flex items-center justify-between gap-3 flex-wrap mt-4 pt-4 border-t border-slate-200"><span class="text-sm text-slate-500">Sayfa ${auditFilter.page} / ${totalPages} · ${allLogs.length} kayıt</span><div class="flex gap-2"><button class="btn btn-outline btn-sm" ${auditFilter.page<=1?"disabled":""} onclick="auditFilter.page--;renderMovementAudit()">Önceki</button><button class="btn btn-outline btn-sm" ${auditFilter.page>=totalPages?"disabled":""} onclick="auditFilter.page++;renderMovementAudit()">Sonraki</button></div></div>`:""}</div>`;
+}
+let auditFilter={type:"all",q:"",start:"",end:"",page:1};
 function saveMovement(e,type){
   e.preventDefault();const fd=new FormData(e.target);const d={type};fd.forEach((v,k)=>d[k]=v);d.quantity=+d.quantity;
   const p=state.products.find(x=>x.id===d.product_id);if(!p){toast("Ürün seçin","error");return;}

@@ -549,6 +549,12 @@
       "name": "Conrad Hotel İstanbul",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-g6nbcm1lmtx0pbik",
+      "name": "Xante Resort Otel",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3618,13 +3624,13 @@
       "name": "ANSI 3 SWT MOTOR",
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
-      "quantity": 7,
+      "quantity": 3,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "9 TO 4.5V LOCK MOTOR CONVERSION KIT ANSI",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-08T08:02:50.881Z",
+      "updated_at": "2026-09-11T13:54:22.988Z",
       "stock_base_quantity": 7
     },
     {
@@ -3633,13 +3639,13 @@
       "name": "ANSI 4 SWT MOTOR",
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
-      "quantity": 60,
+      "quantity": 56,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Blocking mechanism 4404",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-08T08:02:54.533Z",
+      "updated_at": "2026-09-11T13:54:22.988Z",
       "stock_base_quantity": 60
     },
     {
@@ -9308,6 +9314,40 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-11T12:15:18.863Z",
       "created_at": "2026-09-11T12:15:18.863Z"
+    },
+    {
+      "id": "id-hjo6zallmtx0pbik",
+      "operation_id": "id-nshw5l0amtx0pbik",
+      "product_id": "id-c989cq1rmtl9kemo",
+      "product_code": "P000730270-002-001",
+      "product_name": "ANSI 4 SWT MOTOR",
+      "type": "out",
+      "quantity": 4,
+      "target_location": "Xante Resort Otel",
+      "reason": "gelen malzeme tamiri için",
+      "before_quantity": 60,
+      "after_quantity": 56,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-11T13:54:22.988Z",
+      "created_at": "2026-09-11T13:54:22.988Z"
+    },
+    {
+      "id": "id-pfnnub1tmtx0pbik",
+      "operation_id": "id-uln1eb22mtx0pbik",
+      "product_id": "id-oi20shtfmtl9kemo",
+      "product_code": "8404510",
+      "product_name": "ANSI 3 SWT MOTOR",
+      "type": "out",
+      "quantity": 4,
+      "target_location": "Xante Resort Otel",
+      "reason": "gelen malzeme tamiri için",
+      "before_quantity": 7,
+      "after_quantity": 3,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-11T13:54:22.988Z",
+      "created_at": "2026-09-11T13:54:22.988Z"
     }
   ],
   "audit_log": [
@@ -14984,6 +15024,40 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-11T12:15:18.863Z",
       "extra": null
+    },
+    {
+      "id": "id-fr9k9kzumtx0pbik",
+      "action": "Stok çıkışı",
+      "product_id": "id-c989cq1rmtl9kemo",
+      "product_code": "P000730270-002-001",
+      "product_name": "ANSI 4 SWT MOTOR",
+      "type": "out",
+      "quantity": 4,
+      "before_quantity": 60,
+      "after_quantity": 56,
+      "target_location": "Xante Resort Otel",
+      "reason": "gelen malzeme tamiri için",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-11T13:54:22.988Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-53gsrfhmmtx0pbik",
+      "action": "Stok çıkışı",
+      "product_id": "id-oi20shtfmtl9kemo",
+      "product_code": "8404510",
+      "product_name": "ANSI 3 SWT MOTOR",
+      "type": "out",
+      "quantity": 4,
+      "before_quantity": 7,
+      "after_quantity": 3,
+      "target_location": "Xante Resort Otel",
+      "reason": "gelen malzeme tamiri için",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-11T13:54:22.988Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

@@ -545,8 +545,8 @@
       "auto_created": true
     },
     {
-      "id": "id-r57fkdlfmtwkmhsd",
-      "name": "Park Inn by Raddisson Ataşehir",
+      "id": "id-fdi5gwjpmtwkmhef",
+      "name": "Conrad Hotel İstanbul",
       "kind": "diger",
       "auto_created": true
     }
@@ -588,13 +588,13 @@
       "name": "4K PLUS EV1 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2820,
+      "quantity": 2795,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "EXPIRED RFID KEYCARD MIFARE PLUS EV1 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T09:20:51.932Z",
+      "updated_at": "2026-09-11T06:24:16.791Z",
       "stock_base_quantity": 2820
     },
     {
@@ -9259,6 +9259,23 @@
       "created_at": "2026-09-10T12:00:37.465Z"
     },
     {
+      "id": "id-8frrxfqimtwkmheg",
+      "operation_id": "id-jtfau3dmmtwkmhef",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 25,
+      "before_quantity": 2820,
+      "after_quantity": 2795,
+      "target_location": "Conrad Hotel İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-11T06:24:16.791Z",
+      "created_at": "2026-09-11T06:24:16.791Z"
+    },
+    {
       "id": "id-4ociurbzmtwkmhsg",
       "operation_id": "id-5zl451ulmtwkmhsd",
       "product_id": "id-vp6u11jwmtl9kemb",
@@ -14898,6 +14915,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T12:00:37.465Z",
+      "extra": null
+    },
+    {
+      "id": "id-pbta9ul1mtwkmheg",
+      "action": "Stok çıkışı",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 25,
+      "before_quantity": 2820,
+      "after_quantity": 2795,
+      "target_location": "Conrad Hotel İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-11T06:24:16.792Z",
       "extra": null
     },
     {

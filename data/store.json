@@ -1881,17 +1881,17 @@
     },
     {
       "id": "id-lc21ktrxmtl9keme",
-      "code": "YOK",
+      "code": "EOL",
       "name": "DOOR RETAINER SATIN BRASS ESKİ TİP",
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
       "quantity": 3,
-      "critical_level": 2,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.166Z",
-      "updated_at": "2026-09-08T06:50:38.535Z",
+      "updated_at": "2026-09-14T10:35:37.945Z",
       "stock_base_quantity": 3
     },
     {
@@ -14628,6 +14628,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-14T10:35:33.005Z"
+    },
+    {
+      "id": "id-86ue9k9fmu13xa3d",
+      "action": "Ürün güncellendi",
+      "product_id": "id-lc21ktrxmtl9keme",
+      "product_code": "EOL",
+      "product_name": "DOOR RETAINER SATIN BRASS ESKİ TİP",
+      "before": {
+        "id": "id-lc21ktrxmtl9keme",
+        "code": "YOK",
+        "name": "DOOR RETAINER SATIN BRASS ESKİ TİP",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-08T06:50:38.535Z",
+        "stock_base_quantity": 3
+      },
+      "after": {
+        "id": "id-lc21ktrxmtl9keme",
+        "code": "EOL",
+        "name": "DOOR RETAINER SATIN BRASS ESKİ TİP",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-14T10:35:37.945Z",
+        "stock_base_quantity": 3
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-14T10:35:37.945Z"
     }
   ],
   "movement_audit": [

@@ -1896,17 +1896,17 @@
     },
     {
       "id": "id-56cm3i9dmtl9keme",
-      "code": "YOK",
+      "code": "EOL",
       "name": "VIEWER SATIN CHROME VIEWER",
       "category_id": "id-ez9bemcrmtl7q19c",
       "unit": "adet",
       "quantity": 11,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.166Z",
-      "updated_at": "2026-09-08T06:51:59.110Z",
+      "updated_at": "2026-09-14T10:35:44.088Z",
       "stock_base_quantity": 11
     },
     {
@@ -14668,6 +14668,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-14T10:35:37.945Z"
+    },
+    {
+      "id": "id-h3f25amxmu13xeu0",
+      "action": "Ürün güncellendi",
+      "product_id": "id-56cm3i9dmtl9keme",
+      "product_code": "EOL",
+      "product_name": "VIEWER SATIN CHROME VIEWER",
+      "before": {
+        "id": "id-56cm3i9dmtl9keme",
+        "code": "YOK",
+        "name": "VIEWER SATIN CHROME VIEWER",
+        "category_id": "id-ez9bemcrmtl7q19c",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-08T06:51:59.110Z",
+        "stock_base_quantity": 11
+      },
+      "after": {
+        "id": "id-56cm3i9dmtl9keme",
+        "code": "EOL",
+        "name": "VIEWER SATIN CHROME VIEWER",
+        "category_id": "id-ez9bemcrmtl7q19c",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.166Z",
+        "updated_at": "2026-09-14T10:35:44.088Z",
+        "stock_base_quantity": 11
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-14T10:35:44.088Z"
     }
   ],
   "movement_audit": [

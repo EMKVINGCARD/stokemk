@@ -3685,14 +3685,14 @@
       "name": "ANSI 28MM 4-SW LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-14T07:32:43.346Z",
-      "stock_base_quantity": 1
+      "updated_at": "2026-09-14T07:33:51.827Z",
+      "stock_base_quantity": 2
     },
     {
       "id": "id-engethttmtl9kemo",
@@ -14308,6 +14308,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-10T05:55:15.715Z"
+    },
+    {
+      "id": "id-4nvhyzbzmu0xfivn",
+      "action": "Ürün güncellendi",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "before": {
+        "id": "id-l71zjod7mtl9kemo",
+        "code": "4813864A13",
+        "name": "ANSI 28MM 4-SW LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-14T07:32:43.346Z",
+        "stock_base_quantity": 1
+      },
+      "after": {
+        "id": "id-l71zjod7mtl9kemo",
+        "code": "4813864A13",
+        "name": "ANSI 28MM 4-SW LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-14T07:33:51.827Z",
+        "stock_base_quantity": 2
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-14T07:33:51.827Z"
     }
   ],
   "movement_audit": [

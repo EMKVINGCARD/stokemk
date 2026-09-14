@@ -3670,13 +3670,13 @@
       "name": "ANSI 28MM 4-SW RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW RH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-10T09:16:30.652Z",
+      "updated_at": "2026-09-14T07:32:43.346Z",
       "stock_base_quantity": 0
     },
     {
@@ -3685,13 +3685,13 @@
       "name": "ANSI 28MM 4-SW LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 1,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-10T09:16:30.652Z",
+      "updated_at": "2026-09-14T07:32:43.346Z",
       "stock_base_quantity": 1
     },
     {
@@ -9415,6 +9415,40 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-09-14T07:31:43.785Z",
       "created_at": "2026-09-14T07:31:43.785Z"
+    },
+    {
+      "id": "id-g4qmad5nmu0xe21e",
+      "operation_id": "id-jnlyg0anmu0xe21e",
+      "product_id": "id-ytwm8671mtl9kemo",
+      "product_code": "4813864B13",
+      "product_name": "ANSI 28MM 4-SW RH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "IBIS MERTER OTEL SİPARİŞİ",
+      "before_quantity": 1,
+      "after_quantity": 0,
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-09-14T07:32:43.346Z",
+      "created_at": "2026-09-14T07:32:43.346Z"
+    },
+    {
+      "id": "id-z46vrcsvmu0xe21e",
+      "operation_id": "id-1sxclfmxmu0xe21e",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "IBIS MERTER OTEL SİPARİŞİ",
+      "before_quantity": 2,
+      "after_quantity": 1,
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-09-14T07:32:43.346Z",
+      "created_at": "2026-09-14T07:32:43.346Z"
     }
   ],
   "audit_log": [
@@ -15176,6 +15210,40 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-14T07:31:43.786Z",
       "extra": null
+    },
+    {
+      "id": "id-2pcdg106mu0xe21e",
+      "action": "Stok çıkışı",
+      "product_id": "id-ytwm8671mtl9kemo",
+      "product_code": "4813864B13",
+      "product_name": "ANSI 28MM 4-SW RH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 0,
+      "target_location": "Ana Depo",
+      "reason": "IBIS MERTER OTEL SİPARİŞİ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-14T07:32:43.346Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-uni1sz8wmu0xe21e",
+      "action": "Stok çıkışı",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 2,
+      "after_quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "IBIS MERTER OTEL SİPARİŞİ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-14T07:32:43.346Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

@@ -565,6 +565,12 @@
       "name": "Xante Resort Otel",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-ybuqunazmu0x1g2z",
+      "name": "Fairmont Quasar İstanbul",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -589,13 +595,13 @@
       "name": "4K MAD2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 1987,
+      "quantity": 1687,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD MIFARE CLASSIC 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-11T06:24:17.293Z",
+      "updated_at": "2026-09-14T07:22:55.019Z",
       "stock_base_quantity": 2002
     },
     {
@@ -9375,6 +9381,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-11T14:00:56.512Z",
       "created_at": "2026-09-11T14:00:56.512Z"
+    },
+    {
+      "id": "id-jec0ncw0mu0x1g2z",
+      "operation_id": "id-ef76oy6vmu0x1g2z",
+      "product_id": "id-vp6u11jwmtl9kemb",
+      "product_code": "4814101",
+      "product_name": "4K MAD2 MASTER KART",
+      "type": "out",
+      "quantity": 300,
+      "before_quantity": 1987,
+      "after_quantity": 1687,
+      "target_location": "Fairmont Quasar İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-14T07:22:55.019Z",
+      "created_at": "2026-09-14T07:22:55.019Z"
     }
   ],
   "audit_log": [
@@ -15101,6 +15124,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-11T14:00:56.512Z",
+      "extra": null
+    },
+    {
+      "id": "id-yh4k3j25mu0x1g2z",
+      "action": "Stok çıkışı",
+      "product_id": "id-vp6u11jwmtl9kemb",
+      "product_code": "4814101",
+      "product_name": "4K MAD2 MASTER KART",
+      "type": "out",
+      "quantity": 300,
+      "before_quantity": 1987,
+      "after_quantity": 1687,
+      "target_location": "Fairmont Quasar İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-14T07:22:55.019Z",
       "extra": null
     }
   ],

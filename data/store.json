@@ -1061,12 +1061,12 @@
       "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 5,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-08T08:33:45.580Z",
+      "updated_at": "2026-09-14T10:38:43.200Z",
       "stock_base_quantity": 0
     },
     {
@@ -14948,6 +14948,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-14T10:38:39.236Z"
+    },
+    {
+      "id": "id-hju2nlk2mu14191c",
+      "action": "Ürün güncellendi",
+      "product_id": "id-txlavcqlmtl9kemb",
+      "product_code": "YOK",
+      "product_name": "KAPATICI",
+      "before": {
+        "id": "id-txlavcqlmtl9kemb",
+        "code": "YOK",
+        "name": "KAPATICI",
+        "category_id": "id-yb9e13sumtsewvh0",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-08T08:33:45.580Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-txlavcqlmtl9kemb",
+        "code": "YOK",
+        "name": "KAPATICI",
+        "category_id": "id-yb9e13sumtsewvh0",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-14T10:38:43.200Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-14T10:38:43.200Z"
     }
   ],
   "movement_audit": [

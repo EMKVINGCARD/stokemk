@@ -1806,7 +1806,7 @@
     },
     {
       "id": "id-32mavvummtl9kemd",
-      "code": "YOK",
+      "code": "EOL",
       "name": "DOOR RETAINER POLISH CHROME (ESKİ POLISH CHROME)",
       "category_id": "id-0p88t72tmtl7q19c",
       "unit": "adet",
@@ -1816,7 +1816,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.165Z",
-      "updated_at": "2026-09-08T06:50:22.570Z",
+      "updated_at": "2026-09-14T10:35:04.525Z",
       "stock_base_quantity": 6
     },
     {
@@ -14428,6 +14428,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-14T10:35:00.150Z"
+    },
+    {
+      "id": "id-estgp3ugmu13wkb1",
+      "action": "Ürün güncellendi",
+      "product_id": "id-32mavvummtl9kemd",
+      "product_code": "EOL",
+      "product_name": "DOOR RETAINER POLISH CHROME (ESKİ POLISH CHROME)",
+      "before": {
+        "id": "id-32mavvummtl9kemd",
+        "code": "YOK",
+        "name": "DOOR RETAINER POLISH CHROME (ESKİ POLISH CHROME)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-08T06:50:22.570Z",
+        "stock_base_quantity": 6
+      },
+      "after": {
+        "id": "id-32mavvummtl9kemd",
+        "code": "EOL",
+        "name": "DOOR RETAINER POLISH CHROME (ESKİ POLISH CHROME)",
+        "category_id": "id-0p88t72tmtl7q19c",
+        "unit": "adet",
+        "quantity": 6,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.165Z",
+        "updated_at": "2026-09-14T10:35:04.525Z",
+        "stock_base_quantity": 6
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-14T10:35:04.525Z"
     }
   ],
   "movement_audit": [

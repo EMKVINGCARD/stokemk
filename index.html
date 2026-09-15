@@ -936,7 +936,7 @@ function showMovementGroupDetails(key){
   const typeClass=g.type==="in"?"bg-emerald-100 text-emerald-700":"bg-rose-100 text-rose-700";
   openModal(`<div class="movement-detail-modal">
     <div class="flex items-start justify-between gap-4 border-b border-slate-200 pb-4 mb-4">
-      <div><div class="text-xs uppercase tracking-wider text-slate-500 font-medium mb-1">Stok Hareketi Detayı</div><h3 class="text-xl font-bold text-slate-900">${typeLabel}</h3><p class="text-sm text-slate-500 mt-1">${fmtDate(g.latest)}</p></div>
+      <div><div class="text-xs uppercase tracking-wider text-slate-500 font-medium mb-1">Stok Hareketi Detayı</div><h3 class="text-xl font-bold text-slate-900">${typeLabel}</h3></div>
       <button type="button" class="btn btn-outline btn-sm shrink-0" onclick="closeModal()">Kapat</button>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
@@ -946,7 +946,7 @@ function showMovementGroupDetails(key){
       <div class="rounded-lg border border-slate-200 bg-slate-50 p-3"><div class="text-xs text-slate-500">Ürün / kayıt</div><div class="font-semibold mt-1">${totalProducts} ürün · ${g.movements.length} kayıt</div></div>
     </div>
     <div class="flex items-center justify-between gap-3 flex-wrap mb-2"><div><h4 class="font-semibold">Ürün hareketleri</h4><p class="text-xs text-slate-500 mt-1">Bu grup içindeki kayıtlar ayrı ayrı gösterilir.</p></div>${isAdmin?'<span class="text-xs text-blue-700 bg-blue-50 border border-blue-200 rounded px-2 py-1">Yönetici düzeltmesi açık</span>':''}</div>
-    <div class="overflow-x-auto border border-slate-200 rounded-lg"><table class="min-w-[760px]"><thead><tr><th>Tarih / Saat</th><th>Ürün Kodu</th><th>Ürün Adı</th><th class="text-right">Miktar</th><th>Kullanıcı</th><th>Açıklama</th>${isAdmin?"<th>İşlem</th>":""}</tr></thead><tbody>${g.movements.map(m=>`<tr><td class="text-xs text-slate-500 whitespace-nowrap">${fmtDate(m.happened_at||m.created_at)}</td><td class="mono text-xs font-medium">${m.product_code||"—"}</td><td class="font-medium">${m.product_name||"—"}</td><td class="mono text-right font-semibold ${m.type==="in"?"text-emerald-700":"text-rose-700"}">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td><td>${m.user_name||"—"}</td><td class="text-sm text-slate-500 max-w-[220px]">${m.reason||"—"}</td>${isAdmin?`<td><button class="btn btn-ghost btn-sm whitespace-nowrap" onclick="editMovement('${m.id}')">Düzelt</button></td>`:""}</tr>`).join("")}</tbody></table></div>
+    <div class="overflow-x-auto border border-slate-200 rounded-lg"><table class="min-w-[460px]"><thead><tr><th>Ürün Adı</th><th class="text-right">Miktar</th><th>Açıklama</th>${isAdmin?"<th>İşlem</th>":""}</tr></thead><tbody>${g.movements.map(m=>`<tr><td class="font-medium">${m.product_name||"—"}</td><td class="mono text-right font-semibold ${m.type==="in"?"text-emerald-700":"text-rose-700"}">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td><td class="text-sm text-slate-500 max-w-[320px]">${m.reason||"—"}</td>${isAdmin?`<td><button class="btn btn-ghost btn-sm whitespace-nowrap" onclick="editMovement('${m.id}')">Düzelt</button></td>`:""}</tr>`).join("")}</tbody></table></div>
     <div class="flex justify-end mt-5 pt-4 border-t border-slate-200"><button type="button" class="btn btn-primary" onclick="closeModal()">Kapat</button></div>
   </div>`,true);
 }

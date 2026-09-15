@@ -8296,13 +8296,13 @@
       "name": "SIGNATURE COMPOZİT PİL KAPAĞI",
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
-      "quantity": 100,
+      "quantity": 99,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "Signature online battery cover kit, Black",
       "created_at": "2026-09-14T10:54:22.736Z",
-      "updated_at": "2026-09-14T10:54:22.736Z",
+      "updated_at": "2026-09-15T07:25:18.247Z",
       "stock_base_quantity": 100
     }
   ],
@@ -9521,6 +9521,23 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-09-15T07:24:57.222Z",
       "created_at": "2026-09-15T07:24:57.222Z"
+    },
+    {
+      "id": "id-5wfwcpzbmu2ckd9j",
+      "operation_id": "id-gweksiwymu2ckd9j",
+      "product_id": "id-xmca4smvmu14ldzk",
+      "product_code": "5000002",
+      "product_name": "SIGNATURE COMPOZİT PİL KAPAĞI",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 100,
+      "after_quantity": 99,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-09-15T07:25:18.247Z",
+      "created_at": "2026-09-15T07:25:18.247Z"
     }
   ],
   "audit_log": [
@@ -16431,6 +16448,23 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-09-15T07:24:57.222Z",
+      "extra": null
+    },
+    {
+      "id": "id-n5g9loxumu2ckd9j",
+      "action": "Stok çıkışı",
+      "product_id": "id-xmca4smvmu14ldzk",
+      "product_code": "5000002",
+      "product_name": "SIGNATURE COMPOZİT PİL KAPAĞI",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 100,
+      "after_quantity": 99,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-09-15T07:25:18.247Z",
       "extra": null
     }
   ],

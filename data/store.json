@@ -579,8 +579,8 @@
       "auto_created": true
     },
     {
-      "id": "id-vrn7p2vjmu2dzoge",
-      "name": "Hilton Adana",
+      "id": "id-psjog6s6mu2e01r9",
+      "name": "mövenpick izmir",
       "kind": "diger",
       "auto_created": true
     }
@@ -3157,13 +3157,13 @@
       "name": "RS-485 GW",
       "category_id": "id-cri4rxfumtk34t8o",
       "unit": "adet",
-      "quantity": 35,
+      "quantity": 34,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "RS485 Gateway V2",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:07:02.318Z",
+      "updated_at": "2026-09-15T08:05:29.445Z",
       "stock_base_quantity": 35
     },
     {
@@ -9680,6 +9680,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-15T08:05:26.918Z",
       "created_at": "2026-09-15T08:05:26.918Z"
+    },
+    {
+      "id": "id-ddcfrlk8mu2e01ra",
+      "operation_id": "id-w15et9pmmu2e01r9",
+      "product_id": "id-xsdcp52jmtl9kemh",
+      "product_code": "684040035",
+      "product_name": "RS-485 GW",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 35,
+      "after_quantity": 34,
+      "target_location": "mövenpick izmir",
+      "reason": "sipariş ",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-15T08:05:29.445Z",
+      "created_at": "2026-09-15T08:05:29.445Z"
     }
   ],
   "audit_log": [
@@ -16743,6 +16760,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-15T08:05:26.918Z",
+      "extra": null
+    },
+    {
+      "id": "id-4n5k0ouzmu2e01ra",
+      "action": "Stok çıkışı",
+      "product_id": "id-xsdcp52jmtl9kemh",
+      "product_code": "684040035",
+      "product_name": "RS-485 GW",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 35,
+      "after_quantity": 34,
+      "target_location": "mövenpick izmir",
+      "reason": "sipariş ",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-15T08:05:29.446Z",
       "extra": null
     }
   ],

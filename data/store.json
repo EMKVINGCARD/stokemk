@@ -6244,13 +6244,13 @@
       "name": "STRAIGHT SATIN CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 81,
+      "quantity": 80,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME STRAIGHT",
       "created_at": "2026-09-03T08:29:16.212Z",
-      "updated_at": "2026-09-15T13:42:59.109Z",
+      "updated_at": "2026-09-15T13:43:21.338Z",
       "stock_base_quantity": 83
     },
     {
@@ -9972,15 +9972,16 @@
       "product_code": "481633361AC / 481633561AC",
       "product_name": "STRAIGHT SATIN CHROME SET",
       "type": "out",
-      "quantity": 1,
+      "quantity": 2,
       "target_location": "izmir marriot 2.otel için",
       "reason": "(2 adet adb fron shareton adana)",
       "before_quantity": 82,
-      "after_quantity": 81,
+      "after_quantity": 80,
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-15T13:42:59.109Z",
-      "created_at": "2026-09-15T13:42:59.109Z"
+      "created_at": "2026-09-15T13:42:59.109Z",
+      "updated_at": "2026-09-15T13:43:21.338Z"
     },
     {
       "id": "id-x5gty2dbmu2q22hx",
@@ -17572,6 +17573,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-15T13:42:59.109Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-ughg6uphmu2q2jne",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-x2fmf5v0mtl9keno",
+      "product_code": "481633361AC / 481633561AC",
+      "product_name": "STRAIGHT SATIN CHROME SET",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 82,
+      "after_quantity": 80,
+      "target_location": "izmir marriot 2.otel için",
+      "reason": "(2 adet adb fron shareton adana)",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-15T13:43:21.338Z",
+      "extra": "Önce: 1 adet / izmir marriot 2.otel için / (2 adet adb fron shareton adana); Sonra: 2 adet / izmir marriot 2.otel için / (2 adet adb fron shareton adana)"
     }
   ],
   "settings": {

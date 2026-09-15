@@ -571,6 +571,12 @@
       "name": "Fairmont Quasar İstanbul",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-oci0u6a5mu2cj2di",
+      "name": "radisson osmaniye",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3790,13 +3796,13 @@
       "name": "EURO 20MM LHR GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 1,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-09-08T08:04:12.396Z",
+      "updated_at": "2026-09-15T07:24:17.478Z",
       "stock_base_quantity": 2
     },
     {
@@ -9464,6 +9470,23 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-09-14T07:32:43.346Z",
       "created_at": "2026-09-14T07:32:43.346Z"
+    },
+    {
+      "id": "id-swkswl97mu2cj2di",
+      "operation_id": "id-sokzlpewmu2cj2di",
+      "product_id": "id-lfcpe959mtl9kemp",
+      "product_code": "YOK",
+      "product_name": "EURO 20MM LHR GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 2,
+      "after_quantity": 1,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-09-15T07:24:17.478Z",
+      "created_at": "2026-09-15T07:24:17.478Z"
     }
   ],
   "audit_log": [
@@ -16324,6 +16347,23 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-14T07:32:43.346Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-qlr2u84emu2cj2di",
+      "action": "Stok çıkışı",
+      "product_id": "id-lfcpe959mtl9kemp",
+      "product_code": "YOK",
+      "product_name": "EURO 20MM LHR GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 2,
+      "after_quantity": 1,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-09-15T07:24:17.478Z",
+      "extra": null
     }
   ],
   "settings": {

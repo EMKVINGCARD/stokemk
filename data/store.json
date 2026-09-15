@@ -4051,13 +4051,13 @@
       "name": "SIGNATURE 6351 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 85,
+      "quantity": 84,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6351 SIGNATURE RFID BLE ASSY STD BLACK",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-08T08:06:51.477Z",
+      "updated_at": "2026-09-15T07:24:39.672Z",
       "stock_base_quantity": 85
     },
     {
@@ -9487,6 +9487,23 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-09-15T07:24:17.478Z",
       "created_at": "2026-09-15T07:24:17.478Z"
+    },
+    {
+      "id": "id-bcothhngmu2cjji0",
+      "operation_id": "id-l28gkdeimu2cjji0",
+      "product_id": "id-0zs54nbnmtl9kemq",
+      "product_code": "P001004993-003-001",
+      "product_name": "SIGNATURE 6351 LCU",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 85,
+      "after_quantity": 84,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-09-15T07:24:39.672Z",
+      "created_at": "2026-09-15T07:24:39.672Z"
     }
   ],
   "audit_log": [
@@ -16363,6 +16380,23 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-09-15T07:24:17.478Z",
+      "extra": null
+    },
+    {
+      "id": "id-2zg5dj9qmu2cjji0",
+      "action": "Stok çıkışı",
+      "product_id": "id-0zs54nbnmtl9kemq",
+      "product_code": "P001004993-003-001",
+      "product_name": "SIGNATURE 6351 LCU",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 85,
+      "after_quantity": 84,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-09-15T07:24:39.672Z",
       "extra": null
     }
   ],

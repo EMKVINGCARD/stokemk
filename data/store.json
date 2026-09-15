@@ -4621,13 +4621,13 @@
       "name": "SKIRT BLACK TITANIUM",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
-      "quantity": 14,
+      "quantity": 13,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER BLACK TITANIUM",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-08T08:39:24.584Z",
+      "updated_at": "2026-09-15T07:26:22.475Z",
       "stock_base_quantity": 14
     },
     {
@@ -9572,6 +9572,23 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-09-15T07:26:02.152Z",
       "created_at": "2026-09-15T07:26:02.152Z"
+    },
+    {
+      "id": "id-gy28he1mmu2clqtn",
+      "operation_id": "id-16om58pzmu2clqtn",
+      "product_id": "id-h4vwdt1pmtl9kemx",
+      "product_code": "482379690",
+      "product_name": "SKIRT BLACK TITANIUM",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 14,
+      "after_quantity": 13,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-09-15T07:26:22.475Z",
+      "created_at": "2026-09-15T07:26:22.475Z"
     }
   ],
   "audit_log": [
@@ -16533,6 +16550,23 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-09-15T07:26:02.152Z",
+      "extra": null
+    },
+    {
+      "id": "id-qibvnylqmu2clqtn",
+      "action": "Stok çıkışı",
+      "product_id": "id-h4vwdt1pmtl9kemx",
+      "product_code": "482379690",
+      "product_name": "SKIRT BLACK TITANIUM",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 14,
+      "after_quantity": 13,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-09-15T07:26:22.475Z",
       "extra": null
     }
   ],

@@ -3451,13 +3451,13 @@
       "name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
       "category_id": "id-g0rn6savmtk34t8o",
       "unit": "adet",
-      "quantity": 309,
+      "quantity": 308,
       "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "BATTERY HOLDER 4.5V W/CABLE",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-09-10T07:00:38.561Z",
+      "updated_at": "2026-09-15T07:27:56.241Z",
       "stock_base_quantity": 312
     },
     {
@@ -9623,6 +9623,23 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-09-15T07:26:51.627Z",
       "created_at": "2026-09-15T07:26:51.627Z"
+    },
+    {
+      "id": "id-sof30lv8mu2cnr69",
+      "operation_id": "id-hpagdn1gmu2cnr69",
+      "product_id": "id-fvfbqrtlmtl9kemm",
+      "product_code": "4825011",
+      "product_name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 309,
+      "after_quantity": 308,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-09-15T07:27:56.241Z",
+      "created_at": "2026-09-15T07:27:56.241Z"
     }
   ],
   "audit_log": [
@@ -16635,6 +16652,23 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-09-15T07:26:51.627Z",
+      "extra": null
+    },
+    {
+      "id": "id-hc8omfcvmu2cnr69",
+      "action": "Stok çıkışı",
+      "product_id": "id-fvfbqrtlmtl9kemm",
+      "product_code": "4825011",
+      "product_name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 309,
+      "after_quantity": 308,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-09-15T07:27:56.241Z",
       "extra": null
     }
   ],

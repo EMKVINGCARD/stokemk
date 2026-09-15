@@ -577,6 +577,12 @@
       "name": "radisson osmaniye",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-vrn7p2vjmu2dzoge",
+      "name": "Hilton Adana",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4051,13 +4057,13 @@
       "name": "SIGNATURE 6351 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 84,
+      "quantity": 83,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6351 SIGNATURE RFID BLE ASSY STD BLACK",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-15T07:24:39.672Z",
+      "updated_at": "2026-09-15T08:05:12.206Z",
       "stock_base_quantity": 85
     },
     {
@@ -9640,6 +9646,23 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-09-15T07:27:56.241Z",
       "created_at": "2026-09-15T07:27:56.241Z"
+    },
+    {
+      "id": "id-nbifw945mu2dzoge",
+      "operation_id": "id-i88i6uspmu2dzoge",
+      "product_id": "id-0zs54nbnmtl9kemq",
+      "product_code": "P001004993-003-001",
+      "product_name": "SIGNATURE 6351 LCU",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 84,
+      "after_quantity": 83,
+      "target_location": "Hilton Adana",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-15T08:05:12.206Z",
+      "created_at": "2026-09-15T08:05:12.206Z"
     }
   ],
   "audit_log": [
@@ -16669,6 +16692,23 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-09-15T07:27:56.241Z",
+      "extra": null
+    },
+    {
+      "id": "id-edyn3qu8mu2dzoge",
+      "action": "Stok çıkışı",
+      "product_id": "id-0zs54nbnmtl9kemq",
+      "product_code": "P001004993-003-001",
+      "product_name": "SIGNATURE 6351 LCU",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 84,
+      "after_quantity": 83,
+      "target_location": "Hilton Adana",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-15T08:05:12.206Z",
       "extra": null
     }
   ],

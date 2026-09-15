@@ -4186,13 +4186,13 @@
       "name": "LCA 6344 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 200,
+      "quantity": 199,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCA 6344 KIT FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-08T08:31:00.925Z",
+      "updated_at": "2026-09-15T07:26:51.627Z",
       "stock_base_quantity": 200
     },
     {
@@ -9606,6 +9606,23 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-09-15T07:26:32.125Z",
       "created_at": "2026-09-15T07:26:32.125Z"
+    },
+    {
+      "id": "id-mkjszoy6mu2cmdbf",
+      "operation_id": "id-web1uv10mu2cmdbf",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 200,
+      "after_quantity": 199,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-09-15T07:26:51.627Z",
+      "created_at": "2026-09-15T07:26:51.627Z"
     }
   ],
   "audit_log": [
@@ -16601,6 +16618,23 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-09-15T07:26:32.125Z",
+      "extra": null
+    },
+    {
+      "id": "id-kccwbxwvmu2cmdbf",
+      "action": "Stok çıkışı",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 200,
+      "after_quantity": 199,
+      "target_location": "radisson osmaniye",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-09-15T07:26:51.627Z",
       "extra": null
     }
   ],

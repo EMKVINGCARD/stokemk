@@ -613,6 +613,12 @@
       "name": "Grand Samsun Sheraton",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-k2tg27dzmu43i3i6",
+      "name": "caressa luxury collection",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2017,13 +2023,13 @@
       "name": "USB KASA PROGRALAMA KABLOSU",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 19,
+      "quantity": 18,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SAFELINK INTERFACE WITH USB FOR ELSAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:52:22.455Z",
+      "updated_at": "2026-09-16T12:47:08.094Z",
       "stock_base_quantity": 19
     },
     {
@@ -10173,6 +10179,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-16T12:43:20.227Z",
       "created_at": "2026-09-16T12:43:20.227Z"
+    },
+    {
+      "id": "id-1rek6ku7mu43i3i6",
+      "operation_id": "id-3eak7tbamu43i3i6",
+      "product_id": "id-5anefamimtl9kemf",
+      "product_code": "4826010",
+      "product_name": "USB KASA PROGRALAMA KABLOSU",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 19,
+      "after_quantity": 18,
+      "target_location": "caressa luxury collection",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-16T12:47:08.094Z",
+      "created_at": "2026-09-16T12:47:08.094Z"
     }
   ],
   "audit_log": [
@@ -17803,6 +17826,23 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-16T12:43:20.228Z",
+      "extra": null
+    },
+    {
+      "id": "id-q56zu8ukmu43i3i6",
+      "action": "Stok çıkışı",
+      "product_id": "id-5anefamimtl9kemf",
+      "product_code": "4826010",
+      "product_name": "USB KASA PROGRALAMA KABLOSU",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 19,
+      "after_quantity": 18,
+      "target_location": "caressa luxury collection",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-16T12:47:08.094Z",
       "extra": null
     }
   ],

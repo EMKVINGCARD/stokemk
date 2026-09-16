@@ -613,6 +613,12 @@
       "name": "Grand Samsun Sheraton",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-r262pkt2mu43mbmp",
+      "name": "RAFFLES OTEL",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3022,13 +3028,13 @@
       "name": "VISIONLINE RC GW HARİÇ",
       "category_id": "id-gjz8r8ckmtk34t8n",
       "unit": "adet",
-      "quantity": 11,
+      "quantity": 1,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-16T12:45:08.858Z",
+      "updated_at": "2026-09-16T12:50:25.249Z",
       "stock_base_quantity": 11
     },
     {
@@ -10190,6 +10196,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-16T12:47:08.094Z",
       "created_at": "2026-09-16T12:47:08.094Z"
+    },
+    {
+      "id": "id-9ymor84umu43mbmp",
+      "operation_id": "id-br0yvipqmu43mbmp",
+      "product_id": "id-56o4mxkwmtl9kemh",
+      "product_code": "P001006433-003-001",
+      "product_name": "VISIONLINE RC GW HARİÇ",
+      "type": "out",
+      "quantity": 10,
+      "before_quantity": 11,
+      "after_quantity": 1,
+      "target_location": "RAFFLES OTEL",
+      "reason": "RAFFLES OTEL SİPARİŞİ. LCU 6334 OLARAK DEĞİŞTİRİLDİ. YAPAN ERAY-YUNUS. ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-09-16T12:50:25.249Z",
+      "created_at": "2026-09-16T12:50:25.249Z"
     }
   ],
   "audit_log": [
@@ -17917,6 +17940,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-16T12:47:08.094Z",
+      "extra": null
+    },
+    {
+      "id": "id-bno8pozfmu43mbmp",
+      "action": "Stok çıkışı",
+      "product_id": "id-56o4mxkwmtl9kemh",
+      "product_code": "P001006433-003-001",
+      "product_name": "VISIONLINE RC GW HARİÇ",
+      "type": "out",
+      "quantity": 10,
+      "before_quantity": 11,
+      "after_quantity": 1,
+      "target_location": "RAFFLES OTEL",
+      "reason": "RAFFLES OTEL SİPARİŞİ. LCU 6334 OLARAK DEĞİŞTİRİLDİ. YAPAN ERAY-YUNUS. ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-16T12:50:25.249Z",
       "extra": null
     }
   ],

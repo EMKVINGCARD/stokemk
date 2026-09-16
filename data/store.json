@@ -601,6 +601,12 @@
       "name": "maxx royal kemer",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-2ngcg5spmu3zh9no",
+      "name": "ibis mertel otel",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4210,13 +4216,13 @@
       "name": "LCA 6344 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 199,
+      "quantity": 197,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCA 6344 KIT FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-15T07:26:51.627Z",
+      "updated_at": "2026-09-16T10:54:30.948Z",
       "stock_base_quantity": 200
     },
     {
@@ -10126,6 +10132,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-16T08:42:44.850Z",
       "created_at": "2026-09-16T08:42:44.850Z"
+    },
+    {
+      "id": "id-a9xxt7fdmu3zh9no",
+      "operation_id": "id-6yq7nebgmu3zh9no",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 199,
+      "after_quantity": 197,
+      "target_location": "ibis mertel otel",
+      "reason": "sipariş...firmware 3.17.44.29 kurulacak",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-16T10:54:30.948Z",
+      "created_at": "2026-09-16T10:54:30.948Z"
     }
   ],
   "audit_log": [
@@ -17665,6 +17688,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-16T08:42:44.850Z",
+      "extra": null
+    },
+    {
+      "id": "id-8l2kxm1gmu3zh9no",
+      "action": "Stok çıkışı",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 199,
+      "after_quantity": 197,
+      "target_location": "ibis mertel otel",
+      "reason": "sipariş...firmware 3.17.44.29 kurulacak",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-16T10:54:30.948Z",
       "extra": null
     }
   ],

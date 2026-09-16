@@ -607,6 +607,12 @@
       "name": "ibis mertel otel",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-b9ueip4mmu43d7oj",
+      "name": "Grand Samsun Sheraton",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2221,13 +2227,13 @@
       "name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 9,
+      "quantity": 8,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FLEX CABLE - NOT FOR FLOOR, SENT/ INF, PHIII, 26.5CM X 0.9CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T06:54:25.383Z",
+      "updated_at": "2026-09-16T12:43:20.227Z",
       "stock_base_quantity": 9
     },
     {
@@ -10150,6 +10156,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-16T10:54:30.948Z",
       "created_at": "2026-09-16T10:54:30.948Z"
+    },
+    {
+      "id": "id-as395tlpmu43d7ok",
+      "operation_id": "id-1c742oj4mu43d7oj",
+      "product_id": "id-pyc8izdzmtl9kemf",
+      "product_code": "253-8121",
+      "product_name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 9,
+      "after_quantity": 8,
+      "target_location": "Grand Samsun Sheraton",
+      "reason": "arızalı değişim",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-16T12:43:20.227Z",
+      "created_at": "2026-09-16T12:43:20.227Z"
     }
   ],
   "audit_log": [
@@ -17724,6 +17747,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-16T12:11:41.893Z",
       "extra": "Önce: 1 adet / Ana Depo / Sheraton Grand Samsun Sipariş; Sonra: 1 adet / Ana Depo / Sheraton Grand Samsun Sipariş"
+    },
+    {
+      "id": "id-4js5rvqpmu43d7ok",
+      "action": "Stok çıkışı",
+      "product_id": "id-pyc8izdzmtl9kemf",
+      "product_code": "253-8121",
+      "product_name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 9,
+      "after_quantity": 8,
+      "target_location": "Grand Samsun Sheraton",
+      "reason": "arızalı değişim",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-16T12:43:20.228Z",
+      "extra": null
     }
   ],
   "settings": {

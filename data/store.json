@@ -595,6 +595,12 @@
       "name": "izmir marriot 2.otel için",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-akgsiva6mu3urt9u",
+      "name": "maxx royal kemer",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4414,13 +4420,13 @@
       "name": "ESSENCE V1 SEMBOL SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 82,
+      "quantity": 22,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "RFID SYMBOL KIT FOR ESSENCE - BLACK GREY RAL7021",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-09-08T08:32:08.292Z",
+      "updated_at": "2026-09-16T08:42:44.850Z",
       "stock_base_quantity": 82
     },
     {
@@ -10103,6 +10109,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-15T13:42:59.109Z",
       "created_at": "2026-09-15T13:42:59.109Z"
+    },
+    {
+      "id": "id-pr7qnudfmu3urt9u",
+      "operation_id": "id-27u67febmu3urt9u",
+      "product_id": "id-jua0jvqbmtl9kemt",
+      "product_code": "4824589B",
+      "product_name": "ESSENCE V1 SEMBOL SİYAH",
+      "type": "out",
+      "quantity": 60,
+      "before_quantity": 82,
+      "after_quantity": 22,
+      "target_location": "maxx royal kemer",
+      "reason": "sipariş için ayrıldı ofiste.",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-16T08:42:44.850Z",
+      "created_at": "2026-09-16T08:42:44.850Z"
     }
   ],
   "audit_log": [
@@ -17626,6 +17649,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-16T07:45:08.906Z",
       "extra": "Önce: 1 adet / Ana Depo / CROWNE PLAZA ANTALYAYA GÖNDERİLDİ. YERİNE GÖMME GELECEK.; Sonra: 1 adet / CROWNE PLAZA ANTALYA / GÖNDERİLDİ. YERİNE GÖMME GELECEK."
+    },
+    {
+      "id": "id-6y8s5g2amu3urt9u",
+      "action": "Stok çıkışı",
+      "product_id": "id-jua0jvqbmtl9kemt",
+      "product_code": "4824589B",
+      "product_name": "ESSENCE V1 SEMBOL SİYAH",
+      "type": "out",
+      "quantity": 60,
+      "before_quantity": 82,
+      "after_quantity": 22,
+      "target_location": "maxx royal kemer",
+      "reason": "sipariş için ayrıldı ofiste.",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-16T08:42:44.850Z",
+      "extra": null
     }
   ],
   "settings": {

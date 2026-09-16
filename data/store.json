@@ -4138,14 +4138,14 @@
       "name": "CLASSIC 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 39,
+      "quantity": 40,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-09-16T12:49:03.783Z",
-      "stock_base_quantity": 39
+      "updated_at": "2026-09-16T13:07:11.253Z",
+      "stock_base_quantity": 40
     },
     {
       "id": "id-onw2jx0rmtl9kemr",
@@ -16297,6 +16297,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-16T13:06:41.013Z"
+    },
+    {
+      "id": "id-3wzm6v1umu447vv9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-uwj860famtl9kemr",
+      "product_code": "4826069B",
+      "product_name": "CLASSIC 6334 LCU",
+      "before": {
+        "id": "id-uwj860famtl9kemr",
+        "code": "4826069B",
+        "name": "CLASSIC 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 39,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-16T12:49:03.783Z",
+        "stock_base_quantity": 39
+      },
+      "after": {
+        "id": "id-uwj860famtl9kemr",
+        "code": "4826069B",
+        "name": "CLASSIC 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 40,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-16T13:07:11.253Z",
+        "stock_base_quantity": 40
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-16T13:07:11.253Z"
     }
   ],
   "movement_audit": [

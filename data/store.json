@@ -2254,7 +2254,7 @@
       "location": "",
       "description": "None",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-16T12:11:41.893Z",
+      "updated_at": "2026-09-16T19:43:21.988Z",
       "stock_base_quantity": 66
     },
     {
@@ -9325,7 +9325,7 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-09-10T11:24:27.984Z",
       "created_at": "2026-09-10T11:24:27.984Z",
-      "updated_at": "2026-09-16T12:11:41.893Z"
+      "updated_at": "2026-09-16T19:43:21.988Z"
     },
     {
       "id": "id-u177ka9dmtvh768p",
@@ -18078,6 +18078,23 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-16T12:50:25.249Z",
       "extra": null
+    },
+    {
+      "id": "id-wnla65fdmu4iddhg",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 66,
+      "after_quantity": 65,
+      "target_location": "Ana Depo",
+      "reason": "Sheraton Grand Samsun Sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-16T19:43:21.988Z",
+      "extra": "Önce: 1 adet / Ana Depo / Sheraton Grand Samsun Sipariş; Sonra: 1 adet / Ana Depo / Sheraton Grand Samsun Sipariş"
     }
   ],
   "settings": {

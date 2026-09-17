@@ -631,6 +631,12 @@
       "name": "marina park hotel residence",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-454kb92hmu5eu6n3",
+      "name": "mövenpick istanbul golden horn",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2005,13 +2011,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 20,
+      "quantity": 19,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-10T05:54:25.373Z",
+      "updated_at": "2026-09-17T10:52:13.983Z",
       "stock_base_quantity": 27
     },
     {
@@ -10263,6 +10269,23 @@
       "happened_at": "2026-09-17T08:24:06.138Z",
       "created_at": "2026-09-17T08:24:06.138Z",
       "updated_at": "2026-09-17T08:56:04.821Z"
+    },
+    {
+      "id": "id-8oooylximu5eu6n3",
+      "operation_id": "id-yhnvakcemu5eu6n3",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 20,
+      "after_quantity": 19,
+      "target_location": "mövenpick istanbul golden horn",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-17T10:52:13.983Z",
+      "created_at": "2026-09-17T10:52:13.983Z"
     }
   ],
   "audit_log": [
@@ -18610,6 +18633,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-17T08:56:04.821Z",
       "extra": "Önce: 1000 adet / marina park hotel residence / sipariş; Sonra: 1000 adet / marina park hotel residence / sipariş"
+    },
+    {
+      "id": "id-ox5zrtk0mu5eu6n3",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 20,
+      "after_quantity": 19,
+      "target_location": "mövenpick istanbul golden horn",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-17T10:52:13.983Z",
+      "extra": null
     }
   ],
   "settings": {

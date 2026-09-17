@@ -625,6 +625,12 @@
       "name": "Merriott Hotel asia",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-sc3hhau2mu59joqi",
+      "name": "marina park hotel residence",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -709,13 +715,13 @@
       "name": "MANYETİK ORİJİNAL BASKILI KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 1310,
+      "quantity": 310,
       "critical_level": 200,
       "unit_price": 0,
       "location": "",
       "description": "KEYCARD MAGSTRIPE STANDARD LOCO",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-17T08:23:27.210Z",
+      "updated_at": "2026-09-17T08:24:06.138Z",
       "stock_base_quantity": 310
     },
     {
@@ -10253,6 +10259,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-17T08:23:27.210Z",
       "created_at": "2026-09-17T08:23:27.210Z"
+    },
+    {
+      "id": "id-n1f1ig5smu59joqi",
+      "operation_id": "id-p39ly0urmu59joqi",
+      "product_id": "id-0ury7pbymtl9kemb",
+      "product_code": "4800436",
+      "product_name": "MANYETİK ORİJİNAL BASKILI KART",
+      "type": "out",
+      "quantity": 1000,
+      "before_quantity": 1310,
+      "after_quantity": 310,
+      "target_location": "marina park hotel residence",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-17T08:24:06.138Z",
+      "created_at": "2026-09-17T08:24:06.138Z"
     }
   ],
   "audit_log": [
@@ -18168,6 +18191,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-17T08:23:27.213Z",
+      "extra": null
+    },
+    {
+      "id": "id-39p8v21cmu59joqi",
+      "action": "Stok çıkışı",
+      "product_id": "id-0ury7pbymtl9kemb",
+      "product_code": "4800436",
+      "product_name": "MANYETİK ORİJİNAL BASKILI KART",
+      "type": "out",
+      "quantity": 1000,
+      "before_quantity": 1310,
+      "after_quantity": 310,
+      "target_location": "marina park hotel residence",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-17T08:24:06.138Z",
       "extra": null
     }
   ],

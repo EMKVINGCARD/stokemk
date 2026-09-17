@@ -5101,13 +5101,13 @@
       "name": "50MM BLACK TITANUM PVD",
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K BLACK T WO/LOGO 50MM",
       "created_at": "2026-09-03T08:29:16.190Z",
-      "updated_at": "2026-09-08T08:49:44.876Z",
+      "updated_at": "2026-09-17T11:56:21.750Z",
       "stock_base_quantity": 2
     },
     {
@@ -10286,6 +10286,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-17T10:52:13.983Z",
       "created_at": "2026-09-17T10:52:13.983Z"
+    },
+    {
+      "id": "id-36al4oxqmu5h4nli",
+      "operation_id": "id-7fh1b1q8mu5h4nli",
+      "product_id": "id-shyq5gaymtl9ken2",
+      "product_code": "4812635905V50",
+      "product_name": "50MM BLACK TITANUM PVD",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "The marmara pera",
+      "reason": "mock-up oda için",
+      "before_quantity": 2,
+      "after_quantity": 0,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-17T11:56:21.750Z",
+      "created_at": "2026-09-17T11:56:21.750Z"
     }
   ],
   "audit_log": [
@@ -18930,6 +18947,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-17T10:52:13.983Z",
       "extra": null
+    },
+    {
+      "id": "id-op2rb0tumu5h4nli",
+      "action": "Stok çıkışı",
+      "product_id": "id-shyq5gaymtl9ken2",
+      "product_code": "4812635905V50",
+      "product_name": "50MM BLACK TITANUM PVD",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 2,
+      "after_quantity": 0,
+      "target_location": "The marmara pera",
+      "reason": "mock-up oda için",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-17T11:56:21.750Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

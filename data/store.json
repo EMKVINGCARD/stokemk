@@ -4306,14 +4306,14 @@
       "name": "ESSENCE V1 6333 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 11,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 ESSENCE RFID ASSY (4G)",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-17T11:09:00.859Z",
-      "stock_base_quantity": 12
+      "updated_at": "2026-09-17T11:09:17.203Z",
+      "stock_base_quantity": 11
     },
     {
       "id": "id-p2we1x7kmtl9kems",
@@ -16836,6 +16836,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T11:09:00.859Z"
+    },
+    {
+      "id": "id-aq5cz2d7mu5fg45v",
+      "action": "Ürün güncellendi",
+      "product_id": "id-4q6qmqb6mtl9kems",
+      "product_code": "EOL",
+      "product_name": "ESSENCE V1 6333 LCU",
+      "before": {
+        "id": "id-4q6qmqb6mtl9kems",
+        "code": "EOL",
+        "name": "ESSENCE V1 6333 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 ESSENCE RFID ASSY (4G)",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-17T11:09:00.859Z",
+        "stock_base_quantity": 12
+      },
+      "after": {
+        "id": "id-4q6qmqb6mtl9kems",
+        "code": "EOL",
+        "name": "ESSENCE V1 6333 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 ESSENCE RFID ASSY (4G)",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-17T11:09:17.203Z",
+        "stock_base_quantity": 11
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T11:09:17.203Z"
     }
   ],
   "movement_audit": [

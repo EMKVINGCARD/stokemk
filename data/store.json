@@ -4330,14 +4330,14 @@
       "name": "SIGNATURE LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 28,
+      "quantity": 23,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-08T08:31:28.109Z",
-      "stock_base_quantity": 78
+      "updated_at": "2026-09-17T08:43:37.361Z",
+      "stock_base_quantity": 73
     },
     {
       "id": "id-ux8fepz6mtl9kems",
@@ -16492,6 +16492,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T08:41:56.625Z"
+    },
+    {
+      "id": "id-tvyywbufmu5a8sgh",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "before": {
+        "id": "id-vrte8du9mtl9kems",
+        "code": "4823798",
+        "name": "SIGNATURE LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 28,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-08T08:31:28.109Z",
+        "stock_base_quantity": 78
+      },
+      "after": {
+        "id": "id-vrte8du9mtl9kems",
+        "code": "4823798",
+        "name": "SIGNATURE LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 23,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-17T08:43:37.361Z",
+        "stock_base_quantity": 73
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T08:43:37.361Z"
     }
   ],
   "movement_audit": [

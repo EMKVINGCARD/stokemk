@@ -721,7 +721,7 @@
       "location": "",
       "description": "KEYCARD MAGSTRIPE STANDARD LOCO",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-17T08:55:46.166Z",
+      "updated_at": "2026-09-17T08:56:04.821Z",
       "stock_base_quantity": 310
     },
     {
@@ -10262,7 +10262,7 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-17T08:24:06.138Z",
       "created_at": "2026-09-17T08:24:06.138Z",
-      "updated_at": "2026-09-17T08:55:46.166Z"
+      "updated_at": "2026-09-17T08:56:04.821Z"
     }
   ],
   "audit_log": [
@@ -18552,6 +18552,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-17T08:55:46.166Z",
+      "extra": "Önce: 1000 adet / marina park hotel residence / sipariş; Sonra: 1000 adet / marina park hotel residence / sipariş"
+    },
+    {
+      "id": "id-azqqcp17mu5aot79",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-0ury7pbymtl9kemb",
+      "product_code": "4800436",
+      "product_name": "MANYETİK ORİJİNAL BASKILI KART",
+      "type": "out",
+      "quantity": 1000,
+      "before_quantity": 1310,
+      "after_quantity": 310,
+      "target_location": "marina park hotel residence",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-17T08:56:04.821Z",
       "extra": "Önce: 1000 adet / marina park hotel residence / sipariş; Sonra: 1000 adet / marina park hotel residence / sipariş"
     }
   ],

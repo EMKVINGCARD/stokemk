@@ -4075,14 +4075,14 @@
       "name": "SIGNATURE 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 33,
+      "quantity": 38,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-08T08:06:48.628Z",
-      "stock_base_quantity": 33
+      "updated_at": "2026-09-17T08:49:24.741Z",
+      "stock_base_quantity": 38
     },
     {
       "id": "id-0zs54nbnmtl9kemq",
@@ -16572,6 +16572,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T08:43:44.024Z"
+    },
+    {
+      "id": "id-xsk2i389mu5ag8hx",
+      "action": "Ürün güncellendi",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "before": {
+        "id": "id-azwdqcz6mtl9kemq",
+        "code": "4826068",
+        "name": "SIGNATURE 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 33,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T08:06:48.628Z",
+        "stock_base_quantity": 33
+      },
+      "after": {
+        "id": "id-azwdqcz6mtl9kemq",
+        "code": "4826068",
+        "name": "SIGNATURE 6334 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 38,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-17T08:49:24.741Z",
+        "stock_base_quantity": 38
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T08:49:24.741Z"
     }
   ],
   "movement_audit": [

@@ -4150,14 +4150,14 @@
       "name": "CLASSIC 6351 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 96,
+      "quantity": 94,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6351 CLASSIC RFID ASSY 4G BLE BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-09-16T13:06:41.013Z",
-      "stock_base_quantity": 96
+      "updated_at": "2026-09-17T08:52:10.305Z",
+      "stock_base_quantity": 94
     },
     {
       "id": "id-16a4da00mtl9kemr",
@@ -16652,6 +16652,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T08:49:47.252Z"
+    },
+    {
+      "id": "id-sj17szztmu5ajs8x",
+      "action": "Ürün güncellendi",
+      "product_id": "id-onw2jx0rmtl9kemr",
+      "product_code": "P001006016-003-001",
+      "product_name": "CLASSIC 6351 LCU",
+      "before": {
+        "id": "id-onw2jx0rmtl9kemr",
+        "code": "P001006016-003-001",
+        "name": "CLASSIC 6351 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 96,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6351 CLASSIC RFID ASSY 4G BLE BLACK",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-16T13:06:41.013Z",
+        "stock_base_quantity": 96
+      },
+      "after": {
+        "id": "id-onw2jx0rmtl9kemr",
+        "code": "P001006016-003-001",
+        "name": "CLASSIC 6351 LCU",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 94,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "LCU 6351 CLASSIC RFID ASSY 4G BLE BLACK",
+        "created_at": "2026-09-03T08:29:16.179Z",
+        "updated_at": "2026-09-17T08:52:10.305Z",
+        "stock_base_quantity": 94
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T08:52:10.305Z"
     }
   ],
   "movement_audit": [

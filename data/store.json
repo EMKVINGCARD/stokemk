@@ -4315,14 +4315,14 @@
       "name": "CLASSIC LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 17,
+      "quantity": 18,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Classic RFID Front cover assy, Black",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-17T08:43:44.024Z",
-      "stock_base_quantity": 17
+      "updated_at": "2026-09-17T08:54:34.741Z",
+      "stock_base_quantity": 18
     },
     {
       "id": "id-vrte8du9mtl9kems",
@@ -16692,6 +16692,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T08:52:10.305Z"
+    },
+    {
+      "id": "id-ok5tm5lhmu5amvp1",
+      "action": "Ürün güncellendi",
+      "product_id": "id-p2we1x7kmtl9kems",
+      "product_code": "4821997B",
+      "product_name": "CLASSIC LCU KAPAK",
+      "before": {
+        "id": "id-p2we1x7kmtl9kems",
+        "code": "4821997B",
+        "name": "CLASSIC LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 17,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Classic RFID Front cover assy, Black",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-17T08:43:44.024Z",
+        "stock_base_quantity": 17
+      },
+      "after": {
+        "id": "id-p2we1x7kmtl9kems",
+        "code": "4821997B",
+        "name": "CLASSIC LCU KAPAK",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 18,
+        "critical_level": 10,
+        "unit_price": 0,
+        "location": "",
+        "description": "Classic RFID Front cover assy, Black",
+        "created_at": "2026-09-03T08:29:16.180Z",
+        "updated_at": "2026-09-17T08:54:34.741Z",
+        "stock_base_quantity": 18
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T08:54:34.741Z"
     }
   ],
   "movement_audit": [

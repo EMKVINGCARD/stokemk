@@ -4441,13 +4441,13 @@
       "name": "ESSENCE V1 SEMBOL SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 82,
+      "quantity": 2,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "RFID SYMBOL KIT FOR ESSENCE - BLACK GREY RAL7021",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-09-17T12:02:35.670Z",
+      "updated_at": "2026-09-17T12:03:19.717Z",
       "stock_base_quantity": 82
     },
     {
@@ -10320,6 +10320,23 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-09-17T12:02:35.670Z",
       "created_at": "2026-09-17T12:02:35.670Z"
+    },
+    {
+      "id": "id-9d5dbd4jmu5hdm3p",
+      "operation_id": "id-irqzyql2mu5hdm3p",
+      "product_id": "id-jua0jvqbmtl9kemt",
+      "product_code": "4824589B",
+      "product_name": "ESSENCE V1 SEMBOL SİYAH",
+      "type": "out",
+      "quantity": 80,
+      "before_quantity": 82,
+      "after_quantity": 2,
+      "target_location": "Fairmont Quasar İstanbul",
+      "reason": "Sipariş onayı ile satılan malzeme. ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-09-17T12:03:19.717Z",
+      "created_at": "2026-09-17T12:03:19.717Z"
     }
   ],
   "audit_log": [
@@ -18997,6 +19014,23 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T12:02:35.670Z",
+      "extra": null
+    },
+    {
+      "id": "id-qtitx8hemu5hdm3p",
+      "action": "Stok çıkışı",
+      "product_id": "id-jua0jvqbmtl9kemt",
+      "product_code": "4824589B",
+      "product_name": "ESSENCE V1 SEMBOL SİYAH",
+      "type": "out",
+      "quantity": 80,
+      "before_quantity": 82,
+      "after_quantity": 2,
+      "target_location": "Fairmont Quasar İstanbul",
+      "reason": "Sipariş onayı ile satılan malzeme. ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T12:03:19.717Z",
       "extra": null
     }
   ],

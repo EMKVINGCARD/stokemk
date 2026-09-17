@@ -619,6 +619,12 @@
       "name": "RAFFLES OTEL",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-ty3mfkpxmu55ld1g",
+      "name": "Merriott Hotel asia",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2368,13 +2374,13 @@
       "name": "PH2 KEYBOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 1,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "CPU CIRCUIT BOARD WITH PROTECTION BOARD SENTINEL & XTRA PHII",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:51:44.593Z",
+      "updated_at": "2026-09-17T06:33:25.829Z",
       "stock_base_quantity": 4
     },
     {
@@ -10213,6 +10219,23 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-09-16T12:50:25.249Z",
       "created_at": "2026-09-16T12:50:25.249Z"
+    },
+    {
+      "id": "id-dr27c274mu55ld1j",
+      "operation_id": "id-mndim9kqmu55ld1g",
+      "product_id": "id-5zjdazhkmtl9kemf",
+      "product_code": "259-8022KIT",
+      "product_name": "PH2 KEYBOARD",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 4,
+      "after_quantity": 1,
+      "target_location": "Merriott Hotel asia",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-17T06:33:25.829Z",
+      "created_at": "2026-09-17T06:33:25.829Z"
     }
   ],
   "audit_log": [
@@ -18095,6 +18118,23 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-16T19:43:21.988Z",
       "extra": "Önce: 1 adet / Ana Depo / Sheraton Grand Samsun Sipariş; Sonra: 1 adet / Ana Depo / Sheraton Grand Samsun Sipariş"
+    },
+    {
+      "id": "id-fmddy1ibmu55ld1j",
+      "action": "Stok çıkışı",
+      "product_id": "id-5zjdazhkmtl9kemf",
+      "product_code": "259-8022KIT",
+      "product_name": "PH2 KEYBOARD",
+      "type": "out",
+      "quantity": 3,
+      "before_quantity": 4,
+      "after_quantity": 1,
+      "target_location": "Merriott Hotel asia",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-17T06:33:25.831Z",
+      "extra": null
     }
   ],
   "settings": {

@@ -709,13 +709,13 @@
       "name": "MANYETİK ORİJİNAL BASKILI KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 310,
+      "quantity": 1310,
       "critical_level": 200,
       "unit_price": 0,
       "location": "",
       "description": "KEYCARD MAGSTRIPE STANDARD LOCO",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T09:21:21.460Z",
+      "updated_at": "2026-09-17T08:23:27.210Z",
       "stock_base_quantity": 310
     },
     {
@@ -10236,6 +10236,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-17T06:33:25.829Z",
       "created_at": "2026-09-17T06:33:25.829Z"
+    },
+    {
+      "id": "id-tyvbz4kumu59iup9",
+      "operation_id": "id-pmhk5ndzmu59iup6",
+      "product_id": "id-0ury7pbymtl9kemb",
+      "product_code": "4800436",
+      "product_name": "MANYETİK ORİJİNAL BASKILI KART",
+      "type": "in",
+      "quantity": 1000,
+      "before_quantity": 310,
+      "after_quantity": 1310,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-17T08:23:27.210Z",
+      "created_at": "2026-09-17T08:23:27.210Z"
     }
   ],
   "audit_log": [
@@ -18134,6 +18151,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-17T06:33:25.831Z",
+      "extra": null
+    },
+    {
+      "id": "id-s3dtw3crmu59iup9",
+      "action": "Stok girişi",
+      "product_id": "id-0ury7pbymtl9kemb",
+      "product_code": "4800436",
+      "product_name": "MANYETİK ORİJİNAL BASKILI KART",
+      "type": "in",
+      "quantity": 1000,
+      "before_quantity": 310,
+      "after_quantity": 1310,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-17T08:23:27.213Z",
       "extra": null
     }
   ],

@@ -5971,14 +5971,14 @@
       "name": "11,5MM RING BLACK TITANIUM",
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE BLACK T 11.5MM WO/SEAL",
       "created_at": "2026-09-03T08:29:16.203Z",
-      "updated_at": "2026-09-08T08:46:29.972Z",
-      "stock_base_quantity": 0
+      "updated_at": "2026-09-17T11:43:09.296Z",
+      "stock_base_quantity": 1
     },
     {
       "id": "id-1o2hiy5lmtl9kenf",
@@ -16916,6 +16916,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T11:41:39.776Z"
+    },
+    {
+      "id": "id-8u84q4aqmu5gno4w",
+      "action": "Ürün güncellendi",
+      "product_id": "id-vrude5swmtl9kenf",
+      "product_code": "482191790",
+      "product_name": "11,5MM RING BLACK TITANIUM",
+      "before": {
+        "id": "id-vrude5swmtl9kenf",
+        "code": "482191790",
+        "name": "11,5MM RING BLACK TITANIUM",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE BLACK T 11.5MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.203Z",
+        "updated_at": "2026-09-08T08:46:29.972Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-vrude5swmtl9kenf",
+        "code": "482191790",
+        "name": "11,5MM RING BLACK TITANIUM",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE BLACK T 11.5MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.203Z",
+        "updated_at": "2026-09-17T11:43:09.296Z",
+        "stock_base_quantity": 1
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T11:43:09.296Z"
     }
   ],
   "movement_audit": [

@@ -5912,12 +5912,12 @@
       "category_id": "id-z9v5w6hsmtk34t8o",
       "unit": "adet",
       "quantity": 0,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE BLACK T 8MM WO/SEAL",
       "created_at": "2026-09-03T08:29:16.201Z",
-      "updated_at": "2026-09-08T08:46:40.416Z",
+      "updated_at": "2026-09-17T11:43:52.768Z",
       "stock_base_quantity": 0
     },
     {
@@ -16996,6 +16996,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-17T11:43:37.001Z"
+    },
+    {
+      "id": "id-wohn4mm1mu5goloh",
+      "action": "Ürün güncellendi",
+      "product_id": "id-8xt80yl1mtl9kend",
+      "product_code": "482191690",
+      "product_name": "8MM RING BLACK TITANIUM",
+      "before": {
+        "id": "id-8xt80yl1mtl9kend",
+        "code": "482191690",
+        "name": "8MM RING BLACK TITANIUM",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE BLACK T 8MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-08T08:46:40.416Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-8xt80yl1mtl9kend",
+        "code": "482191690",
+        "name": "8MM RING BLACK TITANIUM",
+        "category_id": "id-z9v5w6hsmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYLINDER RING KIT SIGNATURE BLACK T 8MM WO/SEAL",
+        "created_at": "2026-09-03T08:29:16.201Z",
+        "updated_at": "2026-09-17T11:43:52.768Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-17T11:43:52.769Z"
     }
   ],
   "movement_audit": [

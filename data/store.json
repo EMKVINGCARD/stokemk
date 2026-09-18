@@ -6629,12 +6629,12 @@
       "category_id": "id-zgl5kigumtk34t8p",
       "unit": "adet",
       "quantity": 1,
-      "critical_level": 1,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.222Z",
-      "updated_at": "2026-09-08T09:18:06.732Z",
+      "updated_at": "2026-09-18T13:51:17.901Z",
       "stock_base_quantity": 1
     },
     {
@@ -17213,6 +17213,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-18T13:50:47.498Z"
+    },
+    {
+      "id": "id-a2djdsixmu70obd9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-x2owms9emtl9keny",
+      "product_code": "YOK",
+      "product_name": "WING RH DIŞ KOL ANTIK BRASS",
+      "before": {
+        "id": "id-x2owms9emtl9keny",
+        "code": "YOK",
+        "name": "WING RH DIŞ KOL ANTIK BRASS",
+        "category_id": "id-zgl5kigumtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.222Z",
+        "updated_at": "2026-09-08T09:18:06.732Z",
+        "stock_base_quantity": 1
+      },
+      "after": {
+        "id": "id-x2owms9emtl9keny",
+        "code": "YOK",
+        "name": "WING RH DIŞ KOL ANTIK BRASS",
+        "category_id": "id-zgl5kigumtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.222Z",
+        "updated_at": "2026-09-18T13:51:17.901Z",
+        "stock_base_quantity": 1
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-18T13:51:17.901Z"
     }
   ],
   "movement_audit": [

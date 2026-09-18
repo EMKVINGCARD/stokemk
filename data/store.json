@@ -643,6 +643,12 @@
       "name": "IBIS MERTER",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-0q3b9340mu6xh780",
+      "name": "sertka inş(marriot exe apart antalya)",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -772,13 +778,13 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 790,
+      "quantity": 290,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD UL AES 144B WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T09:21:45.212Z",
+      "updated_at": "2026-09-18T12:21:47.088Z",
       "stock_base_quantity": 790
     },
     {
@@ -10360,6 +10366,23 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-09-18T08:14:03.586Z",
       "created_at": "2026-09-18T08:14:03.586Z"
+    },
+    {
+      "id": "id-329d8kp8mu6xh780",
+      "operation_id": "id-jhoe0107mu6xh780",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "out",
+      "quantity": 500,
+      "before_quantity": 790,
+      "after_quantity": 290,
+      "target_location": "sertka inş(marriot exe apart antalya)",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-18T12:21:47.088Z",
+      "created_at": "2026-09-18T12:21:47.088Z"
     }
   ],
   "audit_log": [
@@ -19071,6 +19094,23 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-18T08:14:03.586Z",
+      "extra": null
+    },
+    {
+      "id": "id-zpok4ba4mu6xh781",
+      "action": "Stok çıkışı",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "out",
+      "quantity": 500,
+      "before_quantity": 790,
+      "after_quantity": 290,
+      "target_location": "sertka inş(marriot exe apart antalya)",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-18T12:21:47.089Z",
       "extra": null
     }
   ],

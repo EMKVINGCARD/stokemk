@@ -649,6 +649,12 @@
       "name": "sertka inş(marriot exe apart antalya)",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-ohkfnk3cmu7306as",
+      "name": "Arise otel",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2023,13 +2029,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 19,
+      "quantity": 18,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-17T10:52:13.983Z",
+      "updated_at": "2026-09-18T14:56:30.436Z",
       "stock_base_quantity": 27
     },
     {
@@ -10383,6 +10389,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-18T12:21:47.088Z",
       "created_at": "2026-09-18T12:21:47.088Z"
+    },
+    {
+      "id": "id-2c2w3pmxmu7306as",
+      "operation_id": "id-ybkuujnfmu7306as",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 19,
+      "after_quantity": 18,
+      "target_location": "Arise otel",
+      "reason": "(Eski clarion golden hor otel)sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-18T14:56:30.436Z",
+      "created_at": "2026-09-18T14:56:30.436Z"
     }
   ],
   "audit_log": [
@@ -19191,6 +19214,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-18T12:21:47.089Z",
+      "extra": null
+    },
+    {
+      "id": "id-0u44mi8bmu7306at",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 19,
+      "after_quantity": 18,
+      "target_location": "Arise otel",
+      "reason": "(Eski clarion golden hor otel)sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-18T14:56:30.437Z",
       "extra": null
     }
   ],

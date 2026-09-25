@@ -3805,13 +3805,13 @@
       "name": "ANSI 28MM 4-SW LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-15T13:01:27.664Z",
+      "updated_at": "2026-09-25T12:59:48.530Z",
       "stock_base_quantity": 2
     },
     {
@@ -11275,6 +11275,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T12:57:02.729Z",
       "created_at": "2026-09-25T12:57:02.729Z"
+    },
+    {
+      "id": "id-qmlsun9fmugyx29e",
+      "operation_id": "id-5cticke6mugyx29e",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "ibis merter'den gelen",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T12:59:48.530Z",
+      "created_at": "2026-09-25T12:59:48.530Z"
     }
   ],
   "audit_log": [
@@ -20933,6 +20950,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T12:57:02.729Z",
+      "extra": null
+    },
+    {
+      "id": "id-7lc5r2qwmugyx29e",
+      "action": "Stok girişi",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "ibis merter'den gelen",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T12:59:48.530Z",
       "extra": null
     }
   ],

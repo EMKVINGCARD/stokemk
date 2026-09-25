@@ -667,6 +667,12 @@
       "name": "RADISSON BLU ANTALYA",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-ox40w9nnmuguwwok",
+      "name": "swissotel izmir",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -826,13 +832,13 @@
       "name": "4K PLUS EV2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 3067,
+      "quantity": 2817,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "RFID KC PLUS EV2 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-07T10:32:55.417Z",
+      "updated_at": "2026-09-25T11:07:42.836Z",
       "stock_base_quantity": 3117
     },
     {
@@ -10690,6 +10696,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-19T11:53:06.565Z",
       "created_at": "2026-09-19T11:53:06.565Z"
+    },
+    {
+      "id": "id-bagst1h2muguwwop",
+      "operation_id": "id-6ybhdwxmmuguwwok",
+      "product_id": "id-hlipc91zmtl9kemb",
+      "product_code": "001489771-001-001",
+      "product_name": "4K PLUS EV2 MASTER KART",
+      "type": "out",
+      "quantity": 250,
+      "before_quantity": 3067,
+      "after_quantity": 2817,
+      "target_location": "swissotel izmir",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:07:42.836Z",
+      "created_at": "2026-09-25T11:07:42.836Z"
     }
   ],
   "audit_log": [
@@ -19788,6 +19811,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-19T11:53:06.566Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-ayonxv4lmuguwwop",
+      "action": "Stok çıkışı",
+      "product_id": "id-hlipc91zmtl9kemb",
+      "product_code": "001489771-001-001",
+      "product_name": "4K PLUS EV2 MASTER KART",
+      "type": "out",
+      "quantity": 250,
+      "before_quantity": 3067,
+      "after_quantity": 2817,
+      "target_location": "swissotel izmir",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:07:42.841Z",
+      "extra": null
     }
   ],
   "settings": {

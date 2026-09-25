@@ -7525,13 +7525,13 @@
       "name": "ADB A28 KARŞILIK RH SATIN CHROME",
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
-      "quantity": 13,
+      "quantity": 21,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, RIGHT STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-15T13:42:59.109Z",
+      "updated_at": "2026-09-25T11:27:16.039Z",
       "stock_base_quantity": 14
     },
     {
@@ -11020,6 +11020,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:26:52.692Z",
       "created_at": "2026-09-25T11:26:52.692Z"
+    },
+    {
+      "id": "id-ubqb6lzsmugvm1xj",
+      "operation_id": "id-dgy4hdpamugvm1xj",
+      "product_id": "id-pinnw1hsmtl9keog",
+      "product_code": "P001010191-002-222",
+      "product_name": "ADB A28 KARŞILIK RH SATIN CHROME",
+      "type": "in",
+      "quantity": 8,
+      "before_quantity": 13,
+      "after_quantity": 21,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:27:16.039Z",
+      "created_at": "2026-09-25T11:27:16.039Z"
     }
   ],
   "audit_log": [
@@ -20423,6 +20440,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:26:52.692Z",
+      "extra": null
+    },
+    {
+      "id": "id-3zdrtnplmugvm1xj",
+      "action": "Stok girişi",
+      "product_id": "id-pinnw1hsmtl9keog",
+      "product_code": "P001010191-002-222",
+      "product_name": "ADB A28 KARŞILIK RH SATIN CHROME",
+      "type": "in",
+      "quantity": 8,
+      "before_quantity": 13,
+      "after_quantity": 21,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:27:16.039Z",
       "extra": null
     }
   ],

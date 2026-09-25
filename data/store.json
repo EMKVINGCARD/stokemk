@@ -685,6 +685,12 @@
       "name": "invest bakırköy",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-hg6khty8mugvfhz0",
+      "name": "edirne yangın",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3949,13 +3955,13 @@
       "name": "EURO 20MM RHR GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-03T09:10:52.652Z",
+      "updated_at": "2026-09-25T11:22:10.236Z",
       "stock_base_quantity": 1
     },
     {
@@ -10861,6 +10867,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:18:46.868Z",
       "created_at": "2026-09-25T11:18:46.868Z"
+    },
+    {
+      "id": "id-54xj76ecmugvfhz0",
+      "operation_id": "id-t6izhz2zmugvfhz0",
+      "product_id": "id-t4tg25p7mtl9kemq",
+      "product_code": "YOK",
+      "product_name": "EURO 20MM RHR GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 0,
+      "target_location": "edirne yangın",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:22:10.236Z",
+      "created_at": "2026-09-25T11:22:10.236Z"
     }
   ],
   "audit_log": [
@@ -20111,6 +20134,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:18:46.869Z",
+      "extra": null
+    },
+    {
+      "id": "id-rnifiq22mugvfhz0",
+      "action": "Stok çıkışı",
+      "product_id": "id-t4tg25p7mtl9kemq",
+      "product_code": "YOK",
+      "product_name": "EURO 20MM RHR GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 0,
+      "target_location": "edirne yangın",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:22:10.236Z",
       "extra": null
     }
   ],

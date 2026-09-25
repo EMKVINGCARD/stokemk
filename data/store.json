@@ -6430,13 +6430,13 @@
       "name": "STRAIGHT ANTIK BRASS SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-09-08T08:45:48.032Z",
+      "updated_at": "2026-09-25T11:29:04.976Z",
       "stock_base_quantity": 0
     },
     {
@@ -11054,6 +11054,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:28:07.008Z",
       "created_at": "2026-09-25T11:28:07.008Z"
+    },
+    {
+      "id": "id-61548xinmugvodzl",
+      "operation_id": "id-w0m5z5krmugvodzk",
+      "product_id": "id-znekjjn5mtl9kenp",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT ANTIK BRASS SET",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 0,
+      "after_quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:29:04.976Z",
+      "created_at": "2026-09-25T11:29:04.976Z"
     }
   ],
   "audit_log": [
@@ -20491,6 +20508,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:28:07.008Z",
+      "extra": null
+    },
+    {
+      "id": "id-641wqcy5mugvodzl",
+      "action": "Stok girişi",
+      "product_id": "id-znekjjn5mtl9kenp",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT ANTIK BRASS SET",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 0,
+      "after_quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:29:04.977Z",
       "extra": null
     }
   ],

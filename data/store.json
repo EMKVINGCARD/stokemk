@@ -1639,13 +1639,13 @@
       "name": "ESSENCE VE BOŞ HOUSING",
       "category_id": "id-hzu8q0wcmtk34t8n",
       "unit": "adet",
-      "quantity": 15,
+      "quantity": 13,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "HOUSING ESSENCE ONLINE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T06:43:00.359Z",
+      "updated_at": "2026-09-25T11:18:46.868Z",
       "stock_base_quantity": 15
     },
     {
@@ -10844,6 +10844,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:18:20.679Z",
       "created_at": "2026-09-25T11:18:20.679Z"
+    },
+    {
+      "id": "id-zawc8q4jmugvb51w",
+      "operation_id": "id-xl20k6wlmugvb51w",
+      "product_id": "id-htbq7k5emtl9kemc",
+      "product_code": "4827621",
+      "product_name": "ESSENCE VE BOŞ HOUSING",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 15,
+      "after_quantity": 13,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:18:46.868Z",
+      "created_at": "2026-09-25T11:18:46.868Z"
     }
   ],
   "audit_log": [
@@ -20077,6 +20094,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:18:20.679Z",
+      "extra": null
+    },
+    {
+      "id": "id-sjidx1bgmugvb51x",
+      "action": "Stok çıkışı",
+      "product_id": "id-htbq7k5emtl9kemc",
+      "product_code": "4827621",
+      "product_name": "ESSENCE VE BOŞ HOUSING",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 15,
+      "after_quantity": 13,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:18:46.869Z",
       "extra": null
     }
   ],

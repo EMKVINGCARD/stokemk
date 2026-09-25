@@ -2302,13 +2302,13 @@
       "name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 65,
+      "quantity": 60,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "None",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-16T19:43:21.988Z",
+      "updated_at": "2026-09-25T11:08:46.298Z",
       "stock_base_quantity": 66
     },
     {
@@ -10713,6 +10713,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:07:42.836Z",
       "created_at": "2026-09-25T11:07:42.836Z"
+    },
+    {
+      "id": "id-7g0xdlf1muguy9ne",
+      "operation_id": "id-v6h2kdncmuguy9ne",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
+      "type": "out",
+      "quantity": 5,
+      "before_quantity": 65,
+      "after_quantity": 60,
+      "target_location": "Radisson Blu Şişli",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:08:46.298Z",
+      "created_at": "2026-09-25T11:08:46.298Z"
     }
   ],
   "audit_log": [
@@ -19827,6 +19844,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:07:42.841Z",
+      "extra": null
+    },
+    {
+      "id": "id-6zpnoqbqmuguy9ne",
+      "action": "Stok çıkışı",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
+      "type": "out",
+      "quantity": 5,
+      "before_quantity": 65,
+      "after_quantity": 60,
+      "target_location": "Radisson Blu Şişli",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:08:46.298Z",
       "extra": null
     }
   ],

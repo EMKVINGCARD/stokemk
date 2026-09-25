@@ -7645,13 +7645,13 @@
       "name": "A28 STD FRONT SATIN CHROME",
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
-      "quantity": 33,
+      "quantity": 31,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-25T11:33:32.791Z",
+      "updated_at": "2026-09-25T12:57:02.729Z",
       "stock_base_quantity": 32
     },
     {
@@ -11258,6 +11258,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T12:27:43.043Z",
       "created_at": "2026-09-25T12:27:43.043Z"
+    },
+    {
+      "id": "id-nxoiph3smugytibt",
+      "operation_id": "id-v9l5x0rjmugytibt",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 33,
+      "after_quantity": 31,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T12:57:02.729Z",
+      "created_at": "2026-09-25T12:57:02.729Z"
     }
   ],
   "audit_log": [
@@ -20899,6 +20916,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T12:27:43.043Z",
+      "extra": null
+    },
+    {
+      "id": "id-zqe9nks2mugytibt",
+      "action": "Stok çıkışı",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 33,
+      "after_quantity": 31,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T12:57:02.729Z",
       "extra": null
     }
   ],

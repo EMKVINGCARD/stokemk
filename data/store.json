@@ -7180,13 +7180,13 @@
       "name": "DB BUTONU COMPOZIT BLACK TITANUM PVD",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 15,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T PLASTIC END 3 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-19T11:50:36.343Z",
+      "updated_at": "2026-09-25T11:26:52.692Z",
       "stock_base_quantity": 13
     },
     {
@@ -11003,6 +11003,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:26:21.256Z",
       "created_at": "2026-09-25T11:26:21.256Z"
+    },
+    {
+      "id": "id-ftatcyv4mugvljx0",
+      "operation_id": "id-2wjioyhxmugvljx0",
+      "product_id": "id-ruv31tkbmtl9keoe",
+      "product_code": "481865990",
+      "product_name": "DB BUTONU COMPOZIT BLACK TITANUM PVD",
+      "type": "in",
+      "quantity": 3,
+      "before_quantity": 12,
+      "after_quantity": 15,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:26:52.692Z",
+      "created_at": "2026-09-25T11:26:52.692Z"
     }
   ],
   "audit_log": [
@@ -20389,6 +20406,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:26:21.256Z",
+      "extra": null
+    },
+    {
+      "id": "id-tpkod9lwmugvljx0",
+      "action": "Stok girişi",
+      "product_id": "id-ruv31tkbmtl9keoe",
+      "product_code": "481865990",
+      "product_name": "DB BUTONU COMPOZIT BLACK TITANUM PVD",
+      "type": "in",
+      "quantity": 3,
+      "before_quantity": 12,
+      "after_quantity": 15,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:26:52.692Z",
       "extra": null
     }
   ],

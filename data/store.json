@@ -4285,13 +4285,13 @@
       "name": "LCA 6344 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 194,
+      "quantity": 193,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCA 6344 KIT FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-19T11:53:06.565Z",
+      "updated_at": "2026-09-25T11:22:36.957Z",
       "stock_base_quantity": 200
     },
     {
@@ -10884,6 +10884,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:22:10.236Z",
       "created_at": "2026-09-25T11:22:10.236Z"
+    },
+    {
+      "id": "id-rf8tm6t8mugvg2l9",
+      "operation_id": "id-rdvdyqjbmugvg2l9",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 194,
+      "after_quantity": 193,
+      "target_location": "edirne yangın",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:22:36.957Z",
+      "created_at": "2026-09-25T11:22:36.957Z"
     }
   ],
   "audit_log": [
@@ -20151,6 +20168,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:22:10.236Z",
+      "extra": null
+    },
+    {
+      "id": "id-khc1pd8vmugvg2l9",
+      "action": "Stok çıkışı",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 194,
+      "after_quantity": 193,
+      "target_location": "edirne yangın",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:22:36.957Z",
       "extra": null
     }
   ],

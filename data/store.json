@@ -6178,13 +6178,13 @@
       "name": "WING LH SATIN CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME WING L / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME WING R",
       "created_at": "2026-09-03T08:29:16.207Z",
-      "updated_at": "2026-09-08T08:44:52.700Z",
+      "updated_at": "2026-09-25T11:15:12.126Z",
       "stock_base_quantity": 1
     },
     {
@@ -10753,6 +10753,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:14:34.945Z",
       "created_at": "2026-09-25T11:14:34.945Z"
+    },
+    {
+      "id": "id-lhnhwtjrmugv6jcu",
+      "operation_id": "id-q8hvr7g4mugv6jcu",
+      "product_id": "id-xodkpgowmtl9kenj",
+      "product_code": "481633361AA / 481633561AB",
+      "product_name": "WING LH SATIN CHROME SET",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:15:12.126Z",
+      "created_at": "2026-09-25T11:15:12.126Z"
     }
   ],
   "audit_log": [
@@ -19901,6 +19918,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:14:34.945Z",
+      "extra": null
+    },
+    {
+      "id": "id-pe50p6ecmugv6jcu",
+      "action": "Stok girişi",
+      "product_id": "id-xodkpgowmtl9kenj",
+      "product_code": "481633361AA / 481633561AB",
+      "product_name": "WING LH SATIN CHROME SET",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:15:12.126Z",
       "extra": null
     }
   ],

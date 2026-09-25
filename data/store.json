@@ -6979,13 +6979,13 @@
       "name": "DB BUTONU ALL METAL SATIN CHROME",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 6,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME METAL END 1 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-15T13:43:28.427Z",
+      "updated_at": "2026-09-25T11:18:20.679Z",
       "stock_base_quantity": 9
     },
     {
@@ -10827,6 +10827,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:17:13.715Z",
       "created_at": "2026-09-25T11:17:13.715Z"
+    },
+    {
+      "id": "id-iytjn35omugvakuf",
+      "operation_id": "id-jc2f4hltmugvakuf",
+      "product_id": "id-8em3wb5hmtl9keod",
+      "product_code": "481865861",
+      "product_name": "DB BUTONU ALL METAL SATIN CHROME",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 8,
+      "after_quantity": 6,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:18:20.679Z",
+      "created_at": "2026-09-25T11:18:20.679Z"
     }
   ],
   "audit_log": [
@@ -20043,6 +20060,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:17:13.715Z",
+      "extra": null
+    },
+    {
+      "id": "id-b0rchcsgmugvakuf",
+      "action": "Stok çıkışı",
+      "product_id": "id-8em3wb5hmtl9keod",
+      "product_code": "481865861",
+      "product_name": "DB BUTONU ALL METAL SATIN CHROME",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 8,
+      "after_quantity": 6,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:18:20.679Z",
       "extra": null
     }
   ],

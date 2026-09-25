@@ -673,6 +673,12 @@
       "name": "swissotel izmir",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-27xmjbb4mugv5qo1",
+      "name": "c side",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -6037,13 +6043,13 @@
       "name": "WING RH SATIN CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 3,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME WING R / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME WING L",
       "created_at": "2026-09-03T08:29:16.203Z",
-      "updated_at": "2026-09-10T09:15:00.712Z",
+      "updated_at": "2026-09-25T11:14:34.945Z",
       "stock_base_quantity": 2
     },
     {
@@ -10730,6 +10736,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:08:46.298Z",
       "created_at": "2026-09-25T11:08:46.298Z"
+    },
+    {
+      "id": "id-tvz2gvv0mugv5qo1",
+      "operation_id": "id-dziuqd9lmugv5qo1",
+      "product_id": "id-51d1nopgmtl9kenf",
+      "product_code": "481633361AB / 481633561AA",
+      "product_name": "WING RH SATIN CHROME SET",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 3,
+      "after_quantity": 2,
+      "target_location": "c side",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:14:34.945Z",
+      "created_at": "2026-09-25T11:14:34.945Z"
     }
   ],
   "audit_log": [
@@ -19861,6 +19884,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:08:46.298Z",
+      "extra": null
+    },
+    {
+      "id": "id-3vkq0e7tmugv5qo1",
+      "action": "Stok çıkışı",
+      "product_id": "id-51d1nopgmtl9kenf",
+      "product_code": "481633361AB / 481633561AA",
+      "product_name": "WING RH SATIN CHROME SET",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 3,
+      "after_quantity": 2,
+      "target_location": "c side",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:14:34.945Z",
       "extra": null
     }
   ],

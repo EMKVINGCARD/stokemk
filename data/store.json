@@ -7720,13 +7720,13 @@
       "name": "A28 STD FRONT ANTIK BRASS",
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
-      "quantity": 3,
+      "quantity": 4,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM ANTBRASS",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:29:42.455Z",
+      "updated_at": "2026-09-25T11:35:28.236Z",
       "stock_base_quantity": 3
     },
     {
@@ -11173,6 +11173,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:35:09.944Z",
       "created_at": "2026-09-25T11:35:09.944Z"
+    },
+    {
+      "id": "id-woauywtpmugvwlpo",
+      "operation_id": "id-c1ts812wmugvwlpo",
+      "product_id": "id-8fo6yjc2mtl9keog",
+      "product_code": "480451424",
+      "product_name": "A28 STD FRONT ANTIK BRASS",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 3,
+      "after_quantity": 4,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:35:28.236Z",
+      "created_at": "2026-09-25T11:35:28.236Z"
     }
   ],
   "audit_log": [
@@ -20729,6 +20746,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:35:09.944Z",
+      "extra": null
+    },
+    {
+      "id": "id-9rk5gicwmugvwlpo",
+      "action": "Stok girişi",
+      "product_id": "id-8fo6yjc2mtl9keog",
+      "product_code": "480451424",
+      "product_name": "A28 STD FRONT ANTIK BRASS",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 3,
+      "after_quantity": 4,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:35:28.236Z",
       "extra": null
     }
   ],

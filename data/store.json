@@ -679,6 +679,12 @@
       "name": "c side",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-o140mlthmugv8j19",
+      "name": "invest bakırköy",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -6313,13 +6319,13 @@
       "name": "STRAIGHT SATIN CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 78,
+      "quantity": 76,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME STRAIGHT",
       "created_at": "2026-09-03T08:29:16.212Z",
-      "updated_at": "2026-09-19T11:53:06.565Z",
+      "updated_at": "2026-09-25T11:16:45.021Z",
       "stock_base_quantity": 83
     },
     {
@@ -10787,6 +10793,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-25T11:15:37.336Z",
       "created_at": "2026-09-25T11:15:37.336Z"
+    },
+    {
+      "id": "id-nx066qhgmugv8j19",
+      "operation_id": "id-jx6h6afymugv8j19",
+      "product_id": "id-x2fmf5v0mtl9keno",
+      "product_code": "481633361AC / 481633561AC",
+      "product_name": "STRAIGHT SATIN CHROME SET",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 78,
+      "after_quantity": 76,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-25T11:16:45.021Z",
+      "created_at": "2026-09-25T11:16:45.021Z"
     }
   ],
   "audit_log": [
@@ -19969,6 +19992,23 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-25T11:15:37.336Z",
+      "extra": null
+    },
+    {
+      "id": "id-v2x6xdclmugv8j19",
+      "action": "Stok çıkışı",
+      "product_id": "id-x2fmf5v0mtl9keno",
+      "product_code": "481633361AC / 481633561AC",
+      "product_name": "STRAIGHT SATIN CHROME SET",
+      "type": "out",
+      "quantity": 2,
+      "before_quantity": 78,
+      "after_quantity": 76,
+      "target_location": "invest bakırköy",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-25T11:16:45.021Z",
       "extra": null
     }
   ],

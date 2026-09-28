@@ -8415,6 +8415,20 @@
       "created_at": "2026-09-14T10:54:22.736Z",
       "updated_at": "2026-09-28T07:21:41.184Z",
       "stock_base_quantity": 100
+    },
+    {
+      "id": "id-xaye7pj2mukyrysh",
+      "code": "8008005474",
+      "name": "ESSENCE V2 ANSI28MM US ANTIQUE DARK LH",
+      "category_id": "id-a04v1tgfmtl7q19i",
+      "unit": "adet",
+      "quantity": 0,
+      "critical_level": 0,
+      "unit_price": 0,
+      "location": "",
+      "description": "",
+      "created_at": "2026-09-28T08:06:55.457Z",
+      "updated_at": "2026-09-28T08:06:55.458Z"
     }
   ],
   "movements": [
@@ -18430,6 +18444,31 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-18T13:51:17.901Z"
+    },
+    {
+      "id": "id-k3ehy5s6mukyrysi",
+      "action": "Ürün eklendi",
+      "product_id": "id-xaye7pj2mukyrysh",
+      "product_code": "8008005474",
+      "product_name": "ESSENCE V2 ANSI28MM US ANTIQUE DARK LH",
+      "before": null,
+      "after": {
+        "id": "id-xaye7pj2mukyrysh",
+        "code": "8008005474",
+        "name": "ESSENCE V2 ANSI28MM US ANTIQUE DARK LH",
+        "category_id": "id-a04v1tgfmtl7q19i",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-28T08:06:55.457Z",
+        "updated_at": "2026-09-28T08:06:55.458Z"
+      },
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-28T08:06:55.458Z"
     }
   ],
   "movement_audit": [

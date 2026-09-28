@@ -712,7 +712,7 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2997,
+      "quantity": 2996,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
@@ -11702,20 +11702,6 @@
       "created_at": "2026-09-28T08:20:19.125Z"
     },
     {
-      "id": "id-cbf918zrmukzab7u",
-      "product_id": "id-2g7hmgpqmtl9kemb",
-      "product_code": "4817691",
-      "product_name": "RFID UL GUEST BASKISIZ KART",
-      "type": "in",
-      "quantity": 1,
-      "target_location": "Ana Depo",
-      "reason": "1",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "happened_at": "2026-09-28T08:21:11.370Z",
-      "created_at": "2026-09-28T08:21:11.370Z"
-    },
-    {
       "id": "id-xiah175jmukzag90",
       "product_id": "id-shyq5gaymtl9ken2",
       "product_code": "4812635905V50",
@@ -11911,5 +11897,22 @@
       "id-d01jtuummtl9ken3",
       "id-iuej3fr5mtl9kemc"
     ]
-  }
+  },
+  "movement_audit": [
+    {
+      "id": "id-7cakbes8mukzdyyo",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "1",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-28T08:24:02.112Z",
+      "extra": "Silme sonrası stok geri alındı"
+    }
+  ]
 }

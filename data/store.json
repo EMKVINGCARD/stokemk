@@ -7912,13 +7912,13 @@
       "name": "ESSENCE V2 FRONT US ANTIK DARK",
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 6,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - USANTDARK",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:30:29.011Z",
+      "updated_at": "2026-09-28T08:14:51.223Z",
       "stock_base_quantity": 5
     },
     {
@@ -11672,6 +11672,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T08:14:28.910Z",
       "created_at": "2026-09-28T08:14:28.910Z"
+    },
+    {
+      "id": "id-46wy8ykbmukz25w7",
+      "product_id": "id-krrj3ta7mtl9keog",
+      "product_code": "482459030",
+      "product_name": "ESSENCE V2 FRONT US ANTIK DARK",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-28T08:14:51.223Z",
+      "created_at": "2026-09-28T08:14:51.223Z"
     }
   ],
   "audit_log": [
@@ -21766,6 +21780,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-28T08:14:28.910Z",
+      "extra": null
+    },
+    {
+      "id": "id-f5j7pv49mukz25w7",
+      "action": "Stok girişi",
+      "product_id": "id-krrj3ta7mtl9keog",
+      "product_code": "482459030",
+      "product_name": "ESSENCE V2 FRONT US ANTIK DARK",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-28T08:14:51.223Z",
       "extra": null
     }
   ],

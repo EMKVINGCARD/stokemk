@@ -196,7 +196,9 @@ function seed(){
     locations:[{id:uid(),name:"Ana Depo",kind:"depo",auto_created:false}],
     products:[],
     movements:[],
+    deleted_movement_ids:[],
     audit_log:[],
+    movement_audit:[],
     settings:mergeDefaults({app_title:"EMK Stok Takip",primary_color:"#2563EB",ignoredLowStock:[]})
   };
 }
@@ -289,27 +291,53 @@ async function ghPutStore(stateObj, sha){
   const data = await res.json();
   return data.content.sha;
 }
+function mergeAuditEntries(localEntries,remoteEntries){
+  const merged=new Map();let legacyIndex=0;
+  const add=entry=>{
+    if(!entry||typeof entry!=="object")return;
+    const key=entry.id!==undefined&&entry.id!==null?"id:"+String(entry.id):"legacy:"+[entry.created_at||"",entry.action||"",entry.product_id||"",entry.product_code||"",entry.product_name||"",entry.type||"",entry.quantity??"",legacyIndex++].join("|");
+    merged.set(key,entry);
+  };
+  (Array.isArray(remoteEntries)?remoteEntries:[]).forEach(add);
+  (Array.isArray(localEntries)?localEntries:[]).forEach(add);
+  return [...merged.values()].sort((a,b)=>String(a.created_at||"").localeCompare(String(b.created_at||"")));
+}
+function stateAuditEntries(source,key){
+  const top=Array.isArray(source&&source[key])?source[key]:[];
+  const nested=Array.isArray(source&&source.settings&&source.settings[key])?source.settings[key]:[];
+  return [...top,...nested];
+}
 function mergeStates(local, remote){
-  const mvMap = {};
-  (remote.movements || []).forEach(m => mvMap[m.id] = m);
-  (local.movements  || []).forEach(m => { if(!mvMap[m.id]) mvMap[m.id] = m; });
+  local=local||{};remote=remote||{};
+  const mvMap=new Map();
+  (remote.movements||[]).forEach(m=>mvMap.set(String(m.id),m));
+  (local.movements||[]).forEach(m=>mvMap.set(String(m.id),m));
+  const deleted=new Set([...(local.deleted_movement_ids||[]),...(remote.deleted_movement_ids||[])].map(String));
+  deleted.forEach(id=>mvMap.delete(id));
   return {
-    users:      local.users      || remote.users      || [],
-    categories: local.categories || remote.categories || [],
-    locations:  local.locations  || remote.locations  || [],
-    products:   local.products   || remote.products   || [],
-    movements:  Object.values(mvMap).sort((a,b)=> (a.happened_at||"").localeCompare(b.happened_at||"")),
-    settings:   mergeDefaults(local.settings || remote.settings || {})
+    users:local.users||remote.users||[],
+    categories:local.categories||remote.categories||[],
+    locations:local.locations||remote.locations||[],
+    products:local.products||remote.products||[],
+    movements:[...mvMap.values()].sort((a,b)=>(a.happened_at||"").localeCompare(b.happened_at||"")),
+    deleted_movement_ids:[...deleted],
+    audit_log:mergeAuditEntries(stateAuditEntries(local,"audit_log"),stateAuditEntries(remote,"audit_log")),
+    movement_audit:mergeAuditEntries(stateAuditEntries(local,"movement_audit"),stateAuditEntries(remote,"movement_audit")),
+    settings:mergeDefaults(local.settings||remote.settings||{})
   };
 }
 function normalizeState(s){
-  s = s || {};
-  s.users = s.users || [];
-  s.categories = s.categories || [];
-  s.locations = s.locations || [];
-  s.products = s.products || [];
-  s.movements = s.movements || [];
-  s.settings = mergeDefaults(s.settings || {});
+  s=s||{};
+  s.users=s.users||[];
+  s.categories=s.categories||[];
+  s.locations=s.locations||[];
+  s.products=s.products||[];
+  s.movements=s.movements||[];
+  s.deleted_movement_ids=Array.isArray(s.deleted_movement_ids)?s.deleted_movement_ids:[];
+  const legacySettings=s.settings||{};
+  s.audit_log=mergeAuditEntries(Array.isArray(s.audit_log)?s.audit_log:[],Array.isArray(legacySettings.audit_log)?legacySettings.audit_log:[]);
+  s.movement_audit=mergeAuditEntries(Array.isArray(s.movement_audit)?s.movement_audit:[],Array.isArray(legacySettings.movement_audit)?legacySettings.movement_audit:[]);
+  s.settings=mergeDefaults(legacySettings);
   return s;
 }
 async function pullState(silent){
@@ -918,7 +946,7 @@ function renderMovements(){
         ${c.quantity?`<td class="text-right mono font-semibold">${m.type==="in"?"+":"−"}${fmtNum(m.quantity)}</td>`:""}
         ${c.location?`<td>${m.target_location||"—"}</td>`:""}
         ${c.reason?`<td class="text-sm text-slate-500">${m.reason||"—"}</td>`:""}
-        <td><button class="btn btn-ghost btn-sm" onclick="deleteMovement('${m.id}')">Sil</button></td>
+        <td><div class="flex justify-end gap-1"><button class="btn btn-ghost btn-sm" onclick="editMovement('${m.id}')">Düzelt</button><button class="btn btn-ghost btn-sm" onclick="deleteMovement('${m.id}')">Sil</button></div></td>
       </tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Hareket bulunamadı</td></tr>`}</tbody>
     </table></div>`;
 }
@@ -965,7 +993,17 @@ function pickMvProduct(id){
   sel.classList.remove("hidden");
 }
 function recordMovementAudit(action,m,extra){const u=currentUser();state.movement_audit=state.movement_audit||[];state.movement_audit.push({id:uid(),action,product_id:m.product_id,product_code:m.product_code,product_name:m.product_name,type:m.type,quantity:m.quantity,target_location:m.target_location||null,reason:m.reason||null,user_id:u&&u.id,user_name:u&&(u.name||u.username),created_at:nowISO(),extra:extra||null});}
-function renderMovementAudit(){const logs=[...(state.movement_audit||[])].sort((a,b)=>b.created_at.localeCompare(a.created_at));document.getElementById("adminPanel").innerHTML=`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><div><h3 class="font-semibold">Stok Hareketleri İşlem Geçmişi</h3><p class="text-sm text-slate-500 mt-1">Kullanıcıların yaptığı stok giriş, çıkış ve silme işlemleri.</p></div><span class="badge bg-slate-100 text-slate-700">${logs.length} kayıt</span></div><div class="overflow-x-auto"><table><thead><tr><th>Tarih</th><th>Kullanıcı</th><th>İşlem</th><th>Ürün Kodu</th><th>Ürün Adı</th><th>Miktar</th><th>Lokasyon</th><th>Açıklama</th></tr></thead><tbody>${logs.length?logs.map(x=>`<tr><td class="text-xs text-slate-500">${fmtDate(x.created_at)}</td><td class="font-medium">${x.user_name||"—"}</td><td>${x.action==="Stok girişi"?`<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`:x.action==="Stok çıkışı"?`<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`:`<span class="badge bg-slate-100 text-slate-700">SİLİNDİ</span>`}</td><td class="mono text-xs">${x.product_code||"—"}</td><td>${x.product_name||"—"}</td><td class="mono">${x.quantity===null||x.quantity===undefined?"—":fmtNum(x.quantity)}</td><td>${x.target_location||"—"}</td><td class="text-sm text-slate-500">${x.reason||x.extra||"—"}</td></tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Henüz stok işlem geçmişi yok.</td></tr>`}</tbody></table></div></div>`;}
+function movementAuditBadge(action){
+  if(action==="Stok girişi")return `<span class="badge bg-emerald-100 text-emerald-700">GİRİŞ</span>`;
+  if(action==="Stok çıkışı")return `<span class="badge bg-rose-100 text-rose-700">ÇIKIŞ</span>`;
+  if(action==="Stok hareketi düzeltildi")return `<span class="badge bg-blue-100 text-blue-700">DÜZELTİLDİ</span>`;
+  return `<span class="badge bg-slate-100 text-slate-700">SİLİNDİ</span>`;
+}
+function renderMovementAudit(){
+  const logs=[...(state.movement_audit||[])].sort((a,b)=>String(b.created_at||"").localeCompare(String(a.created_at||"")));
+  const auditNote=x=>[x.extra||"",x.reason&&x.reason!==x.extra?`Sebep: ${x.reason}`:""].filter(Boolean).join(" · ")||"—";
+  document.getElementById("adminPanel").innerHTML=`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><div><h3 class="font-semibold">Stok Hareketleri İşlem Geçmişi</h3><p class="text-sm text-slate-500 mt-1">Kullanıcıların yaptığı stok giriş, çıkış, düzeltme ve silme işlemleri.</p></div><span class="badge bg-slate-100 text-slate-700">${logs.length} kayıt</span></div><div class="overflow-x-auto"><table><thead><tr><th>Tarih</th><th>Kullanıcı</th><th>İşlem</th><th>Ürün Kodu</th><th>Ürün Adı</th><th>Miktar</th><th>Lokasyon</th><th>Açıklama</th></tr></thead><tbody>${logs.length?logs.map(x=>`<tr><td class="text-xs text-slate-500">${fmtDate(x.created_at)}</td><td class="font-medium">${x.user_name||"—"}</td><td>${movementAuditBadge(x.action)}</td><td class="mono text-xs">${x.product_code||"—"}</td><td>${x.product_name||"—"}</td><td class="mono">${x.quantity===null||x.quantity===undefined?"—":fmtNum(x.quantity)}</td><td>${x.target_location||"—"}</td><td class="text-sm text-slate-500">${auditNote(x)}</td></tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Henüz stok işlem geçmişi yok.</td></tr>`}</tbody></table></div></div>`;
+}
 function saveMovement(e,type){
   e.preventDefault();const fd=new FormData(e.target);const d={type};fd.forEach((v,k)=>d[k]=v);d.quantity=+d.quantity;
   const p=state.products.find(x=>x.id===d.product_id);if(!p){toast("Ürün seçin","error");return;}
@@ -979,8 +1017,73 @@ function saveMovement(e,type){
   p.quantity+=delta;p.updated_at=nowISO();
   save();closeModal();renderMovements();toast("Hareket kaydedildi");
 }
-function deleteMovement(id){const m=state.movements.find(x=>x.id===id);if(!m)return;openModal(`<h3 class="text-lg font-semibold mb-2 text-rose-700">Stok Hareketini Sil</h3><p class="text-sm text-slate-600 mb-3">Bu işlem stoğu geri alır. Onaylamak için <b>SIL</b> yazın.</p><input id="delMoveInput" class="input mono" placeholder="SIL" oninput="document.getElementById('delMoveBtn').disabled = this.value !== 'SIL'" /><div class="flex justify-end gap-2 mt-4"><button class="btn btn-outline" onclick="closeModal()">İptal</button><button id="delMoveBtn" class="btn btn-danger" disabled onclick="confirmDeleteMovement('${id}')">Sil</button></div>`);setTimeout(()=>document.getElementById("delMoveInput")?.focus(),50);}
-function confirmDeleteMovement(id){const input=document.getElementById("delMoveInput");if(!input||input.value!=="SIL"){toast("Onay için SIL yazmalısınız","error");return;}const m=state.movements.find(x=>x.id===id);if(!m)return;const p=state.products.find(x=>x.id===m.product_id);if(p){p.quantity+=m.type==="in"?-m.quantity:m.quantity;}recordMovementAudit("Stok hareketi silindi",m,"Silme sonrası stok geri alındı");state.movements=state.movements.filter(x=>x.id!==id);save();closeModal();renderMovements();toast("Silindi");}
+function findMovementProduct(m){
+  if(!m)return null;
+  return state.products.find(p=>String(p.id)===String(m.product_id))||state.products.find(p=>m.product_code&&String(p.code)===String(m.product_code))||null;
+}
+function editMovement(id){
+  const m=state.movements.find(x=>String(x.id)===String(id));if(!m)return;
+  const current=findMovementProduct(m);
+  const selectedId=current?String(current.id):"";
+  openModal(`<h3 class="text-lg font-semibold mb-1">Stok Hareketini Düzelt</h3><p class="text-xs text-slate-500 mb-4">Hareket türü (${m.type==="in"?"Giriş":"Çıkış"}) ve tarihi korunur. Ürünü, miktarı ve açıklamayı değiştirebilirsiniz.</p><form onsubmit="saveMovementEdit(event,'${m.id}')" class="space-y-3"><div><label class="text-sm">Ürün *</label><select required class="input mt-1" name="product_id"><option value="">Ürün seçin</option>${state.products.map(p=>`<option value="${p.id}" ${String(p.id)===selectedId?"selected":""}>${p.code} — ${p.name} (Stok: ${fmtNum(p.quantity)} ${p.unit||""})</option>`).join("")}</select></div><div><label class="text-sm">Miktar *</label><input required type="number" min="0.01" step="0.01" class="input mt-1" name="quantity" value="${Number(m.quantity)||0}" /></div><div><label class="text-sm">Hedef Lokasyon</label><input class="input mt-1" name="target_location" value="${m.target_location||""}" placeholder="Lokasyon" /></div><div><label class="text-sm">Sebep / Açıklama</label><textarea rows="2" class="input mt-1" name="reason">${m.reason||""}</textarea></div><div class="flex justify-end gap-2"><button type="button" class="btn btn-outline" onclick="closeModal()">İptal</button><button type="submit" class="btn btn-primary">Kaydet</button></div></form>`,true);
+}
+function saveMovementEdit(e,id){
+  e.preventDefault();
+  const m=state.movements.find(x=>String(x.id)===String(id));if(!m){toast("Stok hareketi bulunamadı","error");return;}
+  const fd=new FormData(e.target),targetId=String(fd.get("product_id")||"");
+  const target=state.products.find(p=>String(p.id)===targetId);
+  const quantity=Number(fd.get("quantity"));
+  if(!target){toast("Bir ürün seçin","error");return;}
+  if(!Number.isFinite(quantity)||quantity<=0){toast("Geçerli bir miktar girin","error");return;}
+  if(m.type!=="in"&&m.type!=="out"){toast("Hareket türü geçersiz; kayıt değiştirilmedi","error");return;}
+  const oldProduct=findMovementProduct(m);
+  if(!oldProduct){toast("Hareketin eski ürünü bulunamadı; stok güvenliği için düzeltme yapılmadı","error");return;}
+  const oldQuantity=Number(m.quantity);
+  if(!Number.isFinite(oldQuantity)||oldQuantity<=0){toast("Eski hareket miktarı geçersiz; kayıt değiştirilmedi","error");return;}
+  const EPS=1e-9,oldDelta=m.type==="in"?oldQuantity:-oldQuantity,newDelta=m.type==="in"?quantity:-quantity;
+  const oldBalance=Number(oldProduct.quantity)||0,targetBalance=Number(target.quantity)||0;
+  const restoredOldBalance=oldBalance-oldDelta;
+  let finalOldBalance=restoredOldBalance,finalTargetBalance=targetBalance+newDelta;
+  if(target===oldProduct){
+    finalOldBalance=restoredOldBalance+newDelta;
+    finalTargetBalance=finalOldBalance;
+    if(finalOldBalance < -EPS){toast("Bu düzeltme eski ürünün stoğunu negatife düşürür; kayıt değiştirilmedi","error");return;}
+  }else{
+    if(restoredOldBalance < -EPS){toast("Eski ürünün stoğu bu hareket geri alındığında negatife düşer; önce sonraki çıkışları düzeltin","error");return;}
+    if(finalTargetBalance < -EPS){toast("Yeni üründe yeterli stok yok; çıkış miktarı düşürülemedi","error");return;}
+  }
+  const loc=String(fd.get("target_location")||"").trim(),reason=String(fd.get("reason")||"").trim(),now=nowISO();
+  if(loc&&!state.locations.some(l=>l.name===loc))state.locations.push({id:uid(),name:loc,kind:"diger",auto_created:true});
+  oldProduct.quantity=Math.abs(finalOldBalance)<EPS?0:finalOldBalance;oldProduct.updated_at=now;
+  if(target!==oldProduct){target.quantity=Math.abs(finalTargetBalance)<EPS?0:finalTargetBalance;target.updated_at=now;}
+  const oldLabel=`${m.product_code||oldProduct.code||""} — ${m.product_name||oldProduct.name||""} (${fmtNum(oldQuantity)})`;
+  Object.assign(m,{product_id:target.id,product_code:target.code,product_name:target.name,quantity,target_location:loc||null,reason:reason||null,updated_at:now});
+  recordMovementAudit("Stok hareketi düzeltildi",m,`Önce: ${oldLabel}; sonra: ${target.code} — ${target.name} (${fmtNum(quantity)}). Eski stok geri alındı, yeni stok uygulandı.`);
+  save();closeModal();renderMovements();toast("Hareket düzeltildi; stoklar güncellendi");
+}
+function deleteMovement(id){
+  const m=state.movements.find(x=>String(x.id)===String(id));if(!m)return;
+  openModal(`<h3 class="text-lg font-semibold mb-2 text-rose-700">Stok Hareketini Sil</h3><p class="text-sm text-slate-600 mb-3">${m.type==="out"?"Çıkış hareketi silinince miktar stoğa geri eklenir.":"Giriş hareketi silinince girilen miktar stoktan düşülür."} Bu işlemi onaylamak için <b>SIL</b> yazın.</p><p class="text-xs text-slate-500 mb-3">${m.product_code||""} — ${m.product_name||""} · ${fmtNum(m.quantity)} ${m.type==="in"?"giriş":"çıkış"}</p><input id="delMoveInput" class="input mono" placeholder="SIL" oninput="document.getElementById('delMoveBtn').disabled = this.value !== 'SIL'" /><div class="flex justify-end gap-2 mt-4"><button class="btn btn-outline" onclick="closeModal()">İptal</button><button id="delMoveBtn" class="btn btn-danger" disabled onclick="confirmDeleteMovement('${m.id}')">Sil</button></div>`,true);
+  setTimeout(()=>document.getElementById("delMoveInput")?.focus(),50);
+}
+function confirmDeleteMovement(id){
+  const input=document.getElementById("delMoveInput");
+  if(!input||input.value!=="SIL"){toast("Onay için SIL yazmalısınız","error");return;}
+  const m=state.movements.find(x=>String(x.id)===String(id));if(!m)return;
+  const product=findMovementProduct(m);
+  if(!product){toast("Hareketin ürünü bulunamadı; veri güvenliği için hareket silinmedi","error");return;}
+  const quantity=Number(m.quantity);
+  if(!Number.isFinite(quantity)||quantity<=0){toast("Hareket miktarı geçersiz; kayıt silinmedi","error");return;}
+  const EPS=1e-9,delta=m.type==="in"?-quantity:quantity,nextBalance=(Number(product.quantity)||0)+delta;
+  if(nextBalance < -EPS){toast("Bu giriş hareketi silinirse stok negatife düşer. Önce ilgili stok çıkışlarını düzeltin; hareket silinmedi.","error");return;}
+  product.quantity=Math.abs(nextBalance)<EPS?0:nextBalance;product.updated_at=nowISO();
+  const auditMovement={...m};
+  recordMovementAudit("Stok hareketi silindi",auditMovement,m.type==="out"?`${fmtNum(quantity)} çıkış iptal edildi; miktar stoğa geri eklendi.`:`${fmtNum(quantity)} giriş iptal edildi; miktar stoktan düşüldü.`);
+  state.movements=state.movements.filter(x=>String(x.id)!==String(id));
+  state.deleted_movement_ids=Array.isArray(state.deleted_movement_ids)?state.deleted_movement_ids:[];
+  if(!state.deleted_movement_ids.some(x=>String(x)===String(id)))state.deleted_movement_ids.push(String(id));
+  save();closeModal();renderMovements();toast("Hareket silindi; stok bakiyesi ters kayıtla güncellendi");
+}
 /* ============ REPORTS ============ */
 let reportRange={start:null,end:null},reportFilters={type:"all",product:"all",user:"all",location:""};
 function rangeThisWeek(){const now=new Date();const day=(now.getDay()+6)%7;const s=new Date(now);s.setDate(now.getDate()-day);s.setHours(0,0,0,0);const e=new Date(s);e.setDate(s.getDate()+6);e.setHours(23,59,59,999);return {start:s.toISOString(),end:e.toISOString()};}
@@ -1061,7 +1164,8 @@ function exportExcel(){
 /* ============ ADMIN ============ */
 let adminTab="widgets";
 function renderUserSettings(){
-  document.getElementById("pageBody").innerHTML=`<h1 class="text-3xl font-bold tracking-tight">Yönetim</h1><p class="text-sm text-slate-500 mt-1 mb-6">Kullanıcı ayarları</p><div class="card p-5 max-w-lg"><h3 class="font-semibold mb-2">Hesabım</h3><p class="text-sm text-slate-500 mb-4">Yalnızca kendi şifrenizi değiştirebilirsiniz.</p><button class="btn btn-primary" onclick="changeOwnPassword()">Şifremi Değiştir</button></div>`;
+  document.getElementById("pageBody").innerHTML=`<h1 class="text-3xl font-bold tracking-tight">Yönetim</h1><p class="text-sm text-slate-500 mt-1 mb-6">Kullanıcı ayarları</p><div class="card p-5 max-w-lg"><h3 class="font-semibold mb-2">Hesabım</h3><p class="text-sm text-slate-500 mb-4">Yalnızca kendi şifrenizi değiştirebilirsiniz.</p><button class="btn btn-primary" onclick="changeOwnPassword()">Şifremi Değiştir</button></div><div class="mt-4" id="adminPanel"></div>`;
+  renderMovementAudit();
 }
 function renderAdmin(){
   if(currentUser().role!=="admin"){renderUserSettings();return;}

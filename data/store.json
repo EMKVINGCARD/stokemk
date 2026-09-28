@@ -8422,13 +8422,13 @@
       "name": "ESSENCE V2 ANSI28MM US ANTIQUE DARK LH",
       "category_id": "id-a04v1tgfmtl7q19i",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-28T08:06:55.457Z",
-      "updated_at": "2026-09-28T08:06:55.458Z"
+      "updated_at": "2026-09-28T08:08:03.442Z"
     }
   ],
   "movements": [
@@ -11574,6 +11574,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T07:22:17.228Z",
       "created_at": "2026-09-28T07:22:17.228Z"
+    },
+    {
+      "id": "id-jxevkxpwmukytf8y",
+      "product_id": "id-xaye7pj2mukyrysh",
+      "product_code": "8008005474",
+      "product_name": "ESSENCE V2 ANSI28MM US ANTIQUE DARK LH",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "GİRİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-28T08:08:03.442Z",
+      "created_at": "2026-09-28T08:08:03.442Z"
     }
   ],
   "audit_log": [
@@ -21563,6 +21577,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-28T07:22:17.228Z",
+      "extra": null
+    },
+    {
+      "id": "id-y7zrh2k1mukytf8y",
+      "action": "Stok girişi",
+      "product_id": "id-xaye7pj2mukyrysh",
+      "product_code": "8008005474",
+      "product_name": "ESSENCE V2 ANSI28MM US ANTIQUE DARK LH",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "GİRİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-28T08:08:03.442Z",
       "extra": null
     }
   ],

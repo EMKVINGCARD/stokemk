@@ -3787,13 +3787,13 @@
       "name": "ANSI 4 SWT MOTOR",
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
-      "quantity": 56,
+      "quantity": 57,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Blocking mechanism 4404",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-11T13:54:22.988Z",
+      "updated_at": "2026-09-28T08:49:01.442Z",
       "stock_base_quantity": 60
     },
     {
@@ -11910,6 +11910,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T08:38:13.767Z",
       "created_at": "2026-09-28T08:38:13.767Z"
+    },
+    {
+      "id": "id-ff8aono2mul0a3uq",
+      "product_id": "id-c989cq1rmtl9kemo",
+      "product_code": "P000730270-002-001",
+      "product_name": "ANSI 4 SWT MOTOR",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-28T08:49:01.442Z",
+      "created_at": "2026-09-28T08:49:01.442Z"
     }
   ],
   "settings": {
@@ -12318,6 +12332,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-09-28T08:38:13.767Z",
+      "extra": null
+    },
+    {
+      "id": "id-nmbo4n9kmul0a3uq",
+      "action": "Stok girişi",
+      "product_id": "id-c989cq1rmtl9kemo",
+      "product_code": "P000730270-002-001",
+      "product_name": "ANSI 4 SWT MOTOR",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-09-28T08:49:01.442Z",
       "extra": null
     }
   ],

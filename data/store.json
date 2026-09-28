@@ -3817,13 +3817,13 @@
       "name": "ANSI 28MM 4-SW LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 3,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-28T09:18:44.705Z",
+      "updated_at": "2026-09-28T09:19:05.022Z",
       "stock_base_quantity": 2
     },
     {
@@ -11924,6 +11924,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T08:49:01.442Z",
       "created_at": "2026-09-28T08:49:01.442Z"
+    },
+    {
+      "id": "id-mne1ttymmul1cri6",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-28T09:19:05.022Z",
+      "created_at": "2026-09-28T09:19:05.022Z"
     }
   ],
   "settings": {
@@ -12363,6 +12377,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-28T09:18:44.706Z",
       "extra": "Önce: 4813994A13 — ANSI 28MM 3-SW ADB LH GÖMME (2); sonra: 4813864A13 — ANSI 28MM 4-SW LH GÖMME (2). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-kv96pia3mul1cri6",
+      "action": "Stok girişi",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-28T09:19:05.022Z",
+      "extra": null
     }
   ],
   "deleted_movement_ids": [],

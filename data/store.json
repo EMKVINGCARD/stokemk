@@ -712,13 +712,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2998,
+      "quantity": 2997,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-28T08:21:11.370Z",
+      "updated_at": "2026-09-10T04:20:09.802Z",
       "stock_base_quantity": 3297
     },
     {
@@ -5167,13 +5167,13 @@
       "name": "50MM BLACK TITANUM PVD",
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K BLACK T WO/LOGO 50MM",
       "created_at": "2026-09-03T08:29:16.190Z",
-      "updated_at": "2026-09-17T11:56:21.750Z",
+      "updated_at": "2026-09-28T08:21:17.892Z",
       "stock_base_quantity": 2
     },
     {
@@ -11714,6 +11714,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-28T08:21:11.370Z",
       "created_at": "2026-09-28T08:21:11.370Z"
+    },
+    {
+      "id": "id-xiah175jmukzag90",
+      "product_id": "id-shyq5gaymtl9ken2",
+      "product_code": "4812635905V50",
+      "product_name": "50MM BLACK TITANUM PVD",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-09-28T08:21:17.892Z",
+      "created_at": "2026-09-28T08:21:17.892Z"
     }
   ],
   "settings": {
@@ -11897,22 +11911,5 @@
       "id-d01jtuummtl9ken3",
       "id-iuej3fr5mtl9kemc"
     ]
-  },
-  "movement_audit": [
-    {
-      "id": "id-nz9dadcjmukzab7u",
-      "action": "Stok girişi",
-      "product_id": "id-2g7hmgpqmtl9kemb",
-      "product_code": "4817691",
-      "product_name": "RFID UL GUEST BASKISIZ KART",
-      "type": "in",
-      "quantity": 1,
-      "target_location": "Ana Depo",
-      "reason": "1",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "created_at": "2026-09-28T08:21:11.370Z",
-      "extra": null
-    }
-  ]
+  }
 }

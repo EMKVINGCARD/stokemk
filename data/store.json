@@ -1609,16 +1609,16 @@
     {
       "id": "id-2k1xy26hmtl9kemc",
       "code": "YOK",
-      "name": "ALLURE GRAND PANEL EMAAR RENK DIŞ PANEL (İÇİNDEKİ BOARD ALINDI)",
+      "name": "ALLURE GRAND PANEL İÇ ELEKTRONİĞİ",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 2,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE GRAND PANEL,W/BELL,WO/ROOM NUMB.,EMAAR PROJECT,TR",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T08:58:24.812Z",
+      "updated_at": "2026-09-29T07:59:42.978Z",
       "stock_base_quantity": 5
     },
     {
@@ -12737,6 +12737,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-29T07:59:23.535Z"
+    },
+    {
+      "id": "id-2t3p9ij8mumdyjr6",
+      "action": "Ürün güncellendi",
+      "product_id": "id-2k1xy26hmtl9kemc",
+      "product_code": "YOK",
+      "product_name": "ALLURE GRAND PANEL İÇ ELEKTRONİĞİ",
+      "before": {
+        "id": "id-2k1xy26hmtl9kemc",
+        "code": "YOK",
+        "name": "ALLURE GRAND PANEL EMAAR RENK DIŞ PANEL (İÇİNDEKİ BOARD ALINDI)",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GRAND PANEL,W/BELL,WO/ROOM NUMB.,EMAAR PROJECT,TR",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-08T08:58:24.812Z",
+        "stock_base_quantity": 5
+      },
+      "after": {
+        "id": "id-2k1xy26hmtl9kemc",
+        "code": "YOK",
+        "name": "ALLURE GRAND PANEL İÇ ELEKTRONİĞİ",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GRAND PANEL,W/BELL,WO/ROOM NUMB.,EMAAR PROJECT,TR",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-29T07:59:42.978Z",
+        "stock_base_quantity": 5
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-29T07:59:42.978Z"
     }
   ]
 }

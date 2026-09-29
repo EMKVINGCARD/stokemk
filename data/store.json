@@ -6427,13 +6427,13 @@
       "name": "STRAIGHT US ANTIK DARK SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 1.98,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE USANTDARK STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:24.829Z",
       "stock_base_quantity": 0
     },
     {
@@ -11609,13 +11609,14 @@
       "product_code": "481633330AC / 481633530AC",
       "product_name": "STRAIGHT US ANTIK DARK SET",
       "type": "in",
-      "quantity": 1.98,
+      "quantity": 2,
       "target_location": "Ana Depo",
       "reason": "Toplu stok işlemi",
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T08:13:36.889Z",
-      "created_at": "2026-09-28T08:13:36.889Z"
+      "created_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:24.829Z"
     },
     {
       "id": "id-kzdiqztpmukz0kjd",
@@ -12392,6 +12393,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-28T09:19:05.022Z",
       "extra": null
+    },
+    {
+      "id": "id-npjxju3vmuma5uce",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-x837b43amtl9kenp",
+      "product_code": "481633330AC / 481633530AC",
+      "product_name": "STRAIGHT US ANTIK DARK SET",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-29T06:13:24.830Z",
+      "extra": "Önce: 481633330AC / 481633530AC — STRAIGHT US ANTIK DARK SET (1,98); sonra: 481633330AC / 481633530AC — STRAIGHT US ANTIK DARK SET (2). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "deleted_movement_ids": [],

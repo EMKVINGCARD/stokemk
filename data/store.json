@@ -1567,13 +1567,13 @@
       "name": "MAIN KONTROL ÜNİTESİ 6351",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 11,
+      "quantity": 9,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-15T13:42:59.109Z",
+      "updated_at": "2026-09-29T07:06:45.480Z",
       "stock_base_quantity": 12
     },
     {
@@ -12497,6 +12497,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-29T06:15:06.808Z"
+    },
+    {
+      "id": "id-iykajlvomumc2fzd",
+      "action": "Ürün güncellendi",
+      "product_id": "id-3p2kkjqrmtl9kemc",
+      "product_code": "P001005359-003-001",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6351",
+      "before": {
+        "id": "id-3p2kkjqrmtl9kemc",
+        "code": "P001005359-003-001",
+        "name": "MAIN KONTROL ÜNİTESİ 6351",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-15T13:42:59.109Z",
+        "stock_base_quantity": 12
+      },
+      "after": {
+        "id": "id-3p2kkjqrmtl9kemc",
+        "code": "P001005359-003-001",
+        "name": "MAIN KONTROL ÜNİTESİ 6351",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-29T07:06:45.480Z",
+        "stock_base_quantity": 12
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-29T07:06:45.481Z"
     }
   ]
 }

@@ -7087,13 +7087,13 @@
       "name": "DB BUTONU ALL METAL US ANTIK DARK",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 5.98,
+      "quantity": 6,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE USANTDARK METAL END",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:37.628Z",
       "stock_base_quantity": 4
     },
     {
@@ -11624,13 +11624,14 @@
       "product_code": "481865830",
       "product_name": "DB BUTONU ALL METAL US ANTIK DARK",
       "type": "in",
-      "quantity": 1.98,
+      "quantity": 2,
       "target_location": "Ana Depo",
       "reason": "Toplu stok işlemi",
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T08:13:36.889Z",
-      "created_at": "2026-09-28T08:13:36.889Z"
+      "created_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:37.628Z"
     },
     {
       "id": "id-acti36tqmukz0kjd",
@@ -12408,6 +12409,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-29T06:13:24.830Z",
       "extra": "Önce: 481633330AC / 481633530AC — STRAIGHT US ANTIK DARK SET (1,98); sonra: 481633330AC / 481633530AC — STRAIGHT US ANTIK DARK SET (2). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-kzhu98w6muma647x",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-4y6gqpg2mtl9keod",
+      "product_code": "481865830",
+      "product_name": "DB BUTONU ALL METAL US ANTIK DARK",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-29T06:13:37.629Z",
+      "extra": "Önce: 481865830 — DB BUTONU ALL METAL US ANTIK DARK (1,98); sonra: 481865830 — DB BUTONU ALL METAL US ANTIK DARK (2). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "deleted_movement_ids": [],

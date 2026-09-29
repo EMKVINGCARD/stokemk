@@ -8377,13 +8377,13 @@
       "name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 12,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE GRAND PANEL, WITHOUT ROOM NUMBER, BLACK WITH BLACK BELL, BLACK FRAME",
       "created_at": "2026-09-03T08:29:16.258Z",
-      "updated_at": "2026-09-08T07:39:18.770Z",
+      "updated_at": "2026-09-29T08:05:56.346Z",
       "stock_base_quantity": 10
     },
     {
@@ -12817,6 +12817,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-29T07:59:59.026Z"
+    },
+    {
+      "id": "id-0669havomume6jui",
+      "action": "Ürün güncellendi",
+      "product_id": "id-70tltyn3mtl9keoy",
+      "product_code": "ALLUREGRAND-000018",
+      "product_name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
+      "before": {
+        "id": "id-70tltyn3mtl9keoy",
+        "code": "ALLUREGRAND-000018",
+        "name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 10,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GRAND PANEL, WITHOUT ROOM NUMBER, BLACK WITH BLACK BELL, BLACK FRAME",
+        "created_at": "2026-09-03T08:29:16.258Z",
+        "updated_at": "2026-09-08T07:39:18.770Z",
+        "stock_base_quantity": 10
+      },
+      "after": {
+        "id": "id-70tltyn3mtl9keoy",
+        "code": "ALLUREGRAND-000018",
+        "name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE GRAND PANEL, WITHOUT ROOM NUMBER, BLACK WITH BLACK BELL, BLACK FRAME",
+        "created_at": "2026-09-03T08:29:16.258Z",
+        "updated_at": "2026-09-29T08:05:56.346Z",
+        "stock_base_quantity": 10
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-29T08:05:56.346Z"
     }
   ]
 }

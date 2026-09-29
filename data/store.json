@@ -7327,13 +7327,13 @@
       "name": "A28 STD KARŞILIK US ANTIK DARK",
       "category_id": "id-4gkyupz3mtk34t8p",
       "unit": "adet",
-      "quantity": 4.98,
+      "quantity": 5,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE ANSI, USANTDARK",
       "created_at": "2026-09-03T08:29:16.239Z",
-      "updated_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:40.451Z",
       "stock_base_quantity": 3
     },
     {
@@ -11653,13 +11653,14 @@
       "product_code": "458633530",
       "product_name": "A28 STD KARŞILIK US ANTIK DARK",
       "type": "in",
-      "quantity": 1.98,
+      "quantity": 2,
       "target_location": "Ana Depo",
       "reason": "Toplu stok işlemi",
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T08:13:36.889Z",
-      "created_at": "2026-09-28T08:13:36.889Z"
+      "created_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:40.451Z"
     },
     {
       "id": "id-sk46nultmukz1ooe",
@@ -12424,6 +12425,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-29T06:13:37.629Z",
       "extra": "Önce: 481865830 — DB BUTONU ALL METAL US ANTIK DARK (1,98); sonra: 481865830 — DB BUTONU ALL METAL US ANTIK DARK (2). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-d1p5r2tomuma66eb",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-p0uaqwp6mtl9keof",
+      "product_code": "458633530",
+      "product_name": "A28 STD KARŞILIK US ANTIK DARK",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-29T06:13:40.451Z",
+      "extra": "Önce: 458633530 — A28 STD KARŞILIK US ANTIK DARK (1,98); sonra: 458633530 — A28 STD KARŞILIK US ANTIK DARK (2). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "deleted_movement_ids": [],

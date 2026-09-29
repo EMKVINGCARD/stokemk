@@ -709,6 +709,12 @@
       "name": "riva taksim hotel",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-4fdf8l20mumr1w2f",
+      "name": "yotel",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4153,13 +4159,13 @@
       "name": "SIGNATURE 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 38,
+      "quantity": 36,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-17T08:49:24.741Z",
+      "updated_at": "2026-09-29T14:06:13.911Z",
       "stock_base_quantity": 38
     },
     {
@@ -11976,6 +11982,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-29T13:28:26.456Z",
       "created_at": "2026-09-29T13:28:26.456Z"
+    },
+    {
+      "id": "id-pbj0x5lhmumr1w2f",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "yotel",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-29T14:06:13.911Z",
+      "created_at": "2026-09-29T14:06:13.911Z"
     }
   ],
   "settings": {
@@ -12519,6 +12539,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-29T13:28:26.456Z",
+      "extra": null
+    },
+    {
+      "id": "id-s4twpkq2mumr1w2f",
+      "action": "Stok çıkışı",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "yotel",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-29T14:06:13.911Z",
       "extra": null
     }
   ],

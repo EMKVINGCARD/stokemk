@@ -7717,13 +7717,13 @@
       "name": "A28 STD FRONT US ANTIK DARK",
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
-      "quantity": 3.98,
+      "quantity": 4,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM USANTDARK",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:43.907Z",
       "stock_base_quantity": 2
     },
     {
@@ -11639,13 +11639,14 @@
       "product_code": "480451430",
       "product_name": "A28 STD FRONT US ANTIK DARK",
       "type": "in",
-      "quantity": 1.98,
+      "quantity": 2,
       "target_location": "Ana Depo",
       "reason": "Toplu stok işlemi",
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-09-28T08:13:36.889Z",
-      "created_at": "2026-09-28T08:13:36.889Z"
+      "created_at": "2026-09-28T08:13:36.889Z",
+      "updated_at": "2026-09-29T06:13:43.907Z"
     },
     {
       "id": "id-d93wdjjomukz0kjd",
@@ -12440,6 +12441,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-29T06:13:40.451Z",
       "extra": "Önce: 458633530 — A28 STD KARŞILIK US ANTIK DARK (1,98); sonra: 458633530 — A28 STD KARŞILIK US ANTIK DARK (2). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-fas0ncd8muma692b",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-djhj04rlmtl9keog",
+      "product_code": "480451430",
+      "product_name": "A28 STD FRONT US ANTIK DARK",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-29T06:13:43.907Z",
+      "extra": "Önce: 480451430 — A28 STD FRONT US ANTIK DARK (1,98); sonra: 480451430 — A28 STD FRONT US ANTIK DARK (2). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "deleted_movement_ids": [],

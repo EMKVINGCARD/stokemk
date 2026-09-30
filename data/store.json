@@ -8455,6 +8455,20 @@
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-30T06:13:06.348Z",
       "updated_at": "2026-09-30T06:13:06.348Z"
+    },
+    {
+      "id": "id-oator3y9munpm9h0",
+      "code": "4827614AE",
+      "name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
+      "category_id": "id-0n4eyff9mtk34t8o",
+      "unit": "adet",
+      "quantity": 0,
+      "critical_level": 8,
+      "unit_price": 0,
+      "location": "",
+      "description": "SERVICE COVER ESSENCE V2, WHITE (RAL9010)",
+      "created_at": "2026-09-30T06:13:51.348Z",
+      "updated_at": "2026-09-30T06:13:51.348Z"
     }
   ],
   "movements": [
@@ -13024,6 +13038,31 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-30T06:13:06.348Z"
+    },
+    {
+      "id": "id-woh38lm6munpm9h0",
+      "action": "Ürün eklendi",
+      "product_id": "id-oator3y9munpm9h0",
+      "product_code": "4827614AE",
+      "product_name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
+      "before": null,
+      "after": {
+        "id": "id-oator3y9munpm9h0",
+        "code": "4827614AE",
+        "name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 8,
+        "unit_price": 0,
+        "location": "",
+        "description": "SERVICE COVER ESSENCE V2, WHITE (RAL9010)",
+        "created_at": "2026-09-30T06:13:51.348Z",
+        "updated_at": "2026-09-30T06:13:51.348Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-30T06:13:51.348Z"
     }
   ]
 }

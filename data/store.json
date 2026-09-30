@@ -727,6 +727,12 @@
       "name": "hurda",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-w1ledfsemuo2135m",
+      "name": "accor ofise",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2251,13 +2257,13 @@
       "name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 9,
+      "quantity": 8,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "KIT, USB ADAPTER 2009 WİTH CABLES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T07:48:33.865Z",
+      "updated_at": "2026-09-30T12:01:18.395Z",
       "stock_base_quantity": 9
     },
     {
@@ -12106,6 +12112,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-30T12:01:00.597Z",
       "created_at": "2026-09-30T12:01:00.597Z"
+    },
+    {
+      "id": "id-ijeg6gvxmuo2135n",
+      "product_id": "id-rtuhomf1mtl9kemf",
+      "product_code": "P000908644-001-001",
+      "product_name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "accor ofise",
+      "reason": "accor ofise",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-30T12:01:18.395Z",
+      "created_at": "2026-09-30T12:01:18.395Z"
     }
   ],
   "settings": {
@@ -12739,6 +12759,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-30T12:01:00.597Z",
+      "extra": null
+    },
+    {
+      "id": "id-11agcxmdmuo2135n",
+      "action": "Stok çıkışı",
+      "product_id": "id-rtuhomf1mtl9kemf",
+      "product_code": "P000908644-001-001",
+      "product_name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "accor ofise",
+      "reason": "accor ofise",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-30T12:01:18.395Z",
       "extra": null
     }
   ],

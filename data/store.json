@@ -8446,7 +8446,7 @@
       "id": "id-pkq0cfrfmunplaqz",
       "code": "4827614BE",
       "name": "ESSENCE V2 KAPAK SİYAH ESKİ TİP",
-      "category_id": "",
+      "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
       "quantity": 0,
       "critical_level": 5,
@@ -8454,7 +8454,7 @@
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-30T06:13:06.348Z",
-      "updated_at": "2026-09-30T06:13:06.348Z"
+      "updated_at": "2026-09-30T06:14:28.454Z"
     },
     {
       "id": "id-oator3y9munpm9h0",
@@ -13063,6 +13063,44 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-30T06:13:51.348Z"
+    },
+    {
+      "id": "id-e77n0am3munpn23r",
+      "action": "Ürün güncellendi",
+      "product_id": "id-pkq0cfrfmunplaqz",
+      "product_code": "4827614BE",
+      "product_name": "ESSENCE V2 KAPAK SİYAH ESKİ TİP",
+      "before": {
+        "id": "id-pkq0cfrfmunplaqz",
+        "code": "4827614BE",
+        "name": "ESSENCE V2 KAPAK SİYAH ESKİ TİP",
+        "category_id": "",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
+        "created_at": "2026-09-30T06:13:06.348Z",
+        "updated_at": "2026-09-30T06:13:06.348Z"
+      },
+      "after": {
+        "id": "id-pkq0cfrfmunplaqz",
+        "code": "4827614BE",
+        "name": "ESSENCE V2 KAPAK SİYAH ESKİ TİP",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
+        "created_at": "2026-09-30T06:13:06.348Z",
+        "updated_at": "2026-09-30T06:14:28.454Z"
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-30T06:14:28.455Z"
     }
   ]
 }

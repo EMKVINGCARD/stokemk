@@ -721,6 +721,12 @@
       "name": "bof hotel",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-m1b3v6e6munr5c1v",
+      "name": "hurda",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4300,13 +4306,13 @@
       "name": "LCA 6343 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 22,
+      "quantity": 21,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-30T06:56:14.256Z",
+      "updated_at": "2026-09-30T06:56:40.771Z",
       "stock_base_quantity": 26
     },
     {
@@ -12058,6 +12064,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-09-30T06:56:14.253Z",
       "created_at": "2026-09-30T06:56:14.255Z"
+    },
+    {
+      "id": "id-ucs6x5eimunr5c1v",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "hurda",
+      "reason": "arızalı",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-09-30T06:56:40.771Z",
+      "created_at": "2026-09-30T06:56:40.771Z"
     }
   ],
   "settings": {
@@ -12646,6 +12666,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-09-30T06:56:14.255Z",
+      "extra": null
+    },
+    {
+      "id": "id-s6px4aacmunr5c1v",
+      "action": "Stok çıkışı",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "hurda",
+      "reason": "arızalı",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-09-30T06:56:40.771Z",
       "extra": null
     }
   ],

@@ -856,13 +856,13 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 290,
+      "quantity": 280,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD UL AES 144B WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-18T12:21:47.088Z",
+      "updated_at": "2026-09-30T09:17:21.495Z",
       "stock_base_quantity": 790
     },
     {
@@ -13240,6 +13240,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-30T09:16:10.308Z"
+    },
+    {
+      "id": "id-jrpro9rcmunw68yf",
+      "action": "Ürün güncellendi",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "before": {
+        "id": "id-zhmomyrumtl9kemb",
+        "code": "P001495832-001-001",
+        "name": "RFID AES GUEST BEYAZ KART",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 290,
+        "critical_level": 500,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYCARD UL AES 144B WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-18T12:21:47.088Z",
+        "stock_base_quantity": 790
+      },
+      "after": {
+        "id": "id-zhmomyrumtl9kemb",
+        "code": "P001495832-001-001",
+        "name": "RFID AES GUEST BEYAZ KART",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 280,
+        "critical_level": 500,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYCARD UL AES 144B WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-30T09:17:21.495Z",
+        "stock_base_quantity": 790
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-09-30T09:17:21.495Z"
     }
   ]
 }

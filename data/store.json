@@ -2362,13 +2362,13 @@
       "name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 60,
+      "quantity": 55,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "None",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-25T11:08:46.298Z",
+      "updated_at": "2026-09-30T13:42:36.215Z",
       "stock_base_quantity": 66
     },
     {
@@ -12126,6 +12126,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-30T12:01:18.395Z",
       "created_at": "2026-09-30T12:01:18.395Z"
+    },
+    {
+      "id": "id-jso68h2gmuo5ncty",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "swiss otel bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-09-30T13:42:36.214Z",
+      "created_at": "2026-09-30T13:42:36.214Z"
     }
   ],
   "settings": {
@@ -12774,6 +12788,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-30T12:01:18.395Z",
+      "extra": null
+    },
+    {
+      "id": "id-n551r9yymuo5nctz",
+      "action": "Stok çıkışı",
+      "product_id": "id-j92exc11mtl9kemf",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "8 POLE FLEXI PH3 İÇİN YAN SANAYİ",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "swiss otel bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-30T13:42:36.215Z",
       "extra": null
     }
   ],

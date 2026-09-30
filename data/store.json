@@ -8371,13 +8371,13 @@
       "name": "ANSI 28MM 3-SW RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.257Z",
-      "updated_at": "2026-09-16T07:45:08.905Z",
+      "updated_at": "2026-09-30T09:16:10.308Z",
       "stock_base_quantity": 2
     },
     {
@@ -13200,6 +13200,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-09-30T06:14:28.455Z"
+    },
+    {
+      "id": "id-pfyxjtaxmunw4q10",
+      "action": "Ürün güncellendi",
+      "product_id": "id-6hogdcm1mtl9keox",
+      "product_code": "YOK",
+      "product_name": "ANSI 28MM 3-SW RH GÖMME",
+      "before": {
+        "id": "id-6hogdcm1mtl9keox",
+        "code": "YOK",
+        "name": "ANSI 28MM 3-SW RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.257Z",
+        "updated_at": "2026-09-16T07:45:08.905Z",
+        "stock_base_quantity": 2
+      },
+      "after": {
+        "id": "id-6hogdcm1mtl9keox",
+        "code": "YOK",
+        "name": "ANSI 28MM 3-SW RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.257Z",
+        "updated_at": "2026-09-30T09:16:10.308Z",
+        "stock_base_quantity": 2
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-09-30T09:16:10.308Z"
     }
   ]
 }

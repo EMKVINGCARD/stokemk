@@ -2341,13 +2341,13 @@
       "name": "12 POLE FLEXI PH2",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 32,
+      "quantity": 31,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FLEX.CABLE SENTINEL PHII/XTRA PHII, 25.5CM X 1.3CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-10-01T09:10:40.896Z",
+      "updated_at": "2026-10-01T14:37:51.989Z",
       "stock_base_quantity": 31
     },
     {
@@ -12282,20 +12282,6 @@
       "created_at": "2026-10-01T07:22:52.486Z"
     },
     {
-      "id": "id-nxfqnumkmupbdiiq",
-      "product_id": "id-fapruuwnmtl9kemf",
-      "product_code": "253-8051",
-      "product_name": "12 POLE FLEXI PH2",
-      "type": "in",
-      "quantity": 1,
-      "target_location": "novotel kayseri",
-      "reason": "arıza",
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-10-01T09:10:40.896Z",
-      "created_at": "2026-10-01T09:10:40.896Z"
-    },
-    {
       "id": "id-kxpw92v6mupepzhz",
       "operation_id": "id-4aafpmssmupepzhz",
       "product_id": "id-uwqm9r2vmtl9keoj",
@@ -13421,13 +13407,29 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-01T14:37:40.682Z",
       "extra": null
+    },
+    {
+      "id": "id-sse76giumupn29yt",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-fapruuwnmtl9kemf",
+      "product_code": "253-8051",
+      "product_name": "12 POLE FLEXI PH2",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "novotel kayseri",
+      "reason": "arıza",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-01T14:37:51.989Z",
+      "extra": "1 giriş iptal edildi; miktar stoktan düşüldü."
     }
   ],
   "deleted_movement_ids": [
     "id-dxo32uujmupbdiiq",
     "id-bzi8na22mupbdiiq",
     "id-pswelcccmupbdiiq",
-    "id-4qg3bhwrmupbdiiq"
+    "id-4qg3bhwrmupbdiiq",
+    "id-nxfqnumkmupbdiiq"
   ],
   "audit_log": [
     {

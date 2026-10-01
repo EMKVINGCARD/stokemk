@@ -2446,13 +2446,13 @@
       "name": "KASA MOTORU INFINITY/SENTINEL/ZENITH",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 26,
+      "quantity": 25,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "MOTOR COMPLETE INFINITY/SENTİNEL/ZENITH",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-10-01T09:10:40.896Z",
+      "updated_at": "2026-10-01T14:37:31.462Z",
       "stock_base_quantity": 30
     },
     {
@@ -12282,20 +12282,6 @@
       "created_at": "2026-10-01T07:22:52.486Z"
     },
     {
-      "id": "id-4qg3bhwrmupbdiiq",
-      "product_id": "id-52puydrumtl9kemf",
-      "product_code": "600-9001",
-      "product_name": "KASA MOTORU INFINITY/SENTINEL/ZENITH",
-      "type": "in",
-      "quantity": 1,
-      "target_location": "novotel kayseri",
-      "reason": "arıza",
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-10-01T09:10:40.896Z",
-      "created_at": "2026-10-01T09:10:40.896Z"
-    },
-    {
       "id": "id-nxfqnumkmupbdiiq",
       "product_id": "id-fapruuwnmtl9kemf",
       "product_code": "253-8051",
@@ -13391,12 +13377,28 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-01T14:37:21.962Z",
       "extra": null
+    },
+    {
+      "id": "id-yz8g6pifmupn1u4n",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-52puydrumtl9kemf",
+      "product_code": "600-9001",
+      "product_name": "KASA MOTORU INFINITY/SENTINEL/ZENITH",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "novotel kayseri",
+      "reason": "arıza",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-01T14:37:31.463Z",
+      "extra": "1 giriş iptal edildi; miktar stoktan düşüldü."
     }
   ],
   "deleted_movement_ids": [
     "id-dxo32uujmupbdiiq",
     "id-bzi8na22mupbdiiq",
-    "id-pswelcccmupbdiiq"
+    "id-pswelcccmupbdiiq",
+    "id-4qg3bhwrmupbdiiq"
   ],
   "audit_log": [
     {

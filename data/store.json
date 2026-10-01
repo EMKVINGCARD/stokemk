@@ -751,6 +751,12 @@
       "name": "IBIS STYLES ANKARA",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-ud5sq9dcmupn0nus",
+      "name": "nov otel kayseri",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2695,13 +2701,13 @@
       "name": "PİL KASETİ KABLOSUZ",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 13,
+      "quantity": 12,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ELSAFE BATTERY CARTRIDGE INFINITY II/SENTINEL II",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-10-01T14:36:17.360Z",
+      "updated_at": "2026-10-01T14:36:36.676Z",
       "stock_base_quantity": 13
     },
     {
@@ -12378,6 +12384,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-01T14:12:40.414Z",
       "created_at": "2026-10-01T14:12:40.414Z"
+    },
+    {
+      "id": "id-u50n2l5mmupn0nus",
+      "product_id": "id-ij498y9imtl9kemg",
+      "product_code": "252-867",
+      "product_name": "PİL KASETİ KABLOSUZ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "nov otel kayseri",
+      "reason": "arızalı ürün için",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-01T14:36:36.676Z",
+      "created_at": "2026-10-01T14:36:36.676Z"
     }
   ],
   "settings": {
@@ -13296,6 +13316,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-01T14:36:17.360Z",
       "extra": "1 giriş iptal edildi; miktar stoktan düşüldü."
+    },
+    {
+      "id": "id-48pj83hdmupn0nus",
+      "action": "Stok çıkışı",
+      "product_id": "id-ij498y9imtl9kemg",
+      "product_code": "252-867",
+      "product_name": "PİL KASETİ KABLOSUZ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "nov otel kayseri",
+      "reason": "arızalı ürün için",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-01T14:36:36.676Z",
+      "extra": null
     }
   ],
   "deleted_movement_ids": [

@@ -8059,13 +8059,13 @@
       "name": "GÖMME EURO 20MM FRONT",
       "category_id": "id-5e6ux667mtk34t8p",
       "unit": "adet",
-      "quantity": 16,
+      "quantity": 17,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Lock front EURO DIN 20mm",
       "created_at": "2026-09-03T08:29:16.243Z",
-      "updated_at": "2026-09-08T09:30:57.619Z",
+      "updated_at": "2026-10-01T10:44:21.623Z",
       "stock_base_quantity": 16
     },
     {
@@ -12338,6 +12338,23 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-01T09:10:40.896Z",
       "created_at": "2026-10-01T09:10:40.896Z"
+    },
+    {
+      "id": "id-kxpw92v6mupepzhz",
+      "operation_id": "id-4aafpmssmupepzhz",
+      "product_id": "id-uwqm9r2vmtl9keoj",
+      "product_code": "4804279",
+      "product_name": "GÖMME EURO 20MM FRONT",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 16,
+      "after_quantity": 17,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-10-01T10:44:21.623Z",
+      "created_at": "2026-10-01T10:44:21.623Z"
     }
   ],
   "settings": {
@@ -13192,6 +13209,23 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-01T09:10:40.898Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-jm71kp3mmupepzhz",
+      "action": "Stok girişi",
+      "product_id": "id-uwqm9r2vmtl9keoj",
+      "product_code": "4804279",
+      "product_name": "GÖMME EURO 20MM FRONT",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 16,
+      "after_quantity": 17,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-10-01T10:44:21.623Z",
+      "extra": null
     }
   ],
   "deleted_movement_ids": [],

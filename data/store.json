@@ -742,7 +742,7 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 3046,
+      "quantity": 2997,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
@@ -757,7 +757,7 @@
       "name": "4K MAD2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 1787,
+      "quantity": 1687,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
@@ -862,7 +862,7 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 280,
+      "quantity": 290,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
@@ -892,7 +892,7 @@
       "name": "4K PLUS EV2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2715,
+      "quantity": 2817,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
@@ -1522,7 +1522,7 @@
       "name": "ALLURE IR KASATARAFI",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 1,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
@@ -1597,7 +1597,7 @@
       "name": "MAIN KONTROL ÜNİTESİ 6351",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 9,
+      "quantity": 11,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
@@ -1627,7 +1627,7 @@
       "name": "ALLURE GRAND PANEL EMAAR RENK DIŞ PANEL",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 3,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
@@ -1642,7 +1642,7 @@
       "name": "ALLURE GRAND PANEL İÇ ELEKTRONİĞİ",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 5,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
@@ -5197,7 +5197,7 @@
       "name": "50MM BLACK TITANUM PVD",
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
@@ -7027,13 +7027,13 @@
       "name": "DB BUTONU ALL METAL SATIN CHROME",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 7,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME METAL END 1 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-25T11:18:20.679Z",
+      "updated_at": "2026-10-01T06:57:44.649Z",
       "stock_base_quantity": 9
     },
     {
@@ -8377,7 +8377,7 @@
       "name": "ANSI 28MM 3-SW RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 1,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
@@ -8407,7 +8407,7 @@
       "name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 10,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
@@ -8458,7 +8458,8 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-28T08:06:55.457Z",
-      "updated_at": "2026-09-29T06:15:06.808Z"
+      "updated_at": "2026-09-29T06:15:06.808Z",
+      "stock_base_quantity": 0
     },
     {
       "id": "id-pkq0cfrfmunplaqz",
@@ -8472,7 +8473,8 @@
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-30T06:13:06.348Z",
-      "updated_at": "2026-09-30T06:14:28.454Z"
+      "updated_at": "2026-09-30T06:14:28.454Z",
+      "stock_base_quantity": 0
     },
     {
       "id": "id-oator3y9munpm9h0",
@@ -8486,7 +8488,8 @@
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, WHITE (RAL9010)",
       "created_at": "2026-09-30T06:13:51.348Z",
-      "updated_at": "2026-09-30T06:13:51.348Z"
+      "updated_at": "2026-09-30T06:13:51.348Z",
+      "stock_base_quantity": 0
     }
   ],
   "movements": [
@@ -12154,6 +12157,23 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-30T13:42:51.649Z",
       "created_at": "2026-09-30T13:42:51.649Z"
+    },
+    {
+      "id": "id-8htiht4lmup6mk09",
+      "operation_id": "id-mndnxd2hmup6mk09",
+      "product_id": "id-8em3wb5hmtl9keod",
+      "product_code": "481865861",
+      "product_name": "DB BUTONU ALL METAL SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 6,
+      "after_quantity": 7,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-10-01T06:57:44.649Z",
+      "created_at": "2026-10-01T06:57:44.649Z"
     }
   ],
   "settings": {
@@ -12832,6 +12852,23 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-09-30T13:42:51.649Z",
+      "extra": null
+    },
+    {
+      "id": "id-sqs87ojwmup6mk0a",
+      "action": "Stok girişi",
+      "product_id": "id-8em3wb5hmtl9keod",
+      "product_code": "481865861",
+      "product_name": "DB BUTONU ALL METAL SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 6,
+      "after_quantity": 7,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-10-01T06:57:44.650Z",
       "extra": null
     }
   ],

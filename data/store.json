@@ -745,6 +745,12 @@
       "name": "novotel kayseri",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-cn05m80pmupm5vmm",
+      "name": "IBIS STYLES ANKARA",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -754,13 +760,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2997,
+      "quantity": 2797,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-29T07:35:28.441Z",
+      "updated_at": "2026-10-01T14:12:40.415Z",
       "stock_base_quantity": 3297
     },
     {
@@ -12372,6 +12378,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-10-01T10:45:00.252Z",
       "created_at": "2026-10-01T10:45:00.252Z"
+    },
+    {
+      "id": "id-o8bn7q9rmupm5vmm",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "IBIS STYLES ANKARA",
+      "reason": "SİPARİŞ İLE SATILAN.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-01T14:12:40.414Z",
+      "created_at": "2026-10-01T14:12:40.414Z"
     }
   ],
   "settings": {
@@ -13259,6 +13279,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-10-01T10:45:00.252Z",
+      "extra": null
+    },
+    {
+      "id": "id-xzy1az0tmupm5vmn",
+      "action": "Stok çıkışı",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "IBIS STYLES ANKARA",
+      "reason": "SİPARİŞ İLE SATILAN.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-01T14:12:40.415Z",
       "extra": null
     }
   ],

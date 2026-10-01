@@ -4342,13 +4342,13 @@
       "name": "ESSENCE V2 5351 KASET SET CHROME",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "B:18-25MM, ESS V2 BLE MAIN WOOD SATCHROME,BLACK,ANSI,OFFL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-08T08:07:49.005Z",
+      "updated_at": "2026-10-01T06:59:09.567Z",
       "stock_base_quantity": 0
     },
     {
@@ -12208,6 +12208,23 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-10-01T06:58:52.691Z",
       "created_at": "2026-10-01T06:58:52.691Z"
+    },
+    {
+      "id": "id-ebox4llxmup6odj3",
+      "operation_id": "id-dd9d6zb6mup6odj3",
+      "product_id": "id-luklsqk5mtl9kems",
+      "product_code": "P000883457-115-522",
+      "product_name": "ESSENCE V2 5351 KASET SET CHROME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 0,
+      "after_quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-10-01T06:59:09.567Z",
+      "created_at": "2026-10-01T06:59:09.567Z"
     }
   ],
   "settings": {
@@ -12937,6 +12954,23 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-10-01T06:58:52.691Z",
+      "extra": null
+    },
+    {
+      "id": "id-4tt1fwclmup6odj3",
+      "action": "Stok girişi",
+      "product_id": "id-luklsqk5mtl9kems",
+      "product_code": "P000883457-115-522",
+      "product_name": "ESSENCE V2 5351 KASET SET CHROME",
+      "type": "in",
+      "quantity": 1,
+      "before_quantity": 0,
+      "after_quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-10-01T06:59:09.567Z",
       "extra": null
     }
   ],

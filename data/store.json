@@ -2506,13 +2506,13 @@
       "name": "PH2 KEYBOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "CPU CIRCUIT BOARD WITH PROTECTION BOARD SENTINEL & XTRA PHII",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-10-01T14:36:48.303Z",
+      "updated_at": "2026-10-01T14:37:03.312Z",
       "stock_base_quantity": 4
     },
     {
@@ -12384,6 +12384,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-01T14:36:36.676Z",
       "created_at": "2026-10-01T14:36:36.676Z"
+    },
+    {
+      "id": "id-2mzzi3temupn18eo",
+      "product_id": "id-5zjdazhkmtl9kemf",
+      "product_code": "259-8022KIT",
+      "product_name": "PH2 KEYBOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "nov otel kayseri",
+      "reason": "arızalı ",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-01T14:37:03.312Z",
+      "created_at": "2026-10-01T14:37:03.312Z"
     }
   ],
   "settings": {
@@ -13332,6 +13346,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-01T14:36:48.303Z",
       "extra": "1 giriş iptal edildi; miktar stoktan düşüldü."
+    },
+    {
+      "id": "id-41ayzt51mupn18eo",
+      "action": "Stok çıkışı",
+      "product_id": "id-5zjdazhkmtl9kemf",
+      "product_code": "259-8022KIT",
+      "product_name": "PH2 KEYBOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "nov otel kayseri",
+      "reason": "arızalı ",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-01T14:37:03.312Z",
+      "extra": null
     }
   ],
   "deleted_movement_ids": [

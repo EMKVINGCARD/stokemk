@@ -8530,13 +8530,13 @@
       "name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 0,
-      "critical_level": 8,
+      "quantity": 8,
+      "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, WHITE (RAL9010)",
       "created_at": "2026-09-30T06:13:51.348Z",
-      "updated_at": "2026-09-30T06:13:51.348Z",
+      "updated_at": "2026-10-02T11:28:47.986Z",
       "stock_base_quantity": 0
     }
   ],
@@ -15068,6 +15068,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-02T11:28:38.807Z"
+    },
+    {
+      "id": "id-tycen4ujmuqvqzjm",
+      "action": "Ürün güncellendi",
+      "product_id": "id-oator3y9munpm9h0",
+      "product_code": "4827614AE",
+      "product_name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
+      "before": {
+        "id": "id-oator3y9munpm9h0",
+        "code": "4827614AE",
+        "name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 8,
+        "unit_price": 0,
+        "location": "",
+        "description": "SERVICE COVER ESSENCE V2, WHITE (RAL9010)",
+        "created_at": "2026-09-30T06:13:51.348Z",
+        "updated_at": "2026-09-30T06:13:51.348Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-oator3y9munpm9h0",
+        "code": "4827614AE",
+        "name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
+        "category_id": "id-0n4eyff9mtk34t8o",
+        "unit": "adet",
+        "quantity": 8,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "SERVICE COVER ESSENCE V2, WHITE (RAL9010)",
+        "created_at": "2026-09-30T06:13:51.348Z",
+        "updated_at": "2026-10-02T11:28:47.986Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-02T11:28:47.986Z"
     }
   ]
 }

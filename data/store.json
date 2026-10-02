@@ -3901,13 +3901,13 @@
       "name": "ANSI 28MM 4-SW ADB LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 3,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB ADB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-25T11:30:21.210Z",
+      "updated_at": "2026-10-02T06:31:49.045Z",
       "stock_base_quantity": 0
     },
     {
@@ -14266,6 +14266,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-02T06:31:33.414Z"
+    },
+    {
+      "id": "id-at7o2lq9muql52d1",
+      "action": "Ürün güncellendi",
+      "product_id": "id-zdgv954fmtl9kemo",
+      "product_code": "4814440A13",
+      "product_name": "ANSI 28MM 4-SW ADB LH GÖMME",
+      "before": {
+        "id": "id-zdgv954fmtl9kemo",
+        "code": "4814440A13",
+        "name": "ANSI 28MM 4-SW ADB LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB ADB 4.5V 28MM 4-SW LH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-09-25T11:30:21.210Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-zdgv954fmtl9kemo",
+        "code": "4814440A13",
+        "name": "ANSI 28MM 4-SW ADB LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB ADB 4.5V 28MM 4-SW LH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-10-02T06:31:49.045Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-02T06:31:49.045Z"
     }
   ]
 }

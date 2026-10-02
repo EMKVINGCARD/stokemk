@@ -2866,7 +2866,7 @@
       "location": "",
       "description": "ZENITH 43 DIGITAL RH, GREY",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-10-02T10:50:58.267Z",
+      "updated_at": "2026-10-02T10:51:30.043Z",
       "stock_base_quantity": 2
     },
     {
@@ -12655,11 +12655,12 @@
       "type": "out",
       "quantity": 1,
       "target_location": "HOLIDAY-INN SİDE",
-      "reason": "HOLIDAY-INN SİDE ÖRNEK ODA İÇİN GİTTİ. ALİ ÖZEN GÖNDERDİ.",
+      "reason": "HOLIDAY-INN SİDE ÖRNEK ODA İÇİN GİTTİ. ALİ ÖZEN GÖNDERDİ. SN:25255904",
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-02T10:50:58.267Z",
-      "created_at": "2026-10-02T10:50:58.267Z"
+      "created_at": "2026-10-02T10:50:58.267Z",
+      "updated_at": "2026-10-02T10:51:30.043Z"
     }
   ],
   "settings": {
@@ -13968,6 +13969,21 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-02T10:50:58.267Z",
       "extra": null
+    },
+    {
+      "id": "id-k86wmcr5muquf0qj",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-00y8lnpumtl9kemh",
+      "product_code": "ZD43003",
+      "product_name": "ZENITH 43 RH",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "HOLIDAY-INN SİDE",
+      "reason": "HOLIDAY-INN SİDE ÖRNEK ODA İÇİN GİTTİ. ALİ ÖZEN GÖNDERDİ. SN:25255904",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-02T10:51:30.043Z",
+      "extra": "Önce: ZD43003 — ZENITH 43 RH (1); sonra: ZD43003 — ZENITH 43 RH (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "deleted_movement_ids": [

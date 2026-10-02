@@ -3406,7 +3406,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-10-02T11:14:30.080Z",
+      "updated_at": "2026-10-02T11:14:48.191Z",
       "stock_base_quantity": 4
     },
     {
@@ -12673,12 +12673,13 @@
       "quantity": 4,
       "before_quantity": 4,
       "after_quantity": 0,
-      "target_location": null,
-      "reason": "bonvoy Marriot asansör için ",
+      "target_location": "bonvoy Marriot asansör için",
+      "reason": "bonvoy Marriot asansör için",
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-10-02T11:14:30.080Z",
-      "created_at": "2026-10-02T11:14:30.080Z"
+      "created_at": "2026-10-02T11:14:30.080Z",
+      "updated_at": "2026-10-02T11:14:48.191Z"
     }
   ],
   "settings": {
@@ -14034,6 +14035,23 @@
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-10-02T11:14:30.080Z",
       "extra": null
+    },
+    {
+      "id": "id-1tfyfw91muqv8zjz",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-b5mcogz8mtl9kemh",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "18 Lİ SİGORTA KUTUSU",
+      "type": "out",
+      "quantity": 4,
+      "before_quantity": 4,
+      "after_quantity": 0,
+      "target_location": "bonvoy Marriot asansör için",
+      "reason": "bonvoy Marriot asansör için",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-10-02T11:14:48.191Z",
+      "extra": "Önce: 4 adet / — / bonvoy Marriot asansör için; Sonra: 4 adet / bonvoy Marriot asansör için / bonvoy Marriot asansör için"
     }
   ],
   "deleted_movement_ids": [

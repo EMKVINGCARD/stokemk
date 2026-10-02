@@ -7891,13 +7891,13 @@
       "name": "ESSENCE V2 FRONT SATIN CHROME",
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
-      "quantity": 56,
+      "quantity": 57,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-10T09:15:56.786Z",
+      "updated_at": "2026-10-02T06:32:41.010Z",
       "stock_base_quantity": 53
     },
     {
@@ -14306,6 +14306,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-02T06:31:49.045Z"
+    },
+    {
+      "id": "id-nnuqis9xmuql66gi",
+      "action": "Ürün güncellendi",
+      "product_id": "id-gwwb6bixmtl9keog",
+      "product_code": "482459022",
+      "product_name": "ESSENCE V2 FRONT SATIN CHROME",
+      "before": {
+        "id": "id-gwwb6bixmtl9keog",
+        "code": "482459022",
+        "name": "ESSENCE V2 FRONT SATIN CHROME",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 56,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-10T09:15:56.786Z",
+        "stock_base_quantity": 53
+      },
+      "after": {
+        "id": "id-gwwb6bixmtl9keog",
+        "code": "482459022",
+        "name": "ESSENCE V2 FRONT SATIN CHROME",
+        "category_id": "id-sfxyldt7mtk34t8p",
+        "unit": "adet",
+        "quantity": 57,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-10-02T06:32:41.010Z",
+        "stock_base_quantity": 53
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-02T06:32:41.010Z"
     }
   ]
 }

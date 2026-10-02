@@ -7816,13 +7816,13 @@
       "name": "ADB A28 FRONT SATIN CHROME",
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:29:50.306Z",
+      "updated_at": "2026-10-02T06:31:33.414Z",
       "stock_base_quantity": 0
     },
     {
@@ -14226,6 +14226,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-02T06:31:02.622Z"
+    },
+    {
+      "id": "id-zp5u0nlbmuql4qau",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ltmhe585mtl9keog",
+      "product_code": "481514322",
+      "product_name": "ADB A28 FRONT SATIN CHROME",
+      "before": {
+        "id": "id-ltmhe585mtl9keog",
+        "code": "481514322",
+        "name": "ADB A28 FRONT SATIN CHROME",
+        "category_id": "id-5qf81eivmtk34t8p",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-09-08T09:29:50.306Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-ltmhe585mtl9keog",
+        "code": "481514322",
+        "name": "ADB A28 FRONT SATIN CHROME",
+        "category_id": "id-5qf81eivmtk34t8p",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
+        "created_at": "2026-09-03T08:29:16.240Z",
+        "updated_at": "2026-10-02T06:31:33.414Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-02T06:31:33.414Z"
     }
   ]
 }

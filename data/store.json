@@ -4726,13 +4726,13 @@
       "name": "SKIRT SATIN CHROME",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
-      "quantity": 197,
+      "quantity": 199,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER STSTEEL",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-29T14:06:49.805Z",
+      "updated_at": "2026-10-02T08:57:16.353Z",
       "stock_base_quantity": 193
     },
     {
@@ -12538,6 +12538,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-02T08:56:30.420Z",
       "created_at": "2026-10-02T08:56:30.420Z"
+    },
+    {
+      "id": "id-ngb4i0zzmuqqc4e9",
+      "product_id": "id-wnzlk2mbmtl9kemx",
+      "product_code": "482379622",
+      "product_name": "SKIRT SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "ana depo giriş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-02T08:57:16.353Z",
+      "created_at": "2026-10-02T08:57:16.353Z"
     }
   ],
   "settings": {
@@ -13741,6 +13755,21 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-02T08:56:30.420Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-m1u5b79mmuqqc4e9",
+      "action": "Stok girişi",
+      "product_id": "id-wnzlk2mbmtl9kemx",
+      "product_code": "482379622",
+      "product_name": "SKIRT SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "ana depo giriş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-02T08:57:16.353Z",
+      "extra": null
     }
   ],
   "deleted_movement_ids": [

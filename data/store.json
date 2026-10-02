@@ -4231,13 +4231,13 @@
       "name": "SIGNATURE 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 36,
+      "quantity": 35,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-29T14:06:13.911Z",
+      "updated_at": "2026-10-02T14:14:45.943Z",
       "stock_base_quantity": 38
     },
     {
@@ -12700,6 +12700,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-02T14:14:17.856Z",
       "created_at": "2026-10-02T14:14:17.856Z"
+    },
+    {
+      "id": "id-t1gsqv4hmur1of5j",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "DoubleThree By hilton moda",
+      "reason": "arıza",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-02T14:14:45.943Z",
+      "created_at": "2026-10-02T14:14:45.943Z"
     }
   ],
   "settings": {
@@ -14087,6 +14101,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-02T14:14:17.856Z",
+      "extra": null
+    },
+    {
+      "id": "id-q6jn3u40mur1of5j",
+      "action": "Stok çıkışı",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "DoubleThree By hilton moda",
+      "reason": "arıza",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-02T14:14:45.943Z",
       "extra": null
     }
   ],

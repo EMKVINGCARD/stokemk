@@ -3331,7 +3331,7 @@
       "location": "",
       "description": "HW VISIONLINE ELEVATOR RELAY MODULE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-10-02T10:49:10.835Z",
+      "updated_at": "2026-10-02T10:51:46.287Z",
       "stock_base_quantity": 11
     },
     {
@@ -12641,11 +12641,12 @@
       "type": "out",
       "quantity": 1,
       "target_location": "Moxy İzmir",
-      "reason": "Otelden arızalı gelenin yerine garantiden değişti.",
+      "reason": "Otelden arızalı gelenin yerine garantiden değişti. ALİ ÖZEN YAPTI.",
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-02T10:49:10.835Z",
-      "created_at": "2026-10-02T10:49:10.835Z"
+      "created_at": "2026-10-02T10:49:10.835Z",
+      "updated_at": "2026-10-02T10:51:46.287Z"
     },
     {
       "id": "id-cl5a54c5muquec7v",
@@ -13984,6 +13985,21 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-02T10:51:30.043Z",
       "extra": "Önce: ZD43003 — ZENITH 43 RH (1); sonra: ZD43003 — ZENITH 43 RH (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-pgup3fgcmuqufd9r",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-vlebhrf2mtl9kemh",
+      "product_code": "682055007",
+      "product_name": "VISIONLINE EXTRA RELAY BOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Moxy İzmir",
+      "reason": "Otelden arızalı gelenin yerine garantiden değişti. ALİ ÖZEN YAPTI.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-02T10:51:46.287Z",
+      "extra": "Önce: 682055007 — VISIONLINE EXTRA RELAY BOARD (1); sonra: 682055007 — VISIONLINE EXTRA RELAY BOARD (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "deleted_movement_ids": [

@@ -4756,13 +4756,13 @@
       "name": "SKIRT SATIN CHROME",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
-      "quantity": 199,
+      "quantity": 198,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER STSTEEL",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-10-02T08:57:16.353Z",
+      "updated_at": "2026-10-02T14:16:45.581Z",
       "stock_base_quantity": 193
     },
     {
@@ -12714,6 +12714,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-02T14:14:45.943Z",
       "created_at": "2026-10-02T14:14:45.943Z"
+    },
+    {
+      "id": "id-hk9eoys5mur1qzgs",
+      "product_id": "id-wnzlk2mbmtl9kemx",
+      "product_code": "482379622",
+      "product_name": "SKIRT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "DoubleThree By hilton moda",
+      "reason": "arızalı için",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-02T14:16:45.580Z",
+      "created_at": "2026-10-02T14:16:45.580Z"
     }
   ],
   "settings": {
@@ -14116,6 +14130,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-02T14:14:45.943Z",
+      "extra": null
+    },
+    {
+      "id": "id-aue7pvk4mur1qzgt",
+      "action": "Stok çıkışı",
+      "product_id": "id-wnzlk2mbmtl9kemx",
+      "product_code": "482379622",
+      "product_name": "SKIRT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "DoubleThree By hilton moda",
+      "reason": "arızalı için",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-02T14:16:45.581Z",
       "extra": null
     }
   ],

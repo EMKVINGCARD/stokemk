@@ -4786,13 +4786,13 @@
       "name": "SKIRT BLACK TITANIUM",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 8,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER BLACK TITANIUM",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-09-28T08:38:13.767Z",
+      "updated_at": "2026-10-02T08:56:30.420Z",
       "stock_base_quantity": 14
     },
     {
@@ -12524,6 +12524,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-02T08:56:03.705Z",
       "created_at": "2026-10-02T08:56:03.705Z"
+    },
+    {
+      "id": "id-wstob2scmuqqb4yc",
+      "product_id": "id-h4vwdt1pmtl9kemx",
+      "product_code": "482379690",
+      "product_name": "SKIRT BLACK TITANIUM",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "RADISSON BLU ANTALYA",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-02T08:56:30.420Z",
+      "created_at": "2026-10-02T08:56:30.420Z"
     }
   ],
   "settings": {
@@ -13711,6 +13725,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-02T08:56:03.705Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-a4i758uomuqqb4yc",
+      "action": "Stok çıkışı",
+      "product_id": "id-h4vwdt1pmtl9kemx",
+      "product_code": "482379690",
+      "product_name": "SKIRT BLACK TITANIUM",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "RADISSON BLU ANTALYA",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-02T08:56:30.420Z",
       "extra": "Toplu işlem"
     }
   ],

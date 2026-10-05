@@ -787,6 +787,12 @@
       "name": "DoubleThree By hilton moda",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-oyau9wn1muuyq6c8",
+      "name": "St. reges",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2431,13 +2437,13 @@
       "name": "CPU PH3 BOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 7,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "PCB INSIDE PH III FOR SAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-08T08:12:48.953Z",
+      "updated_at": "2026-10-05T08:03:13.689Z",
       "stock_base_quantity": 9
     },
     {
@@ -12728,6 +12734,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-02T14:16:45.580Z",
       "created_at": "2026-10-02T14:16:45.580Z"
+    },
+    {
+      "id": "id-9kazq3xnmuuyq6c8",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "St. reges",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-05T08:03:13.688Z",
+      "created_at": "2026-10-05T08:03:13.689Z"
     }
   ],
   "settings": {
@@ -14145,6 +14165,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-02T14:16:45.581Z",
+      "extra": null
+    },
+    {
+      "id": "id-l7orapiwmuuyq6c9",
+      "action": "Stok çıkışı",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "St. reges",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-05T08:03:13.689Z",
       "extra": null
     }
   ],

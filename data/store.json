@@ -7933,13 +7933,13 @@
       "name": "ESSENCE V2 FRONT SATIN CHROME",
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
-      "quantity": 55,
+      "quantity": 56,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-05T08:45:58.708Z",
+      "updated_at": "2026-10-05T08:46:37.217Z",
       "stock_base_quantity": 53
     },
     {
@@ -12866,20 +12866,6 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-05T08:45:58.708Z",
       "created_at": "2026-10-05T08:45:58.708Z"
-    },
-    {
-      "id": "id-gaaopmwlmuv095it",
-      "product_id": "id-gwwb6bixmtl9keog",
-      "product_code": "482459022",
-      "product_name": "ESSENCE V2 FRONT SATIN CHROME",
-      "type": "out",
-      "quantity": 1,
-      "target_location": "vego ahşap,seaside antalya",
-      "reason": "sipariş, Ansi 28 4 swt LH yapıldı.",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "happened_at": "2026-10-05T08:45:58.708Z",
-      "created_at": "2026-10-05T08:45:58.708Z"
     }
   ],
   "settings": {
@@ -14448,6 +14434,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-05T08:45:58.709Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-iujmxxzymuv09z8h",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-gwwb6bixmtl9keog",
+      "product_code": "482459022",
+      "product_name": "ESSENCE V2 FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "vego ahşap,seaside antalya",
+      "reason": "sipariş, Ansi 28 4 swt LH yapıldı.",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-05T08:46:37.217Z",
+      "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "deleted_movement_ids": [
@@ -14455,7 +14456,8 @@
     "id-bzi8na22mupbdiiq",
     "id-pswelcccmupbdiiq",
     "id-4qg3bhwrmupbdiiq",
-    "id-nxfqnumkmupbdiiq"
+    "id-nxfqnumkmupbdiiq",
+    "id-gaaopmwlmuv095it"
   ],
   "audit_log": [
     {

@@ -799,6 +799,12 @@
       "name": "vego ahşap,seaside antalya",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-ehmdzu7zmuwbi8fs",
+      "name": "istanbul marriot hotel asia",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2383,13 +2389,13 @@
       "name": "12 POLE FLEXI PH2",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 30,
+      "quantity": 28,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FLEX.CABLE SENTINEL PHII/XTRA PHII, 25.5CM X 1.3CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-10-01T14:38:01.936Z",
+      "updated_at": "2026-10-06T06:48:44.346Z",
       "stock_base_quantity": 31
     },
     {
@@ -12964,6 +12970,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-05T11:09:52.292Z",
       "created_at": "2026-10-05T11:09:52.292Z"
+    },
+    {
+      "id": "id-v9p9o8ybmuwbi8fs",
+      "product_id": "id-fapruuwnmtl9kemf",
+      "product_code": "253-8051",
+      "product_name": "12 POLE FLEXI PH2",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "istanbul marriot hotel asia",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-06T06:48:44.344Z",
+      "created_at": "2026-10-06T06:48:44.346Z"
     }
   ],
   "settings": {
@@ -14651,6 +14671,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-05T11:09:52.292Z",
+      "extra": null
+    },
+    {
+      "id": "id-3m5b1lz4muwbi8fu",
+      "action": "Stok çıkışı",
+      "product_id": "id-fapruuwnmtl9kemf",
+      "product_code": "253-8051",
+      "product_name": "12 POLE FLEXI PH2",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "istanbul marriot hotel asia",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-06T06:48:44.346Z",
       "extra": null
     }
   ],

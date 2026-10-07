@@ -970,13 +970,13 @@
       "name": "4K PLUS EV2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2817,
+      "quantity": 2810,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "RFID KC PLUS EV2 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-30T09:19:21.036Z",
+      "updated_at": "2026-10-07T08:36:49.077Z",
       "stock_base_quantity": 3117
     },
     {
@@ -16007,6 +16007,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-07T08:36:36.398Z"
+    },
+    {
+      "id": "id-730jgu5emuxut2r9",
+      "action": "Ürün güncellendi",
+      "product_id": "id-hlipc91zmtl9kemb",
+      "product_code": "001489771-001-001",
+      "product_name": "4K PLUS EV2 MASTER KART",
+      "before": {
+        "id": "id-hlipc91zmtl9kemb",
+        "code": "001489771-001-001",
+        "name": "4K PLUS EV2 MASTER KART",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2817,
+        "critical_level": 2000,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KC PLUS EV2 4K WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-30T09:19:21.036Z",
+        "stock_base_quantity": 3117
+      },
+      "after": {
+        "id": "id-hlipc91zmtl9kemb",
+        "code": "001489771-001-001",
+        "name": "4K PLUS EV2 MASTER KART",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 2810,
+        "critical_level": 2000,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KC PLUS EV2 4K WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-10-07T08:36:49.077Z",
+        "stock_base_quantity": 3117
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-07T08:36:49.077Z"
     }
   ]
 }

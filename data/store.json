@@ -3760,13 +3760,13 @@
       "name": "PİL KABLOSU",
       "category_id": "id-7t09o74amtk34t8o",
       "unit": "adet",
-      "quantity": 457,
+      "quantity": 456,
       "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "BATTERY CABLE SIGNATURE/CLASSİC 4.5V/CLASSIC 9V",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-09-08T08:02:08.584Z",
+      "updated_at": "2026-10-07T07:05:42.962Z",
       "stock_base_quantity": 457
     },
     {
@@ -13004,6 +13004,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-07T06:19:09.471Z",
       "created_at": "2026-10-07T06:19:09.474Z"
+    },
+    {
+      "id": "id-7hm1nhflmuxrjx2n",
+      "product_id": "id-c8yfvlf2mtl9kemm",
+      "product_code": "4809763",
+      "product_name": "PİL KABLOSU",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "riva taksim hotel",
+      "reason": "arıza",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-07T07:05:42.959Z",
+      "created_at": "2026-10-07T07:05:42.962Z"
     }
   ],
   "settings": {
@@ -14721,6 +14735,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-07T06:19:09.474Z",
+      "extra": null
+    },
+    {
+      "id": "id-pffxajbmmuxrjx2q",
+      "action": "Stok çıkışı",
+      "product_id": "id-c8yfvlf2mtl9kemm",
+      "product_code": "4809763",
+      "product_name": "PİL KABLOSU",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "riva taksim hotel",
+      "reason": "arıza",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-07T07:05:42.962Z",
       "extra": null
     }
   ],

@@ -940,13 +940,13 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 290,
+      "quantity": 250,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD UL AES 144B WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-30T09:17:21.495Z",
+      "updated_at": "2026-10-07T08:36:36.398Z",
       "stock_base_quantity": 790
     },
     {
@@ -15967,6 +15967,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-06T13:32:17.593Z"
+    },
+    {
+      "id": "id-1ukozpcxmuxussz2",
+      "action": "Ürün güncellendi",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "before": {
+        "id": "id-zhmomyrumtl9kemb",
+        "code": "P001495832-001-001",
+        "name": "RFID AES GUEST BEYAZ KART",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 290,
+        "critical_level": 500,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYCARD UL AES 144B WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-09-30T09:17:21.495Z",
+        "stock_base_quantity": 790
+      },
+      "after": {
+        "id": "id-zhmomyrumtl9kemb",
+        "code": "P001495832-001-001",
+        "name": "RFID AES GUEST BEYAZ KART",
+        "category_id": "id-fzyrvbu6mtk34t8m",
+        "unit": "adet",
+        "quantity": 250,
+        "critical_level": 500,
+        "unit_price": 0,
+        "location": "",
+        "description": "RFID KEYCARD UL AES 144B WHITE",
+        "created_at": "2026-09-03T08:29:16.163Z",
+        "updated_at": "2026-10-07T08:36:36.398Z",
+        "stock_base_quantity": 790
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-07T08:36:36.398Z"
     }
   ]
 }

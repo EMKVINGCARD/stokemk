@@ -7870,13 +7870,13 @@
       "name": "ADB A28 FRONT SATIN CHROME",
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-02T06:31:33.414Z",
+      "updated_at": "2026-10-08T08:57:00.491Z",
       "stock_base_quantity": 0
     },
     {
@@ -13046,6 +13046,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-07T13:27:26.614Z",
       "created_at": "2026-10-07T13:27:26.614Z"
+    },
+    {
+      "id": "id-0ixnu3gzmuzayw5m",
+      "product_id": "id-ltmhe585mtl9keog",
+      "product_code": "481514322",
+      "product_name": "ADB A28 FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-08T08:57:00.490Z",
+      "created_at": "2026-10-08T08:57:00.491Z"
     }
   ],
   "settings": {
@@ -14793,6 +14807,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-07T13:27:26.614Z",
+      "extra": null
+    },
+    {
+      "id": "id-6dlis8vwmuzayw5n",
+      "action": "Stok girişi",
+      "product_id": "id-ltmhe585mtl9keog",
+      "product_code": "481514322",
+      "product_name": "ADB A28 FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-08T08:57:00.491Z",
       "extra": null
     }
   ],

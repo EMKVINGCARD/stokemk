@@ -7951,13 +7951,13 @@
       "name": "ESSENCE V2 FRONT SATIN CHROME",
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
-      "quantity": 55,
+      "quantity": 56,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-08T08:59:49.007Z",
+      "updated_at": "2026-10-08T09:02:14.400Z",
       "stock_base_quantity": 53
     },
     {
@@ -13179,6 +13179,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-08T09:01:03.144Z",
       "created_at": "2026-10-08T09:01:03.147Z"
+    },
+    {
+      "id": "id-ufharx2omuzb5mdc",
+      "product_id": "id-gwwb6bixmtl9keog",
+      "product_code": "482459022",
+      "product_name": "ESSENCE V2 FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-08T09:02:14.400Z",
+      "created_at": "2026-10-08T09:02:14.400Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16269,6 +16283,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-08T09:01:03.148Z",
+      "extra": null
+    },
+    {
+      "id": "id-rmxl3536muzb5mdc",
+      "action": "Stok girişi",
+      "product_id": "id-gwwb6bixmtl9keog",
+      "product_code": "482459022",
+      "product_name": "ESSENCE V2 FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-08T09:02:14.400Z",
       "extra": null
     }
   ],

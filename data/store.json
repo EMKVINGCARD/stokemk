@@ -4792,13 +4792,13 @@
       "name": "SKIRT SATIN CHROME",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
-      "quantity": 198,
+      "quantity": 199,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 3G/4G RFID READER STSTEEL",
       "created_at": "2026-09-03T08:29:16.185Z",
-      "updated_at": "2026-10-02T14:16:45.581Z",
+      "updated_at": "2026-10-09T11:04:03.272Z",
       "stock_base_quantity": 193
     },
     {
@@ -13311,6 +13311,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-09T11:03:37.773Z",
       "created_at": "2026-10-09T11:03:37.773Z"
+    },
+    {
+      "id": "id-9qpwhvogmv0uy4lk",
+      "product_id": "id-wnzlk2mbmtl9kemx",
+      "product_code": "482379622",
+      "product_name": "SKIRT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-09T11:04:03.272Z",
+      "created_at": "2026-10-09T11:04:03.272Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16546,6 +16560,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-09T11:03:37.773Z",
+      "extra": null
+    },
+    {
+      "id": "id-pz58r64cmv0uy4lk",
+      "action": "Stok girişi",
+      "product_id": "id-wnzlk2mbmtl9kemx",
+      "product_code": "482379622",
+      "product_name": "SKIRT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-09T11:04:03.272Z",
       "extra": null
     }
   ],

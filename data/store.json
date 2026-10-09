@@ -8601,13 +8601,13 @@
       "name": "ESSENCE V2 5351 KASET SET US ANTIK DARK",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-10-09T11:03:01.932Z",
-      "updated_at": "2026-10-09T11:03:01.932Z"
+      "updated_at": "2026-10-09T11:03:37.773Z"
     }
   ],
   "movements": [
@@ -13297,6 +13297,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-09T10:59:54.703Z",
       "created_at": "2026-10-09T10:59:54.703Z"
+    },
+    {
+      "id": "id-7tgr40vsmv0uxkx9",
+      "product_id": "id-1nds86pdmv0uwt9o",
+      "product_code": "1",
+      "product_name": "ESSENCE V2 5351 KASET SET US ANTIK DARK",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "STOK GİRİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-09T11:03:37.773Z",
+      "created_at": "2026-10-09T11:03:37.773Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16517,6 +16531,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-09T10:59:54.703Z",
+      "extra": null
+    },
+    {
+      "id": "id-10wygjecmv0uxkx9",
+      "action": "Stok girişi",
+      "product_id": "id-1nds86pdmv0uwt9o",
+      "product_code": "1",
+      "product_name": "ESSENCE V2 5351 KASET SET US ANTIK DARK",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "STOK GİRİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-09T11:03:37.773Z",
       "extra": null
     }
   ],

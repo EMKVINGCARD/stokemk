@@ -8594,6 +8594,20 @@
       "description": "",
       "created_at": "2026-10-07T13:26:54.901Z",
       "updated_at": "2026-10-07T13:27:26.614Z"
+    },
+    {
+      "id": "id-1nds86pdmv0uwt9o",
+      "code": "1",
+      "name": "ESSENCE V2 5351 KASET SET US ANTIK DARK",
+      "category_id": "id-1xf61rmxmtk34t8o",
+      "unit": "adet",
+      "quantity": 0,
+      "critical_level": 0,
+      "unit_price": 0,
+      "location": "",
+      "description": "",
+      "created_at": "2026-10-09T11:03:01.932Z",
+      "updated_at": "2026-10-09T11:03:01.932Z"
     }
   ],
   "movements": [
@@ -14644,6 +14658,31 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-07T13:26:54.901Z"
+    },
+    {
+      "id": "id-4tyaokjymv0uwt9o",
+      "action": "Ürün eklendi",
+      "product_id": "id-1nds86pdmv0uwt9o",
+      "product_code": "1",
+      "product_name": "ESSENCE V2 5351 KASET SET US ANTIK DARK",
+      "before": null,
+      "after": {
+        "id": "id-1nds86pdmv0uwt9o",
+        "code": "1",
+        "name": "ESSENCE V2 5351 KASET SET US ANTIK DARK",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-10-09T11:03:01.932Z",
+        "updated_at": "2026-10-09T11:03:01.932Z"
+      },
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-09T11:03:01.932Z"
     }
   ],
   "movement_audit": [

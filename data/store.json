@@ -823,6 +823,12 @@
       "name": "St. reges bodrum",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-8sb0dkklmv4vlkop",
+      "name": "ELA KEMER",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -952,7 +958,7 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 250,
+      "quantity": 290,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
@@ -982,7 +988,7 @@
       "name": "4K PLUS EV2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2575,
+      "quantity": 2817,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
@@ -1342,7 +1348,7 @@
       "name": "POWER SUPPLY 24V",
       "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 9,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
@@ -2827,7 +2833,7 @@
       "name": "SENTINEL DİŞLİ VE KANCA SETİ",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 11,
+      "quantity": 12,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
@@ -2962,13 +2968,13 @@
       "name": "ZENITH ÇEKMECE TİPİ YUKARI AÇILAN ZD15",
       "category_id": "id-3qhspgo7mtk34t8n",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ZENITH 15 TOP OPEN DIGITAL GREY",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:03:09.226Z",
+      "updated_at": "2026-10-12T06:33:21.913Z",
       "stock_base_quantity": 1
     },
     {
@@ -3427,7 +3433,7 @@
       "name": "12 Lİ SİGORTA KUTUSU",
       "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
@@ -3442,7 +3448,7 @@
       "name": "16 Lİ SİGORTA KUTUSU",
       "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 0,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
@@ -8557,7 +8563,7 @@
       "name": "ESSENCE V2 KAPAK SİYAH ESKİ TİP",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 0,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
@@ -8572,7 +8578,7 @@
       "name": "ESSENCE V2 KAPAK BEYAZ ESKİ TİP",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 0,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
@@ -8593,7 +8599,8 @@
       "location": "",
       "description": "",
       "created_at": "2026-10-07T13:26:54.901Z",
-      "updated_at": "2026-10-07T13:27:26.614Z"
+      "updated_at": "2026-10-07T13:27:26.614Z",
+      "stock_base_quantity": 0
     },
     {
       "id": "id-1nds86pdmv0uwt9o",
@@ -8607,7 +8614,8 @@
       "location": "",
       "description": "",
       "created_at": "2026-10-09T11:03:01.932Z",
-      "updated_at": "2026-10-09T11:03:37.773Z"
+      "updated_at": "2026-10-09T11:03:37.773Z",
+      "stock_base_quantity": 0
     }
   ],
   "movements": [
@@ -13423,6 +13431,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-09T12:50:58.196Z",
       "created_at": "2026-10-09T12:50:58.196Z"
+    },
+    {
+      "id": "id-v1tk7vvmmv4vlkop",
+      "operation_id": "id-7z6lhrxxmv4vlkop",
+      "product_id": "id-enocha9cmtl9kemh",
+      "product_code": "ZD15001",
+      "product_name": "ZENITH ÇEKMECE TİPİ YUKARI AÇILAN ZD15",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 0,
+      "target_location": "ELA KEMER",
+      "reason": "ELA KEMER",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-10-12T06:33:21.913Z",
+      "created_at": "2026-10-12T06:33:21.913Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16779,6 +16804,23 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-09T12:50:58.196Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-bbc0a3ajmv4vlkop",
+      "action": "Stok çıkışı",
+      "product_id": "id-enocha9cmtl9kemh",
+      "product_code": "ZD15001",
+      "product_name": "ZENITH ÇEKMECE TİPİ YUKARI AÇILAN ZD15",
+      "type": "out",
+      "quantity": 1,
+      "before_quantity": 1,
+      "after_quantity": 0,
+      "target_location": "ELA KEMER",
+      "reason": "ELA KEMER",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-10-12T06:33:21.913Z",
+      "extra": null
     }
   ],
   "settings": {

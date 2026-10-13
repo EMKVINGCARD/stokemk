@@ -829,6 +829,12 @@
       "name": "ELA KEMER",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-ggopz9x8mv6dh0qz",
+      "name": "Zebrona HGI MERSİN",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -8488,13 +8494,13 @@
       "name": "ALFA RFID 4G BLE SATIN CHROME STRAIGHT ANSI28 DB GÖMME",
       "category_id": "id-a04v1tgfmtl7q19i",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 2,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.258Z",
-      "updated_at": "2026-09-11T14:00:56.512Z",
+      "updated_at": "2026-10-13T07:41:28.715Z",
       "stock_base_quantity": 2
     },
     {
@@ -13448,6 +13454,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-10-12T06:33:21.913Z",
       "created_at": "2026-10-12T06:33:21.913Z"
+    },
+    {
+      "id": "id-gww6xggomv6dh0r3",
+      "product_id": "id-mfvbflztmtl9keoy",
+      "product_code": "YOK",
+      "product_name": "ALFA RFID 4G BLE SATIN CHROME STRAIGHT ANSI28 DB GÖMME",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "Zebrona HGI MERSİN",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-13T07:41:28.715Z",
+      "created_at": "2026-10-13T07:41:28.715Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16941,6 +16961,21 @@
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-10-12T06:33:21.913Z",
       "extra": null
+    },
+    {
+      "id": "id-q20o93wzmv6dh0r3",
+      "action": "Stok çıkışı",
+      "product_id": "id-mfvbflztmtl9keoy",
+      "product_code": "YOK",
+      "product_name": "ALFA RFID 4G BLE SATIN CHROME STRAIGHT ANSI28 DB GÖMME",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "Zebrona HGI MERSİN",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-13T07:41:28.719Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

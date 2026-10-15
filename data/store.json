@@ -4041,17 +4041,17 @@
     },
     {
       "id": "id-dpgylc08mtl9kemp",
-      "code": "1000SIGNATURE1021",
-      "name": "ANSI 1021 GÖMME",
+      "code": "4874007C2322",
+      "name": "1021 ANSI 28 DB RHR GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
       "quantity": 1,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
-      "description": "SIGNATURE MECHANICAL 1021",
+      "description": "LOCK CASE ANSI DB 28 RHR ",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-09-08T08:04:04.773Z",
+      "updated_at": "2026-10-15T11:34:24.742Z",
       "stock_base_quantity": 1
     },
     {
@@ -15868,6 +15868,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-15T11:28:44.791Z"
+    },
+    {
+      "id": "id-x98fo9ubmv9goa1y",
+      "action": "Ürün güncellendi",
+      "product_id": "id-dpgylc08mtl9kemp",
+      "product_code": "4874007C2322",
+      "product_name": "1021 ANSI 28 DB RHR GÖMME",
+      "before": {
+        "id": "id-dpgylc08mtl9kemp",
+        "code": "1000SIGNATURE1021",
+        "name": "ANSI 1021 GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "SIGNATURE MECHANICAL 1021",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-09-08T08:04:04.773Z",
+        "stock_base_quantity": 1
+      },
+      "after": {
+        "id": "id-dpgylc08mtl9kemp",
+        "code": "4874007C2322",
+        "name": "1021 ANSI 28 DB RHR GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB 28 RHR ",
+        "created_at": "2026-09-03T08:29:16.177Z",
+        "updated_at": "2026-10-15T11:34:24.742Z",
+        "stock_base_quantity": 1
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-15T11:34:24.742Z"
     }
   ],
   "movement_audit": [

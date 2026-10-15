@@ -6265,13 +6265,13 @@
       "name": "WING RH BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Handle on outside rose Signature Black T Wing R /Handle on inside rose Signature Black T Wing L",
       "created_at": "2026-09-03T08:29:16.205Z",
-      "updated_at": "2026-10-15T08:58:37.257Z",
+      "updated_at": "2026-10-15T09:11:24.010Z",
       "stock_base_quantity": 4
     },
     {
@@ -13840,20 +13840,6 @@
       "created_at": "2026-10-15T08:57:45.564Z"
     },
     {
-      "id": "id-8sf0y2eumv9b3xhl",
-      "product_id": "id-z53fn23imtl9kenh",
-      "product_code": "481633390AB/481633590AA",
-      "product_name": "WING RH BLACK TITANUM SET",
-      "type": "in",
-      "quantity": 3,
-      "target_location": "Ana Depo",
-      "reason": null,
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-10-15T08:58:37.257Z",
-      "created_at": "2026-10-15T08:58:37.257Z"
-    },
-    {
       "id": "id-t7u6baq0mv9b5s1n",
       "product_id": "id-ck6sootqmtl9kenn",
       "product_code": "481633324AA / 481633524AB",
@@ -13889,7 +13875,8 @@
     "id-4qg3bhwrmupbdiiq",
     "id-nxfqnumkmupbdiiq",
     "id-gaaopmwlmuv095it",
-    "id-wb8titqymv9b568t"
+    "id-wb8titqymv9b568t",
+    "id-8sf0y2eumv9b3xhl"
   ],
   "audit_log": [
     {
@@ -17853,6 +17840,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-15T09:11:14.772Z",
+      "extra": "3 giriş iptal edildi; miktar stoktan düşüldü."
+    },
+    {
+      "id": "id-204f4firmv9bkd4a",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-z53fn23imtl9kenh",
+      "product_code": "481633390AB/481633590AA",
+      "product_name": "WING RH BLACK TITANUM SET",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-15T09:11:24.010Z",
       "extra": "3 giriş iptal edildi; miktar stoktan düşüldü."
     }
   ],

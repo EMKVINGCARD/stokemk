@@ -4600,13 +4600,13 @@
       "name": "ESSENCE V2 KAPAK SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 108,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-09-10T09:04:22.535Z",
+      "updated_at": "2026-10-15T08:31:09.279Z",
       "stock_base_quantity": 8
     },
     {
@@ -13502,6 +13502,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T08:03:53.762Z",
       "created_at": "2026-10-15T08:03:53.762Z"
+    },
+    {
+      "id": "id-grcumzg3mv9a4lwf",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "in",
+      "quantity": 100,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T08:31:09.279Z",
+      "created_at": "2026-10-15T08:31:09.279Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17039,6 +17053,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T08:03:53.762Z",
+      "extra": null
+    },
+    {
+      "id": "id-uj0oeqt6mv9a4lwf",
+      "action": "Stok girişi",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "in",
+      "quantity": 100,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T08:31:09.279Z",
       "extra": null
     }
   ],

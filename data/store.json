@@ -1801,7 +1801,7 @@
       "location": "",
       "description": "HOUSING ESSENCE ONLINE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-28T08:14:28.911Z",
+      "updated_at": "2026-10-15T11:28:44.790Z",
       "stock_base_quantity": 15
     },
     {
@@ -4300,13 +4300,13 @@
       "name": "SIGNATURE 6351 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 75,
+      "quantity": 74,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6351 SIGNATURE RFID BLE ASSY STD BLACK",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-10-15T11:21:48.271Z",
+      "updated_at": "2026-10-09T11:05:58.997Z",
       "stock_base_quantity": 85
     },
     {
@@ -4435,13 +4435,13 @@
       "name": "LCA 6344 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 190,
+      "quantity": 189,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCA 6344 KIT FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-10-15T11:21:48.271Z",
+      "updated_at": "2026-10-09T11:05:58.997Z",
       "stock_base_quantity": 200
     },
     {
@@ -6535,13 +6535,13 @@
       "name": "STRAIGHT BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE BLACK T STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-10-15T11:21:48.271Z",
+      "updated_at": "2026-09-15T13:01:27.664Z",
       "stock_base_quantity": 3
     },
     {
@@ -7330,13 +7330,13 @@
       "name": "DB BUTONU COMPOZIT BLACK TITANUM PVD",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 16,
+      "quantity": 15,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T PLASTIC END 3 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-10-15T11:21:48.271Z",
+      "updated_at": "2026-09-25T11:26:52.692Z",
       "stock_base_quantity": 13
     },
     {
@@ -7435,13 +7435,13 @@
       "name": "A28 STD KARŞILIK BLACK TITANIUM PVD",
       "category_id": "id-4gkyupz3mtk34t8p",
       "unit": "adet",
-      "quantity": 22,
+      "quantity": 21,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE ANSI, BLACK T",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-10-15T11:21:48.271Z",
+      "updated_at": "2026-10-05T11:08:50.632Z",
       "stock_base_quantity": 23
     },
     {
@@ -7825,13 +7825,13 @@
       "name": "A28 STD FRONT BLACK TITANIUM PVD",
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 9,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI DEADBOLT ONLY 28MM BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-15T11:21:48.271Z",
+      "updated_at": "2026-10-05T11:09:06.336Z",
       "stock_base_quantity": 9
     },
     {
@@ -8020,13 +8020,13 @@
       "name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 13,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-15T11:18:16.863Z",
+      "updated_at": "2026-09-15T13:02:28.346Z",
       "stock_base_quantity": 18
     },
     {
@@ -8545,13 +8545,13 @@
       "name": "SIGNATURE COMPOZİT PİL KAPAĞI",
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
-      "quantity": 91,
+      "quantity": 90,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "Signature online battery cover kit, Black",
       "created_at": "2026-09-14T10:54:22.736Z",
-      "updated_at": "2026-10-15T11:21:48.271Z",
+      "updated_at": "2026-10-09T11:05:58.997Z",
       "stock_base_quantity": 100
     },
     {
@@ -15814,6 +15814,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-15T10:37:50.711Z"
+    },
+    {
+      "id": "id-vxoh4imbmv9ggzqv",
+      "action": "Ürün güncellendi",
+      "product_id": "id-htbq7k5emtl9kemc",
+      "product_code": "4827621",
+      "product_name": "ESSENCE VE BOŞ HOUSING",
+      "before": {
+        "id": "id-htbq7k5emtl9kemc",
+        "code": "4827621",
+        "name": "ESSENCE VE BOŞ HOUSING",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "HOUSING ESSENCE ONLINE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-28T08:14:28.911Z",
+        "stock_base_quantity": 15
+      },
+      "after": {
+        "id": "id-htbq7k5emtl9kemc",
+        "code": "4827621",
+        "name": "ESSENCE VE BOŞ HOUSING",
+        "category_id": "id-hzu8q0wcmtk34t8n",
+        "unit": "adet",
+        "quantity": 16,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "HOUSING ESSENCE ONLINE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-10-15T11:28:44.790Z",
+        "stock_base_quantity": 15
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-15T11:28:44.791Z"
     }
   ],
   "movement_audit": [

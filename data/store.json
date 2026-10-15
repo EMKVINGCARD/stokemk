@@ -1705,13 +1705,13 @@
       "name": "MAIN KONTROL ÜNİTESİ 6351",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 11,
+      "quantity": 16,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-29T07:06:45.480Z",
+      "updated_at": "2026-10-15T08:47:32.453Z",
       "stock_base_quantity": 12
     },
     {
@@ -13572,6 +13572,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T08:46:41.624Z",
       "created_at": "2026-10-15T08:46:41.624Z"
+    },
+    {
+      "id": "id-kdckp3fnmv9apoit",
+      "product_id": "id-3p2kkjqrmtl9kemc",
+      "product_code": "P001005359-003-001",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6351",
+      "type": "in",
+      "quantity": 5,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T08:47:32.453Z",
+      "created_at": "2026-10-15T08:47:32.453Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17184,6 +17198,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T08:46:41.624Z",
+      "extra": null
+    },
+    {
+      "id": "id-plvehq4xmv9apoit",
+      "action": "Stok girişi",
+      "product_id": "id-3p2kkjqrmtl9kemc",
+      "product_code": "P001005359-003-001",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6351",
+      "type": "in",
+      "quantity": 5,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T08:47:32.453Z",
       "extra": null
     }
   ],

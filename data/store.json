@@ -6400,13 +6400,13 @@
       "name": "WING LH BLACK TITANUM  SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Handle on outside rose Signature Black T Wing L/ Handle on inside rose Signature Black T Wing R",
       "created_at": "2026-09-03T08:29:16.210Z",
-      "updated_at": "2026-10-15T08:59:35.262Z",
+      "updated_at": "2026-10-15T09:11:14.771Z",
       "stock_base_quantity": 0
     },
     {
@@ -13854,20 +13854,6 @@
       "created_at": "2026-10-15T08:58:37.257Z"
     },
     {
-      "id": "id-wb8titqymv9b568t",
-      "product_id": "id-awbdu866mtl9kenm",
-      "product_code": "481633390AA/481633590AB",
-      "product_name": "WING LH BLACK TITANUM  SET",
-      "type": "in",
-      "quantity": 3,
-      "target_location": "Ana Depo",
-      "reason": null,
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-10-15T08:59:35.261Z",
-      "created_at": "2026-10-15T08:59:35.262Z"
-    },
-    {
       "id": "id-t7u6baq0mv9b5s1n",
       "product_id": "id-ck6sootqmtl9kenn",
       "product_code": "481633324AA / 481633524AB",
@@ -13902,7 +13888,8 @@
     "id-pswelcccmupbdiiq",
     "id-4qg3bhwrmupbdiiq",
     "id-nxfqnumkmupbdiiq",
-    "id-gaaopmwlmuv095it"
+    "id-gaaopmwlmuv095it",
+    "id-wb8titqymv9b568t"
   ],
   "audit_log": [
     {
@@ -17852,6 +17839,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T09:00:34.969Z",
       "extra": null
+    },
+    {
+      "id": "id-4e9t3i1nmv9bk5zo",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-awbdu866mtl9kenm",
+      "product_code": "481633390AA/481633590AB",
+      "product_name": "WING LH BLACK TITANUM  SET",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-15T09:11:14.772Z",
+      "extra": "3 giriş iptal edildi; miktar stoktan düşüldü."
     }
   ],
   "settings": {

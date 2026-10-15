@@ -6265,13 +6265,13 @@
       "name": "WING RH BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 4,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Handle on outside rose Signature Black T Wing R /Handle on inside rose Signature Black T Wing L",
       "created_at": "2026-09-03T08:29:16.205Z",
-      "updated_at": "2026-09-15T13:01:27.664Z",
+      "updated_at": "2026-10-15T08:58:37.257Z",
       "stock_base_quantity": 4
     },
     {
@@ -13838,6 +13838,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T08:57:45.564Z",
       "created_at": "2026-10-15T08:57:45.564Z"
+    },
+    {
+      "id": "id-8sf0y2eumv9b3xhl",
+      "product_id": "id-z53fn23imtl9kenh",
+      "product_code": "481633390AB/481633590AA",
+      "product_name": "WING RH BLACK TITANUM SET",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T08:58:37.257Z",
+      "created_at": "2026-10-15T08:58:37.257Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17735,6 +17749,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T08:57:45.564Z",
+      "extra": null
+    },
+    {
+      "id": "id-8u0j820omv9b3xhl",
+      "action": "Stok girişi",
+      "product_id": "id-z53fn23imtl9kenh",
+      "product_code": "481633390AB/481633590AA",
+      "product_name": "WING RH BLACK TITANUM SET",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T08:58:37.257Z",
       "extra": null
     }
   ],

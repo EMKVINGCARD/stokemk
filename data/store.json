@@ -835,6 +835,12 @@
       "name": "Zebrona HGI MERSİN",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-3ie2hmpomv994z0w",
+      "name": "ana depo",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -844,13 +850,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2797,
+      "quantity": 7797,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-10-01T14:12:40.415Z",
+      "updated_at": "2026-10-15T08:03:26.682Z",
       "stock_base_quantity": 3297
     },
     {
@@ -13468,6 +13474,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-13T07:41:28.715Z",
       "created_at": "2026-10-13T07:41:28.715Z"
+    },
+    {
+      "id": "id-do9zmhpxmv994z0w",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "in",
+      "quantity": 5000,
+      "target_location": "ana depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T08:03:26.672Z",
+      "created_at": "2026-10-15T08:03:26.682Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16976,6 +16996,21 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-13T07:41:28.719Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-cymr8zo0mv994z16",
+      "action": "Stok girişi",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "in",
+      "quantity": 5000,
+      "target_location": "ana depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T08:03:26.682Z",
+      "extra": null
     }
   ],
   "settings": {

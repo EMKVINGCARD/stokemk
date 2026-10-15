@@ -7960,13 +7960,13 @@
       "name": "ADB A28 FRONT ANTIK BRASS LIGHTER",
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 3,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM ANTBRASSLIGHT",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:30:06.626Z",
+      "updated_at": "2026-10-15T08:53:56.658Z",
       "stock_base_quantity": 1
     },
     {
@@ -13726,6 +13726,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T08:53:26.899Z",
       "created_at": "2026-10-15T08:53:26.899Z"
+    },
+    {
+      "id": "id-gcc5h3tfmv9axwz6",
+      "product_id": "id-mwwblmz3mtl9keog",
+      "product_code": "481514325",
+      "product_name": "ADB A28 FRONT ANTIK BRASS LIGHTER",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T08:53:56.658Z",
+      "created_at": "2026-10-15T08:53:56.658Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17503,6 +17517,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T08:53:26.899Z",
+      "extra": null
+    },
+    {
+      "id": "id-oo2dsogtmv9axwz6",
+      "action": "Stok girişi",
+      "product_id": "id-mwwblmz3mtl9keog",
+      "product_code": "481514325",
+      "product_name": "ADB A28 FRONT ANTIK BRASS LIGHTER",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T08:53:56.658Z",
       "extra": null
     }
   ],

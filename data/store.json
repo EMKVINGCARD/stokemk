@@ -970,13 +970,13 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 290,
+      "quantity": 1290,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD UL AES 144B WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-10-07T08:36:36.398Z",
+      "updated_at": "2026-10-15T08:03:53.762Z",
       "stock_base_quantity": 790
     },
     {
@@ -13488,6 +13488,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T08:03:26.672Z",
       "created_at": "2026-10-15T08:03:26.682Z"
+    },
+    {
+      "id": "id-enxw32r6mv995jxe",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "in",
+      "quantity": 1000,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T08:03:53.762Z",
+      "created_at": "2026-10-15T08:03:53.762Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17010,6 +17024,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T08:03:26.682Z",
+      "extra": null
+    },
+    {
+      "id": "id-zfsyces5mv995jxe",
+      "action": "Stok girişi",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "in",
+      "quantity": 1000,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T08:03:53.762Z",
       "extra": null
     }
   ],

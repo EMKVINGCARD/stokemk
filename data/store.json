@@ -8320,13 +8320,13 @@
       "name": "TOZLUK SATIN CHROME YENİ",
       "category_id": "id-twls3oxrmtk34t8p",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 7,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "DUSTBOX FOR ANSI STRIKE",
       "created_at": "2026-09-03T08:29:16.244Z",
-      "updated_at": "2026-10-15T08:52:19.182Z",
+      "updated_at": "2026-10-15T10:20:04.222Z",
       "stock_base_quantity": 0
     },
     {
@@ -13922,6 +13922,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T10:17:21.637Z",
       "created_at": "2026-10-15T10:17:21.637Z"
+    },
+    {
+      "id": "id-xhuxa0owmv9e0oam",
+      "product_id": "id-esnd4ubumtl9keok",
+      "product_code": "4701975",
+      "product_name": "TOZLUK SATIN CHROME YENİ",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T10:20:04.222Z",
+      "created_at": "2026-10-15T10:20:04.222Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17971,6 +17985,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T10:17:21.637Z",
+      "extra": null
+    },
+    {
+      "id": "id-7hclzskemv9e0oam",
+      "action": "Stok girişi",
+      "product_id": "id-esnd4ubumtl9keok",
+      "product_code": "4701975",
+      "product_name": "TOZLUK SATIN CHROME YENİ",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T10:20:04.222Z",
       "extra": null
     }
   ],

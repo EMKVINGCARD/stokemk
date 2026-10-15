@@ -841,6 +841,12 @@
       "name": "ana depo",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-vwdqr8rkmv9jk7mq",
+      "name": "izmir marriot",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4600,13 +4606,13 @@
       "name": "ESSENCE V2 KAPAK SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 58,
+      "quantity": 38,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-10-15T12:54:22.902Z",
+      "updated_at": "2026-10-15T12:55:13.826Z",
       "stock_base_quantity": 8
     },
     {
@@ -14163,6 +14169,20 @@
       "happened_at": "2026-10-15T12:53:27.396Z",
       "created_at": "2026-10-15T12:53:27.396Z",
       "updated_at": "2026-10-15T12:54:22.902Z"
+    },
+    {
+      "id": "id-zrvtlm6jmv9jk7mq",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 20,
+      "target_location": "izmir marriot",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T12:55:13.826Z",
+      "created_at": "2026-10-15T12:55:13.826Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19038,6 +19058,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T12:54:22.903Z",
       "extra": "Önce: 4827614B — ESSENCE V2 KAPAK SİYAH (100); sonra: 4827614B — ESSENCE V2 KAPAK SİYAH (50). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-fszvfe45mv9jk7mq",
+      "action": "Stok çıkışı",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 20,
+      "target_location": "izmir marriot",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T12:55:13.826Z",
+      "extra": null
     }
   ],
   "settings": {

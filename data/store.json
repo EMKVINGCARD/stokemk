@@ -4600,13 +4600,13 @@
       "name": "ESSENCE V2 KAPAK SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 58,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-10-15T12:53:27.396Z",
+      "updated_at": "2026-10-15T12:54:22.902Z",
       "stock_base_quantity": 8
     },
     {
@@ -14155,13 +14155,14 @@
       "product_code": "4827614B",
       "product_name": "ESSENCE V2 KAPAK SİYAH",
       "type": "out",
-      "quantity": 100,
+      "quantity": 50,
       "target_location": "sertka inş(marriot exe apart antalya)",
       "reason": "sipariş",
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T12:53:27.396Z",
-      "created_at": "2026-10-15T12:53:27.396Z"
+      "created_at": "2026-10-15T12:53:27.396Z",
+      "updated_at": "2026-10-15T12:54:22.902Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19022,6 +19023,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T12:53:27.396Z",
       "extra": null
+    },
+    {
+      "id": "id-xolagm8omv9jj4c7",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 50,
+      "target_location": "sertka inş(marriot exe apart antalya)",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T12:54:22.903Z",
+      "extra": "Önce: 4827614B — ESSENCE V2 KAPAK SİYAH (100); sonra: 4827614B — ESSENCE V2 KAPAK SİYAH (50). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

@@ -4525,13 +4525,13 @@
       "name": "CLASSIC LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 18,
+      "quantity": 48,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "Classic RFID Front cover assy, Black",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-17T08:54:34.741Z",
+      "updated_at": "2026-10-15T08:50:53.955Z",
       "stock_base_quantity": 18
     },
     {
@@ -13642,6 +13642,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T08:50:33.410Z",
       "created_at": "2026-10-15T08:50:33.410Z"
+    },
+    {
+      "id": "id-riytnsetmv9au003",
+      "product_id": "id-p2we1x7kmtl9kems",
+      "product_code": "4821997B",
+      "product_name": "CLASSIC LCU KAPAK",
+      "type": "in",
+      "quantity": 30,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T08:50:53.955Z",
+      "created_at": "2026-10-15T08:50:53.955Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17329,6 +17343,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T08:50:33.410Z",
+      "extra": null
+    },
+    {
+      "id": "id-3g52fyrnmv9au003",
+      "action": "Stok girişi",
+      "product_id": "id-p2we1x7kmtl9kems",
+      "product_code": "4821997B",
+      "product_name": "CLASSIC LCU KAPAK",
+      "type": "in",
+      "quantity": 30,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T08:50:53.955Z",
       "extra": null
     }
   ],

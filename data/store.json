@@ -7645,13 +7645,13 @@
       "name": "ADB A28 KARŞILIK LH ANTIK BRASS",
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, LEFT ANT BRASS",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-08T09:27:47.703Z",
+      "updated_at": "2026-10-15T10:17:21.637Z",
       "stock_base_quantity": 0
     },
     {
@@ -13908,6 +13908,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T10:16:47.254Z",
       "created_at": "2026-10-15T10:16:47.254Z"
+    },
+    {
+      "id": "id-bifhrlg9mv9dx6ud",
+      "product_id": "id-kup444wamtl9keog",
+      "product_code": "P001010191-001-224",
+      "product_name": "ADB A28 KARŞILIK LH ANTIK BRASS",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T10:17:21.637Z",
+      "created_at": "2026-10-15T10:17:21.637Z"
     }
   ],
   "deleted_movement_ids": [
@@ -17942,6 +17956,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T10:16:47.254Z",
+      "extra": null
+    },
+    {
+      "id": "id-c7okkip1mv9dx6ud",
+      "action": "Stok girişi",
+      "product_id": "id-kup444wamtl9keog",
+      "product_code": "P001010191-001-224",
+      "product_name": "ADB A28 KARŞILIK LH ANTIK BRASS",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T10:17:21.637Z",
       "extra": null
     }
   ],

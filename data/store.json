@@ -8260,13 +8260,13 @@
       "name": "1021 FRONT BLACK TITANIUM",
       "category_id": "id-5ibf2x3imtk34t8p",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 4,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "Lock front ANSI wo/aux latch 28mm Black T",
       "created_at": "2026-09-03T08:29:16.244Z",
-      "updated_at": "2026-10-15T10:31:08.854Z",
+      "updated_at": "2026-10-15T10:31:38.934Z",
       "stock_base_quantity": 0
     },
     {
@@ -13936,20 +13936,6 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T10:20:04.222Z",
       "created_at": "2026-10-15T10:20:04.222Z"
-    },
-    {
-      "id": "id-loka90spmv9eex4l",
-      "product_id": "id-jysh33lcmtl9keok",
-      "product_code": "470113190",
-      "product_name": "1021 FRONT BLACK TITANIUM",
-      "type": "in",
-      "quantity": 4,
-      "target_location": "Ana Depo",
-      "reason": null,
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-10-15T10:31:08.854Z",
-      "created_at": "2026-10-15T10:31:08.854Z"
     }
   ],
   "deleted_movement_ids": [
@@ -13960,7 +13946,8 @@
     "id-nxfqnumkmupbdiiq",
     "id-gaaopmwlmuv095it",
     "id-wb8titqymv9b568t",
-    "id-8sf0y2eumv9b3xhl"
+    "id-8sf0y2eumv9b3xhl",
+    "id-loka90spmv9eex4l"
   ],
   "audit_log": [
     {
@@ -18030,6 +18017,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T10:31:08.854Z",
       "extra": null
+    },
+    {
+      "id": "id-n7atq2g5mv9efkc6",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-jysh33lcmtl9keok",
+      "product_code": "470113190",
+      "product_name": "1021 FRONT BLACK TITANIUM",
+      "type": "in",
+      "quantity": 4,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T10:31:38.934Z",
+      "extra": "4 giriş iptal edildi; miktar stoktan düşüldü."
     }
   ],
   "settings": {

@@ -8020,13 +8020,13 @@
       "name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
       "category_id": "id-sfxyldt7mtk34t8p",
       "unit": "adet",
-      "quantity": 13,
+      "quantity": 12,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-09-15T13:02:28.346Z",
+      "updated_at": "2026-10-15T11:18:16.863Z",
       "stock_base_quantity": 18
     },
     {
@@ -13993,6 +13993,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-15T11:17:17.761Z",
       "created_at": "2026-10-15T11:17:17.761Z"
+    },
+    {
+      "id": "id-ncxlmw2qmv9g3j8f",
+      "product_id": "id-2eaxsahqmtl9keog",
+      "product_code": "482459090",
+      "product_name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "çıkış",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-15T11:18:16.863Z",
+      "created_at": "2026-10-15T11:18:16.863Z"
     }
   ],
   "deleted_movement_ids": [
@@ -18363,6 +18377,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-15T11:17:17.761Z",
+      "extra": null
+    },
+    {
+      "id": "id-3qf8xxekmv9g3j8f",
+      "action": "Stok çıkışı",
+      "product_id": "id-2eaxsahqmtl9keog",
+      "product_code": "482459090",
+      "product_name": "ESSENCE V2 FRONT BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "çıkış",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-15T11:18:16.863Z",
       "extra": null
     }
   ],

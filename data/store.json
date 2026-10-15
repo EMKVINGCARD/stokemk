@@ -847,6 +847,12 @@
       "name": "izmir marriot",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-qzomuzc6mv9jlb78",
+      "name": "the westin nişantaşı",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4606,13 +4612,13 @@
       "name": "ESSENCE V2 KAPAK SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 38,
+      "quantity": 28,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-10-15T12:55:13.826Z",
+      "updated_at": "2026-10-15T12:56:05.108Z",
       "stock_base_quantity": 8
     },
     {
@@ -14183,6 +14189,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T12:55:13.826Z",
       "created_at": "2026-10-15T12:55:13.826Z"
+    },
+    {
+      "id": "id-9hfob6y8mv9jlb78",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "the westin nişantaşı",
+      "reason": "sipariş ",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-15T12:56:05.108Z",
+      "created_at": "2026-10-15T12:56:05.108Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19072,6 +19092,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T12:55:13.826Z",
+      "extra": null
+    },
+    {
+      "id": "id-djdwodf7mv9jlb78",
+      "action": "Stok çıkışı",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "the westin nişantaşı",
+      "reason": "sipariş ",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-15T12:56:05.108Z",
       "extra": null
     }
   ],

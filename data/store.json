@@ -6565,13 +6565,13 @@
       "name": "STRAIGHT BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE BLACK T STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-09-15T13:01:27.664Z",
+      "updated_at": "2026-10-16T11:29:30.920Z",
       "stock_base_quantity": 3
     },
     {
@@ -14628,6 +14628,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-16T11:26:22.435Z",
       "created_at": "2026-10-16T11:26:22.435Z"
+    },
+    {
+      "id": "id-1elviyf2mvavxu08",
+      "product_id": "id-1kwmjzwxmtl9kenp",
+      "product_code": "481633390AC / 481633590AC",
+      "product_name": "STRAIGHT BLACK TITANUM SET",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-16T11:29:30.920Z",
+      "created_at": "2026-10-16T11:29:30.920Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20033,6 +20047,21 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-16T11:26:22.435Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-5ibbibt7mvavxu08",
+      "action": "Stok girişi",
+      "product_id": "id-1kwmjzwxmtl9kenp",
+      "product_code": "481633390AC / 481633590AC",
+      "product_name": "STRAIGHT BLACK TITANUM SET",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-16T11:29:30.920Z",
+      "extra": null
     }
   ],
   "settings": {

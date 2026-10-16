@@ -7372,13 +7372,13 @@
       "name": "DB BUTONU COMPOZIT LIGHT BRONZE",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 7,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE LIGHTBRZ PLASTIC END",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-10-15T08:54:29.574Z",
+      "updated_at": "2026-10-16T07:13:42.618Z",
       "stock_base_quantity": 0
     },
     {
@@ -14231,6 +14231,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-16T07:11:13.863Z",
       "created_at": "2026-10-16T07:11:13.863Z"
+    },
+    {
+      "id": "id-jq7jaaaemvamsv6i",
+      "product_id": "id-54yfzehqmtl9keoe",
+      "product_code": "481865905",
+      "product_name": "DB BUTONU COMPOZIT LIGHT BRONZE",
+      "type": "in",
+      "quantity": 5,
+      "target_location": "Ana Depo",
+      "reason": "istanbul ofisten geldi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-16T07:13:42.618Z",
+      "created_at": "2026-10-16T07:13:42.618Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19205,6 +19219,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-16T07:11:13.863Z",
+      "extra": null
+    },
+    {
+      "id": "id-2i1h3omkmvamsv6i",
+      "action": "Stok girişi",
+      "product_id": "id-54yfzehqmtl9keoe",
+      "product_code": "481865905",
+      "product_name": "DB BUTONU COMPOZIT LIGHT BRONZE",
+      "type": "in",
+      "quantity": 5,
+      "target_location": "Ana Depo",
+      "reason": "istanbul ofisten geldi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-16T07:13:42.618Z",
       "extra": null
     }
   ],

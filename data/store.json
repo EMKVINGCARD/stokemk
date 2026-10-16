@@ -7366,13 +7366,13 @@
       "name": "DB BUTONU COMPOZIT BLACK TITANUM PVD",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 15,
+      "quantity": 16,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T PLASTIC END 3 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-25T11:26:52.692Z",
+      "updated_at": "2026-10-16T11:41:25.376Z",
       "stock_base_quantity": 13
     },
     {
@@ -14732,6 +14732,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-16T11:37:30.065Z",
       "created_at": "2026-10-16T11:37:30.065Z"
+    },
+    {
+      "id": "id-g85sx2kwmvawd5a8",
+      "product_id": "id-ruv31tkbmtl9keoe",
+      "product_code": "481865990",
+      "product_name": "DB BUTONU COMPOZIT BLACK TITANUM PVD",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "demo bloktan çıkma",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-16T11:41:25.376Z",
+      "created_at": "2026-10-16T11:41:25.376Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20241,6 +20255,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-16T11:37:30.065Z",
+      "extra": null
+    },
+    {
+      "id": "id-5g19u4timvawd5a8",
+      "action": "Stok girişi",
+      "product_id": "id-ruv31tkbmtl9keoe",
+      "product_code": "481865990",
+      "product_name": "DB BUTONU COMPOZIT BLACK TITANUM PVD",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "demo bloktan çıkma",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-16T11:41:25.376Z",
       "extra": null
     }
   ],

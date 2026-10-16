@@ -871,6 +871,12 @@
       "name": "HGI GÜMÜŞSUYU PROJESİ",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-a5pj1sx1mvaw1kyz",
+      "name": "demo blok",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -7300,13 +7306,13 @@
       "name": "DB BUTONU COMPOZIT SATIN CHROME",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 13,
+      "quantity": 12,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME PLASTIC END 2 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-10-16T11:17:03.544Z",
+      "updated_at": "2026-10-16T11:32:25.839Z",
       "stock_base_quantity": 9
     },
     {
@@ -14656,6 +14662,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-16T11:31:19.530Z",
       "created_at": "2026-10-16T11:31:19.530Z"
+    },
+    {
+      "id": "id-brkvfb68mvaw1kyz",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "demo blok",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-16T11:32:25.835Z",
+      "created_at": "2026-10-16T11:32:25.838Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20090,6 +20110,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-16T11:31:19.530Z",
+      "extra": null
+    },
+    {
+      "id": "id-cjqbbl16mvaw1kz3",
+      "action": "Stok çıkışı",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "demo blok",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-16T11:32:25.839Z",
       "extra": null
     }
   ],

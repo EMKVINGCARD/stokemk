@@ -853,6 +853,12 @@
       "name": "the westin nişantaşı",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-unhfwejymvaoptyh",
+      "name": "shangri -la bosphorus hotel",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3952,13 +3958,13 @@
       "name": "ANSI 28MM 4-SW RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 18,
+      "quantity": 16,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW RH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-10-15T08:49:19.047Z",
+      "updated_at": "2026-10-16T08:07:20.298Z",
       "stock_base_quantity": 0
     },
     {
@@ -14344,6 +14350,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-16T07:21:38.054Z",
       "created_at": "2026-10-16T07:21:38.054Z"
+    },
+    {
+      "id": "id-z4dtf6rzmvaoptyi",
+      "product_id": "id-ytwm8671mtl9kemo",
+      "product_code": "4813864B13",
+      "product_name": "ANSI 28MM 4-SW RH GÖMME",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "shangri -la bosphorus hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-16T08:07:20.298Z",
+      "created_at": "2026-10-16T08:07:20.298Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19463,6 +19483,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-16T07:21:38.054Z",
+      "extra": null
+    },
+    {
+      "id": "id-lhpbq9homvaoptyi",
+      "action": "Stok çıkışı",
+      "product_id": "id-ytwm8671mtl9kemo",
+      "product_code": "4813864B13",
+      "product_name": "ANSI 28MM 4-SW RH GÖMME",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "shangri -la bosphorus hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-16T08:07:20.298Z",
       "extra": null
     }
   ],

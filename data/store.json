@@ -859,6 +859,12 @@
       "name": "shangri -la bosphorus hotel",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-hvjs1gnxmvaqa423",
+      "name": "novotel diyarbakır",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2458,13 +2464,13 @@
       "name": "8 POLE FLEXI PH3 İÇİN UZUN ORJİNAL",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 33,
+      "quantity": 28,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FLEX CABLE INF.II, SENT.II,FLOOR SAFES PHIII,40CM X 0.9CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-10-15T11:31:05.641Z",
+      "updated_at": "2026-10-16T08:51:06.126Z",
       "stock_base_quantity": 28
     },
     {
@@ -14448,6 +14454,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-16T08:10:24.147Z",
       "created_at": "2026-10-16T08:10:24.147Z"
+    },
+    {
+      "id": "id-kifosyv7mvaqa423",
+      "product_id": "id-tcnrdizlmtl9kemf",
+      "product_code": "253-8131",
+      "product_name": "8 POLE FLEXI PH3 İÇİN UZUN ORJİNAL",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "novotel diyarbakır",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-16T08:51:06.123Z",
+      "created_at": "2026-10-16T08:51:06.126Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19672,6 +19692,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-16T08:10:24.147Z",
+      "extra": null
+    },
+    {
+      "id": "id-664c5c58mvaqa426",
+      "action": "Stok çıkışı",
+      "product_id": "id-tcnrdizlmtl9kemf",
+      "product_code": "253-8131",
+      "product_name": "8 POLE FLEXI PH3 İÇİN UZUN ORJİNAL",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "novotel diyarbakır",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-16T08:51:06.126Z",
       "extra": null
     }
   ],

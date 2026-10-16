@@ -4438,13 +4438,13 @@
       "name": "LCA 6343 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 39,
+      "quantity": 34,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-10-16T07:17:31.338Z",
+      "updated_at": "2026-10-16T08:10:24.147Z",
       "stock_base_quantity": 26
     },
     {
@@ -14434,6 +14434,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-16T08:10:00.657Z",
       "created_at": "2026-10-16T08:10:00.657Z"
+    },
+    {
+      "id": "id-ijqphmkfmvaotrtf",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "shangri -la bosphorus hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-16T08:10:24.147Z",
+      "created_at": "2026-10-16T08:10:24.147Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19643,6 +19657,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-16T08:10:00.657Z",
+      "extra": null
+    },
+    {
+      "id": "id-mwbk4ycpmvaotrtf",
+      "action": "Stok çıkışı",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "shangri -la bosphorus hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-16T08:10:24.147Z",
       "extra": null
     }
   ],

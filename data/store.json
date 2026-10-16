@@ -4432,13 +4432,13 @@
       "name": "LCA 6343 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 21,
+      "quantity": 39,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "EOL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-09-30T06:56:40.771Z",
+      "updated_at": "2026-10-16T07:17:20.578Z",
       "stock_base_quantity": 26
     },
     {
@@ -14259,6 +14259,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-16T07:13:42.618Z",
       "created_at": "2026-10-16T07:13:42.618Z"
+    },
+    {
+      "id": "id-ygpjs5ztmvamxjcy",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "in",
+      "quantity": 18,
+      "target_location": "Ana Depo",
+      "reason": "6333 LCU CLASSİC",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-16T07:17:20.578Z",
+      "created_at": "2026-10-16T07:17:20.578Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19273,6 +19287,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-16T07:13:42.618Z",
+      "extra": null
+    },
+    {
+      "id": "id-d3hw9pjnmvamxjcy",
+      "action": "Stok girişi",
+      "product_id": "id-7x6timiwmtl9kems",
+      "product_code": "EOL",
+      "product_name": "LCA 6343 SIGNATURE/CLASSIC",
+      "type": "in",
+      "quantity": 18,
+      "target_location": "Ana Depo",
+      "reason": "6333 LCU CLASSİC",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-16T07:17:20.578Z",
       "extra": null
     }
   ],

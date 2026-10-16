@@ -7297,13 +7297,13 @@
       "name": "DB BUTONU COMPOZIT POLISH CHROME",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 112,
+      "quantity": 119,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE POLCHROME PLASTIC END 2 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-09-08T09:25:15.255Z",
+      "updated_at": "2026-10-16T07:13:06.649Z",
       "stock_base_quantity": 112
     },
     {
@@ -16264,6 +16264,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-15T11:39:25.966Z"
+    },
+    {
+      "id": "id-ospi8a5smvams3fd",
+      "action": "Ürün güncellendi",
+      "product_id": "id-hlmqyaacmtl9keoe",
+      "product_code": "481865964",
+      "product_name": "DB BUTONU COMPOZIT POLISH CHROME",
+      "before": {
+        "id": "id-hlmqyaacmtl9keoe",
+        "code": "481865964",
+        "name": "DB BUTONU COMPOZIT POLISH CHROME",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 112,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE POLCHROME PLASTIC END 2 ADET ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-09-08T09:25:15.255Z",
+        "stock_base_quantity": 112
+      },
+      "after": {
+        "id": "id-hlmqyaacmtl9keoe",
+        "code": "481865964",
+        "name": "DB BUTONU COMPOZIT POLISH CHROME",
+        "category_id": "id-eadpwn6umtk34t8p",
+        "unit": "adet",
+        "quantity": 119,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "ESCUTCHEON THUMBTURN SIGNATURE POLCHROME PLASTIC END 2 ADET ÇİZİK",
+        "created_at": "2026-09-03T08:29:16.238Z",
+        "updated_at": "2026-10-16T07:13:06.649Z",
+        "stock_base_quantity": 112
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-16T07:13:06.649Z"
     }
   ],
   "movement_audit": [

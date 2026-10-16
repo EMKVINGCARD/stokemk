@@ -6511,13 +6511,13 @@
       "name": "STRAIGHT SATIN CHROME SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 75,
+      "quantity": 74,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE SATCHROME STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE SATCHROME STRAIGHT",
       "created_at": "2026-09-03T08:29:16.212Z",
-      "updated_at": "2026-10-08T08:59:49.007Z",
+      "updated_at": "2026-10-16T11:33:20.918Z",
       "stock_base_quantity": 83
     },
     {
@@ -14676,6 +14676,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-16T11:32:25.835Z",
       "created_at": "2026-10-16T11:32:25.838Z"
+    },
+    {
+      "id": "id-zzr22791mvaw2rh1",
+      "product_id": "id-x2fmf5v0mtl9keno",
+      "product_code": "481633361AC / 481633561AC",
+      "product_name": "STRAIGHT SATIN CHROME SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "demo blok",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-16T11:33:20.917Z",
+      "created_at": "2026-10-16T11:33:20.917Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20125,6 +20139,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-16T11:32:25.839Z",
+      "extra": null
+    },
+    {
+      "id": "id-m9cy9bjrmvaw2rh2",
+      "action": "Stok çıkışı",
+      "product_id": "id-x2fmf5v0mtl9keno",
+      "product_code": "481633361AC / 481633561AC",
+      "product_name": "STRAIGHT SATIN CHROME SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "demo blok",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-16T11:33:20.918Z",
       "extra": null
     }
   ],

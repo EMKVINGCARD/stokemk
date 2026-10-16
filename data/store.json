@@ -8668,6 +8668,20 @@
       "description": "",
       "created_at": "2026-10-15T11:39:25.966Z",
       "updated_at": "2026-10-15T11:39:25.966Z"
+    },
+    {
+      "id": "id-sdllkk1jmvamwf4m",
+      "code": "123",
+      "name": "6333 LCU CLASSİC",
+      "category_id": "id-1xf61rmxmtk34t8o",
+      "unit": "adet",
+      "quantity": 7,
+      "critical_level": 0,
+      "unit_price": 0,
+      "location": "",
+      "description": "6333 LCU CLASSİC ",
+      "created_at": "2026-10-16T07:16:28.438Z",
+      "updated_at": "2026-10-16T07:16:28.438Z"
     }
   ],
   "movements": [
@@ -16318,6 +16332,31 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-16T07:13:06.649Z"
+    },
+    {
+      "id": "id-5nipcpi5mvamwf4n",
+      "action": "Ürün eklendi",
+      "product_id": "id-sdllkk1jmvamwf4m",
+      "product_code": "123",
+      "product_name": "6333 LCU CLASSİC",
+      "before": null,
+      "after": {
+        "id": "id-sdllkk1jmvamwf4m",
+        "code": "123",
+        "name": "6333 LCU CLASSİC",
+        "category_id": "id-1xf61rmxmtk34t8o",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "6333 LCU CLASSİC ",
+        "created_at": "2026-10-16T07:16:28.438Z",
+        "updated_at": "2026-10-16T07:16:28.438Z"
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-16T07:16:28.439Z"
     }
   ],
   "movement_audit": [

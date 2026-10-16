@@ -7237,13 +7237,13 @@
       "name": "DB BUTONU ALL METAL US ANTIK DARK",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 8,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE USANTDARK METAL END",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-29T06:13:37.628Z",
+      "updated_at": "2026-10-16T07:10:26.847Z",
       "stock_base_quantity": 4
     },
     {
@@ -14203,6 +14203,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-15T12:56:05.108Z",
       "created_at": "2026-10-15T12:56:05.108Z"
+    },
+    {
+      "id": "id-p34akoe8mvamoo4c",
+      "product_id": "id-4y6gqpg2mtl9keod",
+      "product_code": "481865830",
+      "product_name": "DB BUTONU ALL METAL US ANTIK DARK",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "istanbul ofisten geldi\n",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-16T07:10:26.844Z",
+      "created_at": "2026-10-16T07:10:26.847Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19107,6 +19121,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-15T12:56:05.108Z",
+      "extra": null
+    },
+    {
+      "id": "id-pylzayznmvamoo4f",
+      "action": "Stok girişi",
+      "product_id": "id-4y6gqpg2mtl9keod",
+      "product_code": "481865830",
+      "product_name": "DB BUTONU ALL METAL US ANTIK DARK",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "istanbul ofisten geldi\n",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-16T07:10:26.847Z",
       "extra": null
     }
   ],

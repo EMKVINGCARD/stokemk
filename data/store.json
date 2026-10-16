@@ -3973,13 +3973,13 @@
       "name": "ANSI 28MM 4-SW LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 18,
+      "quantity": 17,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-10-15T08:49:41.733Z",
+      "updated_at": "2026-10-16T08:08:11.071Z",
       "stock_base_quantity": 2
     },
     {
@@ -14364,6 +14364,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-16T08:07:20.298Z",
       "created_at": "2026-10-16T08:07:20.298Z"
+    },
+    {
+      "id": "id-ptl2k2lrmvaoqx4v",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "shangri -la bosphorus hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-10-16T08:08:11.071Z",
+      "created_at": "2026-10-16T08:08:11.071Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19498,6 +19512,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-16T08:07:20.298Z",
+      "extra": null
+    },
+    {
+      "id": "id-88j5d0evmvaoqx4v",
+      "action": "Stok çıkışı",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "shangri -la bosphorus hotel",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-10-16T08:08:11.071Z",
       "extra": null
     }
   ],

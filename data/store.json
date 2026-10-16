@@ -7177,13 +7177,13 @@
       "name": "DB BUTONU ALL METAL SATIN BRASS 2 ÇİZİK",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 7,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATBRASS METAL END 2 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-09-03T08:29:16.237Z",
+      "updated_at": "2026-10-16T07:20:02.617Z",
       "stock_base_quantity": 6
     },
     {
@@ -14302,6 +14302,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-16T07:19:21.532Z",
       "created_at": "2026-10-16T07:19:21.532Z"
+    },
+    {
+      "id": "id-0313gafdmvan10e1",
+      "product_id": "id-92kmsz6wmtl9keod",
+      "product_code": "481865862",
+      "product_name": "DB BUTONU ALL METAL SATIN BRASS 2 ÇİZİK",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "istanbul ofisten geldi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-16T07:20:02.617Z",
+      "created_at": "2026-10-16T07:20:02.617Z"
     }
   ],
   "deleted_movement_ids": [
@@ -19376,6 +19390,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-16T07:19:21.532Z",
+      "extra": null
+    },
+    {
+      "id": "id-3yjoabcamvan10e1",
+      "action": "Stok girişi",
+      "product_id": "id-92kmsz6wmtl9keod",
+      "product_code": "481865862",
+      "product_name": "DB BUTONU ALL METAL SATIN BRASS 2 ÇİZİK",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "istanbul ofisten geldi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-16T07:20:02.617Z",
       "extra": null
     }
   ],

@@ -877,6 +877,12 @@
       "name": "demo blok",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-1kybiilwmvewvctx",
+      "name": "marrıott şişli",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -916,13 +922,13 @@
       "name": "4K PLUS EV1 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2795,
+      "quantity": 2745,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "EXPIRED RFID KEYCARD MIFARE PLUS EV1 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-11T06:24:16.791Z",
+      "updated_at": "2026-10-19T07:06:39.669Z",
       "stock_base_quantity": 2820
     },
     {
@@ -14746,6 +14752,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-10-16T11:41:25.376Z",
       "created_at": "2026-10-16T11:41:25.376Z"
+    },
+    {
+      "id": "id-0tteqrhfmvewvctx",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 50,
+      "target_location": "marrıott şişli",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-10-19T07:06:39.669Z",
+      "created_at": "2026-10-19T07:06:39.669Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20270,6 +20290,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-10-16T11:41:25.376Z",
+      "extra": null
+    },
+    {
+      "id": "id-st480qfymvewvctx",
+      "action": "Stok çıkışı",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 50,
+      "target_location": "marrıott şişli",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-10-19T07:06:39.669Z",
       "extra": null
     }
   ],

@@ -889,6 +889,12 @@
       "name": "ıbıs arnavutköy",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-5o8nv0shmvgg7it4",
+      "name": "Grand Cevahir otel",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4588,13 +4594,13 @@
       "name": "SIGNATURE LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 0,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-10-20T08:55:18.257Z",
+      "updated_at": "2026-10-20T08:55:46.168Z",
       "stock_base_quantity": 73
     },
     {
@@ -14814,6 +14820,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-20T08:53:16.026Z",
       "created_at": "2026-10-20T08:53:16.026Z"
+    },
+    {
+      "id": "id-a3h9tzfamvgg7it4",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "Grand Cevahir otel",
+      "reason": "Stok olmadığı için LCU lardan sökülüp gönderildi.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-20T08:55:46.168Z",
+      "created_at": "2026-10-20T08:55:46.168Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20438,6 +20458,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-20T08:53:16.026Z",
+      "extra": null
+    },
+    {
+      "id": "id-z1pyvkjnmvgg7it4",
+      "action": "Stok çıkışı",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "Grand Cevahir otel",
+      "reason": "Stok olmadığı için LCU lardan sökülüp gönderildi.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-20T08:55:46.168Z",
       "extra": null
     }
   ],

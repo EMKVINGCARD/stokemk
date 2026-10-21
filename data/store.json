@@ -901,6 +901,12 @@
       "name": "Rams Etro",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-soh4qa4qmvhu0j1f",
+      "name": "ERHAN ASSA ABLOY",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4225,13 +4231,13 @@
       "name": "EURO 24MM LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE EURO 65 4.5V 24MM LH",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-10-21T08:09:34.531Z",
+      "updated_at": "2026-10-21T08:10:00.676Z",
       "stock_base_quantity": 0
     },
     {
@@ -14855,6 +14861,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-20T10:56:44.677Z",
       "created_at": "2026-10-20T10:56:44.677Z"
+    },
+    {
+      "id": "id-pmid35zemvhu0j1f",
+      "product_id": "id-lr7m0664mtl9kemq",
+      "product_code": "4813995A3",
+      "product_name": "EURO 24MM LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ERHAN ASSA ABLOY",
+      "reason": "ASSA ABLOY ERHAN BEYE GİTTİ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-21T08:10:00.675Z",
+      "created_at": "2026-10-21T08:10:00.675Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20685,6 +20705,21 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-20T12:09:39.665Z",
       "extra": "Önce: 686001061  686001050 — RFID USB KİLİT PROGRAMLAMA KABLO SETİ (1); sonra: 686001061  686001050 — RFID USB KİLİT PROGRAMLAMA KABLO SETİ (2). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-kii9dmwzmvhu0j1f",
+      "action": "Stok çıkışı",
+      "product_id": "id-lr7m0664mtl9kemq",
+      "product_code": "4813995A3",
+      "product_name": "EURO 24MM LH GÖMME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ERHAN ASSA ABLOY",
+      "reason": "ASSA ABLOY ERHAN BEYE GİTTİ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-21T08:10:00.675Z",
+      "extra": null
     }
   ],
   "settings": {

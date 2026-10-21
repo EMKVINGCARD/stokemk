@@ -907,6 +907,12 @@
       "name": "ERHAN ASSA ABLOY",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-pnbeycq4mvhw56s3",
+      "name": "LES TEMS CURIO HILTON KARAKÖY",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -946,13 +952,13 @@
       "name": "4K PLUS EV1 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2745,
+      "quantity": 2715,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "EXPIRED RFID KEYCARD MIFARE PLUS EV1 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-10-19T07:06:39.669Z",
+      "updated_at": "2026-10-21T09:09:37.299Z",
       "stock_base_quantity": 2820
     },
     {
@@ -14875,6 +14881,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-21T08:10:00.675Z",
       "created_at": "2026-10-21T08:10:00.675Z"
+    },
+    {
+      "id": "id-au6v6oaemvhw56s3",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 30,
+      "target_location": "LES TEMS CURIO HILTON KARAKÖY",
+      "reason": "SİPARİŞ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-21T09:09:37.299Z",
+      "created_at": "2026-10-21T09:09:37.299Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20719,6 +20739,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-21T08:10:00.675Z",
+      "extra": null
+    },
+    {
+      "id": "id-4mpq2uh0mvhw56s3",
+      "action": "Stok çıkışı",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 30,
+      "target_location": "LES TEMS CURIO HILTON KARAKÖY",
+      "reason": "SİPARİŞ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-21T09:09:37.299Z",
       "extra": null
     }
   ],

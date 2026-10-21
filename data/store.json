@@ -4225,13 +4225,13 @@
       "name": "EURO 24MM LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 0,
-      "critical_level": 2,
+      "quantity": 1,
+      "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE EURO 65 4.5V 24MM LH",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-09-08T08:04:40.469Z",
+      "updated_at": "2026-10-21T08:09:34.531Z",
       "stock_base_quantity": 0
     },
     {
@@ -17113,6 +17113,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-21T08:09:28.970Z"
+    },
+    {
+      "id": "id-zclalibtmvhtzyv7",
+      "action": "Ürün güncellendi",
+      "product_id": "id-lr7m0664mtl9kemq",
+      "product_code": "4813995A3",
+      "product_name": "EURO 24MM LH GÖMME",
+      "before": {
+        "id": "id-lr7m0664mtl9kemq",
+        "code": "4813995A3",
+        "name": "EURO 24MM LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 24MM LH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-09-08T08:04:40.469Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-lr7m0664mtl9kemq",
+        "code": "4813995A3",
+        "name": "EURO 24MM LH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE EURO 65 4.5V 24MM LH",
+        "created_at": "2026-09-03T08:29:16.178Z",
+        "updated_at": "2026-10-21T08:09:34.531Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-21T08:09:34.531Z"
     }
   ],
   "movement_audit": [

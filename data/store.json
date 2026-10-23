@@ -7873,13 +7873,13 @@
       "name": "A28 STD FRONT SATIN CHROME",
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
-      "quantity": 24,
+      "quantity": 26,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-16T11:34:32.764Z",
+      "updated_at": "2026-10-23T09:48:58.180Z",
       "stock_base_quantity": 32
     },
     {
@@ -14943,6 +14943,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:48:21.188Z",
       "created_at": "2026-10-23T09:48:21.188Z"
+    },
+    {
+      "id": "id-2p7mr20ymvksfhs4",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:48:58.180Z",
+      "created_at": "2026-10-23T09:48:58.180Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20847,6 +20861,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T09:48:21.188Z",
+      "extra": null
+    },
+    {
+      "id": "id-3hkap3y5mvksfhs4",
+      "action": "Stok girişi",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:48:58.180Z",
       "extra": null
     }
   ],

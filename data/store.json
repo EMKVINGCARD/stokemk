@@ -4123,13 +4123,13 @@
       "name": "1021 ANSI 28 DB RHR GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 3,
+      "quantity": 4,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 28 RHR ",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-10-15T11:35:54.912Z",
+      "updated_at": "2026-10-23T09:50:21.304Z",
       "stock_base_quantity": 1
     },
     {
@@ -14999,6 +14999,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:50:03.696Z",
       "created_at": "2026-10-23T09:50:03.696Z"
+    },
+    {
+      "id": "id-rcedvk0zmvksh9x4",
+      "product_id": "id-dpgylc08mtl9kemp",
+      "product_code": "4874007C2322",
+      "product_name": "1021 ANSI 28 DB RHR GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:50:21.304Z",
+      "created_at": "2026-10-23T09:50:21.304Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20963,6 +20977,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T09:50:03.696Z",
+      "extra": null
+    },
+    {
+      "id": "id-2df68xtdmvksh9x4",
+      "action": "Stok girişi",
+      "product_id": "id-dpgylc08mtl9kemp",
+      "product_code": "4874007C2322",
+      "product_name": "1021 ANSI 28 DB RHR GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:50:21.304Z",
       "extra": null
     }
   ],

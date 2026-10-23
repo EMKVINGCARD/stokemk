@@ -913,6 +913,12 @@
       "name": "LES TEMS CURIO HILTON KARAKÖY",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-xqbkw9mxmvkm4iaq",
+      "name": "INTERCONTINENTAL İSTANBUL",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -5647,13 +5653,13 @@
       "name": "SİLİDİR KAPAĞI SATIN BRASS",
       "category_id": "id-1n8q8p8pmtk34t8o",
       "unit": "adet",
-      "quantity": 16,
+      "quantity": 1,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER SEALING ASSY PVD SATBRASS",
       "created_at": "2026-09-03T08:29:16.195Z",
-      "updated_at": "2026-09-08T08:40:58.056Z",
+      "updated_at": "2026-10-23T06:52:27.938Z",
       "stock_base_quantity": 16
     },
     {
@@ -14895,6 +14901,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-21T09:09:37.299Z",
       "created_at": "2026-10-21T09:09:37.299Z"
+    },
+    {
+      "id": "id-9medm2a6mvkm4iaq",
+      "product_id": "id-6n60u1fymtl9ken7",
+      "product_code": "480884962",
+      "product_name": "SİLİDİR KAPAĞI SATIN BRASS",
+      "type": "out",
+      "quantity": 15,
+      "target_location": "INTERCONTINENTAL İSTANBUL",
+      "reason": "SİPARİŞ İLE ALINAN. 50 TANE ALDI 15 İ GÖNDERİLDİ. GERİSİ SİPARİŞ GELİNCE GİDECEK. ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T06:52:27.938Z",
+      "created_at": "2026-10-23T06:52:27.938Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20754,6 +20774,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-21T09:09:37.299Z",
+      "extra": null
+    },
+    {
+      "id": "id-iqkmxhfnmvkm4iaq",
+      "action": "Stok çıkışı",
+      "product_id": "id-6n60u1fymtl9ken7",
+      "product_code": "480884962",
+      "product_name": "SİLİDİR KAPAĞI SATIN BRASS",
+      "type": "out",
+      "quantity": 15,
+      "target_location": "INTERCONTINENTAL İSTANBUL",
+      "reason": "SİPARİŞ İLE ALINAN. 50 TANE ALDI 15 İ GÖNDERİLDİ. GERİSİ SİPARİŞ GELİNCE GİDECEK. ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T06:52:27.938Z",
       "extra": null
     }
   ],

@@ -6649,13 +6649,13 @@
       "name": "STRAIGHT US ANTIK DARK SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE USANTDARK STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-10-23T09:55:55.434Z",
+      "updated_at": "2026-10-23T10:22:33.314Z",
       "stock_base_quantity": 0
     },
     {
@@ -15201,20 +15201,6 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:55:55.434Z",
       "created_at": "2026-10-23T09:55:55.434Z"
-    },
-    {
-      "id": "id-gotgnvltmvksofqi",
-      "product_id": "id-x837b43amtl9kenp",
-      "product_code": "481633330AC / 481633530AC",
-      "product_name": "STRAIGHT US ANTIK DARK SET",
-      "type": "out",
-      "quantity": 1,
-      "target_location": "ST REGIS BODRUM PROJESİ",
-      "reason": "ST REGIS BODRUM PROJESİ ÖRNEK ODA İÇİN GÖNDERİLEN.",
-      "user_id": "id-tejy3dmpmtk2yr8i",
-      "user_name": "CAN EKEYILMAZ",
-      "happened_at": "2026-10-23T09:55:55.434Z",
-      "created_at": "2026-10-23T09:55:55.434Z"
     }
   ],
   "deleted_movement_ids": [
@@ -15226,7 +15212,8 @@
     "id-gaaopmwlmuv095it",
     "id-wb8titqymv9b568t",
     "id-8sf0y2eumv9b3xhl",
-    "id-loka90spmv9eex4l"
+    "id-loka90spmv9eex4l",
+    "id-gotgnvltmvksofqi"
   ],
   "audit_log": [
     {
@@ -21405,6 +21392,21 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T09:55:55.434Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-84n5a6olmvktmoo2",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-x837b43amtl9kenp",
+      "product_code": "481633330AC / 481633530AC",
+      "product_name": "STRAIGHT US ANTIK DARK SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ST REGIS BODRUM PROJESİ",
+      "reason": "ST REGIS BODRUM PROJESİ ÖRNEK ODA İÇİN GÖNDERİLEN.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T10:22:33.314Z",
+      "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "settings": {

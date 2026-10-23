@@ -6649,13 +6649,13 @@
       "name": "STRAIGHT US ANTIK DARK SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE USANTDARK STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-10-23T09:54:29.351Z",
+      "updated_at": "2026-10-23T09:55:55.434Z",
       "stock_base_quantity": 0
     },
     {
@@ -8014,13 +8014,13 @@
       "name": "ADB A28 FRONT BLACK TITANIUM PVD",
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM, BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-23T09:54:29.351Z",
+      "updated_at": "2026-10-23T09:55:55.434Z",
       "stock_base_quantity": 3
     },
     {
@@ -15187,6 +15187,34 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:54:50.446Z",
       "created_at": "2026-10-23T09:54:50.446Z"
+    },
+    {
+      "id": "id-mmubyv3bmvksofqi",
+      "product_id": "id-sezd2m72mtl9keog",
+      "product_code": "481514390",
+      "product_name": "ADB A28 FRONT BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ST REGIS BODRUM PROJESİ",
+      "reason": "ST REGIS BODRUM PROJESİ ÖRNEK ODA İÇİN GÖNDERİLEN.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:55:55.434Z",
+      "created_at": "2026-10-23T09:55:55.434Z"
+    },
+    {
+      "id": "id-gotgnvltmvksofqi",
+      "product_id": "id-x837b43amtl9kenp",
+      "product_code": "481633330AC / 481633530AC",
+      "product_name": "STRAIGHT US ANTIK DARK SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ST REGIS BODRUM PROJESİ",
+      "reason": "ST REGIS BODRUM PROJESİ ÖRNEK ODA İÇİN GÖNDERİLEN.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:55:55.434Z",
+      "created_at": "2026-10-23T09:55:55.434Z"
     }
   ],
   "deleted_movement_ids": [
@@ -21347,6 +21375,36 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T09:54:50.446Z",
       "extra": null
+    },
+    {
+      "id": "id-fcyz25vqmvksofqi",
+      "action": "Stok çıkışı",
+      "product_id": "id-sezd2m72mtl9keog",
+      "product_code": "481514390",
+      "product_name": "ADB A28 FRONT BLACK TITANIUM PVD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ST REGIS BODRUM PROJESİ",
+      "reason": "ST REGIS BODRUM PROJESİ ÖRNEK ODA İÇİN GÖNDERİLEN.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:55:55.434Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-9t92vls1mvksofqi",
+      "action": "Stok çıkışı",
+      "product_id": "id-x837b43amtl9kenp",
+      "product_code": "481633330AC / 481633530AC",
+      "product_name": "STRAIGHT US ANTIK DARK SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ST REGIS BODRUM PROJESİ",
+      "reason": "ST REGIS BODRUM PROJESİ ÖRNEK ODA İÇİN GÖNDERİLEN.",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:55:55.434Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

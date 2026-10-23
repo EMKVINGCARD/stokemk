@@ -7033,13 +7033,13 @@
       "name": "STRAIGHT SATIN CHROME İÇ KOL",
       "category_id": "id-zgl5kigumtk34t8p",
       "unit": "adet",
-      "quantity": 44,
+      "quantity": 46,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.229Z",
-      "updated_at": "2026-10-09T10:59:08.769Z",
+      "updated_at": "2026-10-23T09:49:16.792Z",
       "stock_base_quantity": 46
     },
     {
@@ -14957,6 +14957,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:48:58.180Z",
       "created_at": "2026-10-23T09:48:58.180Z"
+    },
+    {
+      "id": "id-to18wmtgmvksfw54",
+      "product_id": "id-1478cs9kmtl9keo5",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT SATIN CHROME İÇ KOL",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:49:16.792Z",
+      "created_at": "2026-10-23T09:49:16.792Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20876,6 +20890,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T09:48:58.180Z",
+      "extra": null
+    },
+    {
+      "id": "id-g5l019kgmvksfw54",
+      "action": "Stok girişi",
+      "product_id": "id-1478cs9kmtl9keo5",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT SATIN CHROME İÇ KOL",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:49:16.792Z",
       "extra": null
     }
   ],

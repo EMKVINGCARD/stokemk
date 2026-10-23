@@ -5674,13 +5674,13 @@
       "name": "SİLİNDİR KAPAĞI POLISH CHROME",
       "category_id": "id-1n8q8p8pmtk34t8o",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 5,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYLINDER SEALING ASSY PVD POLCHROME",
       "created_at": "2026-09-03T08:29:16.195Z",
-      "updated_at": "2026-09-08T08:48:51.367Z",
+      "updated_at": "2026-10-23T10:52:32.283Z",
       "stock_base_quantity": 4
     },
     {
@@ -15215,6 +15215,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T10:34:26.733Z",
       "created_at": "2026-10-23T10:34:26.733Z"
+    },
+    {
+      "id": "id-xptms25amvkup8rf",
+      "product_id": "id-t72iv5yzmtl9ken7",
+      "product_code": "480884964",
+      "product_name": "SİLİNDİR KAPAĞI POLISH CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T10:52:32.283Z",
+      "created_at": "2026-10-23T10:52:32.283Z"
     }
   ],
   "deleted_movement_ids": [
@@ -21515,6 +21529,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T10:34:26.733Z",
+      "extra": null
+    },
+    {
+      "id": "id-vcd1pow1mvkup8rf",
+      "action": "Stok girişi",
+      "product_id": "id-t72iv5yzmtl9ken7",
+      "product_code": "480884964",
+      "product_name": "SİLİNDİR KAPAĞI POLISH CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T10:52:32.283Z",
       "extra": null
     }
   ],

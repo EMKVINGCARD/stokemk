@@ -4033,13 +4033,13 @@
       "name": "ANSI 28MM 4-SW LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 17,
+      "quantity": 18,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB 4.5V 28MM 4-SW LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-10-16T08:08:11.071Z",
+      "updated_at": "2026-10-23T09:47:54.841Z",
       "stock_base_quantity": 2
     },
     {
@@ -14915,6 +14915,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T06:52:27.938Z",
       "created_at": "2026-10-23T06:52:27.938Z"
+    },
+    {
+      "id": "id-1ux9gygvmvkse4wo",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:47:54.840Z",
+      "created_at": "2026-10-23T09:47:54.841Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20789,6 +20803,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T06:52:27.938Z",
+      "extra": null
+    },
+    {
+      "id": "id-3fj0pqhmmvkse4wp",
+      "action": "Stok girişi",
+      "product_id": "id-l71zjod7mtl9kemo",
+      "product_code": "4813864A13",
+      "product_name": "ANSI 28MM 4-SW LH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:47:54.841Z",
       "extra": null
     }
   ],

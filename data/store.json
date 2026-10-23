@@ -931,6 +931,12 @@
       "name": "İbis-Nov Zeytinburnu",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-jgo8yyrhmvkzkuv9",
+      "name": "accor ofise(İbis-Nov Zeytinburnu)",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2461,7 +2467,7 @@
       "location": "",
       "description": "KIT, USB ADAPTER 2009 WİTH CABLES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-30T12:01:18.395Z",
+      "updated_at": "2026-10-23T13:09:05.733Z",
       "stock_base_quantity": 9
     },
     {
@@ -12378,12 +12384,13 @@
       "product_name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
       "type": "out",
       "quantity": 1,
-      "target_location": "accor ofise",
-      "reason": "accor ofise",
+      "target_location": "accor ofise(İbis-Nov Zeytinburnu)",
+      "reason": "accor ofise(Ahmet beye teslim edildi)",
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-09-30T12:01:18.395Z",
-      "created_at": "2026-09-30T12:01:18.395Z"
+      "created_at": "2026-09-30T12:01:18.395Z",
+      "updated_at": "2026-10-23T13:09:05.733Z"
     },
     {
       "id": "id-jso68h2gmuo5ncty",
@@ -21711,6 +21718,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-23T13:07:36.234Z",
       "extra": null
+    },
+    {
+      "id": "id-nxravjkqmvkzkuv9",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-rtuhomf1mtl9kemf",
+      "product_code": "P000908644-001-001",
+      "product_name": "TELEFONLA PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "accor ofise(İbis-Nov Zeytinburnu)",
+      "reason": "accor ofise(Ahmet beye teslim edildi)",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-23T13:09:05.733Z",
+      "extra": "Önce: P000908644-001-001 — TELEFONLA PROGRAMLAMA KABLO SETİ (1); sonra: P000908644-001-001 — TELEFONLA PROGRAMLAMA KABLO SETİ (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

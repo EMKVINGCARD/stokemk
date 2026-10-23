@@ -925,6 +925,12 @@
       "name": "ST REGIS BODRUM PROJESİ",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-isv3h2wimvkzixt6",
+      "name": "İbis-Nov Zeytinburnu",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1084,13 +1090,13 @@
       "name": "4K PLUS EV2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2817,
+      "quantity": 2617,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "RFID KC PLUS EV2 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-10-07T08:59:41.510Z",
+      "updated_at": "2026-10-23T13:07:36.234Z",
       "stock_base_quantity": 3117
     },
     {
@@ -15214,6 +15220,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T10:52:32.283Z",
       "created_at": "2026-10-23T10:52:32.283Z"
+    },
+    {
+      "id": "id-6b53sammmvkzixt6",
+      "product_id": "id-hlipc91zmtl9kemb",
+      "product_code": "001489771-001-001",
+      "product_name": "4K PLUS EV2 MASTER KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "İbis-Nov Zeytinburnu",
+      "reason": "İbis-Nov Zeytinburnu vostio için bizden verildi.",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-23T13:07:36.234Z",
+      "created_at": "2026-10-23T13:07:36.234Z"
     }
   ],
   "deleted_movement_ids": [
@@ -21675,6 +21695,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T10:52:32.283Z",
+      "extra": null
+    },
+    {
+      "id": "id-1umq4g9fmvkzixt6",
+      "action": "Stok çıkışı",
+      "product_id": "id-hlipc91zmtl9kemb",
+      "product_code": "001489771-001-001",
+      "product_name": "4K PLUS EV2 MASTER KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "İbis-Nov Zeytinburnu",
+      "reason": "İbis-Nov Zeytinburnu vostio için bizden verildi.",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-23T13:07:36.234Z",
       "extra": null
     }
   ],

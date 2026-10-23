@@ -6649,13 +6649,13 @@
       "name": "STRAIGHT US ANTIK DARK SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE USANTDARK STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE USANTDARK STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-10-23T10:22:33.314Z",
+      "updated_at": "2026-10-23T10:34:26.733Z",
       "stock_base_quantity": 0
     },
     {
@@ -15201,6 +15201,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:55:55.434Z",
       "created_at": "2026-10-23T09:55:55.434Z"
+    },
+    {
+      "id": "id-bf5zlr99mvku1z59",
+      "product_id": "id-x837b43amtl9kenp",
+      "product_code": "481633330AC / 481633530AC",
+      "product_name": "STRAIGHT US ANTIK DARK SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ST REGIS BODRUM PROJESİ",
+      "reason": "ST REGIS BODRUM PROJESİ ORNEK ODA İÇİN",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T10:34:26.733Z",
+      "created_at": "2026-10-23T10:34:26.733Z"
     }
   ],
   "deleted_movement_ids": [
@@ -21407,6 +21421,21 @@
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T10:22:33.314Z",
       "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
+    },
+    {
+      "id": "id-n6wldbkumvku1z59",
+      "action": "Stok çıkışı",
+      "product_id": "id-x837b43amtl9kenp",
+      "product_code": "481633330AC / 481633530AC",
+      "product_name": "STRAIGHT US ANTIK DARK SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ST REGIS BODRUM PROJESİ",
+      "reason": "ST REGIS BODRUM PROJESİ ORNEK ODA İÇİN",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T10:34:26.733Z",
+      "extra": null
     }
   ],
   "settings": {

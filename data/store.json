@@ -7198,13 +7198,13 @@
       "name": "ROZET KÖR SATIN CHROME",
       "category_id": "id-tk4ignznmtl7q19h",
       "unit": "adet",
-      "quantity": 19,
+      "quantity": 21,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-10-09T10:59:08.769Z",
+      "updated_at": "2026-10-23T09:50:03.696Z",
       "stock_base_quantity": 21
     },
     {
@@ -14985,6 +14985,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:49:49.364Z",
       "created_at": "2026-10-23T09:49:49.364Z"
+    },
+    {
+      "id": "id-nnzjdm3umvksgwc0",
+      "product_id": "id-obu6b4l3mtl9keod",
+      "product_code": "YOK",
+      "product_name": "ROZET KÖR SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:50:03.696Z",
+      "created_at": "2026-10-23T09:50:03.696Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20934,6 +20948,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T09:49:49.364Z",
+      "extra": null
+    },
+    {
+      "id": "id-b9fk092nmvksgwc0",
+      "action": "Stok girişi",
+      "product_id": "id-obu6b4l3mtl9keod",
+      "product_code": "YOK",
+      "product_name": "ROZET KÖR SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:50:03.696Z",
       "extra": null
     }
   ],

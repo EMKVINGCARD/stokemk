@@ -7348,13 +7348,13 @@
       "name": "DB BUTONU COMPOZIT SATIN CHROME",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 14,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME PLASTIC END 2 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-10-16T11:32:25.839Z",
+      "updated_at": "2026-10-23T09:49:49.364Z",
       "stock_base_quantity": 9
     },
     {
@@ -14971,6 +14971,20 @@
       "user_name": "CAN EKEYILMAZ",
       "happened_at": "2026-10-23T09:49:16.792Z",
       "created_at": "2026-10-23T09:49:16.792Z"
+    },
+    {
+      "id": "id-7i5cnwo0mvksgl9w",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "happened_at": "2026-10-23T09:49:49.364Z",
+      "created_at": "2026-10-23T09:49:49.364Z"
     }
   ],
   "deleted_movement_ids": [
@@ -20905,6 +20919,21 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T09:49:16.792Z",
+      "extra": null
+    },
+    {
+      "id": "id-8g7valkimvksgl9w",
+      "action": "Stok girişi",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "in",
+      "quantity": 2,
+      "target_location": "Ana Depo",
+      "reason": "St. reges bodrum iptal olan örnek oda ",
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-10-23T09:49:49.364Z",
       "extra": null
     }
   ],

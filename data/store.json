@@ -2317,13 +2317,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 15,
+      "quantity": 13,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-10-20T12:09:39.665Z",
+      "updated_at": "2026-10-26T08:03:00.679Z",
       "stock_base_quantity": 27
     },
     {
@@ -15275,6 +15275,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-26T08:02:41.154Z",
       "created_at": "2026-10-26T08:02:41.155Z"
+    },
+    {
+      "id": "id-2i7k7v1qmvoyysav",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "maxx royal kemer",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-26T08:03:00.679Z",
+      "created_at": "2026-10-26T08:03:00.679Z"
     }
   ],
   "deleted_movement_ids": [
@@ -21796,6 +21810,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-26T08:02:41.155Z",
+      "extra": null
+    },
+    {
+      "id": "id-0lytjwobmvoyysav",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "maxx royal kemer",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-26T08:03:00.679Z",
       "extra": null
     }
   ],

@@ -967,13 +967,13 @@
       "name": "4K MAD2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 1687,
+      "quantity": 1587,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD MIFARE CLASSIC 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-29T07:38:07.353Z",
+      "updated_at": "2026-10-26T08:19:04.749Z",
       "stock_base_quantity": 2002
     },
     {
@@ -15289,6 +15289,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-26T08:03:00.679Z",
       "created_at": "2026-10-26T08:03:00.679Z"
+    },
+    {
+      "id": "id-lzfgg3h0mvozjg6k",
+      "product_id": "id-vp6u11jwmtl9kemb",
+      "product_code": "4814101",
+      "product_name": "4K MAD2 MASTER KART",
+      "type": "out",
+      "quantity": 100,
+      "target_location": "Fairmont Quasar İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-26T08:19:04.749Z",
+      "created_at": "2026-10-26T08:19:04.749Z"
     }
   ],
   "deleted_movement_ids": [
@@ -21825,6 +21839,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-26T08:03:00.679Z",
+      "extra": null
+    },
+    {
+      "id": "id-pmai7ikamvozjg6l",
+      "action": "Stok çıkışı",
+      "product_id": "id-vp6u11jwmtl9kemb",
+      "product_code": "4814101",
+      "product_name": "4K MAD2 MASTER KART",
+      "type": "out",
+      "quantity": 100,
+      "target_location": "Fairmont Quasar İstanbul",
+      "reason": "sipariş",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-26T08:19:04.749Z",
       "extra": null
     }
   ],

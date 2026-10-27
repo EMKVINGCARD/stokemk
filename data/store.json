@@ -949,6 +949,12 @@
       "name": "condrad hotel bosphorus",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-j22jjfr7mvqchzrc",
+      "name": "LE MARTINE",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1093,13 +1099,13 @@
       "name": "RFID VOSTIO GUEST KART BEYAZ",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 1250,
+      "quantity": 750,
       "critical_level": 1000,
       "unit_price": 0,
       "location": "",
       "description": "VOSTIO RFID KEYCARD MIFARE UL EV1 128B WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-09-03T09:21:53.127Z",
+      "updated_at": "2026-10-27T07:09:37.992Z",
       "stock_base_quantity": 1250
     },
     {
@@ -15365,6 +15371,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-26T11:56:04.049Z",
       "created_at": "2026-10-26T11:56:04.049Z"
+    },
+    {
+      "id": "id-b3qhdb3jmvqchzrc",
+      "product_id": "id-0ykya8g2mtl9kemb",
+      "product_code": "4828167",
+      "product_name": "RFID VOSTIO GUEST KART BEYAZ",
+      "type": "out",
+      "quantity": 500,
+      "target_location": "LE MARTINE",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-27T07:09:37.992Z",
+      "created_at": "2026-10-27T07:09:37.992Z"
     }
   ],
   "deleted_movement_ids": [
@@ -21976,6 +21996,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-26T11:56:04.049Z",
+      "extra": null
+    },
+    {
+      "id": "id-bxtda86kmvqchzrc",
+      "action": "Stok çıkışı",
+      "product_id": "id-0ykya8g2mtl9kemb",
+      "product_code": "4828167",
+      "product_name": "RFID VOSTIO GUEST KART BEYAZ",
+      "type": "out",
+      "quantity": 500,
+      "target_location": "LE MARTINE",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-27T07:09:37.992Z",
       "extra": null
     }
   ],

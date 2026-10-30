@@ -3445,13 +3445,13 @@
       "name": "VISIONLINE MOC",
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
-      "quantity": 21,
+      "quantity": 22,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ELEVATOR CTRL 4G RFID BLE W/GW SATCHROME",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T07:58:05.308Z",
+      "updated_at": "2026-10-30T07:29:03.919Z",
       "stock_base_quantity": 21
     },
     {
@@ -15461,6 +15461,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-30T07:10:05.363Z",
       "created_at": "2026-10-30T07:10:05.363Z"
+    },
+    {
+      "id": "id-k8e2378hmvunije7",
+      "product_id": "id-lsjtwpqumtl9kemh",
+      "product_code": "840009661",
+      "product_name": "VISIONLINE MOC",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-30T07:29:03.919Z",
+      "created_at": "2026-10-30T07:29:03.919Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22162,6 +22176,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-30T07:10:05.364Z",
+      "extra": null
+    },
+    {
+      "id": "id-ne7jwoy1mvunije7",
+      "action": "Stok girişi",
+      "product_id": "id-lsjtwpqumtl9kemh",
+      "product_code": "840009661",
+      "product_name": "VISIONLINE MOC",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-30T07:29:03.919Z",
       "extra": null
     }
   ],

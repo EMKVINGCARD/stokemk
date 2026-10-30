@@ -4660,13 +4660,13 @@
       "name": "SIGNATURE LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 14,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-10-28T08:42:21.495Z",
+      "updated_at": "2026-10-30T12:21:34.519Z",
       "stock_base_quantity": 73
     },
     {
@@ -15503,6 +15503,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-30T07:47:27.801Z",
       "created_at": "2026-10-30T07:47:27.801Z"
+    },
+    {
+      "id": "id-2gj9f7dnmvuxypiv",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "in",
+      "quantity": 10,
+      "target_location": "Ana Depo",
+      "reason": "depodan alındı yerine konacak",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-30T12:21:34.519Z",
+      "created_at": "2026-10-30T12:21:34.519Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22249,6 +22263,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-30T07:47:27.801Z",
+      "extra": null
+    },
+    {
+      "id": "id-mf16pjvrmvuxypiv",
+      "action": "Stok girişi",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "in",
+      "quantity": 10,
+      "target_location": "Ana Depo",
+      "reason": "depodan alındı yerine konacak",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-30T12:21:34.519Z",
       "extra": null
     }
   ],

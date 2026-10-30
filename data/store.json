@@ -5080,13 +5080,13 @@
       "name": "SKIRT BLACK PLASTIC SIGMA",
       "category_id": "id-xjno3olumtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "SKIRT FOR SIGNATURE 4G RFID READER BLACK PLASTIC ACCOR",
       "created_at": "2026-09-03T08:29:16.186Z",
-      "updated_at": "2026-09-08T09:12:22.168Z",
+      "updated_at": "2026-10-30T07:47:27.801Z",
       "stock_base_quantity": 1
     },
     {
@@ -15489,6 +15489,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-10-30T07:47:02.841Z",
       "created_at": "2026-10-30T07:47:02.841Z"
+    },
+    {
+      "id": "id-wdq3kr0kmvuo675l",
+      "product_id": "id-5y44pi42mtl9kemy",
+      "product_code": "P000904575-001-402",
+      "product_name": "SKIRT BLACK PLASTIC SIGMA",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "radisson osmaniye",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-10-30T07:47:27.801Z",
+      "created_at": "2026-10-30T07:47:27.801Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22220,6 +22234,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-10-30T07:47:02.841Z",
+      "extra": null
+    },
+    {
+      "id": "id-5x9j3pxpmvuo675l",
+      "action": "Stok çıkışı",
+      "product_id": "id-5y44pi42mtl9kemy",
+      "product_code": "P000904575-001-402",
+      "product_name": "SKIRT BLACK PLASTIC SIGMA",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "radisson osmaniye",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-10-30T07:47:27.801Z",
       "extra": null
     }
   ],

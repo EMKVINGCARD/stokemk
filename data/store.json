@@ -961,6 +961,12 @@
       "name": "pullman",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-im8oi0acmvuxz39b",
+      "name": "divan kuruçeşme",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -4660,13 +4666,13 @@
       "name": "SIGNATURE LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 14,
+      "quantity": 4,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-10-30T12:21:34.519Z",
+      "updated_at": "2026-10-30T12:21:52.319Z",
       "stock_base_quantity": 73
     },
     {
@@ -15517,6 +15523,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-10-30T12:21:34.519Z",
       "created_at": "2026-10-30T12:21:34.519Z"
+    },
+    {
+      "id": "id-mm5fux4imvuxz39b",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "divan kuruçeşme",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-10-30T12:21:52.319Z",
+      "created_at": "2026-10-30T12:21:52.319Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22278,6 +22298,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-10-30T12:21:34.519Z",
+      "extra": null
+    },
+    {
+      "id": "id-5ikcjo4mmvuxz39b",
+      "action": "Stok çıkışı",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "divan kuruçeşme",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-10-30T12:21:52.319Z",
       "extra": null
     }
   ],

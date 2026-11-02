@@ -973,6 +973,12 @@
       "name": "four seasons bosphorus",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-5i83bhtamvz55xq8",
+      "name": "the house residence bomonti",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -982,13 +988,13 @@
       "name": "RFID UL GUEST BASKISIZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 7772,
+      "quantity": 7672,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "Ana Depo",
       "description": "RFID KEYCARD MIFARE UL EV1 WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-10-20T10:56:44.677Z",
+      "updated_at": "2026-11-02T10:54:13.761Z",
       "stock_base_quantity": 3297
     },
     {
@@ -15600,6 +15606,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-02T07:09:56.463Z",
       "created_at": "2026-11-02T07:09:56.463Z"
+    },
+    {
+      "id": "id-uh233nrkmvz55xq8",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 100,
+      "target_location": "the house residence bomonti",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-02T10:54:13.760Z",
+      "created_at": "2026-11-02T10:54:13.761Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22452,6 +22472,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-02T07:14:39.860Z",
       "extra": "Önce: 4823798 — SIGNATURE LCU KAPAK (2); sonra: P000591071-001-402 — SIGNATURE MARRIOTT LCU KAPAK (2). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-v23pz39gmvz55xq9",
+      "action": "Stok çıkışı",
+      "product_id": "id-2g7hmgpqmtl9kemb",
+      "product_code": "4817691",
+      "product_name": "RFID UL GUEST BASKISIZ KART",
+      "type": "out",
+      "quantity": 100,
+      "target_location": "the house residence bomonti",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-02T10:54:13.761Z",
+      "extra": null
     }
   ],
   "settings": {

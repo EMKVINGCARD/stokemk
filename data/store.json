@@ -4672,13 +4672,13 @@
       "name": "SIGNATURE LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 4,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-11-02T07:06:20.797Z",
+      "updated_at": "2026-11-02T07:14:39.860Z",
       "stock_base_quantity": 73
     },
     {
@@ -4687,13 +4687,13 @@
       "name": "SIGNATURE MARRIOTT LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 67,
+      "quantity": 65,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SIG FRONT COVER BLACK FOR MARRIOTT",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-10-16T11:36:38.507Z",
+      "updated_at": "2026-11-02T07:14:39.860Z",
       "stock_base_quantity": 66
     },
     {
@@ -15546,9 +15546,9 @@
     },
     {
       "id": "id-5p2mlrrdmvyx0vli",
-      "product_id": "id-vrte8du9mtl9kems",
-      "product_code": "4823798",
-      "product_name": "SIGNATURE LCU KAPAK",
+      "product_id": "id-ux8fepz6mtl9kems",
+      "product_code": "P000591071-001-402",
+      "product_name": "SIGNATURE MARRIOTT LCU KAPAK",
       "type": "out",
       "quantity": 2,
       "target_location": "izmir marriot",
@@ -15556,7 +15556,8 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-02T07:06:20.790Z",
-      "created_at": "2026-11-02T07:06:20.797Z"
+      "created_at": "2026-11-02T07:06:20.797Z",
+      "updated_at": "2026-11-02T07:14:39.860Z"
     },
     {
       "id": "id-soa1wpozmvyx4iuy",
@@ -22436,6 +22437,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-02T07:09:56.463Z",
       "extra": null
+    },
+    {
+      "id": "id-iy8jw59tmvyxbkok",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-ux8fepz6mtl9kems",
+      "product_code": "P000591071-001-402",
+      "product_name": "SIGNATURE MARRIOTT LCU KAPAK",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "izmir marriot",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-02T07:14:39.860Z",
+      "extra": "Önce: 4823798 — SIGNATURE LCU KAPAK (2); sonra: P000591071-001-402 — SIGNATURE MARRIOTT LCU KAPAK (2). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

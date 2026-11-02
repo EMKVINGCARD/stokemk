@@ -991,6 +991,12 @@
       "name": "van Projesi hdt",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-dsyhjkfgmvzadk8e",
+      "name": "movenpick hotel izmir",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3865,13 +3871,13 @@
       "name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
       "category_id": "id-g0rn6savmtk34t8o",
       "unit": "adet",
-      "quantity": 271,
+      "quantity": 261,
       "critical_level": 20,
       "unit_price": 0,
       "location": "",
       "description": "BATTERY HOLDER 4.5V W/CABLE",
       "created_at": "2026-09-03T08:29:16.174Z",
-      "updated_at": "2026-11-02T11:47:22.567Z",
+      "updated_at": "2026-11-02T13:20:07.599Z",
       "stock_base_quantity": 312
     },
     {
@@ -15744,6 +15750,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-11-02T11:47:22.567Z",
       "created_at": "2026-11-02T11:47:22.567Z"
+    },
+    {
+      "id": "id-md33hnhpmvzadk8e",
+      "product_id": "id-fvfbqrtlmtl9kemm",
+      "product_code": "4825011",
+      "product_name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "movenpick hotel izmir",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-02T13:20:07.598Z",
+      "created_at": "2026-11-02T13:20:07.599Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22731,6 +22751,21 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-11-02T11:47:22.568Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-v5tluobzmvzadk8f",
+      "action": "Stok çıkışı",
+      "product_id": "id-fvfbqrtlmtl9kemm",
+      "product_code": "4825011",
+      "product_name": "4.5V PİL KASETİ KABLOLU YENİ TİP",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "movenpick hotel izmir",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-02T13:20:07.599Z",
+      "extra": null
     }
   ],
   "settings": {

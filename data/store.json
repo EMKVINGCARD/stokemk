@@ -4036,13 +4036,13 @@
       "name": "EURO 4,5V MOTOR",
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
-      "quantity": 40,
+      "quantity": 38,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LOCK MOTOR SIGNATURE/CLASSIC EURO 4.5V",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-09-25T13:29:00.899Z",
+      "updated_at": "2026-11-02T13:21:40.686Z",
       "stock_base_quantity": 41
     },
     {
@@ -15764,6 +15764,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-02T13:20:07.598Z",
       "created_at": "2026-11-02T13:20:07.599Z"
+    },
+    {
+      "id": "id-mr6bg2bhmvzafk26",
+      "product_id": "id-ryjul9g8mtl9kemo",
+      "product_code": "4817222",
+      "product_name": "EURO 4,5V MOTOR",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "movenpick hotel izmir",
+      "reason": "bir tanesi arıza için, diğeri sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-02T13:21:40.686Z",
+      "created_at": "2026-11-02T13:21:40.686Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22765,6 +22779,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-02T13:20:07.599Z",
+      "extra": null
+    },
+    {
+      "id": "id-yirxemu9mvzafk26",
+      "action": "Stok çıkışı",
+      "product_id": "id-ryjul9g8mtl9kemo",
+      "product_code": "4817222",
+      "product_name": "EURO 4,5V MOTOR",
+      "type": "out",
+      "quantity": 2,
+      "target_location": "movenpick hotel izmir",
+      "reason": "bir tanesi arıza için, diğeri sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-02T13:21:40.686Z",
       "extra": null
     }
   ],

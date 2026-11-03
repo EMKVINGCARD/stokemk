@@ -1003,6 +1003,12 @@
       "name": "INTERCONTINENTAL GRAND ANKARA",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-su6kdzy6mw0ke7qb",
+      "name": "BURDOCK HOTEL",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2377,13 +2383,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 13,
+      "quantity": 12,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-02T10:54:59.068Z",
+      "updated_at": "2026-11-03T10:48:20.387Z",
       "stock_base_quantity": 27
     },
     {
@@ -2812,13 +2818,13 @@
       "name": "ZENITH YUVARLAK KAPAK",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 11,
+      "quantity": 10,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ZENITH FRONT COVER RED TRANSPARENT",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-09-08T06:56:23.122Z",
+      "updated_at": "2026-11-03T10:48:20.387Z",
       "stock_base_quantity": 11
     },
     {
@@ -15812,6 +15818,34 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-11-03T10:42:33.916Z",
       "created_at": "2026-11-03T10:42:33.917Z"
+    },
+    {
+      "id": "id-3qgdvq5emw0ke7qc",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "BURDOCK HOTEL",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-11-03T10:48:20.387Z",
+      "created_at": "2026-11-03T10:48:20.387Z"
+    },
+    {
+      "id": "id-oypm0s8kmw0ke7qc",
+      "product_id": "id-7mpmlk80mtl9kemg",
+      "product_code": "252-164000006",
+      "product_name": "ZENITH YUVARLAK KAPAK",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "BURDOCK HOTEL",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-11-03T10:48:20.387Z",
+      "created_at": "2026-11-03T10:48:20.387Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22859,6 +22893,36 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-11-03T10:42:33.917Z",
       "extra": null
+    },
+    {
+      "id": "id-l7stoaq1mw0ke7qc",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "BURDOCK HOTEL",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-11-03T10:48:20.388Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-71czlcajmw0ke7qc",
+      "action": "Stok çıkışı",
+      "product_id": "id-7mpmlk80mtl9kemg",
+      "product_code": "252-164000006",
+      "product_name": "ZENITH YUVARLAK KAPAK",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "BURDOCK HOTEL",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-11-03T10:48:20.388Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

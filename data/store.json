@@ -997,6 +997,12 @@
       "name": "movenpick hotel izmir",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-j2h281kzmw0k6se4",
+      "name": "INTERCONTINENTAL GRAND ANKARA",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1036,13 +1042,13 @@
       "name": "4K PLUS EV1 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2715,
+      "quantity": 2615,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "EXPIRED RFID KEYCARD MIFARE PLUS EV1 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-10-21T09:09:37.299Z",
+      "updated_at": "2026-11-03T10:42:33.917Z",
       "stock_base_quantity": 2820
     },
     {
@@ -15792,6 +15798,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-02T13:22:08.546Z",
       "created_at": "2026-11-02T13:22:08.546Z"
+    },
+    {
+      "id": "id-v4s86366mw0k6se4",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 100,
+      "target_location": "INTERCONTINENTAL GRAND ANKARA",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-11-03T10:42:33.916Z",
+      "created_at": "2026-11-03T10:42:33.917Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22823,6 +22843,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-02T13:22:08.546Z",
+      "extra": null
+    },
+    {
+      "id": "id-e4qpwmr0mw0k6se5",
+      "action": "Stok çıkışı",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "out",
+      "quantity": 100,
+      "target_location": "INTERCONTINENTAL GRAND ANKARA",
+      "reason": "SİPARİŞ",
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-11-03T10:42:33.917Z",
       "extra": null
     }
   ],

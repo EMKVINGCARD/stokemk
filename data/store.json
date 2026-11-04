@@ -4540,13 +4540,13 @@
       "name": "CLASSIC 6351 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 94,
+      "quantity": 98,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6351 CLASSIC RFID ASSY 4G BLE BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-11-02T11:47:22.567Z",
+      "updated_at": "2026-11-04T14:19:18.473Z",
       "stock_base_quantity": 94
     },
     {
@@ -15942,6 +15942,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-04T14:18:47.135Z",
       "created_at": "2026-11-04T14:18:47.135Z"
+    },
+    {
+      "id": "id-cs40ank2mw27ddft",
+      "product_id": "id-onw2jx0rmtl9kemr",
+      "product_code": "P001006016-003-001",
+      "product_name": "CLASSIC 6351 LCU",
+      "type": "in",
+      "quantity": 4,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-04T14:19:18.473Z",
+      "created_at": "2026-11-04T14:19:18.473Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23108,6 +23122,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-04T14:18:47.135Z",
+      "extra": null
+    },
+    {
+      "id": "id-i6l5f2tkmw27ddft",
+      "action": "Stok girişi",
+      "product_id": "id-onw2jx0rmtl9kemr",
+      "product_code": "P001006016-003-001",
+      "product_name": "CLASSIC 6351 LCU",
+      "type": "in",
+      "quantity": 4,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-04T14:19:18.473Z",
       "extra": null
     }
   ],

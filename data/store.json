@@ -1900,13 +1900,13 @@
       "name": "MAIN KONTROL ÜNİTESİ 6334",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 5,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "MAIN CONTROL UNIT 4G (6334) FOR ALLURE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-08T07:43:39.477Z",
+      "updated_at": "2026-11-04T14:18:47.135Z",
       "stock_base_quantity": 1
     },
     {
@@ -15928,6 +15928,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-04T14:18:18.658Z",
       "created_at": "2026-11-04T14:18:18.658Z"
+    },
+    {
+      "id": "id-yuz7v3y0mw27cp9b",
+      "product_id": "id-iuej3fr5mtl9kemc",
+      "product_code": "4826104",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6334",
+      "type": "in",
+      "quantity": 4,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-04T14:18:47.135Z",
+      "created_at": "2026-11-04T14:18:47.135Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23079,6 +23093,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-04T14:18:18.658Z",
+      "extra": null
+    },
+    {
+      "id": "id-h0oq3tl2mw27cp9b",
+      "action": "Stok girişi",
+      "product_id": "id-iuej3fr5mtl9kemc",
+      "product_code": "4826104",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6334",
+      "type": "in",
+      "quantity": 4,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-04T14:18:47.135Z",
       "extra": null
     }
   ],

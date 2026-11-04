@@ -1015,6 +1015,12 @@
       "name": "vakko nişantaşı",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-xloyocz1mw25hy1q",
+      "name": "Unisign kiosk",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1144,13 +1150,13 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 1290,
+      "quantity": 1280,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD UL AES 144B WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-10-15T08:03:53.762Z",
+      "updated_at": "2026-11-04T13:26:52.574Z",
       "stock_base_quantity": 790
     },
     {
@@ -15880,6 +15886,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-04T10:37:47.009Z",
       "created_at": "2026-11-04T10:37:47.009Z"
+    },
+    {
+      "id": "id-9f280r5kmw25hy1q",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "Unisign kiosk",
+      "reason": "1 adet klasik satin chrome ansi 28 silindirli EK5 anahtarlı demo blok. 1 adet sigma satin chrome ansi 28 straight kollu demo blok. ",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-04T13:26:52.574Z",
+      "created_at": "2026-11-04T13:26:52.574Z"
     }
   ],
   "deleted_movement_ids": [
@@ -22986,6 +23006,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-04T10:37:47.009Z",
+      "extra": null
+    },
+    {
+      "id": "id-mdfl3tqpmw25hy1q",
+      "action": "Stok çıkışı",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "out",
+      "quantity": 10,
+      "target_location": "Unisign kiosk",
+      "reason": "1 adet klasik satin chrome ansi 28 silindirli EK5 anahtarlı demo blok. 1 adet sigma satin chrome ansi 28 straight kollu demo blok. ",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-04T13:26:52.574Z",
       "extra": null
     }
   ],

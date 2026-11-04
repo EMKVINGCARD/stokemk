@@ -4525,13 +4525,13 @@
       "name": "CLASSIC 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 39,
+      "quantity": 35,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-09-29T11:30:56.659Z",
+      "updated_at": "2026-11-04T14:20:01.970Z",
       "stock_base_quantity": 40
     },
     {
@@ -15956,6 +15956,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-04T14:19:18.473Z",
       "created_at": "2026-11-04T14:19:18.473Z"
+    },
+    {
+      "id": "id-gt8cvsi8mw27eb02",
+      "product_id": "id-uwj860famtl9kemr",
+      "product_code": "4826069B",
+      "product_name": "CLASSIC 6334 LCU",
+      "type": "out",
+      "quantity": 4,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-04T14:20:01.970Z",
+      "created_at": "2026-11-04T14:20:01.970Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23137,6 +23151,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-04T14:19:18.473Z",
+      "extra": null
+    },
+    {
+      "id": "id-4ptyu4rtmw27eb02",
+      "action": "Stok çıkışı",
+      "product_id": "id-uwj860famtl9kemr",
+      "product_code": "4826069B",
+      "product_name": "CLASSIC 6334 LCU",
+      "type": "out",
+      "quantity": 4,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-04T14:20:01.970Z",
       "extra": null
     }
   ],

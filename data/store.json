@@ -8701,13 +8701,13 @@
       "name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 7,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE GRAND PANEL, WITHOUT ROOM NUMBER, BLACK WITH BLACK BELL, BLACK FRAME",
       "created_at": "2026-09-03T08:29:16.258Z",
-      "updated_at": "2026-09-29T08:05:56.346Z",
+      "updated_at": "2026-11-05T06:20:03.870Z",
       "stock_base_quantity": 10
     },
     {
@@ -16018,6 +16018,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-05T06:19:04.915Z",
       "created_at": "2026-11-05T06:19:04.915Z"
+    },
+    {
+      "id": "id-5rxt6qrrmw35owwu",
+      "product_id": "id-70tltyn3mtl9keoy",
+      "product_code": "ALLUREGRAND-000018",
+      "product_name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
+      "type": "out",
+      "quantity": 3,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-05T06:20:03.870Z",
+      "created_at": "2026-11-05T06:20:03.870Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23259,6 +23273,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:19:04.915Z",
+      "extra": null
+    },
+    {
+      "id": "id-bcbr3x95mw35owwu",
+      "action": "Stok çıkışı",
+      "product_id": "id-70tltyn3mtl9keoy",
+      "product_code": "ALLUREGRAND-000018",
+      "product_name": "ALLURE GRAND SİYAH DIŞ PANEL  ODA NO YOK",
+      "type": "out",
+      "quantity": 3,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:20:03.870Z",
       "extra": null
     }
   ],

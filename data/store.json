@@ -1798,7 +1798,7 @@
     {
       "id": "id-g8f1w65fmtl9kemc",
       "code": "482553490",
-      "name": "ALLURE IR KAPI TARAFI BLACK TİTANİUM(2'ŞER ADET VAR)",
+      "name": "ALLURE IR KANAT TARAFI BLACK TİTANİUM(FRONT 2'ŞER ADET VAR)",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 5,
@@ -1807,7 +1807,7 @@
       "location": "",
       "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-11-05T06:39:06.188Z",
+      "updated_at": "2026-11-05T06:40:30.957Z",
       "stock_base_quantity": 8
     },
     {
@@ -19084,6 +19084,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:39:39.971Z"
+    },
+    {
+      "id": "id-2v1isc0cmw36f7ql",
+      "action": "Ürün güncellendi",
+      "product_id": "id-g8f1w65fmtl9kemc",
+      "product_code": "482553490",
+      "product_name": "ALLURE IR KANAT TARAFI BLACK TİTANİUM(FRONT 2'ŞER ADET VAR)",
+      "before": {
+        "id": "id-g8f1w65fmtl9kemc",
+        "code": "482553490",
+        "name": "ALLURE IR KAPI TARAFI BLACK TİTANİUM(2'ŞER ADET VAR)",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-11-05T06:39:06.188Z",
+        "stock_base_quantity": 8
+      },
+      "after": {
+        "id": "id-g8f1w65fmtl9kemc",
+        "code": "482553490",
+        "name": "ALLURE IR KANAT TARAFI BLACK TİTANİUM(FRONT 2'ŞER ADET VAR)",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-11-05T06:40:30.957Z",
+        "stock_base_quantity": 8
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:40:30.957Z"
     }
   ],
   "movement_audit": [

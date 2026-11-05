@@ -1805,9 +1805,9 @@
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
-      "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, BLACK T",
+      "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-11-05T06:33:31.812Z",
+      "updated_at": "2026-11-05T06:35:47.259Z",
       "stock_base_quantity": 8
     },
     {
@@ -18770,6 +18770,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:34:20.335Z"
+    },
+    {
+      "id": "id-43d76xewmw3694u3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-g8f1w65fmtl9kemc",
+      "product_code": "482553490",
+      "product_name": "ALLURE IR KIT KAPI TARAFI BLACK TİTANİUM",
+      "before": {
+        "id": "id-g8f1w65fmtl9kemc",
+        "code": "482553490",
+        "name": "ALLURE IR KIT KAPI TARAFI BLACK TİTANİUM",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, BLACK T",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-11-05T06:33:31.812Z",
+        "stock_base_quantity": 8
+      },
+      "after": {
+        "id": "id-g8f1w65fmtl9kemc",
+        "code": "482553490",
+        "name": "ALLURE IR KIT KAPI TARAFI BLACK TİTANİUM",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-11-05T06:35:47.259Z",
+        "stock_base_quantity": 8
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:35:47.259Z"
     }
   ],
   "movement_audit": [

@@ -8852,9 +8852,9 @@
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
-      "description": "",
+      "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
       "created_at": "2026-11-05T06:34:20.335Z",
-      "updated_at": "2026-11-05T06:34:20.335Z"
+      "updated_at": "2026-11-05T06:35:55.432Z"
     }
   ],
   "movements": [
@@ -18850,6 +18850,44 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:35:50.742Z"
+    },
+    {
+      "id": "id-tb9csirkmw369b54",
+      "action": "Ürün güncellendi",
+      "product_id": "id-plr36a1omw3679rj",
+      "product_code": "259-8022KIT-2",
+      "product_name": "ALLURE IR KIT KAPI TARAFI SATIN CHROME",
+      "before": {
+        "id": "id-plr36a1omw3679rj",
+        "code": "259-8022KIT-2",
+        "name": "ALLURE IR KIT KAPI TARAFI SATIN CHROME",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-11-05T06:34:20.335Z",
+        "updated_at": "2026-11-05T06:34:20.335Z"
+      },
+      "after": {
+        "id": "id-plr36a1omw3679rj",
+        "code": "259-8022KIT-2",
+        "name": "ALLURE IR KIT KAPI TARAFI SATIN CHROME",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
+        "created_at": "2026-11-05T06:34:20.335Z",
+        "updated_at": "2026-11-05T06:35:55.432Z"
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:35:55.432Z"
     }
   ],
   "movement_audit": [

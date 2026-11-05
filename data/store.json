@@ -7597,13 +7597,13 @@
       "name": "A28 STD KARŞILIK SATIN CHROME",
       "category_id": "id-4gkyupz3mtk34t8p",
       "unit": "adet",
-      "quantity": 111,
+      "quantity": 110,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE ANSI, STSTEEL",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-10-23T09:48:21.188Z",
+      "updated_at": "2026-11-05T11:54:13.487Z",
       "stock_base_quantity": 114
     },
     {
@@ -16094,6 +16094,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-05T11:53:57.698Z",
       "created_at": "2026-11-05T11:53:57.698Z"
+    },
+    {
+      "id": "id-ln8uzh9vmw3hmnan",
+      "product_id": "id-t6otamg1mtl9keoe",
+      "product_code": "458633522",
+      "product_name": "A28 STD KARŞILIK SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "metropolitan bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-05T11:54:13.487Z",
+      "created_at": "2026-11-05T11:54:13.487Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23972,6 +23986,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-05T11:53:57.698Z",
+      "extra": null
+    },
+    {
+      "id": "id-oyazea7fmw3hmnan",
+      "action": "Stok çıkışı",
+      "product_id": "id-t6otamg1mtl9keoe",
+      "product_code": "458633522",
+      "product_name": "A28 STD KARŞILIK SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "metropolitan bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-05T11:54:13.487Z",
       "extra": null
     }
   ],

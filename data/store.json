@@ -1771,13 +1771,13 @@
       "name": "ALLURE IR KIT KAPI VE KANAT TARAFI SATİN CHROME",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 14,
+      "quantity": 7,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, STSTEEL",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-15T13:42:59.109Z",
+      "updated_at": "2026-11-05T06:28:38.531Z",
       "stock_base_quantity": 15
     },
     {
@@ -18571,6 +18571,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-10-23T11:11:57.826Z"
+    },
+    {
+      "id": "id-kw1mm6zrmw35zy0z",
+      "action": "Ürün güncellendi",
+      "product_id": "id-gbolwpwlmtl9kemc",
+      "product_code": "482553422",
+      "product_name": "ALLURE IR KIT KAPI VE KANAT TARAFI SATİN CHROME",
+      "before": {
+        "id": "id-gbolwpwlmtl9kemc",
+        "code": "482553422",
+        "name": "ALLURE IR KIT KAPI VE KANAT TARAFI SATİN CHROME",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 14,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, STSTEEL",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-09-15T13:42:59.109Z",
+        "stock_base_quantity": 15
+      },
+      "after": {
+        "id": "id-gbolwpwlmtl9kemc",
+        "code": "482553422",
+        "name": "ALLURE IR KIT KAPI VE KANAT TARAFI SATİN CHROME",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 7,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME/DOOR COMMUNİCATİON KIT, STSTEEL",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-11-05T06:28:38.531Z",
+        "stock_base_quantity": 15
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:28:38.531Z"
     }
   ],
   "movement_audit": [

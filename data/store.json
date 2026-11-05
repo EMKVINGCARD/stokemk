@@ -1027,6 +1027,12 @@
       "name": "divan talya",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-i9cdjgmmmw3hlrdh",
+      "name": "metropolitan bosphorus",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -7981,13 +7987,13 @@
       "name": "A28 STD FRONT SATIN CHROME",
       "category_id": "id-8ho5xd6fmtk34t8p",
       "unit": "adet",
-      "quantity": 26,
+      "quantity": 25,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-23T09:48:58.180Z",
+      "updated_at": "2026-11-05T11:53:32.124Z",
       "stock_base_quantity": 32
     },
     {
@@ -16060,6 +16066,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-05T06:20:35.349Z",
       "created_at": "2026-11-05T06:20:35.349Z"
+    },
+    {
+      "id": "id-z0e02jdvmw3hlrdh",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "metropolitan bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-05T11:53:32.117Z",
+      "created_at": "2026-11-05T11:53:32.123Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23908,6 +23928,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:20:35.350Z",
+      "extra": null
+    },
+    {
+      "id": "id-07rmifatmw3hlrdo",
+      "action": "Stok çıkışı",
+      "product_id": "id-iz2rtm6wmtl9keog",
+      "product_code": "480451422",
+      "product_name": "A28 STD FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "metropolitan bosphorus",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-05T11:53:32.124Z",
       "extra": null
     }
   ],

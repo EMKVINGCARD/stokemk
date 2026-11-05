@@ -8845,7 +8845,7 @@
     {
       "id": "id-plr36a1omw3679rj",
       "code": "259-8022KIT-2",
-      "name": "ALLURE IR KAPI TARAFI SATIN CHROME(FRONT 2'ŞER ADET VAR)",
+      "name": "ALLURE IR KANAT TARAFI SATIN CHROME(FRONT 2'ŞER ADET VAR)",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
       "quantity": 9,
@@ -8854,7 +8854,7 @@
       "location": "",
       "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
       "created_at": "2026-11-05T06:34:20.335Z",
-      "updated_at": "2026-11-05T06:39:39.970Z"
+      "updated_at": "2026-11-05T06:40:42.956Z"
     }
   ],
   "movements": [
@@ -19124,6 +19124,44 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:40:30.957Z"
+    },
+    {
+      "id": "id-a9sqnsb4mw36fgzw",
+      "action": "Ürün güncellendi",
+      "product_id": "id-plr36a1omw3679rj",
+      "product_code": "259-8022KIT-2",
+      "product_name": "ALLURE IR KANAT TARAFI SATIN CHROME(FRONT 2'ŞER ADET VAR)",
+      "before": {
+        "id": "id-plr36a1omw3679rj",
+        "code": "259-8022KIT-2",
+        "name": "ALLURE IR KAPI TARAFI SATIN CHROME(FRONT 2'ŞER ADET VAR)",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
+        "created_at": "2026-11-05T06:34:20.335Z",
+        "updated_at": "2026-11-05T06:39:39.970Z"
+      },
+      "after": {
+        "id": "id-plr36a1omw3679rj",
+        "code": "259-8022KIT-2",
+        "name": "ALLURE IR KANAT TARAFI SATIN CHROME(FRONT 2'ŞER ADET VAR)",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 9,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
+        "created_at": "2026-11-05T06:34:20.335Z",
+        "updated_at": "2026-11-05T06:40:42.956Z"
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:40:42.956Z"
     }
   ],
   "movement_audit": [

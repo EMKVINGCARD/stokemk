@@ -1021,6 +1021,12 @@
       "name": "Unisign kiosk",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-czjq9qugmw35hbvh",
+      "name": "divan talya",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1885,13 +1891,13 @@
       "name": "MAIN KONTROL ÜNİTESİ 6351",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 6,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE MAIN CONTROL UNIT 4G BLE (6351)",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-11-04T14:18:18.658Z",
+      "updated_at": "2026-11-05T06:14:10.014Z",
       "stock_base_quantity": 12
     },
     {
@@ -15970,6 +15976,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-04T14:20:01.970Z",
       "created_at": "2026-11-04T14:20:01.970Z"
+    },
+    {
+      "id": "id-ojap0qvymw35hbvh",
+      "product_id": "id-3p2kkjqrmtl9kemc",
+      "product_code": "P001005359-003-001",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6351",
+      "type": "out",
+      "quantity": 6,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-05T06:14:10.013Z",
+      "created_at": "2026-11-05T06:14:10.014Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23166,6 +23186,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-04T14:20:01.970Z",
+      "extra": null
+    },
+    {
+      "id": "id-m1drpi5fmw35hbvi",
+      "action": "Stok çıkışı",
+      "product_id": "id-3p2kkjqrmtl9kemc",
+      "product_code": "P001005359-003-001",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6351",
+      "type": "out",
+      "quantity": 6,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:14:10.014Z",
       "extra": null
     }
   ],

@@ -4636,13 +4636,13 @@
       "name": "ESSENCE V2 5351 KASET SET CHROME",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 5,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "B:18-25MM, ESS V2 BLE MAIN WOOD SATCHROME,BLACK,ANSI,OFFL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-10-15T08:45:22.198Z",
+      "updated_at": "2026-11-05T06:20:35.350Z",
       "stock_base_quantity": 0
     },
     {
@@ -16032,6 +16032,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-05T06:20:03.870Z",
       "created_at": "2026-11-05T06:20:03.870Z"
+    },
+    {
+      "id": "id-u6eoiultmw35pl79",
+      "product_id": "id-luklsqk5mtl9kems",
+      "product_code": "P000883457-115-522",
+      "product_name": "ESSENCE V2 5351 KASET SET CHROME",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-05T06:20:35.349Z",
+      "created_at": "2026-11-05T06:20:35.349Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23288,6 +23302,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:20:03.870Z",
+      "extra": null
+    },
+    {
+      "id": "id-3ihcfhvtmw35pl7a",
+      "action": "Stok çıkışı",
+      "product_id": "id-luklsqk5mtl9kems",
+      "product_code": "P000883457-115-522",
+      "product_name": "ESSENCE V2 5351 KASET SET CHROME",
+      "type": "out",
+      "quantity": 5,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:20:35.350Z",
       "extra": null
     }
   ],

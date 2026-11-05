@@ -1816,13 +1816,13 @@
       "name": "ALLURE IR KASATARAFI",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 0,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE IR FRAME/DOOR",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-11-05T06:18:47.428Z",
+      "updated_at": "2026-11-05T06:19:04.915Z",
       "stock_base_quantity": 1
     },
     {
@@ -16004,6 +16004,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-05T06:18:47.428Z",
       "created_at": "2026-11-05T06:18:47.428Z"
+    },
+    {
+      "id": "id-awmnloncmw35nnf7",
+      "product_id": "id-scbrg7yxmtl9kemc",
+      "product_code": "TEK SATILMIYOR",
+      "product_name": "ALLURE IR KASATARAFI",
+      "type": "out",
+      "quantity": 6,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-05T06:19:04.915Z",
+      "created_at": "2026-11-05T06:19:04.915Z"
     }
   ],
   "deleted_movement_ids": [
@@ -23230,6 +23244,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-05T06:18:47.428Z",
+      "extra": null
+    },
+    {
+      "id": "id-4u5q9801mw35nnf7",
+      "action": "Stok çıkışı",
+      "product_id": "id-scbrg7yxmtl9kemc",
+      "product_code": "TEK SATILMIYOR",
+      "product_name": "ALLURE IR KASATARAFI",
+      "type": "out",
+      "quantity": 6,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-05T06:19:04.915Z",
       "extra": null
     }
   ],

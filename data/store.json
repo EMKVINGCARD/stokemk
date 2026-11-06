@@ -3616,13 +3616,13 @@
       "name": "PCBA 3016",
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
-      "quantity": 23,
+      "quantity": 24,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "PCBA 3016 - USED IN WALL READER AND RELAY BOX 6842",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-11-06T10:35:45.535Z",
+      "updated_at": "2026-11-06T14:34:51.157Z",
       "stock_base_quantity": 25
     },
     {
@@ -16778,6 +16778,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-06T14:33:04.670Z",
       "created_at": "2026-11-06T14:33:04.670Z"
+    },
+    {
+      "id": "id-rjeyc60xmw52t2fp",
+      "product_id": "id-fk7c83flmtl9kemh",
+      "product_code": "4824045",
+      "product_name": "PCBA 3016",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-06T14:34:51.157Z",
+      "created_at": "2026-11-06T14:34:51.157Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25684,6 +25698,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T14:33:04.670Z",
+      "extra": null
+    },
+    {
+      "id": "id-uas8hfxqmw52t2fp",
+      "action": "Stok girişi",
+      "product_id": "id-fk7c83flmtl9kemh",
+      "product_code": "4824045",
+      "product_name": "PCBA 3016",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T14:34:51.157Z",
       "extra": null
     }
   ],

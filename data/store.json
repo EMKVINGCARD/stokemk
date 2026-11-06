@@ -3466,13 +3466,13 @@
       "name": "VISIONLINE RC GW HARİÇ",
       "category_id": "id-gjz8r8ckmtk34t8n",
       "unit": "adet",
-      "quantity": 18,
+      "quantity": 27,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-11-06T14:33:04.670Z",
+      "updated_at": "2026-11-06T14:42:40.371Z",
       "stock_base_quantity": 11
     },
     {
@@ -16568,20 +16568,6 @@
       "created_at": "2026-11-06T13:34:20.908Z"
     },
     {
-      "id": "id-oydyc7uamw50oo7w",
-      "product_id": "id-56o4mxkwmtl9kemh",
-      "product_code": "P001006433-003-001",
-      "product_name": "VISIONLINE RC GW HARİÇ",
-      "type": "out",
-      "quantity": 9,
-      "target_location": "RAFFLES OTEL",
-      "reason": "sipariş",
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-11-06T13:35:26.876Z",
-      "created_at": "2026-11-06T13:35:26.876Z"
-    },
-    {
       "id": "id-ew1fbau4mw50pheu",
       "product_id": "id-zhmomyrumtl9kemb",
       "product_code": "P001495832-001-001",
@@ -16821,7 +16807,8 @@
     "id-gotgnvltmvksofqi",
     "id-yrnzoxelmw510pky",
     "id-kdt0cmppmw51x7f3",
-    "id-g67unq2lmw510bdb"
+    "id-g67unq2lmw510bdb",
+    "id-oydyc7uamw50oo7w"
   ],
   "audit_log": [
     {
@@ -25743,6 +25730,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T14:35:14.850Z",
       "extra": null
+    },
+    {
+      "id": "id-sw34qx99mw5334hf",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-56o4mxkwmtl9kemh",
+      "product_code": "P001006433-003-001",
+      "product_name": "VISIONLINE RC GW HARİÇ",
+      "type": "out",
+      "quantity": 9,
+      "target_location": "RAFFLES OTEL",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T14:42:40.371Z",
+      "extra": "9 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "settings": {

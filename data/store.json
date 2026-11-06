@@ -4501,13 +4501,13 @@
       "name": "SIGNATURE 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 20,
+      "quantity": 29,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-11-06T13:44:48.514Z",
+      "updated_at": "2026-11-06T13:47:33.117Z",
       "stock_base_quantity": 38
     },
     {
@@ -16734,20 +16734,6 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T13:44:30.095Z",
       "created_at": "2026-11-06T13:44:30.095Z"
-    },
-    {
-      "id": "id-yrnzoxelmw510pky",
-      "product_id": "id-azwdqcz6mtl9kemq",
-      "product_code": "4826068",
-      "product_name": "SIGNATURE 6334 LCU",
-      "type": "out",
-      "quantity": 9,
-      "target_location": null,
-      "reason": null,
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-11-06T13:44:48.514Z",
-      "created_at": "2026-11-06T13:44:48.514Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16760,7 +16746,8 @@
     "id-wb8titqymv9b568t",
     "id-8sf0y2eumv9b3xhl",
     "id-loka90spmv9eex4l",
-    "id-gotgnvltmvksofqi"
+    "id-gotgnvltmvksofqi",
+    "id-yrnzoxelmw510pky"
   ],
   "audit_log": [
     {
@@ -25502,6 +25489,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T13:44:48.514Z",
       "extra": null
+    },
+    {
+      "id": "id-c6lqfnu1mw5148l9",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "type": "out",
+      "quantity": 9,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T13:47:33.117Z",
+      "extra": "9 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "settings": {

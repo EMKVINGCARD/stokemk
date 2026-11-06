@@ -4576,13 +4576,13 @@
       "name": "CLASSIC 6351 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 107,
+      "quantity": 106,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6351 CLASSIC RFID ASSY 4G BLE BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-11-06T13:47:53.420Z",
+      "updated_at": "2026-11-06T14:11:25.545Z",
       "stock_base_quantity": 94
     },
     {
@@ -16741,13 +16741,14 @@
       "product_code": "P001006016-003-001",
       "product_name": "CLASSIC 6351 LCU",
       "type": "in",
-      "quantity": 9,
+      "quantity": 8,
       "target_location": "Ana Depo",
       "reason": "6351 remotetan söküldü",
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-06T13:47:53.420Z",
-      "created_at": "2026-11-06T13:47:53.420Z"
+      "created_at": "2026-11-06T13:47:53.420Z",
+      "updated_at": "2026-11-06T14:11:25.545Z"
     },
     {
       "id": "id-w14wv3mbmw5153un",
@@ -25638,6 +25639,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T14:11:08.648Z",
       "extra": "Önce: 4826069B — CLASSIC 6334 LCU (9); sonra: 4826069B — CLASSIC 6334 LCU (8). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-msms637mmw51yxux",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-onw2jx0rmtl9kemr",
+      "product_code": "P001006016-003-001",
+      "product_name": "CLASSIC 6351 LCU",
+      "type": "in",
+      "quantity": 8,
+      "target_location": "Ana Depo",
+      "reason": "6351 remotetan söküldü",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T14:11:25.545Z",
+      "extra": "Önce: P001006016-003-001 — CLASSIC 6351 LCU (9); sonra: P001006016-003-001 — CLASSIC 6351 LCU (8). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

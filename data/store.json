@@ -4501,13 +4501,13 @@
       "name": "SIGNATURE 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 29,
+      "quantity": 20,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 SIGNATURE RFID (PRE-ASSY)(4G) STD BLACK, SATCHROME",
       "created_at": "2026-09-03T08:29:16.178Z",
-      "updated_at": "2026-10-26T08:19:36.400Z",
+      "updated_at": "2026-11-06T13:44:48.514Z",
       "stock_base_quantity": 38
     },
     {
@@ -16734,6 +16734,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T13:44:30.095Z",
       "created_at": "2026-11-06T13:44:30.095Z"
+    },
+    {
+      "id": "id-yrnzoxelmw510pky",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "type": "out",
+      "quantity": 9,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-06T13:44:48.514Z",
+      "created_at": "2026-11-06T13:44:48.514Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25472,6 +25486,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T13:44:30.095Z",
+      "extra": null
+    },
+    {
+      "id": "id-caiigz0amw510pky",
+      "action": "Stok çıkışı",
+      "product_id": "id-azwdqcz6mtl9kemq",
+      "product_code": "4826068",
+      "product_name": "SIGNATURE 6334 LCU",
+      "type": "out",
+      "quantity": 9,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-06T13:44:48.514Z",
       "extra": null
     }
   ],

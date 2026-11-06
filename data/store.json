@@ -4639,13 +4639,13 @@
       "name": "LCA 6344 SIGNATURE/CLASSIC",
       "category_id": "id-u03sm9tymtk34t8o",
       "unit": "adet",
-      "quantity": 187,
+      "quantity": 190,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCA 6344 KIT FOR CLASSIC",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-11-02T11:47:22.567Z",
+      "updated_at": "2026-11-06T06:16:28.710Z",
       "stock_base_quantity": 200
     },
     {
@@ -16232,6 +16232,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-06T06:14:08.550Z",
       "created_at": "2026-11-06T06:14:08.550Z"
+    },
+    {
+      "id": "id-oyhxupw1mw4l05k6",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": "iptal",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-06T06:16:28.710Z",
+      "created_at": "2026-11-06T06:16:28.710Z"
     }
   ],
   "deleted_movement_ids": [
@@ -24245,6 +24259,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T06:14:08.550Z",
+      "extra": null
+    },
+    {
+      "id": "id-05hk4h9zmw4l05k6",
+      "action": "Stok girişi",
+      "product_id": "id-2y8fpfaamtl9kems",
+      "product_code": "P000755512-001-001",
+      "product_name": "LCA 6344 SIGNATURE/CLASSIC",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": "iptal",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T06:16:28.710Z",
       "extra": null
     }
   ],

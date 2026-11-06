@@ -4225,13 +4225,13 @@
       "name": "ANSI 28MM 3-SW ADB LH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB ADB 4.5V 28MM LH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-11-06T07:55:51.247Z",
+      "updated_at": "2026-11-06T08:04:52.941Z",
       "stock_base_quantity": 15
     },
     {
@@ -16518,6 +16518,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T08:04:28.305Z",
       "created_at": "2026-11-06T08:04:28.305Z"
+    },
+    {
+      "id": "id-tx39levlmw4ovk99",
+      "product_id": "id-kjmr5eg6mtl9kemo",
+      "product_code": "4813994A13",
+      "product_name": "ANSI 28MM 3-SW ADB LH GÖMME",
+      "type": "out",
+      "quantity": 8,
+      "target_location": "JW marriot ankara",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-06T08:04:52.941Z",
+      "created_at": "2026-11-06T08:04:52.941Z"
     }
   ],
   "deleted_movement_ids": [
@@ -24951,6 +24965,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T08:04:28.305Z",
+      "extra": null
+    },
+    {
+      "id": "id-orfyqy6fmw4ovk99",
+      "action": "Stok çıkışı",
+      "product_id": "id-kjmr5eg6mtl9kemo",
+      "product_code": "4813994A13",
+      "product_name": "ANSI 28MM 3-SW ADB LH GÖMME",
+      "type": "out",
+      "quantity": 8,
+      "target_location": "JW marriot ankara",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-06T08:04:52.941Z",
       "extra": null
     }
   ],

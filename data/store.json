@@ -4861,13 +4861,13 @@
       "name": "ESSENCE V1 SEMBOL SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 18,
+      "quantity": 218,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "RFID SYMBOL KIT FOR ESSENCE - BLACK GREY RAL7021",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-10-02T06:35:57.474Z",
+      "updated_at": "2026-11-06T13:38:13.665Z",
       "stock_base_quantity": 82
     },
     {
@@ -16622,6 +16622,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T13:37:27.424Z",
       "created_at": "2026-11-06T13:37:27.424Z"
+    },
+    {
+      "id": "id-icrceofumw50s8wx",
+      "product_id": "id-jua0jvqbmtl9kemt",
+      "product_code": "4824589B",
+      "product_name": "ESSENCE V1 SEMBOL SİYAH",
+      "type": "in",
+      "quantity": 200,
+      "target_location": "Ana Depo",
+      "reason": "gümrük",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-06T13:38:13.665Z",
+      "created_at": "2026-11-06T13:38:13.665Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25240,6 +25254,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T13:37:27.424Z",
+      "extra": null
+    },
+    {
+      "id": "id-qa6ntzx8mw50s8wx",
+      "action": "Stok girişi",
+      "product_id": "id-jua0jvqbmtl9kemt",
+      "product_code": "4824589B",
+      "product_name": "ESSENCE V1 SEMBOL SİYAH",
+      "type": "in",
+      "quantity": 200,
+      "target_location": "Ana Depo",
+      "reason": "gümrük",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-06T13:38:13.665Z",
       "extra": null
     }
   ],

@@ -3466,13 +3466,13 @@
       "name": "VISIONLINE RC GW HARİÇ",
       "category_id": "id-gjz8r8ckmtk34t8n",
       "unit": "adet",
-      "quantity": 19,
+      "quantity": 18,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "WALL READER W/LCU 6351 BLE(VISIONLINE REMOTE CTRL WO/GW)",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-11-06T13:35:26.876Z",
+      "updated_at": "2026-11-06T14:33:04.670Z",
       "stock_base_quantity": 11
     },
     {
@@ -16764,6 +16764,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T13:55:58.482Z",
       "created_at": "2026-11-06T13:55:58.482Z"
+    },
+    {
+      "id": "id-sqe1uro2mw52qs9q",
+      "product_id": "id-56o4mxkwmtl9kemh",
+      "product_code": "P001006433-003-001",
+      "product_name": "VISIONLINE RC GW HARİÇ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "çıkış",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-06T14:33:04.670Z",
+      "created_at": "2026-11-06T14:33:04.670Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25656,6 +25670,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T14:11:36.498Z",
       "extra": "9 giriş iptal edildi; miktar stoktan düşüldü."
+    },
+    {
+      "id": "id-jhg6a4w9mw52qs9q",
+      "action": "Stok çıkışı",
+      "product_id": "id-56o4mxkwmtl9kemh",
+      "product_code": "P001006433-003-001",
+      "product_name": "VISIONLINE RC GW HARİÇ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "çıkış",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T14:33:04.670Z",
+      "extra": null
     }
   ],
   "settings": {

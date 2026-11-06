@@ -4174,13 +4174,13 @@
       "name": "ANSI 28MM 4-SW ADB RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 12,
+      "quantity": 11,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB ADB 4.5V 28MM 4-SW RH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-11-06T06:25:45.089Z",
+      "updated_at": "2026-11-06T08:01:08.170Z",
       "stock_base_quantity": 0
     },
     {
@@ -19652,6 +19652,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-11-06T07:55:57.254Z"
+    },
+    {
+      "id": "id-h7c6k53hmw4oqqtm",
+      "action": "Ürün güncellendi",
+      "product_id": "id-engethttmtl9kemo",
+      "product_code": "4814440B13",
+      "product_name": "ANSI 28MM 4-SW ADB RH GÖMME",
+      "before": {
+        "id": "id-engethttmtl9kemo",
+        "code": "4814440B13",
+        "name": "ANSI 28MM 4-SW ADB RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 12,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB ADB 4.5V 28MM 4-SW RH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-11-06T06:25:45.089Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-engethttmtl9kemo",
+        "code": "4814440B13",
+        "name": "ANSI 28MM 4-SW ADB RH GÖMME",
+        "category_id": "id-8jyqdzv1mtk34t8o",
+        "unit": "adet",
+        "quantity": 11,
+        "critical_level": 5,
+        "unit_price": 0,
+        "location": "",
+        "description": "LOCK CASE ANSI DB ADB 4.5V 28MM 4-SW RH",
+        "created_at": "2026-09-03T08:29:16.176Z",
+        "updated_at": "2026-11-06T08:01:08.170Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-11-06T08:01:08.170Z"
     }
   ],
   "movement_audit": [

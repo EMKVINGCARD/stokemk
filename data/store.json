@@ -7639,13 +7639,13 @@
       "name": "A28 STD KARŞILIK BLACK TITANIUM PVD",
       "category_id": "id-4gkyupz3mtk34t8p",
       "unit": "adet",
-      "quantity": 21,
+      "quantity": 22,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "STRIKER PLATE ANSI, BLACK T",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-10-05T11:08:50.632Z",
+      "updated_at": "2026-11-06T06:21:58.362Z",
       "stock_base_quantity": 23
     },
     {
@@ -16288,6 +16288,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-06T06:20:17.888Z",
       "created_at": "2026-11-06T06:20:17.888Z"
+    },
+    {
+      "id": "id-qjtkahtamw4l77x5",
+      "product_id": "id-ilhb3jtpmtl9keoe",
+      "product_code": "458633590",
+      "product_name": "A28 STD KARŞILIK BLACK TITANIUM PVD",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "iptal",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-06T06:21:58.361Z",
+      "created_at": "2026-11-06T06:21:58.361Z"
     }
   ],
   "deleted_movement_ids": [
@@ -24361,6 +24375,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T06:20:17.888Z",
+      "extra": null
+    },
+    {
+      "id": "id-x1ldu6mpmw4l77x5",
+      "action": "Stok girişi",
+      "product_id": "id-ilhb3jtpmtl9keoe",
+      "product_code": "458633590",
+      "product_name": "A28 STD KARŞILIK BLACK TITANIUM PVD",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "iptal",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T06:21:58.362Z",
       "extra": null
     }
   ],

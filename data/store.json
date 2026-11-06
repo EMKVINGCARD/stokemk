@@ -8146,13 +8146,13 @@
       "name": "ADB A28 FRONT BLACK TITANIUM PVD",
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 15,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM, BLACK T",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-10-23T09:55:55.434Z",
+      "updated_at": "2026-11-06T13:41:30.035Z",
       "stock_base_quantity": 3
     },
     {
@@ -16706,6 +16706,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T13:40:44.099Z",
       "created_at": "2026-11-06T13:40:44.099Z"
+    },
+    {
+      "id": "id-9sfjnmv8mw50wgfn",
+      "product_id": "id-sezd2m72mtl9keog",
+      "product_code": "481514390",
+      "product_name": "ADB A28 FRONT BLACK TITANIUM PVD",
+      "type": "in",
+      "quantity": 15,
+      "target_location": "Ana Depo",
+      "reason": "gümrük",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-06T13:41:30.035Z",
+      "created_at": "2026-11-06T13:41:30.035Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25414,6 +25428,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T13:40:44.099Z",
+      "extra": null
+    },
+    {
+      "id": "id-8gs8gswvmw50wgfn",
+      "action": "Stok girişi",
+      "product_id": "id-sezd2m72mtl9keog",
+      "product_code": "481514390",
+      "product_name": "ADB A28 FRONT BLACK TITANIUM PVD",
+      "type": "in",
+      "quantity": 15,
+      "target_location": "Ana Depo",
+      "reason": "gümrük",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-06T13:41:30.035Z",
       "extra": null
     }
   ],

@@ -8749,13 +8749,13 @@
       "name": "SIGNATURE COMPOZİT PİL KAPAĞI",
       "category_id": "id-lhu1c58ymtk34t8o",
       "unit": "adet",
-      "quantity": 81,
+      "quantity": 84,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "Signature online battery cover kit, Black",
       "created_at": "2026-09-14T10:54:22.736Z",
-      "updated_at": "2026-10-26T08:38:13.269Z",
+      "updated_at": "2026-11-06T06:18:32.316Z",
       "stock_base_quantity": 100
     },
     {
@@ -16246,6 +16246,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-06T06:16:28.710Z",
       "created_at": "2026-11-06T06:16:28.710Z"
+    },
+    {
+      "id": "id-tv06rvt3mw4l2sxo",
+      "product_id": "id-xmca4smvmu14ldzk",
+      "product_code": "5000002",
+      "product_name": "SIGNATURE COMPOZİT PİL KAPAĞI",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": "iptal",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-06T06:18:32.316Z",
+      "created_at": "2026-11-06T06:18:32.316Z"
     }
   ],
   "deleted_movement_ids": [
@@ -24274,6 +24288,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T06:16:28.710Z",
+      "extra": null
+    },
+    {
+      "id": "id-m9rpq54amw4l2sxo",
+      "action": "Stok girişi",
+      "product_id": "id-xmca4smvmu14ldzk",
+      "product_code": "5000002",
+      "product_name": "SIGNATURE COMPOZİT PİL KAPAĞI",
+      "type": "in",
+      "quantity": 3,
+      "target_location": "Ana Depo",
+      "reason": "iptal",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T06:18:32.316Z",
       "extra": null
     }
   ],

@@ -1051,6 +1051,12 @@
       "name": "JW marriot ankara",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-trtatc0fmw4u9la6",
+      "name": "Nirvana Cosmopolitan",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -3610,13 +3616,13 @@
       "name": "PCBA 3016",
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
-      "quantity": 24,
+      "quantity": 23,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "PCBA 3016 - USED IN WALL READER AND RELAY BOX 6842",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-10-30T07:10:05.364Z",
+      "updated_at": "2026-11-06T10:35:45.535Z",
       "stock_base_quantity": 25
     },
     {
@@ -16532,6 +16538,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T08:04:52.941Z",
       "created_at": "2026-11-06T08:04:52.941Z"
+    },
+    {
+      "id": "id-n35gfh0pmw4u9la6",
+      "product_id": "id-fk7c83flmtl9kemh",
+      "product_code": "4824045",
+      "product_name": "PCBA 3016",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Nirvana Cosmopolitan",
+      "reason": "arıza",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-06T10:35:45.534Z",
+      "created_at": "2026-11-06T10:35:45.534Z"
     }
   ],
   "deleted_movement_ids": [
@@ -24980,6 +25000,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T08:04:52.941Z",
+      "extra": null
+    },
+    {
+      "id": "id-9wdzgiaymw4u9la7",
+      "action": "Stok çıkışı",
+      "product_id": "id-fk7c83flmtl9kemh",
+      "product_code": "4824045",
+      "product_name": "PCBA 3016",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Nirvana Cosmopolitan",
+      "reason": "arıza",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-06T10:35:45.535Z",
       "extra": null
     }
   ],

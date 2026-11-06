@@ -4561,13 +4561,13 @@
       "name": "CLASSIC 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 25,
+      "quantity": 26,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-11-06T14:10:04.623Z",
+      "updated_at": "2026-11-06T14:10:53.163Z",
       "stock_base_quantity": 40
     },
     {
@@ -16776,20 +16776,6 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T13:55:58.482Z",
       "created_at": "2026-11-06T13:55:58.482Z"
-    },
-    {
-      "id": "id-kdt0cmppmw51x7f3",
-      "product_id": "id-uwj860famtl9kemr",
-      "product_code": "4826069B",
-      "product_name": "CLASSIC 6334 LCU",
-      "type": "out",
-      "quantity": 1,
-      "target_location": "Ana Depo",
-      "reason": null,
-      "user_id": "id-lh6qn0u7mtk3iswv",
-      "user_name": "Yunus Emre Özen",
-      "happened_at": "2026-11-06T14:10:04.623Z",
-      "created_at": "2026-11-06T14:10:04.623Z"
     }
   ],
   "deleted_movement_ids": [
@@ -16803,7 +16789,8 @@
     "id-8sf0y2eumv9b3xhl",
     "id-loka90spmv9eex4l",
     "id-gotgnvltmvksofqi",
-    "id-yrnzoxelmw510pky"
+    "id-yrnzoxelmw510pky",
+    "id-kdt0cmppmw51x7f3"
   ],
   "audit_log": [
     {
@@ -25620,6 +25607,21 @@
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T14:10:04.623Z",
       "extra": null
+    },
+    {
+      "id": "id-0b8khvbamw51y8vf",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-uwj860famtl9kemr",
+      "product_code": "4826069B",
+      "product_name": "CLASSIC 6334 LCU",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-06T14:10:53.163Z",
+      "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "settings": {

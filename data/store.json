@@ -1741,13 +1741,13 @@
       "name": "ALLURE  İÇ PANEL SİYAH",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 35,
+      "quantity": 32,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "ALLURE WIRED ROOM PANEL, COMPL - WHITE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-09-15T13:42:59.109Z",
+      "updated_at": "2026-11-06T13:55:58.482Z",
       "stock_base_quantity": 36
     },
     {
@@ -16762,6 +16762,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-06T13:48:13.631Z",
       "created_at": "2026-11-06T13:48:13.631Z"
+    },
+    {
+      "id": "id-we99f3rqmw51f2j6",
+      "product_id": "id-ueqdov9jmtl9kemc",
+      "product_code": "4825523-000009",
+      "product_name": "ALLURE  İÇ PANEL SİYAH",
+      "type": "out",
+      "quantity": 3,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-06T13:55:58.482Z",
+      "created_at": "2026-11-06T13:55:58.482Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25561,6 +25575,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T13:48:13.631Z",
+      "extra": null
+    },
+    {
+      "id": "id-logwtzzmmw51f2j6",
+      "action": "Stok çıkışı",
+      "product_id": "id-ueqdov9jmtl9kemc",
+      "product_code": "4825523-000009",
+      "product_name": "ALLURE  İÇ PANEL SİYAH",
+      "type": "out",
+      "quantity": 3,
+      "target_location": "divan talya",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-06T13:55:58.482Z",
       "extra": null
     }
   ],

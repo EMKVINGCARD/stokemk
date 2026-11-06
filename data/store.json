@@ -6751,13 +6751,13 @@
       "name": "STRAIGHT BLACK TITANUM SET",
       "category_id": "id-iros97w4mtk34t8o",
       "unit": "adet",
-      "quantity": 0,
+      "quantity": 5,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "HANDLE ON OUTSIDE ROSE SIGNATURE BLACK T STRAIGHT / HANDLE ON INSIDE ROSE SIGNATURE BLACK T STRAIGHT",
       "created_at": "2026-09-03T08:29:16.213Z",
-      "updated_at": "2026-10-16T11:31:19.530Z",
+      "updated_at": "2026-11-06T13:36:46.487Z",
       "stock_base_quantity": 3
     },
     {
@@ -16594,6 +16594,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-06T13:36:04.711Z",
       "created_at": "2026-11-06T13:36:04.711Z"
+    },
+    {
+      "id": "id-kcrby3gzmw50qdnb",
+      "product_id": "id-1kwmjzwxmtl9kenp",
+      "product_code": "481633390AC / 481633590AC",
+      "product_name": "STRAIGHT BLACK TITANUM SET",
+      "type": "in",
+      "quantity": 5,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-06T13:36:46.487Z",
+      "created_at": "2026-11-06T13:36:46.487Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25182,6 +25196,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-06T13:36:04.711Z",
+      "extra": null
+    },
+    {
+      "id": "id-ay1v1vp8mw50qdnb",
+      "action": "Stok girişi",
+      "product_id": "id-1kwmjzwxmtl9kenp",
+      "product_code": "481633390AC / 481633590AC",
+      "product_name": "STRAIGHT BLACK TITANUM SET",
+      "type": "in",
+      "quantity": 5,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-06T13:36:46.487Z",
       "extra": null
     }
   ],

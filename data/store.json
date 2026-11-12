@@ -7891,13 +7891,13 @@
       "name": "ADB A28 KARŞILIK RH SATIN CHROME",
       "category_id": "id-61g0m64bmtk34t8p",
       "unit": "adet",
-      "quantity": 26,
+      "quantity": 27,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "STRIKE ANSI ADB, RIGHT STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-11-06T06:22:32.715Z",
+      "updated_at": "2026-11-12T11:47:50.676Z",
       "stock_base_quantity": 14
     },
     {
@@ -16948,6 +16948,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-12T11:47:36.936Z",
       "created_at": "2026-11-12T11:47:36.936Z"
+    },
+    {
+      "id": "id-oeteycv5mwdhhel0",
+      "product_id": "id-pinnw1hsmtl9keog",
+      "product_code": "P001010191-002-222",
+      "product_name": "ADB A28 KARŞILIK RH SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-12T11:47:50.676Z",
+      "created_at": "2026-11-12T11:47:50.676Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26095,6 +26109,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T11:47:36.936Z",
+      "extra": null
+    },
+    {
+      "id": "id-kdbn64wkmwdhhel0",
+      "action": "Stok girişi",
+      "product_id": "id-pinnw1hsmtl9keog",
+      "product_code": "P001010191-002-222",
+      "product_name": "ADB A28 KARŞILIK RH SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T11:47:50.676Z",
       "extra": null
     }
   ],

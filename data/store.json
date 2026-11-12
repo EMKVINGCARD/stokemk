@@ -1081,13 +1081,13 @@
       "name": "4K MAD2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2737,
+      "quantity": 2787,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD MIFARE CLASSIC 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-11-06T13:37:27.424Z",
+      "updated_at": "2026-11-12T08:13:12.837Z",
       "stock_base_quantity": 2002
     },
     {
@@ -16848,6 +16848,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-12T08:03:33.287Z",
       "created_at": "2026-11-12T08:03:33.287Z"
+    },
+    {
+      "id": "id-wyitokjxmwd9tdz9",
+      "product_id": "id-vp6u11jwmtl9kemb",
+      "product_code": "4814101",
+      "product_name": "4K MAD2 MASTER KART",
+      "type": "in",
+      "quantity": 50,
+      "target_location": null,
+      "reason": "vakko otelden geldi.",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-12T08:13:12.837Z",
+      "created_at": "2026-11-12T08:13:12.837Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25860,6 +25874,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T08:03:33.287Z",
+      "extra": null
+    },
+    {
+      "id": "id-lgx6ia73mwd9tdz9",
+      "action": "Stok girişi",
+      "product_id": "id-vp6u11jwmtl9kemb",
+      "product_code": "4814101",
+      "product_name": "4K MAD2 MASTER KART",
+      "type": "in",
+      "quantity": 50,
+      "target_location": null,
+      "reason": "vakko otelden geldi.",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T08:13:12.837Z",
       "extra": null
     }
   ],

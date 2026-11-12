@@ -2677,13 +2677,13 @@
       "name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 7,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FLEX CABLE - NOT FOR FLOOR, SENT/ INF, PHIII, 26.5CM X 0.9CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-09-16T12:43:20.227Z",
+      "updated_at": "2026-11-12T11:50:54.083Z",
       "stock_base_quantity": 9
     },
     {
@@ -17024,6 +17024,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-12T11:50:41.921Z",
       "created_at": "2026-11-12T11:50:41.921Z"
+    },
+    {
+      "id": "id-rgihe87wmwdhlc3n",
+      "product_id": "id-pyc8izdzmtl9kemf",
+      "product_code": "253-8121",
+      "product_name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "POLAT YEŞİLKÖY",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-12T11:50:54.083Z",
+      "created_at": "2026-11-12T11:50:54.083Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26308,6 +26322,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T11:50:41.921Z",
+      "extra": null
+    },
+    {
+      "id": "id-yp8uoq8cmwdhlc3n",
+      "action": "Stok çıkışı",
+      "product_id": "id-pyc8izdzmtl9kemf",
+      "product_code": "253-8121",
+      "product_name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "POLAT YEŞİLKÖY",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T11:50:54.083Z",
       "extra": null
     }
   ],

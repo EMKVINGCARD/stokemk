@@ -7177,13 +7177,13 @@
       "name": "STRAIGHT SATIN CHROME İÇ KOL",
       "category_id": "id-zgl5kigumtk34t8p",
       "unit": "adet",
-      "quantity": 48,
+      "quantity": 46,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.229Z",
-      "updated_at": "2026-11-12T11:51:50.271Z",
+      "updated_at": "2026-11-12T11:53:03.701Z",
       "stock_base_quantity": 46
     },
     {
@@ -17040,20 +17040,6 @@
       "created_at": "2026-11-12T11:50:54.083Z"
     },
     {
-      "id": "id-h7x8pihumwdhmjgf",
-      "product_id": "id-1478cs9kmtl9keo5",
-      "product_code": "YOK",
-      "product_name": "STRAIGHT SATIN CHROME İÇ KOL",
-      "type": "in",
-      "quantity": 2,
-      "target_location": null,
-      "reason": null,
-      "user_id": "id-27ioxuxcmtk3do6i",
-      "user_name": "Eray YURTSEVEN",
-      "happened_at": "2026-11-12T11:51:50.271Z",
-      "created_at": "2026-11-12T11:51:50.271Z"
-    },
-    {
       "id": "id-djwiswd7mwdhnz95",
       "product_id": "id-x2fmf5v0mtl9keno",
       "product_code": "481633361AC / 481633561AC",
@@ -17084,7 +17070,8 @@
     "id-g67unq2lmw510bdb",
     "id-oydyc7uamw50oo7w",
     "id-2tmvtgknmwdhjj6t",
-    "id-fub0avifmwdhj852"
+    "id-fub0avifmwdhj852",
+    "id-h7x8pihumwdhmjgf"
   ],
   "audit_log": [
     {
@@ -26396,6 +26383,21 @@
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T11:52:57.401Z",
       "extra": null
+    },
+    {
+      "id": "id-2igarxgvmwdho445",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-1478cs9kmtl9keo5",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT SATIN CHROME İÇ KOL",
+      "type": "in",
+      "quantity": 2,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T11:53:03.701Z",
+      "extra": "2 giriş iptal edildi; miktar stoktan düşüldü."
     }
   ],
   "settings": {

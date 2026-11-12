@@ -4186,13 +4186,13 @@
       "name": "ANSI 28MM 4-SW ADB RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 14,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE ANSI DB ADB 4.5V 28MM 4-SW RH",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-11-06T08:04:06.018Z",
+      "updated_at": "2026-11-12T08:02:03.103Z",
       "stock_base_quantity": 0
     },
     {
@@ -16806,6 +16806,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-12T08:01:39.975Z",
       "created_at": "2026-11-12T08:01:39.975Z"
+    },
+    {
+      "id": "id-2fhvmckwmwd9f17j",
+      "product_id": "id-engethttmtl9kemo",
+      "product_code": "4814440B13",
+      "product_name": "ANSI 28MM 4-SW ADB RH GÖMME",
+      "type": "in",
+      "quantity": 6,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-12T08:02:03.103Z",
+      "created_at": "2026-11-12T08:02:03.103Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25773,6 +25787,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T08:01:39.975Z",
+      "extra": null
+    },
+    {
+      "id": "id-dzgwmqybmwd9f17j",
+      "action": "Stok girişi",
+      "product_id": "id-engethttmtl9kemo",
+      "product_code": "4814440B13",
+      "product_name": "ANSI 28MM 4-SW ADB RH GÖMME",
+      "type": "in",
+      "quantity": 6,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T08:02:03.103Z",
       "extra": null
     }
   ],

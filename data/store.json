@@ -7486,13 +7486,13 @@
       "name": "DB BUTONU COMPOZIT SATIN CHROME",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 16,
+      "quantity": 26,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME PLASTIC END 2 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-11-06T06:23:49.501Z",
+      "updated_at": "2026-11-12T08:01:39.975Z",
       "stock_base_quantity": 9
     },
     {
@@ -16792,6 +16792,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-06T14:35:14.850Z",
       "created_at": "2026-11-06T14:35:14.850Z"
+    },
+    {
+      "id": "id-3t026aqemwd9ejd3",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "in",
+      "quantity": 10,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-12T08:01:39.975Z",
+      "created_at": "2026-11-12T08:01:39.975Z"
     }
   ],
   "deleted_movement_ids": [
@@ -25745,6 +25759,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-06T14:42:40.371Z",
       "extra": "9 çıkış iptal edildi; miktar stoğa geri eklendi."
+    },
+    {
+      "id": "id-1n36995nmwd9ejd3",
+      "action": "Stok girişi",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "in",
+      "quantity": 10,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T08:01:39.975Z",
+      "extra": null
     }
   ],
   "settings": {

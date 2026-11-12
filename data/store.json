@@ -1057,6 +1057,12 @@
       "name": "Nirvana Cosmopolitan",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-e3jlo2k7mwdhj852",
+      "name": "POLAT YEŞİLKÖY",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2926,13 +2932,13 @@
       "name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 16,
+      "quantity": 17,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "SENTINEL II SD PHIII FRONT COMPLETE",
       "created_at": "2026-09-03T08:29:16.168Z",
-      "updated_at": "2026-10-15T09:15:55.813Z",
+      "updated_at": "2026-11-12T11:49:15.638Z",
       "stock_base_quantity": 10
     },
     {
@@ -16976,6 +16982,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-12T11:48:24.298Z",
       "created_at": "2026-11-12T11:48:24.298Z"
+    },
+    {
+      "id": "id-fub0avifmwdhj852",
+      "product_id": "id-z4n6o2hfmtl9kemg",
+      "product_code": "252-8406SD00600AMS",
+      "product_name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "POLAT YEŞİLKÖY",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-12T11:49:15.638Z",
+      "created_at": "2026-11-12T11:49:15.638Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26153,6 +26173,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T11:48:24.298Z",
+      "extra": null
+    },
+    {
+      "id": "id-5xt9y3l2mwdhj852",
+      "action": "Stok girişi",
+      "product_id": "id-z4n6o2hfmtl9kemg",
+      "product_code": "252-8406SD00600AMS",
+      "product_name": "SENTINEL 2 DİJİTAL PH3 KOMPLE KEYBOARD",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "POLAT YEŞİLKÖY",
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T11:49:15.638Z",
       "extra": null
     }
   ],

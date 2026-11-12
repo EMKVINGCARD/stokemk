@@ -7177,13 +7177,13 @@
       "name": "STRAIGHT SATIN CHROME İÇ KOL",
       "category_id": "id-zgl5kigumtk34t8p",
       "unit": "adet",
-      "quantity": 46,
+      "quantity": 48,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.229Z",
-      "updated_at": "2026-10-23T09:49:16.792Z",
+      "updated_at": "2026-11-12T11:51:50.271Z",
       "stock_base_quantity": 46
     },
     {
@@ -17038,6 +17038,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-12T11:50:54.083Z",
       "created_at": "2026-11-12T11:50:54.083Z"
+    },
+    {
+      "id": "id-h7x8pihumwdhmjgf",
+      "product_id": "id-1478cs9kmtl9keo5",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT SATIN CHROME İÇ KOL",
+      "type": "in",
+      "quantity": 2,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-12T11:51:50.271Z",
+      "created_at": "2026-11-12T11:51:50.271Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26337,6 +26351,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T11:50:54.083Z",
+      "extra": null
+    },
+    {
+      "id": "id-en346p7wmwdhmjgf",
+      "action": "Stok girişi",
+      "product_id": "id-1478cs9kmtl9keo5",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT SATIN CHROME İÇ KOL",
+      "type": "in",
+      "quantity": 2,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-12T11:51:50.271Z",
       "extra": null
     }
   ],

@@ -8122,13 +8122,13 @@
       "name": "ADB A28 FRONT SATIN CHROME",
       "category_id": "id-5qf81eivmtk34t8p",
       "unit": "adet",
-      "quantity": 18,
+      "quantity": 17,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT ANSI ADB 28MM STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-11-12T11:46:08.084Z",
+      "updated_at": "2026-11-13T12:26:55.375Z",
       "stock_base_quantity": 0
     },
     {
@@ -17066,6 +17066,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-12T12:01:12.174Z",
       "created_at": "2026-11-12T12:01:12.174Z"
+    },
+    {
+      "id": "id-jejoecbkmweybifj",
+      "product_id": "id-ltmhe585mtl9keog",
+      "product_code": "481514322",
+      "product_name": "ADB A28 FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "summa plaza",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-13T12:26:55.375Z",
+      "created_at": "2026-11-13T12:26:55.375Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26426,6 +26440,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-12T12:01:12.174Z",
+      "extra": null
+    },
+    {
+      "id": "id-qu0b6fr5mweybifj",
+      "action": "Stok çıkışı",
+      "product_id": "id-ltmhe585mtl9keog",
+      "product_code": "481514322",
+      "product_name": "ADB A28 FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "summa plaza",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-13T12:26:55.375Z",
       "extra": null
     }
   ],

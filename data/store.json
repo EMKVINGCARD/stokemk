@@ -2707,13 +2707,13 @@
       "name": "CPU PH3 BOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 36,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "PCB INSIDE PH III FOR SAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-12T11:50:41.921Z",
+      "updated_at": "2026-11-16T08:22:24.735Z",
       "stock_base_quantity": 9
     },
     {
@@ -17108,6 +17108,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-13T12:27:55.671Z",
       "created_at": "2026-11-13T12:27:55.671Z"
+    },
+    {
+      "id": "id-rd90jnf1mwizwmhr",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "in",
+      "quantity": 30,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-16T08:22:24.735Z",
+      "created_at": "2026-11-16T08:22:24.735Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26513,6 +26527,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-13T12:27:55.671Z",
+      "extra": null
+    },
+    {
+      "id": "id-6j9moxsxmwizwmhr",
+      "action": "Stok girişi",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "in",
+      "quantity": 30,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-16T08:22:24.735Z",
       "extra": null
     }
   ],

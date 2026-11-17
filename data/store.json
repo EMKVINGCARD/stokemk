@@ -2827,13 +2827,13 @@
       "name": "ZENITH BACKCOVER MOTORLU (XTRA KASA MOTORU YERİNE VERİLEN)",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 34,
+      "quantity": 35,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "BACK COVER XTRA/ZENITH W/GEAR AND MOTOR RAL 7021",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-12T11:50:30.893Z",
+      "updated_at": "2026-11-17T13:38:30.522Z",
       "stock_base_quantity": 35
     },
     {
@@ -16998,20 +16998,6 @@
       "created_at": "2026-11-12T11:50:17.597Z"
     },
     {
-      "id": "id-dyitpeh4mwdhku7h",
-      "product_id": "id-vyqex89smtl9kemf",
-      "product_code": "256XZF000000400",
-      "product_name": "ZENITH BACKCOVER MOTORLU (XTRA KASA MOTORU YERİNE VERİLEN)",
-      "type": "out",
-      "quantity": 1,
-      "target_location": null,
-      "reason": "POLAT YEŞİLKÖY",
-      "user_id": "id-27ioxuxcmtk3do6i",
-      "user_name": "Eray YURTSEVEN",
-      "happened_at": "2026-11-12T11:50:30.893Z",
-      "created_at": "2026-11-12T11:50:30.893Z"
-    },
-    {
       "id": "id-143yrslxmwdhl2pt",
       "product_id": "id-xuwc46nzmtl9kemf",
       "product_code": "259-8056",
@@ -17183,7 +17169,8 @@
     "id-oydyc7uamw50oo7w",
     "id-2tmvtgknmwdhjj6t",
     "id-fub0avifmwdhj852",
-    "id-h7x8pihumwdhmjgf"
+    "id-h7x8pihumwdhmjgf",
+    "id-dyitpeh4mwdhku7h"
   ],
   "audit_log": [
     {
@@ -26630,6 +26617,21 @@
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-17T12:20:01.569Z",
       "extra": null
+    },
+    {
+      "id": "id-9emafsfxmwkqmz96",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-vyqex89smtl9kemf",
+      "product_code": "256XZF000000400",
+      "product_name": "ZENITH BACKCOVER MOTORLU (XTRA KASA MOTORU YERİNE VERİLEN)",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "POLAT YEŞİLKÖY",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-17T13:38:30.522Z",
+      "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "settings": {

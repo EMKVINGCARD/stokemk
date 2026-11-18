@@ -3377,13 +3377,13 @@
       "name": "ENCODER 4010 W/CABLES",
       "category_id": "id-y66x0cekmtk34t8n",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 5,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ENCODER 4010 W/CABLES",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-11-17T09:03:02.518Z",
+      "updated_at": "2026-11-18T07:43:36.002Z",
       "stock_base_quantity": 8
     },
     {
@@ -17174,6 +17174,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-18T07:14:41.409Z",
       "created_at": "2026-11-18T07:14:41.409Z"
+    },
+    {
+      "id": "id-atcwvy2rmwlteeyq",
+      "product_id": "id-o6y9h7jgmtl9kemh",
+      "product_code": "P001054328-001-001",
+      "product_name": "ENCODER 4010 W/CABLES",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "FOUR Point Sheraton Arnavutköy",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-18T07:43:36.002Z",
+      "created_at": "2026-11-18T07:43:36.002Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26670,6 +26684,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T07:14:41.409Z",
+      "extra": null
+    },
+    {
+      "id": "id-9nf8wtegmwlteeyq",
+      "action": "Stok çıkışı",
+      "product_id": "id-o6y9h7jgmtl9kemh",
+      "product_code": "P001054328-001-001",
+      "product_name": "ENCODER 4010 W/CABLES",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "FOUR Point Sheraton Arnavutköy",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T07:43:36.002Z",
       "extra": null
     }
   ],

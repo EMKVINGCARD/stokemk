@@ -4307,13 +4307,13 @@
       "name": "EURO 20MM RH GÖMME",
       "category_id": "id-8jyqdzv1mtk34t8o",
       "unit": "adet",
-      "quantity": 2,
+      "quantity": 3,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK CASE EURO 65 4.5V 20MM RH",
       "created_at": "2026-09-03T08:29:16.177Z",
-      "updated_at": "2026-10-16T11:16:13.628Z",
+      "updated_at": "2026-11-18T10:52:06.369Z",
       "stock_base_quantity": 1
     },
     {
@@ -17217,6 +17217,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-18T10:38:55.305Z",
       "created_at": "2026-11-18T10:38:55.305Z"
+    },
+    {
+      "id": "id-f0cekukwmwm04u3l",
+      "product_id": "id-b15acgfumtl9kemp",
+      "product_code": "4813995B1",
+      "product_name": "EURO 20MM RH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-18T10:52:06.369Z",
+      "created_at": "2026-11-18T10:52:06.369Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26835,6 +26849,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T10:38:55.305Z",
+      "extra": null
+    },
+    {
+      "id": "id-767edf4nmwm04u3l",
+      "action": "Stok girişi",
+      "product_id": "id-b15acgfumtl9kemp",
+      "product_code": "4813995B1",
+      "product_name": "EURO 20MM RH GÖMME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T10:52:06.369Z",
       "extra": null
     }
   ],

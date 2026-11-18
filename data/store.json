@@ -3632,13 +3632,13 @@
       "name": "PCBA 3016",
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
-      "quantity": 24,
+      "quantity": 22,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "PCBA 3016 - USED IN WALL READER AND RELAY BOX 6842",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-11-06T14:34:51.157Z",
+      "updated_at": "2026-11-18T10:38:55.305Z",
       "stock_base_quantity": 25
     },
     {
@@ -17203,6 +17203,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-18T10:38:37.820Z",
       "created_at": "2026-11-18T10:38:37.820Z"
+    },
+    {
+      "id": "id-ckehm8hfmwlznvpl",
+      "product_id": "id-fk7c83flmtl9kemh",
+      "product_code": "4824045",
+      "product_name": "PCBA 3016",
+      "type": "out",
+      "quantity": 2,
+      "target_location": null,
+      "reason": "Sheraton Levent",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-18T10:38:55.305Z",
+      "created_at": "2026-11-18T10:38:55.305Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26806,6 +26820,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T10:38:37.820Z",
+      "extra": null
+    },
+    {
+      "id": "id-nn3delvqmwlznvpl",
+      "action": "Stok çıkışı",
+      "product_id": "id-fk7c83flmtl9kemh",
+      "product_code": "4824045",
+      "product_name": "PCBA 3016",
+      "type": "out",
+      "quantity": 2,
+      "target_location": null,
+      "reason": "Sheraton Levent",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T10:38:55.305Z",
       "extra": null
     }
   ],

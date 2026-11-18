@@ -3167,13 +3167,13 @@
       "name": "ZENITH 43 LH",
       "category_id": "id-3qhspgo7mtk34t8n",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "ZENITH 43 DIGITAL LH, GREY",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-11-05T14:53:49.192Z",
+      "updated_at": "2026-11-18T10:25:06.080Z",
       "stock_base_quantity": 2
     },
     {
@@ -17161,6 +17161,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-18T07:43:36.002Z",
       "created_at": "2026-11-18T07:43:36.002Z"
+    },
+    {
+      "id": "id-033t4310mwlz63vj",
+      "product_id": "id-mfihx1thmtl9kemh",
+      "product_code": "ZD43004",
+      "product_name": "ZENITH 43 LH",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "KOLİN ÇANAKKALE DEN GELDİ",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-18T10:25:06.079Z",
+      "created_at": "2026-11-18T10:25:06.079Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26720,6 +26734,21 @@
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T07:45:29.682Z",
       "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
+    },
+    {
+      "id": "id-pk3ezgqfmwlz63vj",
+      "action": "Stok girişi",
+      "product_id": "id-mfihx1thmtl9kemh",
+      "product_code": "ZD43004",
+      "product_name": "ZENITH 43 LH",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "KOLİN ÇANAKKALE DEN GELDİ",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T10:25:06.079Z",
+      "extra": null
     }
   ],
   "settings": {

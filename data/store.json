@@ -7502,13 +7502,13 @@
       "name": "DB BUTONU COMPOZIT SATIN CHROME",
       "category_id": "id-eadpwn6umtk34t8p",
       "unit": "adet",
-      "quantity": 26,
+      "quantity": 27,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME PLASTIC END 2 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.238Z",
-      "updated_at": "2026-11-12T08:01:39.975Z",
+      "updated_at": "2026-11-18T10:53:00.852Z",
       "stock_base_quantity": 9
     },
     {
@@ -17245,6 +17245,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-18T10:52:21.936Z",
       "created_at": "2026-11-18T10:52:21.936Z"
+    },
+    {
+      "id": "id-pth50q35mwm06050",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-18T10:53:00.852Z",
+      "created_at": "2026-11-18T10:53:00.852Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26893,6 +26907,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T10:52:21.936Z",
+      "extra": null
+    },
+    {
+      "id": "id-aq69gjcmmwm06050",
+      "action": "Stok girişi",
+      "product_id": "id-xdqvtlwcmtl9keoe",
+      "product_code": "481865961",
+      "product_name": "DB BUTONU COMPOZIT SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T10:53:00.852Z",
       "extra": null
     }
   ],

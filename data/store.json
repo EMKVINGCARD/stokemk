@@ -4832,13 +4832,13 @@
       "name": "ESSENCE V2 KAPAK SİYAH",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 228,
+      "quantity": 218,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SERVICE COVER ESSENCE V2, BLACK (RAL9005)",
       "created_at": "2026-09-03T08:29:16.181Z",
-      "updated_at": "2026-11-06T13:40:44.099Z",
+      "updated_at": "2026-11-18T10:38:28.456Z",
       "stock_base_quantity": 8
     },
     {
@@ -17175,6 +17175,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-18T10:25:06.079Z",
       "created_at": "2026-11-18T10:25:06.079Z"
+    },
+    {
+      "id": "id-bl9gt85hmwlznazr",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 10,
+      "target_location": null,
+      "reason": "novotel bomonti",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-18T10:38:28.455Z",
+      "created_at": "2026-11-18T10:38:28.455Z"
     }
   ],
   "deleted_movement_ids": [
@@ -26748,6 +26762,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T10:25:06.079Z",
+      "extra": null
+    },
+    {
+      "id": "id-bwzguaermwlznazs",
+      "action": "Stok çıkışı",
+      "product_id": "id-texu9qmamtl9kemt",
+      "product_code": "4827614B",
+      "product_name": "ESSENCE V2 KAPAK SİYAH",
+      "type": "out",
+      "quantity": 10,
+      "target_location": null,
+      "reason": "novotel bomonti",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T10:38:28.456Z",
       "extra": null
     }
   ],

@@ -2453,7 +2453,7 @@
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-18T07:14:41.409Z",
+      "updated_at": "2026-11-18T07:44:48.171Z",
       "stock_base_quantity": 27
     },
     {
@@ -17169,11 +17169,12 @@
       "type": "out",
       "quantity": 1,
       "target_location": null,
-      "reason": null,
+      "reason": "Metropolitan bosphorus",
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-18T07:14:41.409Z",
-      "created_at": "2026-11-18T07:14:41.409Z"
+      "created_at": "2026-11-18T07:14:41.409Z",
+      "updated_at": "2026-11-18T07:44:48.171Z"
     },
     {
       "id": "id-atcwvy2rmwlteeyq",
@@ -26700,6 +26701,21 @@
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T07:43:36.002Z",
       "extra": null
+    },
+    {
+      "id": "id-owb99d3jmwltfynf",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "Metropolitan bosphorus",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T07:44:48.171Z",
+      "extra": "Önce: 686001061  686001050 — RFID USB KİLİT PROGRAMLAMA KABLO SETİ (1); sonra: 686001061  686001050 — RFID USB KİLİT PROGRAMLAMA KABLO SETİ (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

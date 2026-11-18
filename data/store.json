@@ -2717,13 +2717,13 @@
       "name": "CPU PH3 BOARD",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 36,
+      "quantity": 37,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "PCB INSIDE PH III FOR SAFES",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-16T08:22:24.735Z",
+      "updated_at": "2026-11-18T07:45:29.682Z",
       "stock_base_quantity": 9
     },
     {
@@ -17008,20 +17008,6 @@
       "created_at": "2026-11-12T11:50:17.597Z"
     },
     {
-      "id": "id-143yrslxmwdhl2pt",
-      "product_id": "id-xuwc46nzmtl9kemf",
-      "product_code": "259-8056",
-      "product_name": "CPU PH3 BOARD",
-      "type": "out",
-      "quantity": 1,
-      "target_location": null,
-      "reason": "POLAT YEŞİLKÖY",
-      "user_id": "id-27ioxuxcmtk3do6i",
-      "user_name": "Eray YURTSEVEN",
-      "happened_at": "2026-11-12T11:50:41.921Z",
-      "created_at": "2026-11-12T11:50:41.921Z"
-    },
-    {
       "id": "id-djwiswd7mwdhnz95",
       "product_id": "id-x2fmf5v0mtl9keno",
       "product_code": "481633361AC / 481633561AC",
@@ -17196,7 +17182,8 @@
     "id-fub0avifmwdhj852",
     "id-h7x8pihumwdhmjgf",
     "id-dyitpeh4mwdhku7h",
-    "id-rgihe87wmwdhlc3n"
+    "id-rgihe87wmwdhlc3n",
+    "id-143yrslxmwdhl2pt"
   ],
   "audit_log": [
     {
@@ -26717,6 +26704,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T07:45:07.028Z",
+      "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
+    },
+    {
+      "id": "id-bc8yawzfmwltguoi",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-xuwc46nzmtl9kemf",
+      "product_code": "259-8056",
+      "product_name": "CPU PH3 BOARD",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "POLAT YEŞİLKÖY",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T07:45:29.682Z",
       "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],

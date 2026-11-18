@@ -2687,13 +2687,13 @@
       "name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
       "category_id": "id-i227be5umtk34t8n",
       "unit": "adet",
-      "quantity": 6,
+      "quantity": 7,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "FLEX CABLE - NOT FOR FLOOR, SENT/ INF, PHIII, 26.5CM X 0.9CM",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-17T12:20:01.569Z",
+      "updated_at": "2026-11-18T07:45:07.028Z",
       "stock_base_quantity": 9
     },
     {
@@ -17022,20 +17022,6 @@
       "created_at": "2026-11-12T11:50:41.921Z"
     },
     {
-      "id": "id-rgihe87wmwdhlc3n",
-      "product_id": "id-pyc8izdzmtl9kemf",
-      "product_code": "253-8121",
-      "product_name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
-      "type": "out",
-      "quantity": 1,
-      "target_location": null,
-      "reason": "POLAT YEŞİLKÖY",
-      "user_id": "id-27ioxuxcmtk3do6i",
-      "user_name": "Eray YURTSEVEN",
-      "happened_at": "2026-11-12T11:50:54.083Z",
-      "created_at": "2026-11-12T11:50:54.083Z"
-    },
-    {
       "id": "id-djwiswd7mwdhnz95",
       "product_id": "id-x2fmf5v0mtl9keno",
       "product_code": "481633361AC / 481633561AC",
@@ -17209,7 +17195,8 @@
     "id-2tmvtgknmwdhjj6t",
     "id-fub0avifmwdhj852",
     "id-h7x8pihumwdhmjgf",
-    "id-dyitpeh4mwdhku7h"
+    "id-dyitpeh4mwdhku7h",
+    "id-rgihe87wmwdhlc3n"
   ],
   "audit_log": [
     {
@@ -26716,6 +26703,21 @@
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-18T07:44:48.171Z",
       "extra": "Önce: 686001061  686001050 — RFID USB KİLİT PROGRAMLAMA KABLO SETİ (1); sonra: 686001061  686001050 — RFID USB KİLİT PROGRAMLAMA KABLO SETİ (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-jc3jnftomwltgd78",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-pyc8izdzmtl9kemf",
+      "product_code": "253-8121",
+      "product_name": "8 POLE FLEXI PH3 İÇİN KISA ORJİNAL",
+      "type": "out",
+      "quantity": 1,
+      "target_location": null,
+      "reason": "POLAT YEŞİLKÖY",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-18T07:45:07.028Z",
+      "extra": "1 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "settings": {

@@ -4772,13 +4772,13 @@
       "name": "SIGNATURE LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 54,
+      "quantity": 57,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "FRONT COVER SIGNATURE 3G RFID STANDARD BLACK",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-11-06T13:39:31.288Z",
+      "updated_at": "2026-11-19T06:52:37.134Z",
       "stock_base_quantity": 73
     },
     {
@@ -17315,6 +17315,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-19T06:52:25.803Z",
       "created_at": "2026-11-19T06:52:25.803Z"
+    },
+    {
+      "id": "id-znmd36pcmwn70pe6",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "in",
+      "quantity": 3,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-19T06:52:37.134Z",
+      "created_at": "2026-11-19T06:52:37.134Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27038,6 +27052,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-19T06:52:25.803Z",
+      "extra": null
+    },
+    {
+      "id": "id-brpdeqrcmwn70pe6",
+      "action": "Stok girişi",
+      "product_id": "id-vrte8du9mtl9kems",
+      "product_code": "4823798",
+      "product_name": "SIGNATURE LCU KAPAK",
+      "type": "in",
+      "quantity": 3,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-19T06:52:37.134Z",
       "extra": null
     }
   ],

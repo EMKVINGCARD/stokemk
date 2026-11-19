@@ -4787,13 +4787,13 @@
       "name": "SIGNATURE MARRIOTT LCU KAPAK",
       "category_id": "id-0n4eyff9mtk34t8o",
       "unit": "adet",
-      "quantity": 65,
+      "quantity": 62,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "SIG FRONT COVER BLACK FOR MARRIOTT",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-11-02T07:14:39.860Z",
+      "updated_at": "2026-11-19T06:52:25.803Z",
       "stock_base_quantity": 66
     },
     {
@@ -17301,6 +17301,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-19T06:52:13.653Z",
       "created_at": "2026-11-19T06:52:13.653Z"
+    },
+    {
+      "id": "id-em7vouy6mwn70gnf",
+      "product_id": "id-ux8fepz6mtl9kems",
+      "product_code": "P000591071-001-402",
+      "product_name": "SIGNATURE MARRIOTT LCU KAPAK",
+      "type": "out",
+      "quantity": 3,
+      "target_location": null,
+      "reason": "jw marriott ankara",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "happened_at": "2026-11-19T06:52:25.803Z",
+      "created_at": "2026-11-19T06:52:25.803Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27009,6 +27023,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-19T06:52:13.653Z",
+      "extra": null
+    },
+    {
+      "id": "id-zcq0idzymwn70gnf",
+      "action": "Stok çıkışı",
+      "product_id": "id-ux8fepz6mtl9kems",
+      "product_code": "P000591071-001-402",
+      "product_name": "SIGNATURE MARRIOTT LCU KAPAK",
+      "type": "out",
+      "quantity": 3,
+      "target_location": null,
+      "reason": "jw marriott ankara",
+      "user_id": "id-27ioxuxcmtk3do6i",
+      "user_name": "Eray YURTSEVEN",
+      "created_at": "2026-11-19T06:52:25.803Z",
       "extra": null
     }
   ],

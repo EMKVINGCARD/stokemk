@@ -7373,13 +7373,13 @@
       "name": "DB BUTONU ALL METAL SATIN CHROME",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 8,
+      "quantity": 9,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME METAL END 1 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-11-12T11:47:28.522Z",
+      "updated_at": "2026-11-23T07:33:56.673Z",
       "stock_base_quantity": 9
     },
     {
@@ -17377,6 +17377,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-23T07:33:44.470Z",
       "created_at": "2026-11-23T07:33:44.470Z"
+    },
+    {
+      "id": "id-8436i1y8mwsy99a9",
+      "product_id": "id-8em3wb5hmtl9keod",
+      "product_code": "481865861",
+      "product_name": "DB BUTONU ALL METAL SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-23T07:33:56.673Z",
+      "created_at": "2026-11-23T07:33:56.673Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27240,6 +27254,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:33:44.470Z",
+      "extra": null
+    },
+    {
+      "id": "id-juwjmf8lmwsy99a9",
+      "action": "Stok girişi",
+      "product_id": "id-8em3wb5hmtl9keod",
+      "product_code": "481865861",
+      "product_name": "DB BUTONU ALL METAL SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:33:56.673Z",
       "extra": null
     }
   ],

@@ -5489,7 +5489,7 @@
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 50MM",
       "created_at": "2026-09-03T08:29:16.190Z",
-      "updated_at": "2026-11-23T07:43:52.693Z",
+      "updated_at": "2026-11-23T07:44:37.334Z",
       "stock_base_quantity": 1
     },
     {
@@ -17438,7 +17438,7 @@
       "id": "id-1vmw80yumwsylnhp",
       "product_id": "id-1f5329t3mtl9ken2",
       "product_code": "4812635015V50",
-      "product_name": "50MM SATIN CHROME",
+      "product_name": "50MM SATIN CHROME SİLİNDİR",
       "type": "in",
       "quantity": 1,
       "target_location": "Ana Depo",
@@ -17446,7 +17446,8 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-23T07:43:34.957Z",
-      "created_at": "2026-11-23T07:43:34.957Z"
+      "created_at": "2026-11-23T07:43:34.957Z",
+      "updated_at": "2026-11-23T07:44:37.334Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27636,6 +27637,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:43:34.957Z",
       "extra": null
+    },
+    {
+      "id": "id-rgwhksbwmwsymzme",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-1f5329t3mtl9ken2",
+      "product_code": "4812635015V50",
+      "product_name": "50MM SATIN CHROME SİLİNDİR",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:44:37.334Z",
+      "extra": "Önce: 4812635015V50 — 50MM SATIN CHROME (1); sonra: 4812635015V50 — 50MM SATIN CHROME SİLİNDİR (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

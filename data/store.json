@@ -5525,7 +5525,7 @@
     {
       "id": "id-ivlspqmmmtl9ken2",
       "code": "4812635045V50",
-      "name": "50MM POLISH BRASS",
+      "name": "50MM POLISH BRASS SİLİNDİR",
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 3,
@@ -5534,7 +5534,7 @@
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K POLCHROME WO/LOGO 50MM",
       "created_at": "2026-09-03T08:29:16.190Z",
-      "updated_at": "2026-09-08T08:49:47.496Z",
+      "updated_at": "2026-11-23T07:44:07.046Z",
       "stock_base_quantity": 3
     },
     {
@@ -20984,6 +20984,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:44:03.540Z"
+    },
+    {
+      "id": "id-pm90yuymmwsymc92",
+      "action": "Ürün güncellendi",
+      "product_id": "id-ivlspqmmmtl9ken2",
+      "product_code": "4812635045V50",
+      "product_name": "50MM POLISH BRASS SİLİNDİR",
+      "before": {
+        "id": "id-ivlspqmmmtl9ken2",
+        "code": "4812635045V50",
+        "name": "50MM POLISH BRASS",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K POLCHROME WO/LOGO 50MM",
+        "created_at": "2026-09-03T08:29:16.190Z",
+        "updated_at": "2026-09-08T08:49:47.496Z",
+        "stock_base_quantity": 3
+      },
+      "after": {
+        "id": "id-ivlspqmmmtl9ken2",
+        "code": "4812635045V50",
+        "name": "50MM POLISH BRASS SİLİNDİR",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 3,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K POLCHROME WO/LOGO 50MM",
+        "created_at": "2026-09-03T08:29:16.190Z",
+        "updated_at": "2026-11-23T07:44:07.046Z",
+        "stock_base_quantity": 3
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:44:07.046Z"
     }
   ],
   "movement_audit": [

@@ -4688,13 +4688,13 @@
       "name": "ESSENCE V2 5351 KASET SET CHROME",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 7,
+      "quantity": 8,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "B:18-25MM, ESS V2 BLE MAIN WOOD SATCHROME,BLACK,ANSI,OFFL",
       "created_at": "2026-09-03T08:29:16.180Z",
-      "updated_at": "2026-11-12T11:45:50.668Z",
+      "updated_at": "2026-11-23T07:45:12.288Z",
       "stock_base_quantity": 0
     },
     {
@@ -17448,6 +17448,20 @@
       "happened_at": "2026-11-23T07:43:34.957Z",
       "created_at": "2026-11-23T07:43:34.957Z",
       "updated_at": "2026-11-23T07:44:37.334Z"
+    },
+    {
+      "id": "id-q9z0nk6omwsynqlc",
+      "product_id": "id-luklsqk5mtl9kems",
+      "product_code": "P000883457-115-522",
+      "product_name": "ESSENCE V2 5351 KASET SET CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-23T07:45:12.288Z",
+      "created_at": "2026-11-23T07:45:12.288Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27652,6 +27666,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:44:37.334Z",
       "extra": "Önce: 4812635015V50 — 50MM SATIN CHROME (1); sonra: 4812635015V50 — 50MM SATIN CHROME SİLİNDİR (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-knpa569lmwsynqlc",
+      "action": "Stok girişi",
+      "product_id": "id-luklsqk5mtl9kems",
+      "product_code": "P000883457-115-522",
+      "product_name": "ESSENCE V2 5351 KASET SET CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:45:12.288Z",
+      "extra": null
     }
   ],
   "settings": {

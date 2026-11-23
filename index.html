@@ -156,6 +156,24 @@ const LEGACY_LS_KEY = "vincard_stok_v1";
 const STORE_PATH = "data/store.json";
 const REFRESH_INTERVAL_MS = 30000;
 const RATE_LIMIT_WARN_THRESHOLD = 500;
+const PAGE_SIZE = 100;
+const listPages = {products:1,movements:1,reports:1,lowStock:1,movementAudit:1,users:1,categories:1,locations:1,movementPicker:1,bulkPicker:1};
+function resetListPage(key){listPages[key]=1;}
+function paginateRecords(records,key,renderer){
+  const totalPages=Math.max(1,Math.ceil(records.length/PAGE_SIZE));
+  const page=Math.max(1,Math.min(totalPages,Number.parseInt(listPages[key],10)||1));
+  listPages[key]=page;
+  const start=(page-1)*PAGE_SIZE;
+  if(totalPages===1)return {items:records.slice(start,start+PAGE_SIZE),html:""};
+  const nums=[...new Set([1,...Array.from({length:Math.max(0,Math.min(totalPages,page+2)-Math.max(1,page-2)+1)},(_,i)=>Math.max(1,page-2)+i),totalPages])].sort((a,b)=>a-b);
+  const button=(label,target,disabled=false,active=false)=>`<button type="button" class="px-3 py-1.5 rounded border text-sm ${active?"bg-blue-600 text-white border-blue-600":"bg-white hover:bg-slate-50 border-slate-300"}" ${disabled?"disabled":""} ${disabled?"":"onclick=\"setListPage('"+key+"',"+target+",'"+renderer+"')\""}>${label}</button>`;
+  let buttons=button("İlk",1,page===1)+button("‹",Math.max(1,page-1),page===1);
+  let previous=0;
+  for(const n of nums){if(n-previous>1)buttons+='<span class="px-1 text-slate-400">…</span>';buttons+=button(String(n),n,false,n===page);previous=n;}
+  buttons+=button("›",Math.min(totalPages,page+1),page===totalPages)+button("Son",totalPages,page===totalPages);
+  return {items:records.slice(start,start+PAGE_SIZE),html:`<div class="flex flex-wrap items-center justify-between gap-2 px-3 py-3 text-sm text-slate-600"><span>${records.length} kayıt · Sayfa ${page} / ${totalPages} · Her sayfada ${PAGE_SIZE} kayıt</span><div class="flex flex-wrap items-center gap-1">${buttons}</div></div>`};
+}
+function setListPage(key,page,renderer){listPages[key]=page;const fn=window[renderer];if(typeof fn==="function")fn();}
 let ghConfig = null;
 let ghToken = null;
 let currentSHA = null;
@@ -622,8 +640,8 @@ function addStockForProduct(id){movementModal("in");setTimeout(()=>pickMvProduct
 function ignoreLowStock(id){const list=state.settings.ignoredLowStock||[];if(!list.includes(id))list.push(id);state.settings.ignoredLowStock=list;save();renderDashboard();toast("Ürün uyarılardan gizlendi");}
 function restoreLowStockAlert(id){state.settings.ignoredLowStock=(state.settings.ignoredLowStock||[]).filter(x=>x!==id);save();renderDashboard();toast("Ürün uyarılara geri alındı");}
 let lowStockView={q:"",status:"all"};
-function quickAddStock(id){const input=document.getElementById("quick-stock-"+id);const amount=Number(input&&input.value||0);if(!amount||amount<=0){toast("Geçerli bir miktar girin","error");return;}const p=state.products.find(x=>x.id===id);if(!p)return;const u=currentUser();const loc=p.location||null;state.movements.push({id:uid(),product_id:p.id,product_code:p.code,product_name:p.name,type:"in",quantity:amount,target_location:loc,reason:"Özet ekranından hızlı stok ekleme",user_id:u.id,user_name:u.name||u.username,happened_at:nowISO(),created_at:nowISO()});p.quantity=(+p.quantity||0)+amount;p.updated_at=nowISO();save();renderDashboard();toast("Stok eklendi");}
-function clearLowStockSearch(){lowStockView.q="";renderDashboard();setTimeout(()=>document.querySelector("[data-low-search]")?.focus(),0);}
+function quickAddStock(id){const input=document.getElementById("quick-stock-"+id);const amount=Number(input&&input.value||0);if(!Number.isSafeInteger(amount)||amount<=0){toast("Miktar pozitif bir tam sayı olmalıdır","error");return;}const p=state.products.find(x=>x.id===id);if(!p)return;const u=currentUser();const loc=p.location||null;state.movements.push({id:uid(),product_id:p.id,product_code:p.code,product_name:p.name,type:"in",quantity:amount,target_location:loc,reason:"Özet ekranından hızlı stok ekleme",user_id:u.id,user_name:u.name||u.username,happened_at:nowISO(),created_at:nowISO()});p.quantity=(+p.quantity||0)+amount;p.updated_at=nowISO();save();renderDashboard();toast("Stok eklendi");}
+function clearLowStockSearch(){lowStockView.q="";resetListPage('lowStock');renderDashboard();setTimeout(()=>document.querySelector("[data-low-search]")?.focus(),0);}
 /* ============ DASHBOARD ============ */
 function renderDashboard(){
   const w=state.settings.widgets||DEFAULT_WIDGETS;
@@ -633,6 +651,7 @@ function renderDashboard(){
   const low=products.filter(p=>!ignored.includes(p.id)&&((+p.quantity||0)===0 || (+p.critical_level>0&&+p.quantity<=+p.critical_level)));
   const ignoredProducts=products.filter(p=>ignored.includes(p.id));
   const lowFiltered=low.filter(p=>{const q=normTr(lowStockView.q);const matches=!q||normTr((p.code||"")+" "+(p.name||"")).includes(q);const status=+p.quantity===0?"zero":"critical";return (lowStockView.status==="all"||lowStockView.status===status)&&matches;});
+  const lowStockPage=paginateRecords(lowFiltered,"lowStock","renderDashboard");
   const zeroCount=low.filter(p=>+p.quantity===0).length;
   const criticalCount=low.filter(p=>+p.quantity>0).length;
   const today=new Date();today.setHours(0,0,0,0);
@@ -655,7 +674,7 @@ function renderDashboard(){
       ${stat("Bugünkü Hareketler",fmtNum(todayMoves),"#2563EB",w.today_movements_count)}
     </div>
     <div class="grid grid-cols-1 gap-4 mt-4">
-      ${w.low_stock_list?`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><h3 class="font-semibold">Düşük Stok Uyarıları</h3><span class="badge bg-slate-100 text-slate-700">${low.length} aktif</span></div><div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-4"><div class="rounded-md border border-rose-200 bg-rose-50 p-3"><div class="text-xs text-rose-700">Stok Yok</div><div class="text-xl font-bold text-rose-700 mono">${zeroCount}</div></div><div class="rounded-md border border-amber-200 bg-amber-50 p-3"><div class="text-xs text-amber-700">Kritik Stok</div><div class="text-xl font-bold text-amber-700 mono">${criticalCount}</div></div><div class="rounded-md border border-slate-200 bg-slate-50 p-3"><div class="text-xs text-slate-600">Yoksayılan</div><div class="text-xl font-bold text-slate-700 mono">${ignoredProducts.length}</div></div></div><div class="flex flex-col sm:flex-row gap-2 mb-4"><div class="flex flex-1 gap-2"><input class="input" placeholder="Kod veya ürün adı ara" value="${lowStockView.q}" data-low-search oninput="lowStockView.q=this.value;renderDashboard();setTimeout(()=>{const el=document.querySelector('[data-low-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" /><button class="btn btn-outline" type="button" onclick="clearLowStockSearch()">Temizle</button></div><select class="input sm:max-w-48" onchange="lowStockView.status=this.value;renderDashboard()"><option value="all" ${lowStockView.status==="all"?"selected":""}>Tümü</option><option value="zero" ${lowStockView.status==="zero"?"selected":""}>Stok Yok</option><option value="critical" ${lowStockView.status==="critical"?"selected":""}>Kritik Seviyede</option></select></div>${lowFiltered.length?`<div class="overflow-x-auto low-stock-table"><table><thead><tr><th>Ürün Kodu</th><th>Ürün Adı</th><th class="text-right">Mevcut</th><th class="text-right">Kritik</th><th>Durum</th><th>Hızlı İşlem</th></tr></thead><tbody>${lowFiltered.map(p=>{const zero=+p.quantity===0;return `<tr><td class="mono text-xs">${p.code}</td><td class="font-medium">${p.name}</td><td class="text-right mono ${zero?"text-rose-700":"text-amber-700"}">${fmtNum(p.quantity)} ${p.unit}</td><td class="text-right mono">${fmtNum(p.critical_level)}</td><td>${zero?`<span class="badge bg-rose-100 text-rose-700">STOK YOK</span>`:`<span class="badge bg-amber-100 text-amber-700">KRİTİK</span>`}</td><td><div class="flex items-center gap-2 min-w-[210px] quick-actions"><input id="quick-stock-${p.id}" type="number" min="0.01" step="0.01" class="input w-20" placeholder="Miktar" /><button class="btn btn-success btn-sm" onclick="quickAddStock('${p.id}')">Ekle</button><button class="btn btn-ghost btn-sm" onclick="ignoreLowStock('${p.id}')">Yoksay</button></div></td></tr>`;}).join("")}</tbody></table></div>`:`<p class="text-sm text-slate-500 py-6 text-center">Bu filtreye uygun aktif uyarı yok.</p>`}${ignoredProducts.length?`<details class="mt-4 border-t border-slate-200 pt-3"><summary class="cursor-pointer text-sm font-medium text-slate-600">Yoksayılan Uyarılar (${ignoredProducts.length})</summary><div class="mt-2 space-y-2">${ignoredProducts.map(p=>`<div class="flex items-center justify-between gap-2 text-sm border rounded-md p-2"><span><b>${p.code}</b> — ${p.name}</span><button class="btn btn-outline btn-sm" onclick="restoreLowStockAlert('${p.id}')">Uyarıyı Geri Al</button></div>`).join("")}</div></details>`:""}</div>`:""}
+      ${w.low_stock_list?`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><h3 class="font-semibold">Düşük Stok Uyarıları</h3><span class="badge bg-slate-100 text-slate-700">${low.length} aktif</span></div><div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-4"><div class="rounded-md border border-rose-200 bg-rose-50 p-3"><div class="text-xs text-rose-700">Stok Yok</div><div class="text-xl font-bold text-rose-700 mono">${zeroCount}</div></div><div class="rounded-md border border-amber-200 bg-amber-50 p-3"><div class="text-xs text-amber-700">Kritik Stok</div><div class="text-xl font-bold text-amber-700 mono">${criticalCount}</div></div><div class="rounded-md border border-slate-200 bg-slate-50 p-3"><div class="text-xs text-slate-600">Yoksayılan</div><div class="text-xl font-bold text-slate-700 mono">${ignoredProducts.length}</div></div></div><div class="flex flex-col sm:flex-row gap-2 mb-4"><div class="flex flex-1 gap-2"><input class="input" placeholder="Kod veya ürün adı ara" value="${lowStockView.q}" data-low-search oninput="lowStockView.q=this.value;resetListPage('lowStock');renderDashboard();setTimeout(()=>{const el=document.querySelector('[data-low-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" /><button class="btn btn-outline" type="button" onclick="clearLowStockSearch()">Temizle</button></div><select class="input sm:max-w-48" onchange="lowStockView.status=this.value;resetListPage('lowStock');renderDashboard()"><option value="all" ${lowStockView.status==="all"?"selected":""}>Tümü</option><option value="zero" ${lowStockView.status==="zero"?"selected":""}>Stok Yok</option><option value="critical" ${lowStockView.status==="critical"?"selected":""}>Kritik Seviyede</option></select></div>${lowFiltered.length?`<div class="overflow-x-auto low-stock-table"><table><thead><tr><th>Ürün Kodu</th><th>Ürün Adı</th><th class="text-right">Mevcut</th><th class="text-right">Kritik</th><th>Durum</th><th>Hızlı İşlem</th></tr></thead><tbody>${lowStockPage.items.map(p=>{const zero=+p.quantity===0;return `<tr><td class="mono text-xs">${p.code}</td><td class="font-medium">${p.name}</td><td class="text-right mono ${zero?"text-rose-700":"text-amber-700"}">${fmtNum(p.quantity)} ${p.unit}</td><td class="text-right mono">${fmtNum(p.critical_level)}</td><td>${zero?`<span class="badge bg-rose-100 text-rose-700">STOK YOK</span>`:`<span class="badge bg-amber-100 text-amber-700">KRİTİK</span>`}</td><td><div class="flex items-center gap-2 min-w-[210px] quick-actions"><input id="quick-stock-${p.id}" type="number" min="1" step="1" class="input w-20" placeholder="Miktar" /><button class="btn btn-success btn-sm" onclick="quickAddStock('${p.id}')">Ekle</button><button class="btn btn-ghost btn-sm" onclick="ignoreLowStock('${p.id}')">Yoksay</button></div></td></tr>`;}).join("")}</tbody></table></div>${lowStockPage.html}`:`<p class="text-sm text-slate-500 py-6 text-center">Bu filtreye uygun aktif uyarı yok.</p>`}${ignoredProducts.length?`<details class="mt-4 border-t border-slate-200 pt-3"><summary class="cursor-pointer text-sm font-medium text-slate-600">Yoksayılan Uyarılar (${ignoredProducts.length})</summary><div class="mt-2 space-y-2">${ignoredProducts.map(p=>`<div class="flex items-center justify-between gap-2 text-sm border rounded-md p-2"><span><b>${p.code}</b> — ${p.name}</span><button class="btn btn-outline btn-sm" onclick="restoreLowStockAlert('${p.id}')">Uyarıyı Geri Al</button></div>`).join("")}</div></details>`:""}</div>`:""}
 
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
@@ -673,7 +692,7 @@ function renderDashboard(){
 }
 /* ============ PRODUCTS ============ */
 let productFilter={q:"",cat:"all"};
-function clearProductSearch(){productFilter.q="";renderProducts();setTimeout(()=>document.querySelector('[data-p-search]')?.focus(),0);}
+function clearProductSearch(){productFilter.q="";resetListPage('products');renderProducts();setTimeout(()=>document.querySelector('[data-p-search]')?.focus(),0);}
 function renderProducts(){
   const u=currentUser();
   const c=state.settings.cols.products;
@@ -682,6 +701,7 @@ function renderProducts(){
     if(!matchProduct(p,productFilter.q))return false;
     return true;
   });
+  const pageData=paginateRecords(filtered,"products","renderProducts");
   const catMap=Object.fromEntries(state.categories.map(c=>[c.id,c]));
   const isAdmin = u.role === "admin";
   const hasAny = state.products.length > 0;
@@ -697,8 +717,8 @@ function renderProducts(){
       </div>
     </div>
     <div class="card p-4 mb-4 flex gap-3 flex-wrap">
-      <div class="flex-1 min-w-[220px] flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${productFilter.q}" oninput="productFilter.q=this.value;renderProducts();setTimeout(()=>{const el=document.querySelector('[data-p-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-p-search /><button type="button" class="btn btn-outline" onclick="clearProductSearch()" title="Aramayı temizle">Temizle</button></div>
-      <select class="input w-56" onchange="productFilter.cat=this.value;renderProducts()">
+      <div class="flex-1 min-w-[220px] flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${productFilter.q}" oninput="productFilter.q=this.value;resetListPage('products');renderProducts();setTimeout(()=>{const el=document.querySelector('[data-p-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-p-search /><button type="button" class="btn btn-outline" onclick="clearProductSearch()" title="Aramayı temizle">Temizle</button></div>
+      <select class="input w-56" onchange="productFilter.cat=this.value;resetListPage('products');renderProducts()">
         <option value="all">Tüm Kategoriler</option>
         ${state.categories.map(c=>`<option value="${c.id}" ${productFilter.cat===c.id?"selected":""}>${c.name}</option>`).join("")}
       </select>
@@ -710,7 +730,7 @@ function renderProducts(){
         ${c.unit_price?`<th class="text-right">Birim Fiyat</th>`:""}${c.total_value?`<th class="text-right">Toplam Değer</th>`:""}
         <th class="text-right">İşlem</th>
       </tr></thead>
-      <tbody>${filtered.length?filtered.map(p=>{const low=p.critical_level>0&&p.quantity<=p.critical_level;return `<tr>
+      <tbody>${pageData.items.length?pageData.items.map(p=>{const low=p.critical_level>0&&p.quantity<=p.critical_level;return `<tr>
         ${c.code?`<td class="mono text-xs">${p.code}</td>`:""}
         ${c.name?`<td class="font-medium">${p.name}</td>`:""}
         ${c.category?`<td><span class="badge bg-slate-100 text-slate-700">${(catMap[p.category_id]&&catMap[p.category_id].name)||"—"}</span></td>`:""}
@@ -720,7 +740,7 @@ function renderProducts(){
         ${c.total_value?`<td class="text-right mono font-semibold">${fmtTRY((p.quantity||0)*(p.unit_price||0))}</td>`:""}
         <td class="text-right">${isAdmin?`<button class="btn btn-ghost btn-sm" onclick="productModal('${p.id}')">Düzenle</button><button class="btn btn-ghost btn-sm" onclick="showProductHistory('${p.id}')">Geçmiş</button><button class="btn btn-ghost btn-sm" onclick="deleteProduct('${p.id}')">Sil</button>`:`<span class="text-xs text-slate-400">Sadece görüntüleme</span>`}</td>
       </tr>`;}).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Ürün bulunamadı</td></tr>`}</tbody>
-    </table></div>`;
+    </table></div>${pageData.html}`;
 }
 function productModal(id){
   const u=currentUser();
@@ -733,7 +753,7 @@ function productModal(id){
       <div><label class="text-sm">Ürün Adı *</label><input required class="input mt-1" name="name" value="${p.name}" /></div>
       <div><label class="text-sm">Kategori</label><select class="input mt-1" name="category_id"><option value="">— Yok —</option>${state.categories.map(c=>`<option value="${c.id}" ${p.category_id===c.id?"selected":""}>${c.name}</option>`).join("")}</select></div>
       <div><label class="text-sm">Birim</label><input class="input mt-1" name="unit" value="${p.unit}" /></div>
-      <div><label class="text-sm">Miktar</label><input type="number" step="0.01" class="input mt-1" name="quantity" value="${isAdmin?p.quantity:0}" ${isAdmin?"":"readonly"} />${isAdmin?"":`<p class="text-xs text-slate-500 mt-1">Yeni ürün 0 stokla eklenir; stok girişini Stok Hareketleri bölümünden yapabilirsiniz.</p>`}</div>
+      <div><label class="text-sm">Miktar</label><input type="number" min="0" step="1" class="input mt-1" name="quantity" value="${isAdmin?p.quantity:0}" ${isAdmin?"":"readonly"} />${isAdmin?"":`<p class="text-xs text-slate-500 mt-1">Yeni ürün 0 stokla eklenir; stok girişini Stok Hareketleri bölümünden yapabilirsiniz.</p>`}</div>
       <div><label class="text-sm">Kritik Seviye</label><input type="number" step="0.01" class="input mt-1" name="critical_level" value="${p.critical_level}" /></div>
       <div><label class="text-sm">Birim Fiyat (TL)</label><input type="number" step="0.01" class="input mt-1" name="unit_price" value="${p.unit_price}" /></div>
       <div><label class="text-sm">Konum</label><input class="input mt-1" name="location" value="${p.location||""}" /></div>
@@ -747,6 +767,7 @@ function saveProduct(e,id){
   if(!u || (id && u.role !== "admin")){toast("Bu işlem için yetkiniz yok","error");return;}
   const fd=new FormData(e.target);const data={};fd.forEach((v,k)=>data[k]=v);
   ["quantity","critical_level","unit_price"].forEach(k=>data[k]=+data[k]||0);
+  if(!Number.isSafeInteger(data.quantity)||data.quantity<0){toast("Stok miktarı 0 veya pozitif tam sayı olmalıdır","error");return;}
   if(!id&&u.role!=="admin")data.quantity=0;
   if(!id && state.products.some(p=>p.code===data.code)){toast("Bu ürün kodu zaten var","error");return;}
   if(!id){
@@ -894,7 +915,7 @@ function importProductsExcel(e){
           added++;
         }
       }
-      save();renderProducts();
+      save();resetListPage('products');renderProducts();
       const parts = [
         added+" yeni",
         updated+" güncellendi (Stoklar Birleştirildi)",
@@ -909,7 +930,7 @@ function importProductsExcel(e){
 }
 /* ============ MOVEMENTS ============ */
 let mvFilter={type:"all",q:"",start:"",end:"",sort:"date_desc"};
-function clearMovementSearch(){mvFilter.q="";renderMovements();setTimeout(()=>document.querySelector('[data-mv-search]')?.focus(),0);}
+function clearMovementSearch(){mvFilter.q="";resetListPage('movements');renderMovements();setTimeout(()=>document.querySelector('[data-mv-search]')?.focus(),0);}
 function renderMovements(){
   const u=currentUser();
   const c=state.settings.cols.movements;
@@ -920,17 +941,18 @@ function renderMovements(){
     if(mvFilter.end&&m.happened_at>new Date(mvFilter.end+"T23:59:59").toISOString())return false;
     return true;
   }).sort((a,b)=>mvFilter.sort==="date_asc"?a.happened_at.localeCompare(b.happened_at):mvFilter.sort==="qty_desc"?b.quantity-a.quantity:mvFilter.sort==="qty_asc"?a.quantity-b.quantity:(mvFilter.sort==="name_asc"?(a.product_name||"").localeCompare(b.product_name||"", "tr"):(b.happened_at.localeCompare(a.happened_at))));
+  const pageData=paginateRecords(items,"movements","renderMovements");
   document.getElementById("pageBody").innerHTML=`
     <div class="flex justify-between items-end flex-wrap gap-4 mb-6">
       <div><h1 class="text-3xl font-bold tracking-tight">Stok Hareketleri</h1><p class="text-sm text-slate-500 mt-1">${items.length} kayıt</p></div>
       <div class="flex gap-2 flex-wrap"><button class="btn btn-outline" onclick="bulkMovementModal()">Toplu İşlem</button><button class="btn btn-success" onclick="movementModal('in')">Stok Girişi</button><button class="btn btn-danger" onclick="movementModal('out')">Stok Çıkışı</button></div>
     </div>
     <div class="card p-4 mb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
-      <select class="input" onchange="mvFilter.type=this.value;renderMovements()"><option value="all">Tüm Tipler</option><option value="in" ${mvFilter.type==="in"?"selected":""}>Giriş</option><option value="out" ${mvFilter.type==="out"?"selected":""}>Çıkış</option></select>
-      <input type="date" class="input" value="${mvFilter.start}" onchange="mvFilter.start=this.value;renderMovements()" title="Başlangıç tarihi" />
-      <input type="date" class="input" value="${mvFilter.end}" onchange="mvFilter.end=this.value;renderMovements()" title="Bitiş tarihi" />
-      <select class="input" onchange="mvFilter.sort=this.value;renderMovements()"><option value="date_desc" ${mvFilter.sort==="date_desc"?"selected":""}>Yeni hareketler</option><option value="date_asc" ${mvFilter.sort==="date_asc"?"selected":""}>Eski hareketler</option><option value="qty_desc" ${mvFilter.sort==="qty_desc"?"selected":""}>Miktar çoktan aza</option><option value="qty_asc" ${mvFilter.sort==="qty_asc"?"selected":""}>Miktar azdan çoğa</option><option value="name_asc" ${mvFilter.sort==="name_asc"?"selected":""}>Ürün adına göre</option></select>
-      <div class="flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${mvFilter.q}" oninput="mvFilter.q=this.value;renderMovements();setTimeout(()=>{const el=document.querySelector('[data-mv-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-mv-search /><button type="button" class="btn btn-outline" onclick="clearMovementSearch()" title="Aramayı temizle">Temizle</button></div>
+      <select class="input" onchange="mvFilter.type=this.value;resetListPage('movements');renderMovements()"><option value="all">Tüm Tipler</option><option value="in" ${mvFilter.type==="in"?"selected":""}>Giriş</option><option value="out" ${mvFilter.type==="out"?"selected":""}>Çıkış</option></select>
+      <input type="date" class="input" value="${mvFilter.start}" onchange="mvFilter.start=this.value;resetListPage('movements');renderMovements()" title="Başlangıç tarihi" />
+      <input type="date" class="input" value="${mvFilter.end}" onchange="mvFilter.end=this.value;resetListPage('movements');renderMovements()" title="Bitiş tarihi" />
+      <select class="input" onchange="mvFilter.sort=this.value;resetListPage('movements');renderMovements()"><option value="date_desc" ${mvFilter.sort==="date_desc"?"selected":""}>Yeni hareketler</option><option value="date_asc" ${mvFilter.sort==="date_asc"?"selected":""}>Eski hareketler</option><option value="qty_desc" ${mvFilter.sort==="qty_desc"?"selected":""}>Miktar çoktan aza</option><option value="qty_asc" ${mvFilter.sort==="qty_asc"?"selected":""}>Miktar azdan çoğa</option><option value="name_asc" ${mvFilter.sort==="name_asc"?"selected":""}>Ürün adına göre</option></select>
+      <div class="flex gap-2"><input class="input" placeholder="Kod, ad, açıklama veya konum ara" value="${mvFilter.q}" oninput="mvFilter.q=this.value;resetListPage('movements');renderMovements();setTimeout(()=>{const el=document.querySelector('[data-mv-search]');if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}},0)" data-mv-search /><button type="button" class="btn btn-outline" onclick="clearMovementSearch()" title="Aramayı temizle">Temizle</button></div>
     </div>
     <div class="card overflow-x-auto"><table>
       <thead><tr>
@@ -938,7 +960,7 @@ function renderMovements(){
         ${c.type?"<th>Tip</th>":""}${c.quantity?`<th class="text-right">Miktar</th>`:""}
         ${c.location?"<th>Lokasyon</th>":""}${c.reason?"<th>Sebep</th>":""}<th></th>
       </tr></thead>
-      <tbody>${items.length?items.map(m=>`<tr>
+      <tbody>${pageData.items.length?pageData.items.map(m=>`<tr>
         ${c.date?`<td class="text-xs text-slate-500">${fmtDate(m.happened_at)}</td>`:""}
         ${c.user?`<td>${m.user_name}</td>`:""}
         ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td title="${movementStockLabel(m)}" class="cursor-help">${m.product_name}</td>`:""}
@@ -948,16 +970,22 @@ function renderMovements(){
         ${c.reason?`<td class="text-sm text-slate-500">${m.reason||"—"}</td>`:""}
         <td><div class="flex justify-end gap-1"><button class="btn btn-ghost btn-sm" onclick="editMovement('${m.id}')">Düzelt</button><button class="btn btn-ghost btn-sm" onclick="deleteMovement('${m.id}')">Sil</button></div></td>
       </tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Hareket bulunamadı</td></tr>`}</tbody>
-    </table></div>`;
+    </table></div>${pageData.html}`;
 }
 let mvPicker={q:"",productId:""};
 let bulkPicker={q:"",selected:[]};
-function toggleBulkProduct(id,checked){const set=new Set(bulkPicker.selected||[]);if(checked)set.add(id);else set.delete(id);bulkPicker.selected=[...set];}
-function renderBulkProducts(){const q=bulkPicker.q||"";const selected=new Set(bulkPicker.selected||[]);const list=state.products.filter(p=>matchProduct(p,q));const el=document.getElementById("bulkProductList");if(!el)return;el.innerHTML=list.length?list.map(p=>`<label class="flex items-center justify-between gap-3 p-2.5 border-b border-slate-100 hover:bg-blue-50 cursor-pointer"><span class="flex items-center gap-2"><input type="checkbox" name="product_ids" value="${p.id}" ${selected.has(p.id)?"checked":""} onchange="toggleBulkProduct('${p.id}',this.checked)" /><span><b>${p.name}</b><span class="block text-xs text-slate-500 mono">${p.code}</span></span></span><span class="text-xs mono text-slate-500">Mevcut: ${fmtNum(p.quantity)} ${p.unit}</span></label>`).join(""):`<p class="p-3 text-sm text-slate-500 text-center">Ürün bulunamadı.</p>`;}
-function bulkMovementModal(){bulkPicker={q:"",selected:[]};openModal(`<h3 class="text-lg font-semibold mb-4">Toplu Stok İşlemi</h3><form onsubmit="saveBulkMovement(event)" class="space-y-3"><div><label class="text-sm">İşlem Türü</label><select class="input mt-1" name="type"><option value="in">Stok Girişi</option><option value="out">Stok Çıkışı</option></select></div><div><label class="text-sm">Ürün Ara</label><input class="input mt-1" placeholder="Kod veya ürün adı..." value="" oninput="bulkPicker.q=this.value;renderBulkProducts()" /></div><div><label class="text-sm">Ürünleri Seçin *</label><div id="bulkProductList" class="border border-slate-200 rounded-md max-h-64 overflow-y-auto mt-1"></div></div><div><label class="text-sm">Ortak Miktar *</label><input required min="0.01" step="0.01" type="number" class="input mt-1" name="quantity" placeholder="Seçilen her ürüne uygulanacak miktar" /></div><div><label class="text-sm">Hedef Lokasyon</label><input class="input mt-1" name="target_location" list="bulkLocList" placeholder="Seçin veya yeni yazın..." /><datalist id="bulkLocList">${state.locations.map(l=>`<option value="${l.name}">`).join("")}</datalist></div><div><label class="text-sm">Sebep / Açıklama</label><textarea rows="2" class="input mt-1" name="reason" placeholder="Toplu işlemin açıklaması"></textarea></div><div class="flex justify-end gap-2"><button type="button" class="btn btn-outline" onclick="closeModal()">İptal</button><button type="submit" class="btn btn-primary">Uygula</button></div></form>`,true);renderBulkProducts();}
-function saveBulkMovement(e){e.preventDefault();const fd=new FormData(e.target);const type=fd.get("type");const quantity=Number(fd.get("quantity"));const ids=bulkPicker.selected||[];const loc=(fd.get("target_location")||"").trim();const reason=(fd.get("reason")||"").trim();if(!ids.length){toast("En az bir ürün seçin","error");return;}if(!quantity||quantity<=0){toast("Geçerli bir miktar girin","error");return;}const selected=ids.map(id=>state.products.find(p=>p.id===id)).filter(Boolean);if(type==="out"&&selected.some(p=>(+p.quantity||0)<quantity)){toast("Çıkış miktarı bazı ürünlerin mevcut stoğundan fazla","error");return;}if(loc&&!state.locations.some(l=>l.name===loc))state.locations.push({id:uid(),name:loc,kind:"diger",auto_created:true});const u=currentUser();const now=nowISO();selected.forEach(p=>{const movement={id:uid(),product_id:p.id,product_code:p.code,product_name:p.name,type,quantity,target_location:loc||null,reason:reason||"Toplu stok işlemi",user_id:u.id,user_name:u.name||u.username,happened_at:now,created_at:now};state.movements.push(movement);recordMovementAudit(type==="in"?"Stok girişi":"Stok çıkışı",movement,"Toplu işlem");p.quantity=(+p.quantity||0)+(type==="in"?quantity:-quantity);p.updated_at=now;});save();closeModal();renderMovements();toast(`${selected.length} ürüne toplu işlem uygulandı`);}
+function toggleBulkProduct(id,checked){const set=new Set(bulkPicker.selected||[]);if(checked){set.add(id);if(bulkPicker.quantities[id]===undefined)bulkPicker.quantities[id]=1;}else{set.delete(id);delete bulkPicker.quantities[id];}bulkPicker.selected=[...set];}
+function setBulkProductQuantity(id,value){bulkPicker.quantities[id]=value;}
+function renderBulkProducts(){
+  const q=bulkPicker.q||"",selected=new Set(bulkPicker.selected||[]),filtered=state.products.filter(p=>matchProduct(p,q));
+  const pageData=paginateRecords(filtered,"bulkPicker","renderBulkProducts"),el=document.getElementById("bulkProductList");if(!el)return;
+  el.innerHTML=filtered.length?pageData.items.map(p=>`<div class="flex flex-wrap items-center justify-between gap-3 p-2.5 border-b border-slate-100 hover:bg-blue-50"><label class="flex items-center gap-2 cursor-pointer"><input type="checkbox" name="product_ids" value="${p.id}" ${selected.has(p.id)?"checked":""} onchange="toggleBulkProduct('${p.id}',this.checked);renderBulkProducts()" /><span><b>${p.name}</b><span class="block text-xs text-slate-500 mono">${p.code}</span></span></label><div class="flex items-center gap-3"><span class="text-xs mono text-slate-500">Mevcut: ${fmtNum(p.quantity)} ${p.unit}</span><label class="flex items-center gap-1 text-xs text-slate-600">Miktar<input type="number" min="1" step="1" class="input w-24" value="${bulkPicker.quantities[p.id]??1}" ${selected.has(p.id)?"":"disabled"} oninput="setBulkProductQuantity('${p.id}',this.value)" /></label></div></div>`).join("")+pageData.html:`<p class="p-3 text-sm text-slate-500 text-center">Ürün bulunamadı.</p>`;
+}
+function bulkMovementModal(){bulkPicker={q:"",selected:[],quantities:{}};resetListPage("bulkPicker");openModal(`<h3 class="text-lg font-semibold mb-4">Toplu Stok İşlemi</h3><form onsubmit="saveBulkMovement(event)" class="space-y-3"><div><label class="text-sm">İşlem Türü</label><select class="input mt-1" name="type"><option value="in">Stok Girişi</option><option value="out">Stok Çıkışı</option></select></div><div><label class="text-sm">Ürün Ara</label><input class="input mt-1" placeholder="Kod veya ürün adı..." value="" oninput="bulkPicker.q=this.value;resetListPage('bulkPicker');renderBulkProducts()" /></div><div><label class="text-sm">Ürünleri Seçin *</label><div id="bulkProductList" class="border border-slate-200 rounded-md max-h-64 overflow-y-auto mt-1"></div></div><p class="text-xs text-slate-500">Her seçili ürün için ayrı miktar girin (pozitif tam sayı).</p><div><label class="text-sm">Hedef Lokasyon</label><input class="input mt-1" name="target_location" list="bulkLocList" placeholder="Seçin veya yeni yazın..." /><datalist id="bulkLocList">${state.locations.map(l=>`<option value="${l.name}">`).join("")}</datalist></div><div><label class="text-sm">Sebep / Açıklama</label><textarea rows="2" class="input mt-1" name="reason" placeholder="Toplu işlemin açıklaması"></textarea></div><div class="flex justify-end gap-2"><button type="button" class="btn btn-outline" onclick="closeModal()">İptal</button><button type="submit" class="btn btn-primary">Uygula</button></div></form>`,true);renderBulkProducts();}
+function saveBulkMovement(e){e.preventDefault();const fd=new FormData(e.target);const type=fd.get("type");const ids=bulkPicker.selected||[];const loc=(fd.get("target_location")||"").trim();const reason=(fd.get("reason")||"").trim();if(!ids.length){toast("En az bir ürün seçin","error");return;}const selected=ids.map(id=>({product:state.products.find(p=>p.id===id),quantity:Number(bulkPicker.quantities[id])})).filter(x=>x.product);if(selected.some(x=>!Number.isSafeInteger(x.quantity)||x.quantity<=0)){toast("Her seçili ürün için pozitif tam sayı miktar girin","error");return;}if(type==="out"&&selected.some(x=>(+x.product.quantity||0)<x.quantity)){toast("Çıkış miktarı bazı ürünlerin mevcut stoğundan fazla","error");return;}if(loc&&!state.locations.some(l=>l.name===loc))state.locations.push({id:uid(),name:loc,kind:"diger",auto_created:true});const u=currentUser();const now=nowISO();selected.forEach(({product:p,quantity})=>{const movement={id:uid(),product_id:p.id,product_code:p.code,product_name:p.name,type,quantity,target_location:loc||null,reason:reason||"Toplu stok işlemi",user_id:u.id,user_name:u.name||u.username,happened_at:now,created_at:now};state.movements.push(movement);recordMovementAudit(type==="in"?"Stok girişi":"Stok çıkışı",movement,"Toplu işlem");p.quantity=(+p.quantity||0)+(type==="in"?quantity:-quantity);p.updated_at=now;});save();closeModal();renderMovements();toast(`${selected.length} ürüne toplu işlem uygulandı`);}
 function movementModal(type){
   mvPicker={q:"",productId:""};
+  resetListPage("movementPicker");
   openModal(`<h3 class="text-lg font-semibold mb-4">${type==="in"?"Stok Girişi":"Stok Çıkışı"}</h3>
     <form onsubmit="saveMovement(event,'${type}')" class="space-y-3">
       <div>
@@ -967,19 +995,19 @@ function movementModal(type){
         <div id="mvSelected" class="mt-2 hidden"></div>
         <div id="mvList" class="mt-1 border border-slate-200 rounded-md max-h-56 overflow-y-auto hidden bg-white"></div>
       </div>
-      <div><label class="text-sm">Miktar *</label><input type="number" step="0.01" min="0.01" required class="input mt-1" name="quantity" /></div>
+      <div><label class="text-sm">Miktar *</label><input type="number" step="1" min="1" required class="input mt-1" name="quantity" /></div>
       <div><label class="text-sm">Hedef Lokasyon</label><input class="input mt-1" name="target_location" list="locList" placeholder="Seçin veya yeni yazın..." /><datalist id="locList">${state.locations.map(l=>`<option value="${l.name}">`).join("")}</datalist></div>
       <div><label class="text-sm">Sebep / Açıklama</label><textarea rows="2" class="input mt-1" name="reason"></textarea></div>
       <div class="flex justify-end gap-2"><button type="button" class="btn btn-outline" onclick="closeModal()">İptal</button><button type="submit" class="btn btn-primary">Kaydet</button></div>
     </form>`,true);
   setTimeout(()=>{const el=document.getElementById("mvSearch");if(el)el.focus();renderMvList();},50);
 }
-function onMvSearch(v){mvPicker.q=v;mvPicker.productId="";document.getElementById("mvProductId").value="";document.getElementById("mvSelected").classList.add("hidden");renderMvList();}
+function onMvSearch(v){mvPicker.q=v;mvPicker.productId="";resetListPage("movementPicker");document.getElementById("mvProductId").value="";document.getElementById("mvSelected").classList.add("hidden");renderMvList();}
 function renderMvList(){
-  const list=state.products.filter(p=>matchProduct(p,mvPicker.q)).slice(0,50);
+  const filtered=state.products.filter(p=>matchProduct(p,mvPicker.q)),pageData=paginateRecords(filtered,"movementPicker","renderMvList"),list=pageData.items;
   const el=document.getElementById("mvList");if(!el)return;
   if(list.length===0){el.innerHTML=`<div class="p-3 text-sm text-slate-500 text-center">Ürün bulunamadı</div>`;el.classList.remove("hidden");return;}
-  el.innerHTML=list.map(p=>`<div class="p-2.5 hover:bg-blue-50 cursor-pointer border-b border-slate-100 flex justify-between items-center text-sm" onclick="pickMvProduct('${p.id}')"><div><div class="font-medium">${p.name}</div><div class="text-xs text-slate-500 mono">${p.code}${p.location?" • "+p.location:""}</div></div><div class="text-right"><div class="mono text-xs">mevcut: <b>${fmtNum(p.quantity)}</b> ${p.unit}</div></div></div>`).join("");
+  el.innerHTML=list.map(p=>`<div class="p-2.5 hover:bg-blue-50 cursor-pointer border-b border-slate-100 flex justify-between items-center text-sm" onclick="pickMvProduct('${p.id}')"><div><div class="font-medium">${p.name}</div><div class="text-xs text-slate-500 mono">${p.code}${p.location?" • "+p.location:""}</div></div><div class="text-right"><div class="mono text-xs">mevcut: <b>${fmtNum(p.quantity)}</b> ${p.unit}</div></div></div>`).join("")+pageData.html;
   el.classList.remove("hidden");
 }
 function pickMvProduct(id){
@@ -1001,12 +1029,14 @@ function movementAuditBadge(action){
 }
 function renderMovementAudit(){
   const logs=[...(state.movement_audit||[])].sort((a,b)=>String(b.created_at||"").localeCompare(String(a.created_at||"")));
+  const pageData=paginateRecords(logs,"movementAudit","renderMovementAudit");
   const auditNote=x=>[x.extra||"",x.reason&&x.reason!==x.extra?`Sebep: ${x.reason}`:""].filter(Boolean).join(" · ")||"—";
-  document.getElementById("adminPanel").innerHTML=`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><div><h3 class="font-semibold">Stok Hareketleri İşlem Geçmişi</h3><p class="text-sm text-slate-500 mt-1">Kullanıcıların yaptığı stok giriş, çıkış, düzeltme ve silme işlemleri.</p></div><span class="badge bg-slate-100 text-slate-700">${logs.length} kayıt</span></div><div class="overflow-x-auto"><table><thead><tr><th>Tarih</th><th>Kullanıcı</th><th>İşlem</th><th>Ürün Kodu</th><th>Ürün Adı</th><th>Miktar</th><th>Lokasyon</th><th>Açıklama</th></tr></thead><tbody>${logs.length?logs.map(x=>`<tr><td class="text-xs text-slate-500">${fmtDate(x.created_at)}</td><td class="font-medium">${x.user_name||"—"}</td><td>${movementAuditBadge(x.action)}</td><td class="mono text-xs">${x.product_code||"—"}</td><td>${x.product_name||"—"}</td><td class="mono">${x.quantity===null||x.quantity===undefined?"—":fmtNum(x.quantity)}</td><td>${x.target_location||"—"}</td><td class="text-sm text-slate-500">${auditNote(x)}</td></tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Henüz stok işlem geçmişi yok.</td></tr>`}</tbody></table></div></div>`;
+  document.getElementById("adminPanel").innerHTML=`<div class="card p-5"><div class="flex items-center justify-between gap-3 flex-wrap mb-4"><div><h3 class="font-semibold">Stok Hareketleri İşlem Geçmişi</h3><p class="text-sm text-slate-500 mt-1">Kullanıcıların yaptığı stok giriş, çıkış, düzeltme ve silme işlemleri.</p></div><span class="badge bg-slate-100 text-slate-700">${logs.length} kayıt</span></div><div class="overflow-x-auto"><table><thead><tr><th>Tarih</th><th>Kullanıcı</th><th>İşlem</th><th>Ürün Kodu</th><th>Ürün Adı</th><th>Miktar</th><th>Lokasyon</th><th>Açıklama</th></tr></thead><tbody>${pageData.items.length?pageData.items.map(x=>`<tr><td class="text-xs text-slate-500">${fmtDate(x.created_at)}</td><td class="font-medium">${x.user_name||"—"}</td><td>${movementAuditBadge(x.action)}</td><td class="mono text-xs">${x.product_code||"—"}</td><td>${x.product_name||"—"}</td><td class="mono">${x.quantity===null||x.quantity===undefined?"—":fmtNum(x.quantity)}</td><td>${x.target_location||"—"}</td><td class="text-sm text-slate-500">${auditNote(x)}</td></tr>`).join(""):`<tr><td colspan="8" class="text-center text-slate-500 py-10">Henüz stok işlem geçmişi yok.</td></tr>`}</tbody></table></div>${pageData.html}</div>`;
 }
 function saveMovement(e,type){
   e.preventDefault();const fd=new FormData(e.target);const d={type};fd.forEach((v,k)=>d[k]=v);d.quantity=+d.quantity;
   const p=state.products.find(x=>x.id===d.product_id);if(!p){toast("Ürün seçin","error");return;}
+  if(!Number.isSafeInteger(d.quantity)||d.quantity<=0){toast("Miktar pozitif bir tam sayı olmalıdır","error");return;}
   const delta=type==="in"?d.quantity:-d.quantity;
   if(p.quantity+delta<0){toast("Stok negatife düşemez","error");return;}
   const loc=(d.target_location||"").trim();
@@ -1025,7 +1055,7 @@ function editMovement(id){
   const m=state.movements.find(x=>String(x.id)===String(id));if(!m)return;
   const current=findMovementProduct(m);
   const selectedId=current?String(current.id):"";
-  openModal(`<h3 class="text-lg font-semibold mb-1">Stok Hareketini Düzelt</h3><p class="text-xs text-slate-500 mb-4">Hareket türü (${m.type==="in"?"Giriş":"Çıkış"}) ve tarihi korunur. Ürünü, miktarı ve açıklamayı değiştirebilirsiniz.</p><form onsubmit="saveMovementEdit(event,'${m.id}')" class="space-y-3"><div><label class="text-sm">Ürün *</label><select required class="input mt-1" name="product_id"><option value="">Ürün seçin</option>${state.products.map(p=>`<option value="${p.id}" ${String(p.id)===selectedId?"selected":""}>${p.code} — ${p.name} (Stok: ${fmtNum(p.quantity)} ${p.unit||""})</option>`).join("")}</select></div><div><label class="text-sm">Miktar *</label><input required type="number" min="0.01" step="0.01" class="input mt-1" name="quantity" value="${Number(m.quantity)||0}" /></div><div><label class="text-sm">Hedef Lokasyon</label><input class="input mt-1" name="target_location" value="${m.target_location||""}" placeholder="Lokasyon" /></div><div><label class="text-sm">Sebep / Açıklama</label><textarea rows="2" class="input mt-1" name="reason">${m.reason||""}</textarea></div><div class="flex justify-end gap-2"><button type="button" class="btn btn-outline" onclick="closeModal()">İptal</button><button type="submit" class="btn btn-primary">Kaydet</button></div></form>`,true);
+  openModal(`<h3 class="text-lg font-semibold mb-1">Stok Hareketini Düzelt</h3><p class="text-xs text-slate-500 mb-4">Hareket türü (${m.type==="in"?"Giriş":"Çıkış"}) ve tarihi korunur. Ürünü, miktarı ve açıklamayı değiştirebilirsiniz.</p><form onsubmit="saveMovementEdit(event,'${m.id}')" class="space-y-3"><div><label class="text-sm">Ürün *</label><select required class="input mt-1" name="product_id"><option value="">Ürün seçin</option>${state.products.map(p=>`<option value="${p.id}" ${String(p.id)===selectedId?"selected":""}>${p.code} — ${p.name} (Stok: ${fmtNum(p.quantity)} ${p.unit||""})</option>`).join("")}</select></div><div><label class="text-sm">Miktar *</label><input required type="number" min="1" step="1" class="input mt-1" name="quantity" value="${Number(m.quantity)||0}" /></div><div><label class="text-sm">Hedef Lokasyon</label><input class="input mt-1" name="target_location" value="${m.target_location||""}" placeholder="Lokasyon" /></div><div><label class="text-sm">Sebep / Açıklama</label><textarea rows="2" class="input mt-1" name="reason">${m.reason||""}</textarea></div><div class="flex justify-end gap-2"><button type="button" class="btn btn-outline" onclick="closeModal()">İptal</button><button type="submit" class="btn btn-primary">Kaydet</button></div></form>`,true);
 }
 function saveMovementEdit(e,id){
   e.preventDefault();
@@ -1034,7 +1064,7 @@ function saveMovementEdit(e,id){
   const target=state.products.find(p=>String(p.id)===targetId);
   const quantity=Number(fd.get("quantity"));
   if(!target){toast("Bir ürün seçin","error");return;}
-  if(!Number.isFinite(quantity)||quantity<=0){toast("Geçerli bir miktar girin","error");return;}
+  if(!Number.isSafeInteger(quantity)||quantity<=0){toast("Miktar pozitif bir tam sayı olmalıdır","error");return;}
   if(m.type!=="in"&&m.type!=="out"){toast("Hareket türü geçersiz; kayıt değiştirilmedi","error");return;}
   const oldProduct=findMovementProduct(m);
   if(!oldProduct){toast("Hareketin eski ürünü bulunamadı; stok güvenliği için düzeltme yapılmadı","error");return;}
@@ -1091,7 +1121,7 @@ function rangeLastWeek(){const t=rangeThisWeek();const s=new Date(t.start);s.set
 function rangeThisMonth(){const n=new Date();return {start:new Date(n.getFullYear(),n.getMonth(),1).toISOString(),end:new Date(n.getFullYear(),n.getMonth()+1,0,23,59,59).toISOString()};}
 function rangeLastMonth(){const n=new Date();return {start:new Date(n.getFullYear(),n.getMonth()-1,1).toISOString(),end:new Date(n.getFullYear(),n.getMonth(),0,23,59,59).toISOString()};}
 function rangeLast30(){const e=new Date();e.setHours(23,59,59);const s=new Date();s.setDate(s.getDate()-29);s.setHours(0,0,0);return {start:s.toISOString(),end:e.toISOString()};}
-function setQuick(key){const map={this_week:rangeThisWeek,last_week:rangeLastWeek,this_month:rangeThisMonth,last_month:rangeLastMonth,last_30_days:rangeLast30};reportRange=map[key]();renderReports();}
+function setQuick(key){const map={this_week:rangeThisWeek,last_week:rangeLastWeek,this_month:rangeThisMonth,last_month:rangeLastMonth,last_30_days:rangeLast30};reportRange=map[key]();resetListPage('reports');renderReports();}
 function renderReports(){
   const u=currentUser();
   const c=state.settings.cols.reports;
@@ -1109,6 +1139,7 @@ function renderReports(){
   const totalOut=items.filter(i=>i.type==="out").reduce((s,i)=>s+i.quantity,0);
   const toInput=iso=>iso?iso.slice(0,10):"";
   const quick=[["this_week","Bu Hafta"],["last_week","Geçen Hafta"],["this_month","Bu Ay"],["last_month","Geçen Ay"],["last_30_days","Son 30 Gün"]];
+  const pageData=paginateRecords(items,"reports","renderReports");
   document.getElementById("pageBody").innerHTML=`
     <div class="flex justify-between items-end flex-wrap gap-4 mb-6">
       <div><h1 class="text-3xl font-bold tracking-tight">Raporlar</h1><p class="text-sm text-slate-500 mt-1">Filtreleyip Excel'e aktarın</p></div>
@@ -1117,11 +1148,11 @@ function renderReports(){
     <div class="card p-5 mb-4">
       <div class="flex flex-wrap gap-2 mb-4">${quick.map(([k,l])=>`<button class="btn btn-outline btn-sm" onclick="setQuick('${k}')">${l}</button>`).join("")}</div>
       <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
-        <div><label class="text-xs">Başlangıç</label><input type="date" class="input mt-1" value="${toInput(reportRange.start)}" onchange="reportRange.start=new Date(this.value+'T00:00').toISOString();renderReports()" /></div>
-        <div><label class="text-xs">Bitiş</label><input type="date" class="input mt-1" value="${toInput(reportRange.end)}" onchange="reportRange.end=new Date(this.value+'T23:59:59').toISOString();renderReports()" /></div>
-        <div><label class="text-xs">Tip</label><select class="input mt-1" onchange="reportFilters.type=this.value;renderReports()"><option value="all">Tümü</option><option value="in" ${reportFilters.type==="in"?"selected":""}>Giriş</option><option value="out" ${reportFilters.type==="out"?"selected":""}>Çıkış</option></select></div>
-        <div><label class="text-xs">Ürün</label><select class="input mt-1" onchange="reportFilters.product=this.value;renderReports()"><option value="all">Tümü</option>${state.products.map(p=>`<option value="${p.id}" ${reportFilters.product===p.id?"selected":""}>${p.code} — ${p.name}</option>`).join("")}</select></div>
-        <div><label class="text-xs">Lokasyon</label><input class="input mt-1" value="${reportFilters.location}" oninput="reportFilters.location=this.value;renderReports()" /></div>
+        <div><label class="text-xs">Başlangıç</label><input type="date" class="input mt-1" value="${toInput(reportRange.start)}" onchange="reportRange.start=new Date(this.value+'T00:00').toISOString();resetListPage('reports');renderReports()" /></div>
+        <div><label class="text-xs">Bitiş</label><input type="date" class="input mt-1" value="${toInput(reportRange.end)}" onchange="reportRange.end=new Date(this.value+'T23:59:59').toISOString();resetListPage('reports');renderReports()" /></div>
+        <div><label class="text-xs">Tip</label><select class="input mt-1" onchange="reportFilters.type=this.value;resetListPage('reports');renderReports()"><option value="all">Tümü</option><option value="in" ${reportFilters.type==="in"?"selected":""}>Giriş</option><option value="out" ${reportFilters.type==="out"?"selected":""}>Çıkış</option></select></div>
+        <div><label class="text-xs">Ürün</label><select class="input mt-1" onchange="reportFilters.product=this.value;resetListPage('reports');renderReports()"><option value="all">Tümü</option>${state.products.map(p=>`<option value="${p.id}" ${reportFilters.product===p.id?"selected":""}>${p.code} — ${p.name}</option>`).join("")}</select></div>
+        <div><label class="text-xs">Lokasyon</label><input class="input mt-1" value="${reportFilters.location}" oninput="reportFilters.location=this.value;resetListPage('reports');renderReports()" /></div>
       </div>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
@@ -1135,7 +1166,7 @@ function renderReports(){
         ${c.type?"<th>Tip</th>":""}${c.quantity?`<th class="text-right">Miktar</th>`:""}
         ${c.location?"<th>Lokasyon</th>":""}${c.reason?"<th>Sebep</th>":""}
       </tr></thead>
-      <tbody>${items.length?items.map(m=>`<tr>
+      <tbody>${pageData.items.length?pageData.items.map(m=>`<tr>
         ${c.date?`<td class="text-xs">${fmtDate(m.happened_at)}</td>`:""}
         ${c.user?`<td>${m.user_name}</td>`:""}
         ${c.product_code?`<td class="mono text-xs">${m.product_code}</td>`:""}${c.product_name?`<td title="${movementStockLabel(m)}" class="cursor-help">${m.product_name}</td>`:""}
@@ -1144,7 +1175,7 @@ function renderReports(){
         ${c.location?`<td>${m.target_location||"—"}</td>`:""}
         ${c.reason?`<td class="text-sm text-slate-500">${m.reason||"—"}</td>`:""}
       </tr>`).join(""):`<tr><td colspan="7" class="text-center text-slate-500 py-10">Kayıt yok</td></tr>`}</tbody>
-    </table></div>`;
+    </table></div>${pageData.html}`;
 }
 function exportExcel(){
   const items=state.movements.filter(m=>{
@@ -1206,16 +1237,17 @@ function toggleWidget(k,v){state.settings.widgets[k]=v;save();toast("Kaydedildi"
 function toggleMenu(k,v){state.settings.menus[k]=v;save();renderNav();toast("Menü ayarı kaydedildi");}
 function toggleCol(page,k,v){state.settings.cols[page][k]=v;save();toast("Kolon ayarı kaydedildi");}
 function renderUsers(){
+  const pageData=paginateRecords(state.users,"users","renderUsers");
   document.getElementById("adminPanel").innerHTML=`
     <div class="flex justify-between items-center gap-2 mb-3"><button class="btn btn-outline" onclick="changeOwnPassword()">Şifremi Değiştir</button><button class="btn btn-primary" onclick="userModal()">+ Yeni Kullanıcı</button></div>
     <div class="card overflow-x-auto"><table>
       <thead><tr><th>Kullanıcı Adı</th><th>Ad Soyad</th><th>E-posta</th><th>Rol</th><th>Durum</th><th></th></tr></thead>
-      <tbody>${state.users.map(u=>`<tr>
+      <tbody>${pageData.items.map(u=>`<tr>
         <td class="mono">${u.username}</td><td>${u.name}</td><td class="text-slate-500">${u.email||"—"}</td>
         <td>${u.role==="admin"?`<span class="badge bg-blue-100 text-blue-700">Yönetici</span>`:`<span class="badge bg-slate-100 text-slate-700">Kullanıcı</span>`}</td>
         <td>${u.is_active!==false?`<span class="badge bg-emerald-100 text-emerald-700">Aktif</span>`:`<span class="badge bg-slate-100 text-slate-700">Pasif</span>`}</td>
         <td class="text-right"><button class="btn btn-ghost btn-sm" onclick="userModal('${u.id}')">Düzenle</button>${u.id!==currentUser().id?`<button class="btn btn-ghost btn-sm" onclick="deleteUser('${u.id}')">Sil</button>`:""}</td>
-      </tr>`).join("")}</tbody></table></div>`;
+      </tr>`).join("")}</tbody></table></div>${pageData.html}`;
 }
 function userModal(id){
   const u=id?state.users.find(x=>x.id===id):{username:"",password:"",name:"",email:"",role:"user",is_active:true};
@@ -1246,10 +1278,11 @@ function saveUser(e,id){
 }
 function deleteUser(id){if(!confirm("Kullanıcıyı silmek istediğinize emin misiniz?"))return;state.users=state.users.filter(u=>u.id!==id);save();renderAdmin();toast("Silindi");}
 function renderCategories(){
+  const pageData=paginateRecords(state.categories,"categories","renderCategories");
   document.getElementById("adminPanel").innerHTML=`
     <div class="card p-5"><h3 class="font-semibold mb-3">Kategoriler</h3>
       <form onsubmit="addCategory(event)" class="flex gap-2 mb-4"><input required class="input flex-1" id="catName" placeholder="Yeni kategori adı" /><input type="color" id="catColor" class="input w-16 p-1 h-10" value="#2563EB" /><button class="btn btn-primary">Ekle</button></form>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">${state.categories.map(c=>`<div class="flex items-center justify-between p-3 border rounded-md"><div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full" style="background:${c.color}"></span>${c.name}</div><div class="flex gap-1"><button class="btn btn-ghost btn-sm" onclick="editCategory('${c.id}')">Düzenle</button><button class="btn btn-ghost btn-sm" onclick="deleteCategory('${c.id}')">Sil</button></div></div>`).join("")||`<p class="text-sm text-slate-500 col-span-full text-center py-6">Henüz kategori yok</p>`}</div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">${pageData.items.map(c=>`<div class="flex items-center justify-between p-3 border rounded-md"><div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full" style="background:${c.color}"></span>${c.name}</div><div class="flex gap-1"><button class="btn btn-ghost btn-sm" onclick="editCategory('${c.id}')">Düzenle</button><button class="btn btn-ghost btn-sm" onclick="deleteCategory('${c.id}')">Sil</button></div></div>`).join("")||`<p class="text-sm text-slate-500 col-span-full text-center py-6">Henüz kategori yok</p>`}</div>${pageData.html}
     </div>`;
 }
 function addCategory(e){e.preventDefault();const name=document.getElementById("catName").value.trim();if(state.categories.some(c=>c.name.toLocaleLowerCase("tr-TR")===name.toLocaleLowerCase("tr-TR"))){toast("Zaten var","error");return;}state.categories.push({id:uid(),name,color:document.getElementById("catColor").value});save();renderAdmin();toast("Eklendi");}
@@ -1257,6 +1290,7 @@ function editCategory(id){const c=state.categories.find(x=>x.id===id);if(!c)retu
 function saveCategoryEdit(e,id){e.preventDefault();const fd=new FormData(e.target);const name=String(fd.get("name")||"").trim();const color=String(fd.get("color")||"#2563EB");const c=state.categories.find(x=>x.id===id);if(!c)return;if(state.categories.some(x=>x.id!==id&&x.name.toLocaleLowerCase("tr-TR")===name.toLocaleLowerCase("tr-TR"))){toast("Bu kategori zaten var","error");return;}c.name=name;c.color=color;save();closeModal();renderAdmin();toast("Kategori güncellendi");}
 function deleteCategory(id){state.categories=state.categories.filter(c=>c.id!==id);save();renderAdmin();toast("Silindi");}
 function renderLocations(){
+  const pageData=paginateRecords(state.locations,"locations","renderLocations");
   document.getElementById("adminPanel").innerHTML=`
     <div class="card p-5"><h3 class="font-semibold mb-1">Lokasyonlar</h3><p class="text-sm text-slate-500 mb-4">Kullanıcıların yeni yazdığı lokasyonlar otomatik burada listelenir.</p>
       <form onsubmit="addLocation(event)" class="flex gap-2 mb-4 flex-wrap">
@@ -1264,7 +1298,7 @@ function renderLocations(){
         <select class="input w-40" id="locKind"><option value="depo">Depo</option><option value="sube">Şube</option><option value="musteri">Müşteri</option><option value="diger">Diğer</option></select>
         <button class="btn btn-primary">Ekle</button>
       </form>
-      <table><thead><tr><th>Ad</th><th>Tip</th><th>Kaynak</th><th></th></tr></thead><tbody>${state.locations.map(l=>`<tr><td>${l.name}</td><td><span class="badge bg-slate-100 text-slate-700">${l.kind}</span></td><td>${l.auto_created?`<span class="badge bg-amber-100 text-amber-700">Otomatik</span>`:`<span class="badge bg-blue-100 text-blue-700">Elle</span>`}</td><td class="text-right"><button class="btn btn-ghost btn-sm" onclick="deleteLocation('${l.id}')">Sil</button></td></tr>`).join("")||`<tr><td colspan="4" class="text-center text-slate-500 py-6">Lokasyon yok</td></tr>`}</tbody></table>
+      <table><thead><tr><th>Ad</th><th>Tip</th><th>Kaynak</th><th></th></tr></thead><tbody>${pageData.items.map(l=>`<tr><td>${l.name}</td><td><span class="badge bg-slate-100 text-slate-700">${l.kind}</span></td><td>${l.auto_created?`<span class="badge bg-amber-100 text-amber-700">Otomatik</span>`:`<span class="badge bg-blue-100 text-blue-700">Elle</span>`}</td><td class="text-right"><button class="btn btn-ghost btn-sm" onclick="deleteLocation('${l.id}')">Sil</button></td></tr>`).join("")||`<tr><td colspan="4" class="text-center text-slate-500 py-6">Lokasyon yok</td></tr>`}</tbody></table>${pageData.html}
     </div>`;
 }
 function addLocation(e){e.preventDefault();const name=document.getElementById("locName").value;if(state.locations.some(l=>l.name===name)){toast("Zaten var","error");return;}state.locations.push({id:uid(),name,kind:document.getElementById("locKind").value,auto_created:false});save();renderAdmin();toast("Eklendi");}

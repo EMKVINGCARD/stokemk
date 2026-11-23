@@ -5483,13 +5483,13 @@
       "name": "50MM SATIN CHROME",
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 50MM",
       "created_at": "2026-09-03T08:29:16.190Z",
-      "updated_at": "2026-09-08T08:49:54.991Z",
+      "updated_at": "2026-11-23T07:43:34.957Z",
       "stock_base_quantity": 1
     },
     {
@@ -17433,6 +17433,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-23T07:40:32.641Z",
       "created_at": "2026-11-23T07:40:32.641Z"
+    },
+    {
+      "id": "id-1vmw80yumwsylnhp",
+      "product_id": "id-1f5329t3mtl9ken2",
+      "product_code": "4812635015V50",
+      "product_name": "50MM SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-23T07:43:34.957Z",
+      "created_at": "2026-11-23T07:43:34.957Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27366,6 +27380,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:40:32.641Z",
+      "extra": null
+    },
+    {
+      "id": "id-v98yd7dcmwsylnhp",
+      "action": "Stok girişi",
+      "product_id": "id-1f5329t3mtl9ken2",
+      "product_code": "4812635015V50",
+      "product_name": "50MM SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:43:34.957Z",
       "extra": null
     }
   ],

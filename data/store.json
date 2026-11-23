@@ -4583,13 +4583,13 @@
       "name": "CLASSIC 6334 LCU",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 27,
+      "quantity": 35,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LCU 6334 CLASSIC RFID ASSY (4G) BLACK",
       "created_at": "2026-09-03T08:29:16.179Z",
-      "updated_at": "2026-11-06T14:11:08.647Z",
+      "updated_at": "2026-11-23T13:12:09.759Z",
       "stock_base_quantity": 40
     },
     {
@@ -16759,21 +16759,6 @@
       "updated_at": "2026-11-06T14:11:25.545Z"
     },
     {
-      "id": "id-w14wv3mbmw5153un",
-      "product_id": "id-uwj860famtl9kemr",
-      "product_code": "4826069B",
-      "product_name": "CLASSIC 6334 LCU",
-      "type": "out",
-      "quantity": 8,
-      "target_location": "Ana Depo",
-      "reason": "Remote için kullanıldı",
-      "user_id": "id-umv29fzpmtk3a4nj",
-      "user_name": "Ali ÖZEN",
-      "happened_at": "2026-11-06T13:48:13.631Z",
-      "created_at": "2026-11-06T13:48:13.631Z",
-      "updated_at": "2026-11-06T14:11:08.647Z"
-    },
-    {
       "id": "id-we99f3rqmw51f2j6",
       "product_id": "id-ueqdov9jmtl9kemc",
       "product_code": "4825523-000009",
@@ -17610,7 +17595,8 @@
     "id-h7x8pihumwdhmjgf",
     "id-dyitpeh4mwdhku7h",
     "id-rgihe87wmwdhlc3n",
-    "id-143yrslxmwdhl2pt"
+    "id-143yrslxmwdhl2pt",
+    "id-w14wv3mbmw5153un"
   ],
   "audit_log": [
     {
@@ -27942,6 +27928,21 @@
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-11-23T12:02:31.258Z",
       "extra": null
+    },
+    {
+      "id": "id-lrmb4p08mwtac7j9",
+      "action": "Stok hareketi silindi",
+      "product_id": "id-uwj860famtl9kemr",
+      "product_code": "4826069B",
+      "product_name": "CLASSIC 6334 LCU",
+      "type": "out",
+      "quantity": 8,
+      "target_location": "Ana Depo",
+      "reason": "Remote için kullanıldı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T13:12:09.765Z",
+      "extra": "8 çıkış iptal edildi; miktar stoğa geri eklendi."
     }
   ],
   "settings": {

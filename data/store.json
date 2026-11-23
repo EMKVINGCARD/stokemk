@@ -5480,7 +5480,7 @@
     {
       "id": "id-1f5329t3mtl9ken2",
       "code": "4812635015V50",
-      "name": "50MM SATIN CHROME",
+      "name": "50MM SATIN CHROME SİLİNDİR",
       "category_id": "id-9lekwlyemtk34t8o",
       "unit": "adet",
       "quantity": 2,
@@ -5489,7 +5489,7 @@
       "location": "",
       "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 50MM",
       "created_at": "2026-09-03T08:29:16.190Z",
-      "updated_at": "2026-11-23T07:43:34.957Z",
+      "updated_at": "2026-11-23T07:43:52.693Z",
       "stock_base_quantity": 1
     },
     {
@@ -20864,6 +20864,46 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:42:45.344Z"
+    },
+    {
+      "id": "id-0b3rfzibmwsym16d",
+      "action": "Ürün güncellendi",
+      "product_id": "id-1f5329t3mtl9ken2",
+      "product_code": "4812635015V50",
+      "product_name": "50MM SATIN CHROME SİLİNDİR",
+      "before": {
+        "id": "id-1f5329t3mtl9ken2",
+        "code": "4812635015V50",
+        "name": "50MM SATIN CHROME",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 50MM",
+        "created_at": "2026-09-03T08:29:16.190Z",
+        "updated_at": "2026-11-23T07:43:34.957Z",
+        "stock_base_quantity": 1
+      },
+      "after": {
+        "id": "id-1f5329t3mtl9ken2",
+        "code": "4812635015V50",
+        "name": "50MM SATIN CHROME SİLİNDİR",
+        "category_id": "id-9lekwlyemtk34t8o",
+        "unit": "adet",
+        "quantity": 2,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "CYL 3-LEV THREAD 5536K SATCHROME WO/LOGO 50MM",
+        "created_at": "2026-09-03T08:29:16.190Z",
+        "updated_at": "2026-11-23T07:43:52.693Z",
+        "stock_base_quantity": 1
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:43:52.693Z"
     }
   ],
   "movement_audit": [

@@ -8907,6 +8907,20 @@
       "description": "ALLURE IR FRAME 2'ŞER ADET FRONT VAR",
       "created_at": "2026-11-05T06:34:20.335Z",
       "updated_at": "2026-11-05T06:40:42.956Z"
+    },
+    {
+      "id": "id-i8g0wl5umwsykl7j",
+      "code": "yok",
+      "name": "SIGNATURE RFID 4G BLE SATIN CHROME STRAIGHT LH ANSI28 ADB GÖMME",
+      "category_id": "id-a04v1tgfmtl7q19i",
+      "unit": "adet",
+      "quantity": 1,
+      "critical_level": 0,
+      "unit_price": 0,
+      "location": "Ana Depo",
+      "description": "",
+      "created_at": "2026-11-23T07:42:45.344Z",
+      "updated_at": "2026-11-23T07:42:45.344Z"
     }
   ],
   "movements": [
@@ -20811,6 +20825,31 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:29:28.856Z"
+    },
+    {
+      "id": "id-doaw8udjmwsykl7k",
+      "action": "Ürün eklendi",
+      "product_id": "id-i8g0wl5umwsykl7j",
+      "product_code": "yok",
+      "product_name": "SIGNATURE RFID 4G BLE SATIN CHROME STRAIGHT LH ANSI28 ADB GÖMME",
+      "before": null,
+      "after": {
+        "id": "id-i8g0wl5umwsykl7j",
+        "code": "yok",
+        "name": "SIGNATURE RFID 4G BLE SATIN CHROME STRAIGHT LH ANSI28 ADB GÖMME",
+        "category_id": "id-a04v1tgfmtl7q19i",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "Ana Depo",
+        "description": "",
+        "created_at": "2026-11-23T07:42:45.344Z",
+        "updated_at": "2026-11-23T07:42:45.344Z"
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:42:45.344Z"
     }
   ],
   "movement_audit": [

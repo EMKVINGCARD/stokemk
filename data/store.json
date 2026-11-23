@@ -7433,13 +7433,13 @@
       "name": "DB BUTONU ALL METAL BLACK TITANIUM",
       "category_id": "id-zquiojm0mtk34t8p",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 6,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE BLACK T METAL END",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-10-16T11:26:22.435Z",
+      "updated_at": "2026-11-23T07:45:23.173Z",
       "stock_base_quantity": 6
     },
     {
@@ -17462,6 +17462,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-23T07:45:12.288Z",
       "created_at": "2026-11-23T07:45:12.288Z"
+    },
+    {
+      "id": "id-c8zfyvpimwsynyzp",
+      "product_id": "id-k0e91qr8mtl9keod",
+      "product_code": "481865890",
+      "product_name": "DB BUTONU ALL METAL BLACK TITANIUM",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-23T07:45:23.173Z",
+      "created_at": "2026-11-23T07:45:23.173Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27680,6 +27694,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T07:45:12.288Z",
+      "extra": null
+    },
+    {
+      "id": "id-0074lj3pmwsynyzp",
+      "action": "Stok girişi",
+      "product_id": "id-k0e91qr8mtl9keod",
+      "product_code": "481865890",
+      "product_name": "DB BUTONU ALL METAL BLACK TITANIUM",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:45:23.173Z",
       "extra": null
     }
   ],

@@ -8886,13 +8886,13 @@
       "name": "6333 LCU CLASSİC",
       "category_id": "id-1xf61rmxmtk34t8o",
       "unit": "adet",
-      "quantity": 14,
+      "quantity": 5,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "6333 LCU CLASSİC ",
       "created_at": "2026-10-16T07:16:28.438Z",
-      "updated_at": "2026-11-23T13:15:12.889Z"
+      "updated_at": "2026-11-23T13:15:32.409Z"
     },
     {
       "id": "id-plr36a1omw3679rj",
@@ -17573,6 +17573,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-11-23T12:02:31.257Z",
       "created_at": "2026-11-23T12:02:31.258Z"
+    },
+    {
+      "id": "id-b3r4rn4smwtagjw8",
+      "product_id": "id-sdllkk1jmvamwf4m",
+      "product_code": "123",
+      "product_name": "6333 LCU CLASSİC",
+      "type": "out",
+      "quantity": 9,
+      "target_location": "RAFFLES OTEL",
+      "reason": "rc için kullanıldı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-23T13:15:32.408Z",
+      "created_at": "2026-11-23T13:15:32.408Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27981,6 +27995,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-23T13:12:09.765Z",
       "extra": "8 çıkış iptal edildi; miktar stoğa geri eklendi."
+    },
+    {
+      "id": "id-5r5yo75gmwtagjw9",
+      "action": "Stok çıkışı",
+      "product_id": "id-sdllkk1jmvamwf4m",
+      "product_code": "123",
+      "product_name": "6333 LCU CLASSİC",
+      "type": "out",
+      "quantity": 9,
+      "target_location": "RAFFLES OTEL",
+      "reason": "rc için kullanıldı",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T13:15:32.409Z",
+      "extra": null
     }
   ],
   "settings": {

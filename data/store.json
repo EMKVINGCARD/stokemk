@@ -1112,13 +1112,13 @@
       "name": "4K PLUS EV1 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2545,
+      "quantity": 2595,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "EXPIRED RFID KEYCARD MIFARE PLUS EV1 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-11-18T10:38:37.820Z",
+      "updated_at": "2026-11-23T07:13:37.816Z",
       "stock_base_quantity": 2820
     },
     {
@@ -17329,6 +17329,20 @@
       "user_name": "Eray YURTSEVEN",
       "happened_at": "2026-11-19T06:52:37.134Z",
       "created_at": "2026-11-19T06:52:37.134Z"
+    },
+    {
+      "id": "id-hc2r6v3imwsxj4t3",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "in",
+      "quantity": 50,
+      "target_location": "Ana Depo",
+      "reason": "arnavutköy alındı yerine ev2 4k verildi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-23T07:13:37.815Z",
+      "created_at": "2026-11-23T07:13:37.816Z"
     }
   ],
   "deleted_movement_ids": [
@@ -27067,6 +27081,21 @@
       "user_id": "id-27ioxuxcmtk3do6i",
       "user_name": "Eray YURTSEVEN",
       "created_at": "2026-11-19T06:52:37.134Z",
+      "extra": null
+    },
+    {
+      "id": "id-5td0m5n6mwsxj4t4",
+      "action": "Stok girişi",
+      "product_id": "id-4u274x62mtl9kemb",
+      "product_code": "P000736520",
+      "product_name": "4K PLUS EV1 MASTER KART",
+      "type": "in",
+      "quantity": 50,
+      "target_location": "Ana Depo",
+      "reason": "arnavutköy alındı yerine ev2 4k verildi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:13:37.816Z",
       "extra": null
     }
   ],

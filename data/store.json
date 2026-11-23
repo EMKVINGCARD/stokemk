@@ -1958,13 +1958,13 @@
       "name": "MAIN KONTROL ÜNİTESİ 6334",
       "category_id": "id-90e6qm0jmtk34t8n",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 1,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "MAIN CONTROL UNIT 4G (6334) FOR ALLURE",
       "created_at": "2026-09-03T08:29:16.164Z",
-      "updated_at": "2026-11-04T14:18:47.135Z",
+      "updated_at": "2026-11-23T07:29:23.286Z",
       "stock_base_quantity": 1
     },
     {
@@ -20675,6 +20675,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-11-06T12:58:47.790Z"
+    },
+    {
+      "id": "id-7wh8qohsmwsy3ec6",
+      "action": "Ürün güncellendi",
+      "product_id": "id-iuej3fr5mtl9kemc",
+      "product_code": "4826104",
+      "product_name": "MAIN KONTROL ÜNİTESİ 6334",
+      "before": {
+        "id": "id-iuej3fr5mtl9kemc",
+        "code": "4826104",
+        "name": "MAIN KONTROL ÜNİTESİ 6334",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 5,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "MAIN CONTROL UNIT 4G (6334) FOR ALLURE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-11-04T14:18:47.135Z",
+        "stock_base_quantity": 1
+      },
+      "after": {
+        "id": "id-iuej3fr5mtl9kemc",
+        "code": "4826104",
+        "name": "MAIN KONTROL ÜNİTESİ 6334",
+        "category_id": "id-90e6qm0jmtk34t8n",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 1,
+        "unit_price": 0,
+        "location": "",
+        "description": "MAIN CONTROL UNIT 4G (6334) FOR ALLURE",
+        "created_at": "2026-09-03T08:29:16.164Z",
+        "updated_at": "2026-11-23T07:29:23.286Z",
+        "stock_base_quantity": 1
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-23T07:29:23.286Z"
     }
   ],
   "movement_audit": [

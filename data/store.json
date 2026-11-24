@@ -1079,6 +1079,12 @@
       "name": "arnavutköy shareton",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-mp9b2tubmwuc1plw",
+      "name": "wyndham garden Diyarbakır",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2453,13 +2459,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 11,
+      "quantity": 10,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-18T07:44:48.171Z",
+      "updated_at": "2026-11-24T06:47:45.380Z",
       "stock_base_quantity": 27
     },
     {
@@ -17601,6 +17607,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-24T06:46:57.563Z",
       "created_at": "2026-11-24T06:46:57.564Z"
+    },
+    {
+      "id": "id-gacy8g0wmwuc1plw",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "wyndham garden Diyarbakır",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-24T06:47:45.380Z",
+      "created_at": "2026-11-24T06:47:45.380Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28038,6 +28058,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-24T06:46:57.564Z",
+      "extra": null
+    },
+    {
+      "id": "id-jhupxm8wmwuc1plw",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "wyndham garden Diyarbakır",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-24T06:47:45.380Z",
       "extra": null
     }
   ],

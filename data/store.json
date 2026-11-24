@@ -6989,13 +6989,13 @@
       "name": "SHIP ROZETSİZ SATIN CHROME",
       "category_id": "id-qv7rf7gxmtl7q19g",
       "unit": "adet",
-      "quantity": 37,
+      "quantity": 38,
       "critical_level": 1,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.218Z",
-      "updated_at": "2026-09-08T09:17:51.243Z",
+      "updated_at": "2026-11-24T07:08:39.506Z",
       "stock_base_quantity": 37
     },
     {
@@ -17621,6 +17621,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-24T06:47:45.380Z",
       "created_at": "2026-11-24T06:47:45.380Z"
+    },
+    {
+      "id": "id-9jwj3veomwucslaq",
+      "product_id": "id-3hretxdrmtl9kenu",
+      "product_code": "YOK",
+      "product_name": "SHIP ROZETSİZ SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "dış aynadan söküldü",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-24T07:08:39.506Z",
+      "created_at": "2026-11-24T07:08:39.506Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28073,6 +28087,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-24T06:47:45.380Z",
+      "extra": null
+    },
+    {
+      "id": "id-wfl7bnejmwucslaq",
+      "action": "Stok girişi",
+      "product_id": "id-3hretxdrmtl9kenu",
+      "product_code": "YOK",
+      "product_name": "SHIP ROZETSİZ SATIN CHROME",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "dış aynadan söküldü",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-24T07:08:39.506Z",
       "extra": null
     }
   ],

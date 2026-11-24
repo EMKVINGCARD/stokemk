@@ -8429,13 +8429,13 @@
       "name": "GÖMME EURO 24MM FRONT",
       "category_id": "id-5e6ux667mtk34t8p",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "LOCK FRONT EURO DIN 24MM",
       "created_at": "2026-09-03T08:29:16.243Z",
-      "updated_at": "2026-10-01T10:45:00.252Z",
+      "updated_at": "2026-11-24T14:06:09.774Z",
       "stock_base_quantity": 2
     },
     {
@@ -17663,6 +17663,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-24T12:51:03.773Z",
       "created_at": "2026-11-24T12:51:03.773Z"
+    },
+    {
+      "id": "id-le7ftv8vmwurpi7i",
+      "product_id": "id-y8ewwzlhmtl9keoj",
+      "product_code": "4804280",
+      "product_name": "GÖMME EURO 24MM FRONT",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "happened_at": "2026-11-24T14:06:09.774Z",
+      "created_at": "2026-11-24T14:06:09.774Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28200,6 +28214,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-24T12:51:03.773Z",
+      "extra": null
+    },
+    {
+      "id": "id-5huft6nymwurpi7i",
+      "action": "Stok çıkışı",
+      "product_id": "id-y8ewwzlhmtl9keoj",
+      "product_code": "4804280",
+      "product_name": "GÖMME EURO 24MM FRONT",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-jqgnqa9hmtqwi14u",
+      "user_name": "Efecan ŞİMŞEK",
+      "created_at": "2026-11-24T14:06:09.774Z",
       "extra": null
     }
   ],

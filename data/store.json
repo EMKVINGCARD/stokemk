@@ -3629,13 +3629,13 @@
       "name": "VISIONLINE EXTRA RELAY BOARD",
       "category_id": "id-zew1quwomtk34t8n",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 2,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "HW VISIONLINE ELEVATOR RELAY MODULE",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-10-02T10:51:46.287Z",
+      "updated_at": "2026-11-24T12:51:03.773Z",
       "stock_base_quantity": 11
     },
     {
@@ -17649,6 +17649,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-24T07:09:07.418Z",
       "created_at": "2026-11-24T07:09:07.418Z"
+    },
+    {
+      "id": "id-2wzut8lsmwup0xct",
+      "product_id": "id-vlebhrf2mtl9kemh",
+      "product_code": "682055007",
+      "product_name": "VISIONLINE EXTRA RELAY BOARD",
+      "type": "out",
+      "quantity": 8,
+      "target_location": "RAFFLES OTEL",
+      "reason": "montaj için ",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-24T12:51:03.773Z",
+      "created_at": "2026-11-24T12:51:03.773Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28131,6 +28145,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-24T07:09:07.418Z",
+      "extra": null
+    },
+    {
+      "id": "id-gnvoyznbmwup0xct",
+      "action": "Stok çıkışı",
+      "product_id": "id-vlebhrf2mtl9kemh",
+      "product_code": "682055007",
+      "product_name": "VISIONLINE EXTRA RELAY BOARD",
+      "type": "out",
+      "quantity": 8,
+      "target_location": "RAFFLES OTEL",
+      "reason": "montaj için ",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-24T12:51:03.773Z",
       "extra": null
     }
   ],

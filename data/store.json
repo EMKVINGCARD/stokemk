@@ -3749,13 +3749,13 @@
       "name": "CLASSIC SATIN CHROME SHIP SİLİNDİRSİZ DIŞ AYNA",
       "category_id": "id-p32v71yhmtk34t8o",
       "unit": "adet",
-      "quantity": 5,
+      "quantity": 4,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "None",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-09-08T08:00:13.088Z",
+      "updated_at": "2026-11-24T07:09:07.418Z",
       "stock_base_quantity": 5
     },
     {
@@ -17635,6 +17635,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-24T07:08:39.506Z",
       "created_at": "2026-11-24T07:08:39.506Z"
+    },
+    {
+      "id": "id-tt5814a7mwuct6u2",
+      "product_id": "id-ov0bdk9nmtl9kemh",
+      "product_code": "YOK",
+      "product_name": "CLASSIC SATIN CHROME SHIP SİLİNDİRSİZ DIŞ AYNA",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ibis izmir",
+      "reason": "garantiden değiştirildi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-24T07:09:07.418Z",
+      "created_at": "2026-11-24T07:09:07.418Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28102,6 +28116,21 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-24T07:08:39.506Z",
+      "extra": null
+    },
+    {
+      "id": "id-srhrdg71mwuct6u2",
+      "action": "Stok çıkışı",
+      "product_id": "id-ov0bdk9nmtl9kemh",
+      "product_code": "YOK",
+      "product_name": "CLASSIC SATIN CHROME SHIP SİLİNDİRSİZ DIŞ AYNA",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "ibis izmir",
+      "reason": "garantiden değiştirildi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-24T07:09:07.418Z",
       "extra": null
     }
   ],

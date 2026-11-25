@@ -1097,6 +1097,12 @@
       "name": "medipol üniversite",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-a72qrrqvmww34fw6",
+      "name": "sheraton esenyurt",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -1226,13 +1232,13 @@
       "name": "RFID AES GUEST BEYAZ KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 3280,
+      "quantity": 3080,
       "critical_level": 500,
       "unit_price": 0,
       "location": "",
       "description": "RFID KEYCARD UL AES 144B WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-11-06T13:36:04.711Z",
+      "updated_at": "2026-11-25T12:13:28.566Z",
       "stock_base_quantity": 790
     },
     {
@@ -1256,13 +1262,13 @@
       "name": "4K PLUS EV2 MASTER KART",
       "category_id": "id-fzyrvbu6mtk34t8m",
       "unit": "adet",
-      "quantity": 2767,
+      "quantity": 2567,
       "critical_level": 2000,
       "unit_price": 0,
       "location": "",
       "description": "RFID KC PLUS EV2 4K WHITE",
       "created_at": "2026-09-03T08:29:16.163Z",
-      "updated_at": "2026-11-23T07:14:09.657Z",
+      "updated_at": "2026-11-25T12:13:28.566Z",
       "stock_base_quantity": 3117
     },
     {
@@ -17923,6 +17929,34 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-25T11:23:23.403Z",
       "created_at": "2026-11-25T11:23:23.403Z"
+    },
+    {
+      "id": "id-35yrzftcmww34fw6",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "sheraton esenyurt",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-25T12:13:28.566Z",
+      "created_at": "2026-11-25T12:13:28.566Z"
+    },
+    {
+      "id": "id-ugehaiejmww34fw6",
+      "product_id": "id-hlipc91zmtl9kemb",
+      "product_code": "001489771-001-001",
+      "product_name": "4K PLUS EV2 MASTER KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "sheraton esenyurt",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-25T12:13:28.566Z",
+      "created_at": "2026-11-25T12:13:28.566Z"
     }
   ],
   "deleted_movement_ids": [
@@ -29026,6 +29060,36 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-25T11:23:23.403Z",
       "extra": null
+    },
+    {
+      "id": "id-vw3qtipdmww34fw6",
+      "action": "Stok çıkışı",
+      "product_id": "id-zhmomyrumtl9kemb",
+      "product_code": "P001495832-001-001",
+      "product_name": "RFID AES GUEST BEYAZ KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "sheraton esenyurt",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T12:13:28.566Z",
+      "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-za3l2wxcmww34fw6",
+      "action": "Stok çıkışı",
+      "product_id": "id-hlipc91zmtl9kemb",
+      "product_code": "001489771-001-001",
+      "product_name": "4K PLUS EV2 MASTER KART",
+      "type": "out",
+      "quantity": 200,
+      "target_location": "sheraton esenyurt",
+      "reason": "sipariş",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T12:13:28.566Z",
+      "extra": "Toplu işlem"
     }
   ],
   "settings": {

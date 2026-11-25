@@ -8231,7 +8231,7 @@
       "location": "",
       "description": "FRONT END KIT, ANSI, FOR ESSENCE CASSETTE - STSTEEL",
       "created_at": "2026-09-03T08:29:16.240Z",
-      "updated_at": "2026-11-25T07:51:22.486Z",
+      "updated_at": "2026-11-25T07:52:18.627Z",
       "stock_base_quantity": 53
     },
     {
@@ -17750,12 +17750,12 @@
       "type": "out",
       "quantity": 1,
       "target_location": "IC GREEN PLACE KUNDU",
-      "reason": "Toplu stok işlemi",
+      "reason": "DEMO BLOK OLARAK",
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-25T07:48:20.471Z",
       "created_at": "2026-11-25T07:48:20.471Z",
-      "updated_at": "2026-11-25T07:51:22.486Z"
+      "updated_at": "2026-11-25T07:52:18.627Z"
     },
     {
       "id": "id-xn3lxu4imwvtnh4o",
@@ -28843,6 +28843,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-25T07:52:16.167Z",
       "extra": "Önce: 480451422 — A28 STD FRONT SATIN CHROME (1); sonra: 480451422 — A28 STD FRONT SATIN CHROME (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-4xc1fkp0mwvtskw3",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-gwwb6bixmtl9keog",
+      "product_code": "482459022",
+      "product_name": "ESSENCE V2 FRONT SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "IC GREEN PLACE KUNDU",
+      "reason": "DEMO BLOK OLARAK",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T07:52:18.627Z",
+      "extra": "Önce: 482459022 — ESSENCE V2 FRONT SATIN CHROME (1); sonra: 482459022 — ESSENCE V2 FRONT SATIN CHROME (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

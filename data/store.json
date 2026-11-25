@@ -6026,7 +6026,7 @@
       "location": "",
       "description": "CYLINDER RING KIT SIGNATURE PVD SATCHROME 17.5MM W/SEAL",
       "created_at": "2026-09-03T08:29:16.197Z",
-      "updated_at": "2026-11-25T07:51:35.571Z",
+      "updated_at": "2026-11-25T07:52:36.473Z",
       "stock_base_quantity": 43
     },
     {
@@ -17825,12 +17825,12 @@
       "type": "out",
       "quantity": 1,
       "target_location": "IC GREEN PLACE KUNDU",
-      "reason": "Toplu stok işlemi",
+      "reason": "DEMO BLOK OLARAK",
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-25T07:48:20.471Z",
       "created_at": "2026-11-25T07:48:20.471Z",
-      "updated_at": "2026-11-25T07:51:35.571Z"
+      "updated_at": "2026-11-25T07:52:36.473Z"
     },
     {
       "id": "id-s8c3r4q5mwvtnh4o",
@@ -28918,6 +28918,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-25T07:52:32.857Z",
       "extra": "Önce: 4812635015V34 — 34MM SATIN CHROME (1); sonra: 4812635015V34 — 34MM SATIN CHROME (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-jrusjjbhmwvtsynt",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-flm5yz7vmtl9ken9",
+      "product_code": "482192061",
+      "product_name": "17,5MM RING SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "IC GREEN PLACE KUNDU",
+      "reason": "DEMO BLOK OLARAK",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T07:52:36.473Z",
+      "extra": "Önce: 482192061 — 17,5MM RING SATIN CHROME (1); sonra: 482192061 — 17,5MM RING SATIN CHROME (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

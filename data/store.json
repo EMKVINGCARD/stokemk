@@ -8927,6 +8927,20 @@
       "description": "",
       "created_at": "2026-11-23T07:42:45.344Z",
       "updated_at": "2026-11-23T07:42:45.344Z"
+    },
+    {
+      "id": "id-ljzwezdsmwvtq5nf",
+      "code": "ABLKI",
+      "name": "ANTIK BRASS LIGHTER STRAIGHT İÇ KOL",
+      "category_id": "",
+      "unit": "adet",
+      "quantity": 1,
+      "critical_level": 0,
+      "unit_price": 0,
+      "location": "",
+      "description": "",
+      "created_at": "2026-11-25T07:50:25.563Z",
+      "updated_at": "2026-11-25T07:50:25.563Z"
     }
   ],
   "movements": [
@@ -21581,6 +21595,31 @@
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-24T12:51:12.716Z"
+    },
+    {
+      "id": "id-zog4c0h7mwvtq5nf",
+      "action": "Ürün eklendi",
+      "product_id": "id-ljzwezdsmwvtq5nf",
+      "product_code": "ABLKI",
+      "product_name": "ANTIK BRASS LIGHTER STRAIGHT İÇ KOL",
+      "before": null,
+      "after": {
+        "id": "id-ljzwezdsmwvtq5nf",
+        "code": "ABLKI",
+        "name": "ANTIK BRASS LIGHTER STRAIGHT İÇ KOL",
+        "category_id": "",
+        "unit": "adet",
+        "quantity": 1,
+        "critical_level": 0,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-11-25T07:50:25.563Z",
+        "updated_at": "2026-11-25T07:50:25.563Z"
+      },
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T07:50:25.563Z"
     }
   ],
   "movement_audit": [

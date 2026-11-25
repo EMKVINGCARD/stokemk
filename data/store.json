@@ -4124,13 +4124,13 @@
       "name": "EURO 4,5V MOTOR",
       "category_id": "id-ranp5ei6mtk34t8o",
       "unit": "adet",
-      "quantity": 38,
+      "quantity": 39,
       "critical_level": 10,
       "unit_price": 0,
       "location": "",
       "description": "LOCK MOTOR SIGNATURE/CLASSIC EURO 4.5V",
       "created_at": "2026-09-03T08:29:16.176Z",
-      "updated_at": "2026-11-02T13:21:40.686Z",
+      "updated_at": "2026-11-25T07:11:29.927Z",
       "stock_base_quantity": 41
     },
     {
@@ -17677,6 +17677,20 @@
       "user_name": "Efecan ŞİMŞEK",
       "happened_at": "2026-11-24T14:06:09.774Z",
       "created_at": "2026-11-24T14:06:09.774Z"
+    },
+    {
+      "id": "id-1evt7sxxmwvsc3gg",
+      "product_id": "id-ryjul9g8mtl9kemo",
+      "product_code": "4817222",
+      "product_name": "EURO 4,5V MOTOR",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-25T07:11:29.920Z",
+      "created_at": "2026-11-25T07:11:29.927Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28229,6 +28243,21 @@
       "user_id": "id-jqgnqa9hmtqwi14u",
       "user_name": "Efecan ŞİMŞEK",
       "created_at": "2026-11-24T14:06:09.774Z",
+      "extra": null
+    },
+    {
+      "id": "id-i436b8ccmwvsc3gn",
+      "action": "Stok girişi",
+      "product_id": "id-ryjul9g8mtl9kemo",
+      "product_code": "4817222",
+      "product_name": "EURO 4,5V MOTOR",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": null,
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T07:11:29.927Z",
       "extra": null
     }
   ],

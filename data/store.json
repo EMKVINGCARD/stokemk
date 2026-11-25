@@ -7124,13 +7124,13 @@
       "name": "WING RH BLACK TITANIUM İÇ",
       "category_id": "id-zgl5kigumtk34t8p",
       "unit": "adet",
-      "quantity": 1,
+      "quantity": 2,
       "critical_level": 0,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.225Z",
-      "updated_at": "2026-10-15T10:37:35.027Z",
+      "updated_at": "2026-11-25T07:49:09.401Z",
       "stock_base_quantity": 4
     },
     {
@@ -17831,6 +17831,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-25T07:48:20.471Z",
       "created_at": "2026-11-25T07:48:20.471Z"
+    },
+    {
+      "id": "id-xrbgbsg2mwvtoivt",
+      "product_id": "id-tiulvdeemtl9keo1",
+      "product_code": "YOK",
+      "product_name": "WING RH BLACK TITANIUM İÇ",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "set bozuldu",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "happened_at": "2026-11-25T07:49:09.401Z",
+      "created_at": "2026-11-25T07:49:09.401Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28549,6 +28563,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-25T07:48:20.472Z",
       "extra": "Toplu işlem"
+    },
+    {
+      "id": "id-y0elh47vmwvtoivt",
+      "action": "Stok girişi",
+      "product_id": "id-tiulvdeemtl9keo1",
+      "product_code": "YOK",
+      "product_name": "WING RH BLACK TITANIUM İÇ",
+      "type": "in",
+      "quantity": 1,
+      "target_location": "Ana Depo",
+      "reason": "set bozuldu",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T07:49:09.401Z",
+      "extra": null
     }
   ],
   "settings": {

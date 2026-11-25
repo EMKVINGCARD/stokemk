@@ -1091,6 +1091,12 @@
       "name": "IC GREEN PLACE KUNDU",
       "kind": "diger",
       "auto_created": true
+    },
+    {
+      "id": "id-czcgb22vmww0ekjf",
+      "name": "medipol üniversite",
+      "kind": "diger",
+      "auto_created": true
     }
   ],
   "products": [
@@ -2465,13 +2471,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 10,
+      "quantity": 9,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-24T06:47:45.380Z",
+      "updated_at": "2026-11-25T10:57:22.305Z",
       "stock_base_quantity": 27
     },
     {
@@ -17875,6 +17881,20 @@
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-25T07:49:09.401Z",
       "created_at": "2026-11-25T07:49:09.401Z"
+    },
+    {
+      "id": "id-6iurw6mvmww0ekjf",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "medipol üniversite",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-25T10:57:22.300Z",
+      "created_at": "2026-11-25T10:57:22.305Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28933,6 +28953,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-25T07:52:36.473Z",
       "extra": "Önce: 482192061 — 17,5MM RING SATIN CHROME (1); sonra: 482192061 — 17,5MM RING SATIN CHROME (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-p6vont08mww0ekjl",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "medipol üniversite",
+      "reason": "sipariş",
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-25T10:57:22.305Z",
+      "extra": null
     }
   ],
   "settings": {

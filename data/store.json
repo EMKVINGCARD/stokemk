@@ -7391,7 +7391,7 @@
       "location": "",
       "description": "ESCUTCHEON THUMBTURN SIGNATURE SATCHROME METAL END 1 ADET ÇİZİK",
       "created_at": "2026-09-03T08:29:16.237Z",
-      "updated_at": "2026-11-25T07:48:20.471Z",
+      "updated_at": "2026-11-25T07:51:30.275Z",
       "stock_base_quantity": 9
     },
     {
@@ -17794,12 +17794,13 @@
       "product_name": "DB BUTONU ALL METAL SATIN CHROME",
       "type": "out",
       "quantity": 1,
-      "target_location": null,
+      "target_location": "IC GREEN PLACE KUNDU",
       "reason": "Toplu stok işlemi",
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-25T07:48:20.471Z",
-      "created_at": "2026-11-25T07:48:20.471Z"
+      "created_at": "2026-11-25T07:48:20.471Z",
+      "updated_at": "2026-11-25T07:51:30.275Z"
     },
     {
       "id": "id-t5n7ej9imwvtnh4o",
@@ -28703,6 +28704,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-25T07:51:27.170Z",
       "extra": "Önce: 481633361AD / 481633561AD — FUNCTIONAL ANSI SATIN CHROME SET (1); sonra: 481633361AD / 481633561AD — FUNCTIONAL ANSI SATIN CHROME SET (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-im5mcb19mwvtrjkz",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-8em3wb5hmtl9keod",
+      "product_code": "481865861",
+      "product_name": "DB BUTONU ALL METAL SATIN CHROME",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "IC GREEN PLACE KUNDU",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T07:51:30.275Z",
+      "extra": "Önce: 481865861 — DB BUTONU ALL METAL SATIN CHROME (1); sonra: 481865861 — DB BUTONU ALL METAL SATIN CHROME (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

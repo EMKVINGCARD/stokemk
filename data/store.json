@@ -2471,13 +2471,13 @@
       "name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
       "category_id": "id-fmh7hoscmtk34t8n",
       "unit": "adet",
-      "quantity": 9,
+      "quantity": 3,
       "critical_level": 5,
       "unit_price": 0,
       "location": "",
       "description": "CABLE RJ12 TO USB ADAPTER VE SERVICE CABLE RJ12 FOR 3/4G RFID LCU & E-CYLINDER",
       "created_at": "2026-09-03T08:29:16.167Z",
-      "updated_at": "2026-11-25T10:57:22.305Z",
+      "updated_at": "2026-11-25T11:03:51.036Z",
       "stock_base_quantity": 27
     },
     {
@@ -17895,6 +17895,20 @@
       "user_name": "Yunus Emre Özen",
       "happened_at": "2026-11-25T10:57:22.300Z",
       "created_at": "2026-11-25T10:57:22.305Z"
+    },
+    {
+      "id": "id-tmtutd9cmww0mwho",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 6,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "happened_at": "2026-11-25T11:03:51.036Z",
+      "created_at": "2026-11-25T11:03:51.036Z"
     }
   ],
   "deleted_movement_ids": [
@@ -28967,6 +28981,21 @@
       "user_id": "id-lh6qn0u7mtk3iswv",
       "user_name": "Yunus Emre Özen",
       "created_at": "2026-11-25T10:57:22.305Z",
+      "extra": null
+    },
+    {
+      "id": "id-uxhd1c7umww0mwho",
+      "action": "Stok çıkışı",
+      "product_id": "id-de0o30vlmtl9kemf",
+      "product_code": "686001061  686001050",
+      "product_name": "RFID USB KİLİT PROGRAMLAMA KABLO SETİ",
+      "type": "out",
+      "quantity": 6,
+      "target_location": null,
+      "reason": null,
+      "user_id": "id-lh6qn0u7mtk3iswv",
+      "user_name": "Yunus Emre Özen",
+      "created_at": "2026-11-25T11:03:51.036Z",
       "extra": null
     }
   ],

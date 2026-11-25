@@ -6851,7 +6851,7 @@
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.214Z",
-      "updated_at": "2026-11-25T07:48:20.471Z",
+      "updated_at": "2026-11-25T07:51:40.081Z",
       "stock_base_quantity": 0
     },
     {
@@ -17854,12 +17854,13 @@
       "product_name": "STRAIGHT ANTIK BRASS LIGHTER SET",
       "type": "out",
       "quantity": 1,
-      "target_location": null,
+      "target_location": "IC GREEN PLACE KUNDU",
       "reason": "Toplu stok işlemi",
       "user_id": "id-umv29fzpmtk3a4nj",
       "user_name": "Ali ÖZEN",
       "happened_at": "2026-11-25T07:48:20.471Z",
-      "created_at": "2026-11-25T07:48:20.471Z"
+      "created_at": "2026-11-25T07:48:20.471Z",
+      "updated_at": "2026-11-25T07:51:40.081Z"
     },
     {
       "id": "id-xrbgbsg2mwvtoivt",
@@ -28767,6 +28768,21 @@
       "user_name": "Ali ÖZEN",
       "created_at": "2026-11-25T07:51:37.658Z",
       "extra": "Önce: 481633390AB/481633590AA — WING RH BLACK TITANUM SET (1); sonra: 481633390AB/481633590AA — WING RH BLACK TITANUM SET (1). Eski stok geri alındı, yeni stok uygulandı."
+    },
+    {
+      "id": "id-s8ji6tbcmwvtrr5e",
+      "action": "Stok hareketi düzeltildi",
+      "product_id": "id-8v10j392mtl9kenq",
+      "product_code": "YOK",
+      "product_name": "STRAIGHT ANTIK BRASS LIGHTER SET",
+      "type": "out",
+      "quantity": 1,
+      "target_location": "IC GREEN PLACE KUNDU",
+      "reason": "Toplu stok işlemi",
+      "user_id": "id-umv29fzpmtk3a4nj",
+      "user_name": "Ali ÖZEN",
+      "created_at": "2026-11-25T07:51:40.082Z",
+      "extra": "Önce: YOK — STRAIGHT ANTIK BRASS LIGHTER SET (1); sonra: YOK — STRAIGHT ANTIK BRASS LIGHTER SET (1). Eski stok geri alındı, yeni stok uygulandı."
     }
   ],
   "settings": {

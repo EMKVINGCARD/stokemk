@@ -3713,13 +3713,13 @@
       "name": "12 Lİ SİGORTA KUTUSU",
       "category_id": "id-yb9e13sumtsewvh0",
       "unit": "adet",
-      "quantity": 4,
+      "quantity": 0,
       "critical_level": 2,
       "unit_price": 0,
       "location": "",
       "description": "",
       "created_at": "2026-09-03T08:29:16.169Z",
-      "updated_at": "2026-10-12T06:34:45.060Z",
+      "updated_at": "2026-11-27T06:44:56.619Z",
       "stock_base_quantity": 0
     },
     {
@@ -21863,6 +21863,46 @@
       "user_id": "id-tejy3dmpmtk2yr8i",
       "user_name": "CAN EKEYILMAZ",
       "created_at": "2026-11-26T07:00:43.738Z"
+    },
+    {
+      "id": "id-defy1dtbmwym9ne3",
+      "action": "Ürün güncellendi",
+      "product_id": "id-dda7fagqmtl9kemh",
+      "product_code": "DIŞARIDAN TEDARİK EDİYORUZ",
+      "product_name": "12 Lİ SİGORTA KUTUSU",
+      "before": {
+        "id": "id-dda7fagqmtl9kemh",
+        "code": "DIŞARIDAN TEDARİK EDİYORUZ",
+        "name": "12 Lİ SİGORTA KUTUSU",
+        "category_id": "id-yb9e13sumtsewvh0",
+        "unit": "adet",
+        "quantity": 4,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-10-12T06:34:45.060Z",
+        "stock_base_quantity": 0
+      },
+      "after": {
+        "id": "id-dda7fagqmtl9kemh",
+        "code": "DIŞARIDAN TEDARİK EDİYORUZ",
+        "name": "12 Lİ SİGORTA KUTUSU",
+        "category_id": "id-yb9e13sumtsewvh0",
+        "unit": "adet",
+        "quantity": 0,
+        "critical_level": 2,
+        "unit_price": 0,
+        "location": "",
+        "description": "",
+        "created_at": "2026-09-03T08:29:16.169Z",
+        "updated_at": "2026-11-27T06:44:56.619Z",
+        "stock_base_quantity": 0
+      },
+      "user_id": "id-tejy3dmpmtk2yr8i",
+      "user_name": "CAN EKEYILMAZ",
+      "created_at": "2026-11-27T06:44:56.619Z"
     }
   ],
   "movement_audit": [
